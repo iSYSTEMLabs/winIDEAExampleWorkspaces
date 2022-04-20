@@ -1,0 +1,19 @@
+MEMORY
+{
+    /* avoid 0x2FC - 0x2FF area since those are protection related locations */
+    VECT (rwx) : ORIGIN = 0x00000000, LENGTH = 0x400
+	VECT0A (rwx) : ORIGIN = 0x02000000, LENGTH = 0x400
+	VECT0B (rwx) : ORIGIN = 0x02010000, LENGTH = 0x400
+    
+    /*    FLASH and RAM for Cortex-M4 core     */ 
+    FLASHA (rx) : ORIGIN = 0x00000400, LENGTH = 255K   
+    SRAM0A (rwx) : ORIGIN = 0x02000400, LENGTH = 63K
+    
+    /*    FLASH and RAM for Cortex-M0+ core    */ 
+    VECTB (rwx) : ORIGIN = 0x00040000, LENGTH = 0x400   /*    Relocated table    */
+    FLASHB (rx) : ORIGIN = 0x00040400, LENGTH = 255K
+    SRAM0B (rwx) : ORIGIN = 0x02010400, LENGTH = 31K  
+}
+
+_cm0Stack = ORIGIN(VECTB);
+_cm0Boot = ORIGIN(VECTB) + 4;

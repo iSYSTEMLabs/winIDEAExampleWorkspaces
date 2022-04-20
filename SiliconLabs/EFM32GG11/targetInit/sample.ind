@@ -1,0 +1,50 @@
+INPUT(& &)
+ENTRY(reset)
+
+MEMORY {
+  FLASH (rx)  : ORIGIN = 0x00000000, LENGTH = 512K
+  RAM   (rwx) : ORIGIN = 0x20000000, LENGTH = 130K
+}
+
+_stack_top = (ORIGIN(RAM) + LENGTH(RAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+  .vector :
+  {
+    _isrVectAddr = .;
+    KEEP(*(.vectors))
+  }
+  .text_out :
+  {
+    *(.text)
+    _etext = .;
+  } > FLASH
+  
+  .rodata_out :
+  {
+    . = ALIGN(4);
+    *(.rodata)
+    . = ALIGN(4);    
+    _sidata = .;
+  } > FLASH
+
+  .data_out :
+  {
+    _sdata = .;
+    *(.data)
+    . = ALIGN(4);
+    _edata = .;
+  } > RAM AT >FLASH
+
+  .bss_out :
+  {
+    . = ALIGN(4);
+    _sbss = .;
+    *(.bss*)
+    *(COMMON)
+    . = ALIGN(4);
+    _ebss = .;
+  } > RAM
+}
+

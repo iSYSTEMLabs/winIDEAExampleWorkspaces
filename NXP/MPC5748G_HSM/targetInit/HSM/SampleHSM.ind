@@ -1,0 +1,2 @@
+& & -lcf sampleHSM.lcf -main __start -map -w off -g
+

@@ -1,0 +1,52 @@
+INPUT(& &)
+
+MEMORY
+{
+  VECTOR (rx) : ORIGIN = 0x00000000, LENGTH = 0x2FC
+  FLASH (rx)  : ORIGIN = 0x00000300, LENGTH = 0x3FD00
+  RAM (rwx)   : ORIGIN = 0x10000000, LENGTH = 0x8000
+}
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 4) & 0xFFFFFFFC;
+
+ENTRY(Reset)
+
+SECTIONS
+{
+  .vector :
+  {
+    _isrVectAddr = .;
+    KEEP(*(.isr_vector))
+  }
+  .text_out :
+  {
+    *(.text)
+    _etext = .;
+  } > FLASH
+  
+  .rodata_out :
+  {
+    . = ALIGN(4);
+    *(.rodata)
+    . = ALIGN(4);    
+    _sidata = .;
+  } > FLASH
+
+  .data_out :
+  {
+    _sdata = .;
+    *(.data)
+    . = ALIGN(4);
+    _edata = .;
+  } > RAM AT >FLASH
+
+  .bss_out :
+  {
+    . = ALIGN(4);
+    _sbss = .;
+    *(.bss*)
+    *(COMMON)
+    . = ALIGN(4);
+    _ebss = .;
+  } > RAM
+}

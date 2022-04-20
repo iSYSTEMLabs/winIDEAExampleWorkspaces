@@ -1,0 +1,44 @@
+OUTPUT_FORMAT("elf32-littlearm")
+OUTPUT_ARCH(arm)
+INPUT(& &)
+ENTRY(__reset_)
+
+MEMORY
+{
+  SRAM0 (rwx) : ORIGIN = 0x2F000000, LENGTH = 128K
+}
+
+_ca7_1_AppStart = ORIGIN(SRAM0);
+_estack_svc = ORIGIN(SRAM0) + LENGTH(SRAM0);
+_estack_irq = _estack_svc - 0x800;
+_estack_fiq = _estack_irq - 0x800;
+_estack_usr = _estack_fiq - 0x800; 
+
+SECTIONS
+{
+    .text :
+    {
+        KEEP(*(.text.vect))
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh_frame)
+        _etext = .;
+    } > SRAM0
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > SRAM0
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > SRAM0    
+}

@@ -1,0 +1,46 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)  : ORIGIN = 0x08000000, LENGTH = 0x400  
+	FLASH (rwx) : ORIGIN = 0x08000400, LENGTH = 0x3FC00
+  RAM (rwx)   : ORIGIN = 0x20000000, LENGTH = 0x30000
+}
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+  .vect :
+  {
+    _isrVectAddr = .;
+    KEEP(*(.isr_vector))
+  } > VECT
+  
+  .text :
+  {
+    . = ALIGN(4);
+    *(.text*)
+    *(.glue_7t) *(.glue_7)
+    *(.rodata*)
+    *(.eh*)
+    _etext = .;
+  } > FLASH
+
+  .data : AT (ADDR(.text) + SIZEOF(.text))
+  {
+    _data = .;
+    *(vtable)
+    *(.data*)
+    _edata = .;
+  } > RAM
+
+  .bss :
+  {
+    _bss = .;
+    *(.bss*)
+    *(COMMON)
+    _ebss = .;
+  } > RAM
+}

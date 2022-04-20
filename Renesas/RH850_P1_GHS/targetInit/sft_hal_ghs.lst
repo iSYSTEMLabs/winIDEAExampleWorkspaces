@@ -1,0 +1,1197 @@
+                                                                      Page 1
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+Command Line: X:\GHS\V850\comp_201315\ease850.exe -w -elf -b0 -ID:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit\ -ID:\JakaJemec\winIDEA_public\Renesas\common -IX:\GHS\V850\comp_201315\lib\rh850_22 -cg_underscore -cpu=rh850g3k -nofpu -no_v850_simd -nomacro -patch_dbo=D:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit\sft_hal_ghs.dbo -source=sft_hal_ghs.c -o gh_0000ark1.o -list=sft_hal_ghs.lst C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si 
+Original File: C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+Source File: sft_hal_ghs.c
+Directory: D:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit
+Host OS: Windows
+EASE: Copyright (C) 1983-2012 Green Hills Software.  All Rights Reversed.
+Release: Compiler v2013.1.5
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_1_bto/2013-04-02.2000-2013_1_bto/win32-comp-ecom
+Revision: [VCInfo] Unknown URL@Unknown Rev (built by build)
+Revision Date: Wed Apr 03 06:57:16 2013
+
+Release Date: Wed Apr 03 07:18:54 2013
+
+                           1 --Driver Command: ccv850
+                           2 --		D:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit\sft_hal_ghs.c
+                           3 --		-c -cpu=rh850 -G -list -Omoredebug -dual_debug -full_debug_info
+                           4 --		-noobj -delete -prepare_dispose -no_callt
+                           5 --		--unknown_pragma_warnings -sda=all -nopic -registermode=22
+                           6 --		-reserve_r2 -reserve_r5 -passsource -preprocess_assembly_files
+                           7 --		-ID:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit\
+                           8 --		-ID:\JakaJemec\winIDEA_public\Renesas\common
+                           9 --Source File:   D:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit\sft_hal_ghs.c
+                          10 --Directory:     D:\JakaJemec\winIDEA_public\Renesas\RH850_P1_GHS\targetInit
+                          11 --Compile Date:  Mon Nov 08 22:51:38 2021
+                          12 --Host OS:       Win32
+                          13 --Version:       C-RH850 2013.1.5 RELEASE VERSION
+                          14 --Release:       Compiler v2013.1.5
+                          15 --Revision Date: Wed Apr 03 07:03:21 2013
+                          16 --Release Date:  Wed Apr 03 07:18:55 2013
+                          17 -- ecom  -g -w
+                          18 
+                          19 --1: void isystem_sft_dbpush_r28(int value)
+                          20 	.text
+                          21 ..bof.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs...44.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit..61899BEB..0::
+                          22 	.align	2
+                          23 	.global	_isystem_sft_dbpush_r28
+                          24 _isystem_sft_dbpush_r28:
+00000000 80078100         25 	prepare	{r28},0
+00000004 0608             26 	mov	r6,r1
+                          27 --	    .bf
+                          28 .LDW01:
+                          29 --2: {
+                          30 --3:   __asm("prepare {r28},0"); // save register r28    
+                          31 ..gh.beginasm.0:
+                          32 	.type	..gh.beginasm.0,@object
+                          33 	.size	..gh.beginasm.0,0
+00000006 80078100         34 prepare {r28},0
+                          35 
+                          36 ..gh.endasm.1:
+                          37 	.type	..gh.endasm.1,@object
+                          38 	.size	..gh.endasm.1,0
+                          39 --4:   __asm( "mov %0, r28"
+                          40 --line4
+                          41 ..lin.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs.1::
+                          42 .LDWlin1:
+                          43 ..gh.beginasm.2:
+                          44 	.type	..gh.beginasm.2,@object
+                          45 	.size	..gh.beginasm.2,0
+0000000a 01e0             46 mov r1, r28
+                          47 
+                          48 ..gh.endasm.3:
+                          49 	.type	..gh.endasm.3,@object
+                          50 	.size	..gh.endasm.3,0
+
+                                                                      Page 2
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+                          51 --5:    :
+                          52 --6:    : "X" (value)
+                          53 --7:    : "r28"
+                          54 --8:     );                      // write value to register r28
+                          55 --9:   __asm("DBPUSH r28-r28");  // output register r28
+                          56 --line9
+                          57 ..lin.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs.2::
+                          58 .LDWlin2:
+                          59 ..gh.beginasm.4:
+                          60 	.type	..gh.beginasm.4,@object
+                          61 	.size	..gh.beginasm.4,0
+0000000c fc5f60e1         62 DBPUSH r28-r28
+                          63 
+                          64 ..gh.endasm.5:
+                          65 	.type	..gh.endasm.5,@object
+                          66 	.size	..gh.endasm.5,0
+                          67 --10:   __asm("dispose 0,{r28}"); // restore register r28 
+                          68 --line10
+                          69 ..lin.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs.3::
+                          70 .LDWlin3:
+                          71 ..gh.beginasm.6:
+                          72 	.type	..gh.beginasm.6,@object
+                          73 	.size	..gh.beginasm.6,0
+00000010 40068000         74 dispose 0,{r28}
+                          75 
+                          76 ..gh.endasm.7:
+                          77 	.type	..gh.endasm.7,@object
+                          78 	.size	..gh.endasm.7,0
+                          79 --11: }
+                          80 --line11
+                          81 ..lin.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs.4::
+                          82 .LDWlin4:
+00000014 0000             83 	nop
+                          84 --	    .ef
+                          85 .LDW11:
+00000016 40069f00         86 	dispose	0,{r28},[lp]
+                          87 	.global	___ghs_eofn_isystem_sft_dbpush_r28
+                          88 ___ghs_eofn_isystem_sft_dbpush_r28:
+                          89 	.type	_isystem_sft_dbpush_r28,@function
+                          90 	.size	_isystem_sft_dbpush_r28,.-_isystem_sft_dbpush_r28
+                          91 	.align	2
+                          92 
+                          93 --_value	r1	param
+                          94 
+                          95 	.section ".bss","awb"
+                          96 .L32:
+                          97 	.type	.L32,@object
+                          98 	.size	.L32,0
+                          99 	.data
+                         100 	.text
+                         101 
+                         102 	.align	2
+                         103 
+                         104 	.data
+                         105 	.ghsnote version,13
+                         106 	.ghsnote tools,1
+                         107 	.ghsnote options,144
+                         108 	.text
+                         109 	.align	2
+                         110 ..eof.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs...44.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit..61899BEB..0::
+                         111 	.section	.debug_info
+
+                                                                      Page 3
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+                         112 .Ldw_begin:
+00000000 18010000        113 	.word	.Ldw_end-.Ldw_begin-4
+00000004 0200            114 	.byte	2,0
+00000006 00000000*       115 	.word	.Ldw_abbr_begin
+0000000a 04              116 	.byte	4
+                         117 	.section	.debug_abbrev
+                         118 .Ldw_abbr_begin:
+                         119 	.section	.debug_info
+0000000b 01              120 	.byte	1
+0000000c 00000000*       121 	.word	..bof.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs...44.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit..61899BEB..0
+00000010 00000000*       122 	.word	..eof.D.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit.5Csft_hal_ghs...44.3A.5CJakaJemec.5CwinIDEA_public.5CRenesas.5CRH850_P1_GHS.5CtargetInit..61899BEB..0
+00000014 443a5c4a616b    123 	.strz	"D:\\JakaJemec\\winIDEA_public\\Renesas\\RH850_P1_GHS\\targetInit\\sft_hal_ghs.c"
+0000001a 614a656d6563 
+00000020 5c77696e4944 
+00000026 45415f707562 
+0000002c 6c69635c5265 
+00000032 6e657361735c 
+00000038 52483835305f 
+0000003e 50315f474853 
+00000044 5c7461726765 
+0000004a 74496e69745c 
+00000050 7366745f6861 
+00000056 6c5f6768732e 
+0000005c 6300 
+0000005e 443a5c4a616b    124 	.strz	"D:\\JakaJemec\\winIDEA_public\\Renesas\\RH850_P1_GHS\\targetInit"
+00000064 614a656d6563 
+0000006a 5c77696e4944 
+00000070 45415f707562 
+00000076 6c69635c5265 
+0000007c 6e657361735c 
+00000082 52483835305f 
+00000088 50315f474853 
+0000008e 5c7461726765 
+00000094 74496e697400 
+0000009a 474853204320    125 	.strz	"GHS C 2013.1.5 [dual]"
+000000a0 323031332e31 
+000000a6 2e35205b6475 
+000000ac 616c5d00 
+000000b0 0100            126 	.byte	1,0
+000000b2 00000000*       127 	.word	.Ldw_line_begin
+000000b6 00000000*       128 	.word	.Ldw_macinfo_begin
+000000ba 00              129 	.byte	0
+                         130 
+                         131 	.section	.debug_abbrev
+00000000 01              132 	.byte	1
+00000001 11              133 	.byte	17
+00000002 01              134 	.byte	1
+00000003 1101            135 	.byte	17,1
+00000005 1201            136 	.byte	18,1
+00000007 0308            137 	.byte	3,8
+00000009 1b08            138 	.byte	27,8
+0000000b 2508            139 	.byte	37,8
+0000000d 1305            140 	.byte	19,5
+0000000f 1006            141 	.byte	16,6
+00000011 4306            142 	.byte	67,6
+00000013 420b            143 	.byte	66,11
+00000015 0000            144 	.byte	0,0
+                         145 
+                         146 	.section	.debug_line
+                         147 .Ldw_line_begin:
+00000000 98000000        148 	.word	.Ldw_line_end-.Ldw_line_begin-4
+
+                                                                      Page 4
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000004 0200            149 	.byte	2,0
+00000006 00000000*       150 	.word	.Ldw_lpro_end-.Ldw_lpro_begin
+                         151 .Ldw_lpro_begin:
+0000000a 01              152 	.byte	1
+0000000b 00              153 	.byte	0
+0000000c 00              154 	.byte	0
+0000000d 04              155 	.byte	4
+0000000e 0a              156 	.byte	10
+0000000f 000101          157 	.byte	0,1,1
+00000012 010100          158 	.byte	1,1,0
+00000015 000001          159 	.byte	0,0,1
+00000018 00              160 	.byte	0
+00000019 443a5c4a616b    161 	.strz	"D:\\JakaJemec\\winIDEA_public\\Renesas\\RH850_P1_GHS\\targetInit\\sft_hal_ghs.c"
+0000001f 614a656d6563 
+00000025 5c77696e4944 
+0000002b 45415f707562 
+00000031 6c69635c5265 
+00000037 6e657361735c 
+0000003d 52483835305f 
+00000043 50315f474853 
+00000049 5c7461726765 
+0000004f 74496e69745c 
+00000055 7366745f6861 
+0000005b 6c5f6768732e 
+00000061 6300 
+00000063 000000          162 	.byte	0,0,0
+00000066 00              163 	.byte	0
+                         164 .Ldw_lpro_end:
+                         165 	.section	.debug_macinfo
+                         166 .Ldw_macinfo_begin:
+                         167 	.section	.debug_frame
+                         168 .LDW_49414a8:
+00000000 00000000*       169 	.word	.LDW_unq_2-.LDW_unq_1
+                         170 .LDW_unq_1:
+00000004 ffffffff        171 	.byte	255,255,255,255
+00000008 01              172 	.byte	1
+00000009 00              173 	.byte	0
+0000000a 01              174 	.byte	1
+0000000b 01              175 	.byte	1
+0000000c 1f              176 	.byte	31
+0000000d 0c              177 	.byte	12
+0000000e 03              178 	.byte	3
+0000000f 00              179 	.byte	0
+00000010 07              180 	.byte	7
+00000011 00              181 	.byte	0
+00000012 07              182 	.byte	7
+00000013 01              183 	.byte	1
+00000014 07              184 	.byte	7
+00000015 02              185 	.byte	2
+00000016 07              186 	.byte	7
+00000017 03              187 	.byte	3
+00000018 07              188 	.byte	7
+00000019 04              189 	.byte	4
+0000001a 07              190 	.byte	7
+0000001b 05              191 	.byte	5
+0000001c 07              192 	.byte	7
+0000001d 06              193 	.byte	6
+0000001e 07              194 	.byte	7
+0000001f 07              195 	.byte	7
+00000020 07              196 	.byte	7
+00000021 08              197 	.byte	8
+
+                                                                      Page 5
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000022 07              198 	.byte	7
+00000023 09              199 	.byte	9
+00000024 07              200 	.byte	7
+00000025 0a              201 	.byte	10
+00000026 07              202 	.byte	7
+00000027 0b              203 	.byte	11
+00000028 07              204 	.byte	7
+00000029 0c              205 	.byte	12
+0000002a 07              206 	.byte	7
+0000002b 0d              207 	.byte	13
+0000002c 07              208 	.byte	7
+0000002d 0e              209 	.byte	14
+0000002e 07              210 	.byte	7
+0000002f 0f              211 	.byte	15
+00000030 07              212 	.byte	7
+00000031 10              213 	.byte	16
+00000032 07              214 	.byte	7
+00000033 11              215 	.byte	17
+00000034 07              216 	.byte	7
+00000035 12              217 	.byte	18
+00000036 07              218 	.byte	7
+00000037 13              219 	.byte	19
+00000038 08              220 	.byte	8
+00000039 14              221 	.byte	20
+0000003a 08              222 	.byte	8
+0000003b 15              223 	.byte	21
+0000003c 08              224 	.byte	8
+0000003d 16              225 	.byte	22
+0000003e 08              226 	.byte	8
+0000003f 17              227 	.byte	23
+00000040 08              228 	.byte	8
+00000041 18              229 	.byte	24
+00000042 08              230 	.byte	8
+00000043 19              231 	.byte	25
+00000044 08              232 	.byte	8
+00000045 1a              233 	.byte	26
+00000046 08              234 	.byte	8
+00000047 1b              235 	.byte	27
+00000048 08              236 	.byte	8
+00000049 1c              237 	.byte	28
+0000004a 08              238 	.byte	8
+0000004b 1d              239 	.byte	29
+0000004c 07              240 	.byte	7
+0000004d 1e              241 	.byte	30
+0000004e 08              242 	.byte	8
+0000004f 1f              243 	.byte	31
+00000050 07              244 	.byte	7
+00000051 20              245 	.byte	32
+00000052 07              246 	.byte	7
+00000053 21              247 	.byte	33
+00000054 07              248 	.byte	7
+00000055 22              249 	.byte	34
+00000056 07              250 	.byte	7
+00000057 23              251 	.byte	35
+00000058 07              252 	.byte	7
+00000059 24              253 	.byte	36
+0000005a 07              254 	.byte	7
+0000005b 25              255 	.byte	37
+0000005c 07              256 	.byte	7
+0000005d 26              257 	.byte	38
+0000005e 07              258 	.byte	7
+
+                                                                      Page 6
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+0000005f 27              259 	.byte	39
+00000060 07              260 	.byte	7
+00000061 28              261 	.byte	40
+00000062 07              262 	.byte	7
+00000063 29              263 	.byte	41
+00000064 07              264 	.byte	7
+00000065 2a              265 	.byte	42
+00000066 07              266 	.byte	7
+00000067 2b              267 	.byte	43
+00000068 07              268 	.byte	7
+00000069 2c              269 	.byte	44
+0000006a 07              270 	.byte	7
+0000006b 2d              271 	.byte	45
+0000006c 07              272 	.byte	7
+0000006d 2e              273 	.byte	46
+0000006e 07              274 	.byte	7
+0000006f 2f              275 	.byte	47
+00000070 07              276 	.byte	7
+00000071 30              277 	.byte	48
+00000072 07              278 	.byte	7
+00000073 31              279 	.byte	49
+00000074 07              280 	.byte	7
+00000075 32              281 	.byte	50
+00000076 07              282 	.byte	7
+00000077 33              283 	.byte	51
+00000078 07              284 	.byte	7
+00000079 34              285 	.byte	52
+0000007a 07              286 	.byte	7
+0000007b 35              287 	.byte	53
+0000007c 07              288 	.byte	7
+0000007d 36              289 	.byte	54
+0000007e 07              290 	.byte	7
+0000007f 37              291 	.byte	55
+00000080 07              292 	.byte	7
+00000081 38              293 	.byte	56
+00000082 07              294 	.byte	7
+00000083 39              295 	.byte	57
+00000084 07              296 	.byte	7
+00000085 3a              297 	.byte	58
+00000086 07              298 	.byte	7
+00000087 3b              299 	.byte	59
+00000088 07              300 	.byte	7
+00000089 3c              301 	.byte	60
+0000008a 07              302 	.byte	7
+0000008b 3d              303 	.byte	61
+0000008c 07              304 	.byte	7
+0000008d 3e              305 	.byte	62
+0000008e 07              306 	.byte	7
+0000008f 3f              307 	.byte	63
+                         308 .LDW_unq_2:
+                         309 	.section	.debug_info
+                         310 .LDW_48fd480:
+000000bb 25              311 	.byte	37
+000000bc 696e7400        312 	.strz	"int"
+000000c0 05              313 	.byte	5
+000000c1 04              314 	.byte	4
+                         315 
+                         316 	.section	.debug_abbrev
+00000017 25              317 	.byte	37
+00000018 24              318 	.byte	36
+00000019 00              319 	.byte	0
+
+                                                                      Page 7
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+0000001a 0308            320 	.byte	3,8
+0000001c 3e0b            321 	.byte	62,11
+0000001e 0b0b            322 	.byte	11,11
+00000020 0000            323 	.byte	0,0
+                         324 
+                         325 	.section	.debug_info
+                         326 .LDW_48fd3d8:
+000000c2 43              327 	.byte	67
+000000c3 01              328 	.byte	1
+                         329 
+                         330 	.section	.debug_abbrev
+00000022 43              331 	.byte	67
+00000023 15              332 	.byte	21
+00000024 01              333 	.byte	1
+00000025 270c            334 	.byte	39,12
+00000027 0000            335 	.byte	0,0
+                         336 
+                         337 	.section	.debug_info
+                         338 .LDW_48fb1b8:
+000000c4 12              339 	.byte	18
+000000c5 00000000*       340 	.word	.LDW_48fd480
+000000c9 00              341 	.byte	0
+                         342 
+                         343 	.section	.debug_abbrev
+00000029 12              344 	.byte	18
+0000002a 05              345 	.byte	5
+0000002b 00              346 	.byte	0
+0000002c 4910            347 	.byte	73,16
+0000002e 4b0c            348 	.byte	75,12
+00000030 0000            349 	.byte	0,0
+                         350 
+                         351 	.section	.debug_info
+000000ca 00              352 	.byte	0
+                         353 
+                         354 .LDW_4941b90:
+000000cb 13              355 	.byte	19
+000000cc 697379737465    356 	.strz	"isystem_sft_dbpush_r28"
+000000d2 6d5f7366745f 
+000000d8 646270757368 
+000000de 5f72323800 
+000000e3 01              357 	.byte	1
+000000e4 06              358 	.byte	6
+000000e5 01              359 	.byte	1
+000000e6 00000000*       360 	.word	_isystem_sft_dbpush_r28
+000000ea 00000000*       361 	.word	___ghs_eofn_isystem_sft_dbpush_r28
+000000ee 0153            362 	.byte	1,83
+000000f0 8280808001      363 	.byte	130,128,128,128,1
+000000f5 04              364 	.byte	4
+000000f6 03              365 	.byte	3
+000000f7 04              366 	.byte	4
+000000f8 00              367 	.byte	0
+000000f9 00              368 	.byte	0
+000000fa 00              369 	.byte	0
+000000fb 01              370 	.byte	1
+000000fc 01              371 	.byte	1
+000000fd 00              372 	.byte	0
+000000fe 01              373 	.byte	1
+                         374 
+                         375 	.section	.debug_abbrev
+00000032 13              376 	.byte	19
+00000033 2e              377 	.byte	46
+
+                                                                      Page 8
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000034 01              378 	.byte	1
+00000035 0308            379 	.byte	3,8
+00000037 3b0f            380 	.byte	59,15
+00000039 390f            381 	.byte	57,15
+0000003b 3a0f            382 	.byte	58,15
+0000003d 1101            383 	.byte	17,1
+0000003f 1201            384 	.byte	18,1
+00000041 400a            385 	.byte	64,10
+00000043 8341            386 	.byte	131,65
+00000045 0f              387 	.byte	15
+00000046 8741            388 	.byte	135,65
+00000048 0d              389 	.byte	13
+00000049 8541            390 	.byte	133,65
+0000004b 0f              391 	.byte	15
+0000004c 8641            392 	.byte	134,65
+0000004e 0d              393 	.byte	13
+0000004f 9241            394 	.byte	146,65
+00000051 0f              395 	.byte	15
+00000052 3c0c            396 	.byte	60,12
+00000054 200b            397 	.byte	32,11
+00000056 3f0c            398 	.byte	63,12
+00000058 320b            399 	.byte	50,11
+0000005a 4c0b            400 	.byte	76,11
+0000005c 270c            401 	.byte	39,12
+0000005e 0000            402 	.byte	0,0
+                         403 
+                         404 	.section	.debug_frame
+                         405 .LDW_5770fa8:
+00000090 00000000*       406 	.word	.LDW_unq_4-.LDW_unq_3
+                         407 .LDW_unq_3:
+00000094 00000000*       408 	.word	.LDW_49414a8
+00000098 00000000*       409 	.word	_isystem_sft_dbpush_r28
+0000009c 00000000*       410 	.word	___ghs_eofn_isystem_sft_dbpush_r28-_isystem_sft_dbpush_r28
+000000a0 01              411 	.byte	1
+000000a1 00000000*       412 	.word	.LDW11
+000000a5 00              413 	.byte	0
+000000a6 00              414 	.byte	0
+000000a7 00              415 	.byte	0
+                         416 .LDW_unq_4:
+                         417 	.section	.debug_line
+00000067 000502          418 	.byte	0,5,2
+0000006a 00000000*       419 	.word	_isystem_sft_dbpush_r28
+0000006e 0b              420 	.byte	11
+0000006f 06              421 	.byte	6
+00000070 23              422 	.byte	35
+00000071 000502          423 	.byte	0,5,2
+00000074 00000000*       424 	.word	.LDWlin1
+00000078 0b              425 	.byte	11
+00000079 000502          426 	.byte	0,5,2
+0000007c 00000000*       427 	.word	.LDWlin2
+00000080 03              428 	.byte	3
+00000081 05              429 	.byte	5
+00000082 02              430 	.byte	2
+00000083 00              431 	.byte	0
+00000084 01              432 	.byte	1
+00000085 000502          433 	.byte	0,5,2
+00000088 00000000*       434 	.word	.LDWlin3
+0000008c 0b              435 	.byte	11
+0000008d 000502          436 	.byte	0,5,2
+00000090 00000000*       437 	.word	.LDWlin4
+00000094 0b              438 	.byte	11
+
+                                                                      Page 9
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000095 02              439 	.byte	2
+00000096 02              440 	.byte	2
+00000097 02              441 	.byte	2
+00000098 04              442 	.byte	4
+00000099 000101          443 	.byte	0,1,1
+                         444 	.section	.debug_info
+                         445 .LDW_4941c30:
+000000ff 0f              446 	.byte	15
+00000100 76616c756500    447 	.strz	"value"
+00000106 01              448 	.byte	1
+00000107 21              449 	.byte	33
+00000108 01              450 	.byte	1
+00000109 00000000*       451 	.word	.LDW_48fd480
+0000010d 00              452 	.byte	0
+0000010e 0151            453 	.byte	1,81
+                         454 
+                         455 	.section	.debug_abbrev
+00000060 0f              456 	.byte	15
+00000061 05              457 	.byte	5
+00000062 00              458 	.byte	0
+00000063 0308            459 	.byte	3,8
+00000065 3b0f            460 	.byte	59,15
+00000067 390f            461 	.byte	57,15
+00000069 3a0f            462 	.byte	58,15
+0000006b 4910            463 	.byte	73,16
+0000006d 4b0c            464 	.byte	75,12
+0000006f 020a            465 	.byte	2,10
+00000071 0000            466 	.byte	0,0
+                         467 
+                         468 	.section	.debug_info
+                         469 .LDW_48fb0c8:
+00000110 1d              470 	.byte	29
+00000111 00000000*       471 	.word	.LDW01
+00000115 00000000*       472 	.word	.LDW11
+                         473 
+                         474 	.section	.debug_abbrev
+00000073 1d              475 	.byte	29
+00000074 0b              476 	.byte	11
+00000075 01              477 	.byte	1
+00000076 1101            478 	.byte	17,1
+00000078 1201            479 	.byte	18,1
+0000007a 0000            480 	.byte	0,0
+                         481 
+                         482 	.section	.debug_info
+00000119 00              483 	.byte	0
+                         484 
+0000011a 00              485 	.byte	0
+                         486 
+0000011b 00              487 	.byte	0
+                         488 
+                         489 	.section	.debug_line
+                         490 .Ldw_line_end:
+                         491 	.section	.debug_macinfo
+00000000 01              492 	.byte	1
+00000001 00              493 	.byte	0
+00000002 5f5f44415445    494 	.strz	"__DATE__ \"Nov  8 2021\""
+00000008 5f5f20224e6f 
+0000000e 762020382032 
+00000014 3032312200 
+00000019 01              495 	.byte	1
+0000001a 00              496 	.byte	0
+
+                                                                      Page 10
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+0000001b 5f5f54494d45    497 	.strz	"__TIME__ \"22:51:38\""
+00000021 5f5f20223232 
+00000027 3a35313a3338 
+0000002d 2200 
+0000002f 01              498 	.byte	1
+00000030 00              499 	.byte	0
+00000031 5f5f4748535f    500 	.strz	"__GHS_REVISION_DATE \"Apr 03 2013\""
+00000037 524556495349 
+0000003d 4f4e5f444154 
+00000043 452022417072 
+00000049 203033203230 
+0000004f 31332200 
+00000053 01              501 	.byte	1
+00000054 00              502 	.byte	0
+00000055 5f5f4748535f    503 	.strz	"__GHS_REVISION_VALUE 1364965401"
+0000005b 524556495349 
+00000061 4f4e5f56414c 
+00000067 554520313336 
+0000006d 343936353430 
+00000073 3100 
+00000075 01              504 	.byte	1
+00000076 00              505 	.byte	0
+00000077 5f5f4748535f    506 	.strz	"__GHS_VERSION_NUMBER 201315"
+0000007d 56455253494f 
+00000083 4e5f4e554d42 
+00000089 455220323031 
+0000008f 33313500 
+00000093 01              507 	.byte	1
+00000094 00              508 	.byte	0
+00000095 5f5f53544443    509 	.strz	"__STDC__ 1"
+0000009b 5f5f203100 
+000000a0 01              510 	.byte	1
+000000a1 00              511 	.byte	0
+000000a2 5f5f4544475f    512 	.strz	"__EDG_VERSION__ 310"
+000000a8 56455253494f 
+000000ae 4e5f5f203331 
+000000b4 3000 
+000000b6 01              513 	.byte	1
+000000b7 00              514 	.byte	0
+000000b8 5f5f474e555f    515 	.strz	"__GNU_ASM_SUPPORT__ 1"
+000000be 41534d5f5355 
+000000c4 50504f52545f 
+000000ca 5f203100 
+000000ce 01              516 	.byte	1
+000000cf 00              517 	.byte	0
+000000d0 5f426f6f6c5f    518 	.strz	"_Bool_DEFINED 1"
+000000d6 444546494e45 
+000000dc 44203100 
+000000e0 01              519 	.byte	1
+000000e1 00              520 	.byte	0
+000000e2 5f5f4c494e45    521 	.strz	"__LINE__"
+000000e8 5f5f00 
+000000eb 01              522 	.byte	1
+000000ec 00              523 	.byte	0
+000000ed 5f5f46494c45    524 	.strz	"__FILE__"
+000000f3 5f5f00 
+000000f6 01              525 	.byte	1
+000000f7 00              526 	.byte	0
+000000f8 646566696e65    527 	.strz	"defined"
+000000fe 6400 
+00000100 01              528 	.byte	1
+
+                                                                      Page 11
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000101 00              529 	.byte	0
+00000102 5f5f42415345    530 	.strz	"__BASE_FILE__"
+00000108 5f46494c455f 
+0000010e 5f00 
+00000110 01              531 	.byte	1
+00000111 00              532 	.byte	0
+00000112 5f507261676d    533 	.strz	"_Pragma"
+00000118 6100 
+0000011a 01              534 	.byte	1
+0000011b 00              535 	.byte	0
+0000011c 5f5f434f554e    536 	.strz	"__COUNTER__"
+00000122 5445525f5f00 
+00000128 01              537 	.byte	1
+00000129 00              538 	.byte	0
+0000012a 5f5f42415345    539 	.strz	"__BASE__"
+00000130 5f5f00 
+00000133 01              540 	.byte	1
+00000134 00              541 	.byte	0
+00000135 5f5f46554c4c    542 	.strz	"__FULL_FILE__"
+0000013b 5f46494c455f 
+00000141 5f00 
+00000143 01              543 	.byte	1
+00000144 00              544 	.byte	0
+00000145 5f5f46554c4c    545 	.strz	"__FULL_DIR__"
+0000014b 5f4449525f5f 
+00000151 00 
+00000152 01              546 	.byte	1
+00000153 00              547 	.byte	0
+00000154 5f5f41534d53    548 	.strz	"__ASMSYM_INTERNAL"
+0000015a 594d5f494e54 
+00000160 45524e414c00 
+00000166 01              549 	.byte	1
+00000167 00              550 	.byte	0
+00000168 5f5f50524f54    551 	.strz	"__PROTOTYPES__ 1"
+0000016e 4f5459504553 
+00000174 5f5f203100 
+00000179 01              552 	.byte	1
+0000017a 00              553 	.byte	0
+0000017b 5f5f53544443    554 	.strz	"__STDC__ 0"
+00000181 5f5f203000 
+00000186 01              555 	.byte	1
+00000187 00              556 	.byte	0
+00000188 5f5f53544443    557 	.strz	"__STDC_HOSTED__ 1"
+0000018e 5f484f535445 
+00000194 445f5f203100 
+0000019a 01              558 	.byte	1
+0000019b 00              559 	.byte	0
+0000019c 5f5f53544443    560 	.strz	"__STDC_VERSION__ 199409L"
+000001a2 5f5645525349 
+000001a8 4f4e5f5f2031 
+000001ae 39393430394c 
+000001b4 00 
+000001b5 01              561 	.byte	1
+000001b6 00              562 	.byte	0
+000001b7 5f5f41545452    563 	.strz	"__ATTRIBUTES 1"
+000001bd 494255544553 
+000001c3 203100 
+000001c6 01              564 	.byte	1
+000001c7 00              565 	.byte	0
+000001c8 5f5f4544475f    566 	.strz	"__EDG__ 1"
+000001ce 5f203100 
+
+                                                                      Page 12
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+000001d2 01              567 	.byte	1
+000001d3 00              568 	.byte	0
+000001d4 5f5f67687320    569 	.strz	"__ghs 1"
+000001da 3100 
+000001dc 01              570 	.byte	1
+000001dd 00              571 	.byte	0
+000001de 5f5f6768735f    572 	.strz	"__ghs__ 1"
+000001e4 5f203100 
+000001e8 01              573 	.byte	1
+000001e9 00              574 	.byte	0
+000001ea 5f5f536f6674    575 	.strz	"__SoftwareFloat 1"
+000001f0 77617265466c 
+000001f6 6f6174203100 
+000001fc 01              576 	.byte	1
+000001fd 00              577 	.byte	0
+000001fe 5f5f536f6674    578 	.strz	"__SoftwareFloat__ 1"
+00000204 77617265466c 
+0000020a 6f61745f5f20 
+00000210 3100 
+00000212 01              579 	.byte	1
+00000213 00              580 	.byte	0
+00000214 5f5f536f6674    581 	.strz	"__SoftwareDouble 1"
+0000021a 77617265446f 
+00000220 75626c652031 
+00000226 00 
+00000227 01              582 	.byte	1
+00000228 00              583 	.byte	0
+00000229 5f5f536f6674    584 	.strz	"__SoftwareDouble__ 1"
+0000022f 77617265446f 
+00000235 75626c655f5f 
+0000023b 203100 
+0000023e 01              585 	.byte	1
+0000023f 00              586 	.byte	0
+00000240 5f5f6768735f    587 	.strz	"__ghs_asm 2"
+00000246 61736d203200 
+0000024c 01              588 	.byte	1
+0000024d 00              589 	.byte	0
+0000024e 5f5f454c4620    590 	.strz	"__ELF 1"
+00000254 3100 
+00000256 01              591 	.byte	1
+00000257 00              592 	.byte	0
+00000258 5f5f454c465f    593 	.strz	"__ELF__ 1"
+0000025e 5f203100 
+00000262 01              594 	.byte	1
+00000263 00              595 	.byte	0
+00000264 5f5f434f5245    596 	.strz	"__CORE_V850E3V5__ 1"
+0000026a 5f5638353045 
+00000270 3356355f5f20 
+00000276 3100 
+00000278 01              597 	.byte	1
+00000279 00              598 	.byte	0
+0000027a 5f5f434f5245    599 	.strz	"__CORE_V850E2V3__ 1"
+00000280 5f5638353045 
+00000286 3256335f5f20 
+0000028c 3100 
+0000028e 01              600 	.byte	1
+0000028f 00              601 	.byte	0
+00000290 5f5f434f5245    602 	.strz	"__CORE_V850E2R__ 1"
+00000296 5f5638353045 
+0000029c 32525f5f2031 
+000002a2 00 
+
+                                                                      Page 13
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+000002a3 01              603 	.byte	1
+000002a4 00              604 	.byte	0
+000002a5 5f5f434f5245    605 	.strz	"__CORE_V850E2__ 1"
+000002ab 5f5638353045 
+000002b1 325f5f203100 
+000002b7 01              606 	.byte	1
+000002b8 00              607 	.byte	0
+000002b9 5f5f434f5245    608 	.strz	"__CORE_V850E__ 1"
+000002bf 5f5638353045 
+000002c5 5f5f203100 
+000002ca 01              609 	.byte	1
+000002cb 00              610 	.byte	0
+000002cc 5f5f434f5245    611 	.strz	"__CORE_V850__ 1"
+000002d2 5f563835305f 
+000002d8 5f203100 
+000002dc 01              612 	.byte	1
+000002dd 00              613 	.byte	0
+000002de 5f5f56383530    614 	.strz	"__V850E 1"
+000002e4 45203100 
+000002e8 01              615 	.byte	1
+000002e9 00              616 	.byte	0
+000002ea 5f5f56383530    617 	.strz	"__V850E__ 1"
+000002f0 455f5f203100 
+000002f6 01              618 	.byte	1
+000002f7 00              619 	.byte	0
+000002f8 5f5f56383530    620 	.strz	"__V850E2 1"
+000002fe 4532203100 
+00000303 01              621 	.byte	1
+00000304 00              622 	.byte	0
+00000305 5f5f56383530    623 	.strz	"__V850E2__ 1"
+0000030b 45325f5f2031 
+00000311 00 
+00000312 01              624 	.byte	1
+00000313 00              625 	.byte	0
+00000314 5f5f56383530    626 	.strz	"__V850E2R 1"
+0000031a 453252203100 
+00000320 01              627 	.byte	1
+00000321 00              628 	.byte	0
+00000322 5f5f56383530    629 	.strz	"__V850E2R__ 1"
+00000328 4532525f5f20 
+0000032e 3100 
+00000330 01              630 	.byte	1
+00000331 00              631 	.byte	0
+00000332 5f5f56383530    632 	.strz	"__V850E2RV3 1"
+00000338 453252563320 
+0000033e 3100 
+00000340 01              633 	.byte	1
+00000341 00              634 	.byte	0
+00000342 5f5f56383530    635 	.strz	"__V850E2RV3__ 1"
+00000348 45325256335f 
+0000034e 5f203100 
+00000352 01              636 	.byte	1
+00000353 00              637 	.byte	0
+00000354 5f5f56383530    638 	.strz	"__V850E2V3 1"
+0000035a 453256332031 
+00000360 00 
+00000361 01              639 	.byte	1
+00000362 00              640 	.byte	0
+00000363 5f5f56383530    641 	.strz	"__V850E2V3__ 1"
+00000369 453256335f5f 
+0000036f 203100 
+
+                                                                      Page 14
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000372 01              642 	.byte	1
+00000373 00              643 	.byte	0
+00000374 5f5f56383530    644 	.strz	"__V850E3 1"
+0000037a 4533203100 
+0000037f 01              645 	.byte	1
+00000380 00              646 	.byte	0
+00000381 5f5f56383530    647 	.strz	"__V850E3__ 1"
+00000387 45335f5f2031 
+0000038d 00 
+0000038e 01              648 	.byte	1
+0000038f 00              649 	.byte	0
+00000390 5f5f56383530    650 	.strz	"__V850E3V5 1"
+00000396 453356352031 
+0000039c 00 
+0000039d 01              651 	.byte	1
+0000039e 00              652 	.byte	0
+0000039f 5f5f56383530    653 	.strz	"__V850E3V5__ 1"
+000003a5 453356355f5f 
+000003ab 203100 
+000003ae 01              654 	.byte	1
+000003af 00              655 	.byte	0
+000003b0 5f5f52483835    656 	.strz	"__RH850 1"
+000003b6 30203100 
+000003ba 01              657 	.byte	1
+000003bb 00              658 	.byte	0
+000003bc 5f5f52483835    659 	.strz	"__RH850__ 1"
+000003c2 305f5f203100 
+000003c8 01              660 	.byte	1
+000003c9 00              661 	.byte	0
+000003ca 5f5f56383530    662 	.strz	"__V850 1"
+000003d0 203100 
+000003d3 01              663 	.byte	1
+000003d4 00              664 	.byte	0
+000003d5 5f5f56383530    665 	.strz	"__V850__ 1"
+000003db 5f5f203100 
+000003e0 01              666 	.byte	1
+000003e1 00              667 	.byte	0
+000003e2 5f5f52483835    668 	.strz	"__RH850G3K__ 1"
+000003e8 3047334b5f5f 
+000003ee 203100 
+000003f1 01              669 	.byte	1
+000003f2 00              670 	.byte	0
+000003f3 5f5f52483835    671 	.strz	"__RH850G3K 1"
+000003f9 3047334b2031 
+000003ff 00 
+00000400 01              672 	.byte	1
+00000401 00              673 	.byte	0
+00000402 5f5f56383030    674 	.strz	"__V800_reserve_r2 1"
+00000408 5f7265736572 
+0000040e 76655f723220 
+00000414 3100 
+00000416 01              675 	.byte	1
+00000417 00              676 	.byte	0
+00000418 5f5f56383030    677 	.strz	"__V800_reserve_r2__ 1"
+0000041e 5f7265736572 
+00000424 76655f72325f 
+0000042a 5f203100 
+0000042e 01              678 	.byte	1
+0000042f 00              679 	.byte	0
+00000430 5f5f56383030    680 	.strz	"__V800_no_rosda 1"
+00000436 5f6e6f5f726f 
+
+                                                                      Page 15
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+0000043c 736461203100 
+00000442 01              681 	.byte	1
+00000443 00              682 	.byte	0
+00000444 5f5f56383030    683 	.strz	"__V800_no_rosda__ 1"
+0000044a 5f6e6f5f726f 
+00000450 7364615f5f20 
+00000456 3100 
+00000458 01              684 	.byte	1
+00000459 00              685 	.byte	0
+0000045a 5f5f56383030    686 	.strz	"__V800_reserve_r5 1"
+00000460 5f7265736572 
+00000466 76655f723520 
+0000046c 3100 
+0000046e 01              687 	.byte	1
+0000046f 00              688 	.byte	0
+00000470 5f5f56383030    689 	.strz	"__V800_reserve_r5__ 1"
+00000476 5f7265736572 
+0000047c 76655f72355f 
+00000482 5f203100 
+00000486 01              690 	.byte	1
+00000487 00              691 	.byte	0
+00000488 5f5f56383030    692 	.strz	"__V800_registermode 22"
+0000048e 5f7265676973 
+00000494 7465726d6f64 
+0000049a 6520323200 
+0000049f 01              693 	.byte	1
+000004a0 00              694 	.byte	0
+000004a1 5f5f56383030    695 	.strz	"__V800_registermode__ 22"
+000004a7 5f7265676973 
+000004ad 7465726d6f64 
+000004b3 655f5f203232 
+000004b9 00 
+000004ba 01              696 	.byte	1
+000004bb 00              697 	.byte	0
+000004bc 5f5f52483835    698 	.strz	"__RH850_FPU_VERSION 3"
+000004c2 305f4650555f 
+000004c8 56455253494f 
+000004ce 4e203300 
+000004d2 01              699 	.byte	1
+000004d3 00              700 	.byte	0
+000004d4 5f5f52483835    701 	.strz	"__RH850_FPU_VERSION__ 3"
+000004da 305f4650555f 
+000004e0 56455253494f 
+000004e6 4e5f5f203300 
+000004ec 01              702 	.byte	1
+000004ed 00              703 	.byte	0
+000004ee 5f5f56383030    704 	.strz	"__V800_no_callt 1"
+000004f4 5f6e6f5f6361 
+000004fa 6c6c74203100 
+00000500 01              705 	.byte	1
+00000501 00              706 	.byte	0
+00000502 5f5f56383030    707 	.strz	"__V800_no_callt__ 1"
+00000508 5f6e6f5f6361 
+0000050e 6c6c745f5f20 
+00000514 3100 
+00000516 01              708 	.byte	1
+00000517 00              709 	.byte	0
+00000518 5f5f56383030    710 	.strz	"__V800 1"
+0000051e 203100 
+00000521 01              711 	.byte	1
+00000522 00              712 	.byte	0
+
+                                                                      Page 16
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000523 5f5f56383030    713 	.strz	"__V800__ 1"
+00000529 5f5f203100 
+0000052e 01              714 	.byte	1
+0000052f 00              715 	.byte	0
+00000530 5f5f76383530    716 	.strz	"__v850 1"
+00000536 203100 
+00000539 01              717 	.byte	1
+0000053a 00              718 	.byte	0
+0000053b 5f5f76383531    719 	.strz	"__v851__ 1"
+00000541 5f5f203100 
+00000546 01              720 	.byte	1
+00000547 00              721 	.byte	0
+00000548 5f5f76383530    722 	.strz	"__v850e__ 1"
+0000054e 655f5f203100 
+00000554 01              723 	.byte	1
+00000555 00              724 	.byte	0
+00000556 5f5f6768735f    725 	.strz	"__ghs_alignment 8"
+0000055c 616c69676e6d 
+00000562 656e74203800 
+00000568 01              726 	.byte	1
+00000569 00              727 	.byte	0
+0000056a 5f5f6768735f    728 	.strz	"__ghs_max_pack_value 8"
+00000570 6d61785f7061 
+00000576 636b5f76616c 
+0000057c 7565203800 
+00000581 01              729 	.byte	1
+00000582 00              730 	.byte	0
+00000583 5f5f6768735f    731 	.strz	"__ghs_sda_threshold 32767"
+00000589 7364615f7468 
+0000058f 726573686f6c 
+00000595 642033323736 
+0000059b 3700 
+0000059d 01              732 	.byte	1
+0000059e 00              733 	.byte	0
+0000059f 5f5f6768735f    734 	.strz	"__ghs_sda 1"
+000005a5 736461203100 
+000005ab 01              735 	.byte	1
+000005ac 00              736 	.byte	0
+000005ad 5f5f6768735f    737 	.strz	"__ghs_zda 1"
+000005b3 7a6461203100 
+000005b9 01              738 	.byte	1
+000005ba 00              739 	.byte	0
+000005bb 5f5f4c697474    740 	.strz	"__LittleEndian 1"
+000005c1 6c65456e6469 
+000005c7 616e203100 
+000005cc 01              741 	.byte	1
+000005cd 00              742 	.byte	0
+000005ce 5f5f4c697474    743 	.strz	"__LittleEndian__ 1"
+000005d4 6c65456e6469 
+000005da 616e5f5f2031 
+000005e0 00 
+000005e1 01              744 	.byte	1
+000005e2 00              745 	.byte	0
+000005e3 5f5f4c495454    746 	.strz	"__LITTLE_ENDIAN__ 1"
+000005e9 4c455f454e44 
+000005ef 49414e5f5f20 
+000005f5 3100 
+000005f7 01              747 	.byte	1
+000005f8 00              748 	.byte	0
+000005f9 5f5f49656565    749 	.strz	"__IeeeFloat 1"
+000005ff 466c6f617420 
+
+                                                                      Page 17
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+00000605 3100 
+00000607 01              750 	.byte	1
+00000608 00              751 	.byte	0
+00000609 5f5f49656565    752 	.strz	"__IeeeFloat__ 1"
+0000060f 466c6f61745f 
+00000615 5f203100 
+00000619 01              753 	.byte	1
+0000061a 00              754 	.byte	0
+0000061b 5f5f43686172    755 	.strz	"__Char_Is_Signed__ 1"
+00000621 5f49735f5369 
+00000627 676e65645f5f 
+0000062d 203100 
+00000630 01              756 	.byte	1
+00000631 00              757 	.byte	0
+00000632 5f5f5349474e    758 	.strz	"__SIGNED_CHARS__ 1"
+00000638 45445f434841 
+0000063e 52535f5f2031 
+00000644 00 
+00000645 01              759 	.byte	1
+00000646 00              760 	.byte	0
+00000647 5f5f5074725f    761 	.strz	"__Ptr_Is_Unsigned__ 1"
+0000064d 49735f556e73 
+00000653 69676e65645f 
+00000659 5f203100 
+0000065d 01              762 	.byte	1
+0000065e 00              763 	.byte	0
+0000065f 5f5f4669656c    764 	.strz	"__Field_Is_Signed__ 1"
+00000665 645f49735f53 
+0000066b 69676e65645f 
+00000671 5f203100 
+00000675 01              765 	.byte	1
+00000676 00              766 	.byte	0
+00000677 5f5f456e756d    767 	.strz	"__Enum_Field_Is_Signed__ 1"
+0000067d 5f4669656c64 
+00000683 5f49735f5369 
+00000689 676e65645f5f 
+0000068f 203100 
+00000692 01              768 	.byte	1
+00000693 00              769 	.byte	0
+00000694 5f5f496e745f    770 	.strz	"__Int_Is_32 1"
+0000069a 49735f333220 
+000006a0 3100 
+000006a2 01              771 	.byte	1
+000006a3 00              772 	.byte	0
+000006a4 5f5f4c6f6e67    773 	.strz	"__Long_Is_32 1"
+000006aa 5f49735f3332 
+000006b0 203100 
+000006b3 01              774 	.byte	1
+000006b4 00              775 	.byte	0
+000006b5 5f5f4c4c5f49    776 	.strz	"__LL_Is_64 1"
+000006bb 735f36342031 
+000006c1 00 
+000006c2 01              777 	.byte	1
+000006c3 00              778 	.byte	0
+000006c4 5f5f5074725f    779 	.strz	"__Ptr_Is_32 1"
+000006ca 49735f333220 
+000006d0 3100 
+000006d2 01              780 	.byte	1
+000006d3 00              781 	.byte	0
+000006d4 5f5f43484152    782 	.strz	"__CHAR_BIT 8"
+000006da 5f4249542038 
+
+                                                                      Page 18
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+000006e0 00 
+000006e1 01              783 	.byte	1
+000006e2 00              784 	.byte	0
+000006e3 5f5f53485254    785 	.strz	"__SHRT_BIT 16"
+000006e9 5f4249542031 
+000006ef 3600 
+000006f1 01              786 	.byte	1
+000006f2 00              787 	.byte	0
+000006f3 5f5f494e545f    788 	.strz	"__INT_BIT 32"
+000006f9 424954203332 
+000006ff 00 
+00000700 01              789 	.byte	1
+00000701 00              790 	.byte	0
+00000702 5f5f4c4f4e47    791 	.strz	"__LONG_BIT 32"
+00000708 5f4249542033 
+0000070e 3200 
+00000710 01              792 	.byte	1
+00000711 00              793 	.byte	0
+00000712 5f5f57434841    794 	.strz	"__WCHAR_BIT 32"
+00000718 525f42495420 
+0000071e 333200 
+00000721 01              795 	.byte	1
+00000722 00              796 	.byte	0
+00000723 5f5f5054525f    797 	.strz	"__PTR_BIT 32"
+00000729 424954203332 
+0000072f 00 
+00000730 01              798 	.byte	1
+00000731 00              799 	.byte	0
+00000732 5f5f46554e43    800 	.strz	"__FUNCPTR_BIT 32"
+00000738 5054525f4249 
+0000073e 5420333200 
+00000743 01              801 	.byte	1
+00000744 00              802 	.byte	0
+00000745 5f5f4c4c5f42    803 	.strz	"__LL_BIT 64"
+0000074b 495420363400 
+00000751 01              804 	.byte	1
+00000752 00              805 	.byte	0
+00000753 5f5f4c4c4f4e    806 	.strz	"__LLONG_BIT 64"
+00000759 475f42495420 
+0000075f 363400 
+00000762 01              807 	.byte	1
+00000763 00              808 	.byte	0
+00000764 5f5f4d41585f    809 	.strz	"__MAX_BIT 64"
+0000076a 424954203634 
+00000770 00 
+00000771 01              810 	.byte	1
+00000772 00              811 	.byte	0
+00000773 5f5f4c44424c    812 	.strz	"__LDBL_BIT 64"
+00000779 5f4249542036 
+0000077f 3400 
+00000781 01              813 	.byte	1
+00000782 00              814 	.byte	0
+00000783 5f5f4c44424c    815 	.strz	"__LDBL_SIZE 8"
+00000789 5f53495a4520 
+0000078f 3800 
+00000791 01              816 	.byte	1
+00000792 00              817 	.byte	0
+00000793 5f5f5245475f    818 	.strz	"__REG_BIT 32"
+00000799 424954203332 
+0000079f 00 
+000007a0 01              819 	.byte	1
+
+                                                                      Page 19
+                                                              C:\Users\JAKAJ~1.ISY\AppData\Local\Temp\gh_0000ark1.si
+000007a1 00              820 	.byte	0
+000007a2 5f5f46524547    821 	.strz	"__FREG_BIT 32"
+000007a8 5f4249542033 
+000007ae 3200 
+000007b0 01              822 	.byte	1
+000007b1 00              823 	.byte	0
+000007b2 5f5f5265675f    824 	.strz	"__Reg_Is_32 1"
+000007b8 49735f333220 
+000007be 3100 
+000007c0 01              825 	.byte	1
+000007c1 00              826 	.byte	0
+000007c2 5f5f57436861    827 	.strz	"__WChar_Is_Signed__ 1"
+000007c8 725f49735f53 
+000007ce 69676e65645f 
+000007d4 5f203100 
+000007d8 01              828 	.byte	1
+000007d9 00              829 	.byte	0
+000007da 5f5f57436861    830 	.strz	"__WChar_Is_Long__ 1"
+000007e0 725f49735f4c 
+000007e6 6f6e675f5f20 
+000007ec 3100 
+000007ee 01              831 	.byte	1
+000007ef 00              832 	.byte	0
+000007f0 5f5f4c414e47    833 	.strz	"__LANGUAGE_C 1"
+000007f6 554147455f43 
+000007fc 203100 
+000007ff 01              834 	.byte	1
+00000800 00              835 	.byte	0
+00000801 5f5f4c414e47    836 	.strz	"__LANGUAGE_C__ 1"
+00000807 554147455f43 
+0000080d 5f5f203100 
+00000812 03              837 	.byte	3
+00000813 00              838 	.byte	0
+00000814 01              839 	.byte	1
+00000815 04              840 	.byte	4
+00000816 00              841 	.byte	0
+                         842 	.section	.debug_abbrev
+0000007c 00              843 	.byte	0
+                         844 	.section	.debug_info
+                         845 .Ldw_end:
+                         846 .rh850_flags REGMODE22,DATA_ALIGN8,GP_FIX,TP_FIX,REG2_RESERVE,FPU30

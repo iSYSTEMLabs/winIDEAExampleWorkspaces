@@ -1,0 +1,30 @@
+/*
+COMMON LINKER FILE
+For easier memory overview
+
+Core M0
+Application will be moved to location 10001000 with vectors in front
+RAM will begin at 0x08000000 with len of half of ram
+
+Core M4
+Application will be moved to location half size flash with vectors in front
+RAM will begin at half size of ram with len of half of ram
+*/
+
+MEMORY
+{
+  isr_vectorA(RWX):   org = 0x10000000, len = 4K
+  flashA(RX):         org = 0x10001000, len = 508K
+	ramA(RW):	          org = 0x08001000, len = 60K
+}
+
+MEMORY
+{
+  isr_vectorB(RWX):  org = 0x10080000, len = 4K
+  flashB(RX):        org = 0x10081000, len = 508K
+	ramB(RW):	         org = 0x08010000, len = 62K
+}
+
+VECTA_ORIGIN = ADDR(isr_vectorA);
+cm4OffsetInFlash = ADDR(isr_vectorB) - ADDR(isr_vectorA);
+cm4OffsetInRam = ADDR(ramB) - ADDR(ramA);

@@ -1,0 +1,21 @@
+//-------------------------------------------------------------------------
+//      ILINK command file template for the Renesas RH850 microcontroller
+//
+//      Copyright 2012 IAR Systems AB.
+// 
+//      $Revision: 6737 $
+//-------------------------------------------------------------------------
+
+define memory mem with size = 4G;
+
+define region ROM_near   = mem:[from 0x00000000 to 0x00007FFF];
+define region ROM_region = mem:[from 0x00000000 to 0x0007FFFF];
+
+define region RAM_near   = mem:[from 0xFEDF0000 to 0xFEDF7FFF];
+define region RAM_region = mem:[from 0xFEDF0000 to 0xFEDFFFFF];
+
+include "layout.icf";
+
+//-------------------------------------------------------------------------
+//      End of File
+//-------------------------------------------------------------------------

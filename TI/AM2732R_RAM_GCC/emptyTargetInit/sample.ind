@@ -1,0 +1,59 @@
+INPUT(& &)
+
+MEMORY
+{
+    ISR_VECTOR(rwx) : ORIGIN = 0x00000000, LENGTH = 0x100
+    PROG_SRAM(rwx) : ORIGIN = 0x10200000, LENGTH = 400K 
+    DATA_SRAM(rwx) : ORIGIN = 0x10264000, LENGTH = 560K
+}
+
+ENTRY(__init_)
+
+/*  Multiple stacks because of banked core registers
+    Register value depends on operation mode of CPU */
+_estack_svc = (ORIGIN(DATA_SRAM) + LENGTH(DATA_SRAM) - 4) & 0xFFFFFFFC;
+_estack_irq = _estack_svc - 0x800;
+_estack_fiq = _estack_irq - 0x800;
+_estack_usr = _estack_fiq - 0x800; 
+
+SECTIONS 
+{  
+  .isr_vector :
+  {
+    *(.isr_vector)
+    *(.isr_vector*)
+  } > ISR_VECTOR
+  
+  .text :
+  {
+    *(.text)
+    *(.text*)
+    *(.rodata)
+    *(.rodata*)
+    *(.glue_7) *(.glue_7t)
+    *(.eh*)
+    
+    . = ALIGN(4);
+    _etext = .;
+  } > PROG_SRAM
+  
+  _sidata = .;
+  
+  .data : AT (_sidata)
+  {
+      _data = .;
+      *(vtable)
+      *(.data*)
+      . = ALIGN(4);
+      _edata = .;
+  } > DATA_SRAM
+
+  .bss :
+  {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      . = ALIGN(4);
+      _ebss = .;
+  } > DATA_SRAM
+}

@@ -1,0 +1,18 @@
+MEMORY
+{
+    
+    VECTA (rwx)        : ORIGIN = 0x10000000, LENGTH = 4K
+    FLASH_CM0 (rx)     : ORIGIN = 0x10001000, LENGTH = 508K
+    SRAM_CM0 (rx)      : ORIGIN = 0x28000800, LENGTH = 200K
+    
+    VECTB (rwx)        : ORIGIN = 0x10080000, LENGTH = 4K
+    FLASH_CM7_0 (rx)   : ORIGIN = 0x10081000, LENGTH = 508K
+    SRAM_CM7_0 (rx)    : ORIGIN = 0x28032800, LENGTH = 100K
+    
+    VECTC (rwx)        : ORIGIN = 0x10100000, LENGTH = 4K
+    FLASH_CM7_1 (rx)   : ORIGIN = 0x10101000, LENGTH = 508K
+    SRAM_CM7_1 (rx)    : ORIGIN = 0x28048800, LENGTH = 100K
+}
+
+_cm7_0_Boot = ORIGIN(VECTB) + 4;
+_cm7_1_Boot = ORIGIN(VECTC) + 4;

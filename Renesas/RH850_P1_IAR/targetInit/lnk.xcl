@@ -1,0 +1,8 @@
+--config lnkrh850.icf
+--entry __iar_program_start
+--config_def CSTACK_SIZE=0x300 
+--config_def HEAP_SIZE=0x400
+
+& &
+-o %2
+

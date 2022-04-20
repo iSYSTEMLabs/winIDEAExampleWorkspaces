@@ -1,0 +1,44 @@
+===========
+ELF HEADER
+===========
+  e_ident(ELFCLASS32,ELFDATA2MSB (BIG ENDIAN),1)
+  e_type(ET_EXEC - 0x   2)
+  e_machine(20)
+  e_version(1)
+  e_entry(0x19D8)
+  e_phoff(0x34)
+  e_shoff(0xDFC4)
+  e_flags(0x0)
+  e_phentsize(0x20)
+  e_phnum(0x2)
+  e_shentsize(0x28)
+  e_shnum(0x12)
+  e_shstrndx(0xF)
+================
+PROGRAM HEADERS
+================
+ NUM TYPE        OFFSET      SIZE  VIRTADDR   PHYADDR  MEMSIZE      FLAGS  ALIGNMNT
+   0 LOAD            80      5610         0         0      5610         5        10
+   1 LOAD          5690         4  40000000      5610        1C         6         4
+=========
+SECTIONS
+=========
+ NUM NAME                                     TYPE       FLAGS    OFFSET      SIZE      ADDR ALI RECS LINK      INFO
+   0                                          NULL          0          0         0         0   0    0    0         0 
+   1 .vectors                                 PROGBITS    AX0         80      1AC4         0  16    0    0         0 
+   2 .text                                    PROGBITS    AX0       1B44      2728      1AC4   4    0    0         0 
+   3 .rodata                                  PROGBITS    A 0       426C      1424      41EC   4    0    0         0 
+   4 .got2                                    PROGBITS   WA 0       5690         4  40000000   1    0    0         0 
+   5 .bss                                     NOBITS     WA 0       5694        18  40000004   4    0    0         0 
+   6 .debug_line                              PROGBITS      0       5694       897         0   1    0    0         0 
+   7 .debug_info                              PROGBITS      0       5F2B      485E         0   1    0    0         0 
+   8 .debug_abbrev                            PROGBITS      0       A789       705         0   1    0    0         0 
+   9 .debug_aranges                           PROGBITS      0       AE90        E0         0   8    0    0         0 
+  10 .debug_loc                               PROGBITS      0       AF70      1336         0   1    0    0         0 
+  11 .debug_str                               PROGBITS      0       C2A6      11B9         0   1    1    0         0 
+  12 .comment                                 PROGBITS      0       D45F        11         0   1    1    0         0 
+  13 .gnu.attributes                          ???           0       D470        10         0   1    0    0         0 
+  14 .debug_frame                             PROGBITS      0       D480       A94         0   4    0    0         0 
+  15 .shstrtab                                STRTAB        0       DF14        AE         0   1    0    0         0 
+  16 .symtab                                  SYMTAB        0       E294      21F0         0   4   16   11       1B0 
+  17 .strtab                                  STRTAB        0      10484      1882         0   1    0    0         0 

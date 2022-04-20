@@ -1,0 +1,16 @@
+MEMORY
+{
+  /*    RAM for Cortex-M0+ core     */ 
+  SRAM_VECT_A  (rx): ORIGIN = 0x08001000, LENGTH = 4K
+  SRAM_CODE_A  (rx) : ORIGIN = 0x08002000, LENGTH = 104K   
+  SRAM_DATA_A  (rwx): ORIGIN = 0x0801C000, LENGTH = 16K
+  
+  /*    RAM for Cortex-M4 core    */ 
+  SRAM_VECT_B  (rx): ORIGIN = 0x08020000, LENGTH = 4K   /*    Relocated table    */
+  SRAM_CODE_B  (rx) : ORIGIN = 0x08021000, LENGTH = 108K
+  SRAM_DATA_B  (rwx): ORIGIN = 0x0803C000, LENGTH = 14K
+}
+
+VECTA_ORIGIN = ORIGIN(SRAM_VECT_A);
+cm4OffsetInFlash = ORIGIN(SRAM_VECT_B) - ORIGIN(SRAM_VECT_A);
+cm4OffsetInRam = ORIGIN(SRAM_DATA_B) - ORIGIN(SRAM_DATA_A);

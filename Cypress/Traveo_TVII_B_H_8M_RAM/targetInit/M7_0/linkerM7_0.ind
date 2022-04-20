@@ -1,0 +1,42 @@
+INPUT(& &)
+ENTRY(ResetM7_0)
+
+INCLUDE linkerCommon.ind
+
+_estackM7_0 = (ORIGIN(SRAM1) + LENGTH(SRAM1));
+
+SECTIONS
+{
+    .vect :
+    {
+        _cm7_0Vect = .;
+        KEEP(*(.isr_vector))
+    } > VECT1
+    
+    .text :
+    {
+        . = ALIGN(4);
+        _text = .;
+        *startup.o(.text)   
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        _etext = .;
+    } > SRAM1
+    
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > SRAM1
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > SRAM1
+}

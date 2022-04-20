@@ -1,0 +1,1 @@
+#define VTOR (*(unsigned long volatile*)0xE000ED08)

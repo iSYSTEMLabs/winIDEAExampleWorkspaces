@@ -1,0 +1,111 @@
+
+MEMORY
+{
+    resetvector:        org = 0x01000000,   len = 0x00000020
+    init:               org = 0x01000020,   len = 0x00000FE0
+    exception_handlers: org = 0x01001000,   len = 0x00003000
+    internal_flash:     org = 0x01004000,   len = 0x0000F000
+    data_flash:         org = 0x01020000,   len = 0x00010000
+      
+    internal_ram:       org = 0x400A8000,   len = 0x00001000
+    stack :             org = 0x400A9000,   len = 0x1000 // Start location for Stack 
+    heap  :             org = 0x400AA000,   len = 0x1000 // Heap start location 
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+FORCEACTIVE { "RCHW" "CPU2_resetvector" "targetDisableInterrupts" "CFG_bits0" "CFG_bits1" }
+
+		
+SECTIONS
+{
+    .__bam_bootarea         LOAD (0x01000000)                 : {} > resetvector
+
+    .init                   LOAD (0x01000020)                 : {} > init
+    .init_vle (VLECODE)     LOAD (ADDR(.init)+SIZEOF(.init))  : {
+        *(.init)
+        *(.init_vle)
+     } > init
+
+    GROUP  : {
+        .isrvectbl         (VLECODE) ALIGN(0x1000) LOAD (0x01001000)   : {}  
+        .xptn_vectors      (VLECODE) ALIGN(0x1000) LOAD (0x01001000+SIZEOF(.isrvectbl))   : {}     
+    } > exception_handlers
+
+    GROUP  : {
+        .text_vle (VLECODE) ALIGN (0x08)   : {
+            *(.text)
+            *(.text_vle)
+        }
+        
+        .ctors           LOAD(ADDR(.text_vle)+SIZEOF(.text_vle))              : {}
+        .dtors           LOAD(ADDR(.ctors)+SIZEOF(.ctors))                    : {}
+        extab            LOAD(ADDR(.dtors)+SIZEOF(.dtors))                    : {}
+        extabindex       LOAD(ADDR(extab)+SIZEOF(extab))                      : {}
+        .rodata (CONST)  LOAD(ADDR(extabindex)+SIZEOF(extabindex))            : {
+            *(.rdata)
+            *(.rodata)
+        }    
+    } > internal_flash
+    
+    .sdata2          LOAD(ADDR(.rodata)+SIZEOF(.rodata))      : {} > internal_flash
+    .sbss2           LOAD(ADDR(.sdata2)+SIZEOF(.sdata2))      : {} > internal_flash
+    
+    .load_data : {  
+       __START_DATA = .;
+       . = . + SIZEOF(.data);
+       __END_DATA = .;
+       . = . + SIZEOF(.bss);
+       __START_SDATA =  __START_DATA + ADDR(.sdata)  -ADDR(.data); 
+       . = . + SIZEOF(.sdata);
+       __START_SDATA2 = .;
+       . = . + SIZEOF(.sdata2);
+       __END_SDATA =    __START_DATA + ADDR(.sdata)  -ADDR(.data)+SIZEOF(.sdata); 
+                          
+    } > data_flash    
+
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(0x10)                       : {}
+       .data   LOAD (0x01020000)                                            : {}
+       .bss    LOAD (0x01020000+SIZEOF(.data))                              : {}
+       .sdata  LOAD (0x01020000+SIZEOF(.data)+SIZEOF(.bss))                 : {}
+       .sbss   LOAD (0x01020000+SIZEOF(.data)+SIZEOF(.bss)+SIZEOF(.sdata))  : {}
+    } > internal_ram
+    
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+_heap_addr  = ADDR(heap);
+_heap_end   = ADDR(heap)+SIZEOF(heap);
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+__ROM_DATA_ADDR     = __START_DATA; 
+__ROM_DATA_SIZE     = SIZEOF(.data);
+__RAM_DATA_ADDR     = ADDR(.data);
+
+__ROM_SDATA_ADDR    = (__START_DATA+SIZEOF(.data)+SIZEOF(.bss) + 4);
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__RAM_SDATA_ADDR    = ADDR(.sdata);
+
+__ROM_SDATA2_ADDR    = __START_SDATA2;
+__ROM_SDATA2_SIZE    = SIZEOF(.sdata2);
+__RAM_SDATA2_ADDR    = ADDR(.sdata2);
+
+__RAM_BSS_SIZE      = SIZEOF(.bss);
+__RAM_BSS_ADDR      = ADDR(.bss);         
+
+__SRAM_BASE_ADDR    = ADDR(internal_ram);
+__SRAM_SIZE         = __RAM_END_ADDR - __RAM_START_ADDR;
+
+/* Interrupt Handler Parameters */
+__IVPR              = ADDR(.xptn_vectors);
+
+__SP_INIT           = _stack_addr;
+
+EXCEPTION_HANDLERS = ADDR(.xptn_vectors);

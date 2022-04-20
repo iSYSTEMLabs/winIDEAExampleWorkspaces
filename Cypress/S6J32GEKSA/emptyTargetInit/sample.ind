@@ -1,0 +1,57 @@
+INPUT(& &)
+ENTRY(reset)
+
+MEMORY
+{
+    TCFLASHMARK (rwx)  : ORIGIN = 0x009F0000, LENGTH = 64K
+    TCFLASH     (rwx)  : ORIGIN = 0x00A00000, LENGTH = 4096K  /* 4160K - 64K   */
+    TCRAM       (rwx)  : ORIGIN = 0x04000000, LENGTH = 128K
+}
+
+_stack_size_usr = 0x800;
+_stack_size_svc = 0x800;
+_stack_size_abt = 0x800;
+_stack_size_und = 0x800;
+_stack_size_irq = 0x800;
+_stack_size_fiq = 0x800;
+
+_estack_sys = (ORIGIN(TCRAM) + LENGTH(TCRAM) - 4) & 0xFFFFFFFC;
+_estack_usr = _estack_sys - 0x800;
+_estack_svc = _estack_usr - _stack_size_usr;
+_estack_abt = _estack_svc - _stack_size_svc;
+_estack_und = _estack_abt - _stack_size_abt;
+_estack_irq = _estack_und - _stack_size_und;
+_estack_fiq = _estack_irq - _stack_size_irq;
+
+
+SECTIONS
+{
+    .text :
+    {
+        KEEP(*(.isr_vector))
+        . = 0x404;
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > TCRAM
+
+    .data : /*AT (ADDR(.text) + SIZEOF(.text))*/
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > TCRAM
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > TCRAM
+}
+
+

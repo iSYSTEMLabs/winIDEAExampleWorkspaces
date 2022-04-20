@@ -1,0 +1,1 @@
+unsigned volatile char releaseCore;

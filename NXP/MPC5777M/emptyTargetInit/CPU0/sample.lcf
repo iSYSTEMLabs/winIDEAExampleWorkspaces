@@ -1,0 +1,70 @@
+
+MEMORY
+{
+    internal_flash:     org = 0x00FF0000,   len = 0x00020000
+    internal_flash1:    org = 0x01010000,   len = 0x00010000
+    internal_ram:       org = 0x40004000,   len = 0x00001000
+    stack :             org = 0x40005000,   len = 0x1000 /* Start location for Stack */
+    heap  :             org = 0x40006000,   len = 0x1000 /* Heap start location */
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+SECTIONS
+{
+    GROUP  : {
+      .start_up (VLECODE) ALIGN(0x08): {} 
+      .text : {} 
+      .text_vle (VLECODE) ALIGN(0x08): {
+         *(.text)
+         *(.text_vle)
+       }
+       .rodata (CONST) : {
+         *(.rdata)
+         *(.rodata)
+       }
+       .ctors : {}
+       .dtors : {}
+       extab : {}
+       extabindex : {}
+    } > internal_flash
+    
+    .init  LOAD (0x01010000): {} > internal_flash1
+    .init_vle (VLECODE) LOAD (ADDR(.init)+SIZEOF(.init)): {
+        *(.init)
+        *(.init_vle)
+     } > internal_flash1
+     
+    .load_data : {  
+       __START_DATA = .;
+       . = . + SIZEOF(.data);
+       __END_DATA = .;
+       . = . + SIZEOF(.bss);
+       __START_SDATA = .;
+       . = . + SIZEOF(.sdata);
+       __END_SDATA = .;                        
+       . = . + SIZEOF(.sbss);
+                          
+    } > internal_flash1    
+    
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(0x10) : {}
+       .data   LOAD (ADDR(internal_flash1))                                            : {}
+       .sdata    LOAD (ADDR(internal_flash1)+SIZEOF(.data))                              : {}
+       .sbss  LOAD (ADDR(internal_flash1)+SIZEOF(.data)+SIZEOF(.sdata))                 : {}
+       .bss   LOAD (ADDR(internal_flash1)+SIZEOF(.data)+SIZEOF(.sbss)+SIZEOF(.sdata))  : {}
+       .sdata2 : {}
+       .sbss2  : {}
+    } > internal_ram
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__ROM_SDATA_ADDR    = __START_SDATA+SIZEOF(.data);
+__RAM_SDATA_ADDR    = ADDR(.sdata);
+

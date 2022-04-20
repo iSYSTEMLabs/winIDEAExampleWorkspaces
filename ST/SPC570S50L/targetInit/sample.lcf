@@ -1,0 +1,77 @@
+
+MEMORY
+{
+    resetvector:        org = 0x01000000,   len = 0x00000020
+    init:               org = 0x01000020,   len = 0x00000FE0
+    exception_handlers: org = 0x01001000,   len = 0x00001000
+    internal_flash:     org = 0x01002000,   len = 0x0000E000
+    internal_flash1:    org = 0x01010000,   len = 0x00010000
+    internal_ram:       org = 0x40000000,   len = 0x00001000
+    stack :             org = 0x40001000,   len = 0x1000 /* Start location for Stack */
+    heap  :             org = 0x40002000,   len = 0x1000 /* Heap start location */
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+FORCEACTIVE { "RCHW" "CPU2_resetvector","CFG_bits0","CFG_bits1" }
+		
+SECTIONS
+{
+    .__bam_bootarea LOAD (0x01000000): {} > resetvector
+
+    .init  LOAD (0x01000020): {} > init
+    .init_vle (VLECODE) LOAD (ADDR(.init)+SIZEOF(.init)): {
+        *(.init)
+        *(.init_vle)
+     } > init
+
+    
+    .__exception_handlers  LOAD (0x01001000): {} > exception_handlers 
+
+    GROUP  : {
+        .text_vle (VLECODE): {
+            *(.text)
+            *(.text_vle)
+        }
+        
+        .rodata (CONST) : {
+            *(.rdata)
+            *(.rodata)
+        }
+        .ctors : {}
+        .dtors : {}
+        extab : {}
+        extabindex : {}
+    } > internal_flash
+    
+    GROUP  : {
+        .xptn_vectors (VLECODE) LOAD(0x01010000) ALIGN (0x1000): {}    
+        .IVOR4_Handler (VLECODE) LOAD (ADDR(.xptn_vectors)+SIZEOF(.xptn_vectors)) ALIGN (0x1000) : {}
+        .isrvectbl (VLECODE) LOAD (ADDR(.IVOR4_Handler)+SIZEOF(.IVOR4_Handler)) ALIGN (0x1000): {}
+    } > internal_flash1
+    
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(0x10) : {}
+       .data   : {}
+       .sdata  : {}
+       .sbss   : {}
+       .sdata2 : {}
+       .sbss2  : {}
+       .bss    : {}
+    } > internal_ram
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__ROM_SDATA_ADDR    = ROMADDR(.sdata);
+__RAM_SDATA_ADDR    = ADDR(.sdata);
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+EXCEPTION_HANDLERS = ADDR(exception_handlers);
+

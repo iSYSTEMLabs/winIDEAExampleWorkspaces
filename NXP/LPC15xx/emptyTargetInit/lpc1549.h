@@ -1,0 +1,1 @@
+#define MEMWR32(adr,val) *((unsigned long*)adr) = val;

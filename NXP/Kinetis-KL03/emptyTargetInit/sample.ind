@@ -1,0 +1,44 @@
+MEMORY
+{
+  ROM_VECT (rx) : ORIGIN = 0x00000000, LENGTH = 1024
+  ROM (rx) : ORIGIN = 0x00000410, LENGTH = 31728
+  RAM (rwx) : ORIGIN = 0x1FFFFE00, LENGTH = 2k
+}
+
+_estack = ORIGIN (RAM) + LENGTH(RAM);
+
+ENTRY(reset)
+INPUT(& &)
+
+SECTIONS
+{
+  .vect_out :
+  {
+    KEEP(*(.isr_vector)) 
+  } >ROM_VECT
+  
+  .text_out :
+  {
+    *(.text*)
+    . = ALIGN(4);
+    *(.rodata*)
+    . = ALIGN(4);
+    _etext = .;
+  } >ROM 
+  
+  .data_out :
+  {
+    _sdata = .; 
+    *(.data*)
+    . = ALIGN(4); 
+    _edata = .;
+  } >RAM AT> ROM 
+  
+  .bss_out : 
+  {
+    _sbss = .;
+    *(COMMON)
+    *(.bss*)
+    _ebss = .;
+  } >RAM 
+}

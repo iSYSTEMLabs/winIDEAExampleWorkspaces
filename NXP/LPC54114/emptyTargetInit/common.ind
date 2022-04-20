@@ -1,0 +1,26 @@
+MEMORY
+{
+    /* 0x400 = 1K */
+    /* 0x8000 = 32K */
+    /* 0x10000 = 65K */
+    /* 0x20000 = 130K */
+                          
+    /*    FLASH and RAM for Cortex-M4 core     */
+    VECTA (rwx) : ORIGIN = 0x00000000, LENGTH = 0x400   
+    FLASHA (rwx) : ORIGIN = 0x00000400, LENGTH = 127K        
+    SRAM0A (rwx) : ORIGIN = 0x20000000, LENGTH = 32K
+    
+    
+    /*    FLASH and RAM for Cortex-M0+ core    */ 
+    VECTB  (rwx) : ORIGIN = 0x00020000, LENGTH = 0x400
+    FLASHB (rwx) : ORIGIN = 0x00020400, LENGTH = 127K
+    SRAM0B (rwx) : ORIGIN = 0x20008000, LENGTH = 32K  
+}
+
+/* These variables are constants (not pointers!) */
+_estackA = (ORIGIN(SRAM0A) + LENGTH(SRAM0A) - 4) & 0xFFFFFFFC;
+_estackB = (ORIGIN(SRAM0B) + LENGTH(SRAM0B) - 4) & 0xFFFFFFFC;
+
+_cm0_stack = ORIGIN(VECTB);
+_cm0_boot = ORIGIN(VECTB) + 4;
+ 

@@ -1,0 +1,48 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  /* avoid 0x400 - 0x40F area since those are protection related locations */
+  VECT (rwx)    : ORIGIN = 0x00000000, LENGTH = 0x400  
+	PFLASH (rwx)  : ORIGIN = 0x00000800, LENGTH = 2046K
+  RAM (rwx)     : ORIGIN = 0x1FFE0000, LENGTH = 252K
+}
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECT
+    
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > PFLASH
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > RAM
+}
+
+

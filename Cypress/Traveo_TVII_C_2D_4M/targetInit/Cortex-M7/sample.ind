@@ -1,0 +1,42 @@
+ENTRY(Reset)
+
+INCLUDE ../common.ind
+
+_estack = (ORIGIN(CM7_RAM) + LENGTH(CM7_RAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+  .vect :
+  {
+    KEEP(*(.isr_vector))
+  } > CM7_VECT
+  
+  .text :
+  {
+    . = ALIGN(4);
+    KEEP(*(.resetFunct))
+    *(.text*)
+    *(.glue_7t) *(.glue_7)
+    *(.rodata*)
+    *(.eh*)
+    _etext = .;
+  } > CM7_CODE
+
+  .data : AT (ADDR(.text) + SIZEOF(.text))
+  {
+    _data = .;
+    *(vtable)
+    *(.data*)
+    _edata = .;
+  } > CM7_RAM
+
+  .bss :
+  {
+    _bss = .;
+    *(.bss*)
+    *(COMMON)
+    _ebss = .;
+  } > CM7_RAM
+}
+
+

@@ -1,0 +1,87 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)        : ORIGIN = 0x34000000, LENGTH = 1K
+	FLASH (rwx)       : ORIGIN = 0x34000400, LENGTH = 31K
+  RAM (rwx)         : ORIGIN = 0x34008000, LENGTH = 32K
+  
+  RAM_LLCE0_SRC     : ORIGIN = 0x34100000, LENGTH = 8K
+  RAM_LLCE1_SRC     : ORIGIN = 0x34102000, LENGTH = 8K
+  RAM_LLCE2_SRC     : ORIGIN = 0x34104000, LENGTH = 8K
+  RAM_LLCE3_SRC     : ORIGIN = 0x34108000, LENGTH = 16K
+  
+  RAM_0_0_TCMA (rwx): ORIGIN = 0x20000000, LENGTH = 32K /* Cluster0_C0_TCM_A   */
+  
+  RAM_LLCE0_TARGET  : ORIGIN = 0x43000000, LENGTH = 8K
+  RAM_LLCE1_TARGET  : ORIGIN = 0x43100000, LENGTH = 8K
+  RAM_LLCE2_TARGET  : ORIGIN = 0x43200000, LENGTH = 8K
+  RAM_LLCE3_TARGET  : ORIGIN = 0x43300000, LENGTH = 16K
+}
+
+_llce0_ram_start = ORIGIN(RAM_LLCE0_TARGET);
+_llce0_ram_end   = (ORIGIN(RAM_LLCE0_SRC) + LENGTH(RAM_LLCE0_TARGET));
+_sram_llce0_code = ORIGIN(RAM_LLCE0_SRC);
+
+_llce1_ram_start = ORIGIN(RAM_LLCE1_TARGET);
+_llce1_ram_end   = (ORIGIN(RAM_LLCE1_SRC) + LENGTH(RAM_LLCE1_TARGET));
+_sram_llce1_code = ORIGIN(RAM_LLCE1_SRC);
+
+_llce2_ram_start = ORIGIN(RAM_LLCE2_TARGET);
+_llce2_ram_end   = (ORIGIN(RAM_LLCE2_SRC) + LENGTH(RAM_LLCE2_TARGET));
+_sram_llce2_code = ORIGIN(RAM_LLCE2_SRC);
+
+_llce3_ram_start = ORIGIN(RAM_LLCE3_TARGET);
+_llce3_ram_end   = (ORIGIN(RAM_LLCE3_SRC) + LENGTH(RAM_LLCE3_TARGET));
+_sram_llce3_code = ORIGIN(RAM_LLCE3_SRC);
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 8) & 0xFFFFFFF8;
+_VTOR   =  ORIGIN(VECT);      /* Must be aligned to 64 bits */
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECT
+    
+    .Cluster0_Core0_TCMA  (NOLOAD):
+    {
+        
+    } > RAM_0_0_TCMA
+    
+    .text_section :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        *(.vfp11_veneer)
+        *(.v4_bx)
+        *(.init)
+        *(.fini)
+        *(.iplt)
+        *(.rel.dyn)
+        _etext = .;
+    } > FLASH
+
+    .data : AT (_etext)
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > RAM
+}
+
+

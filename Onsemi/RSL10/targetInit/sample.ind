@@ -1,0 +1,70 @@
+/* ----------------------------------------------------------------------------
+ * Copyright (c) 2015-2017 Semiconductor Components Industries, LLC
+ * (d/b/a ON Semiconductor). All Rights Reserved.
+ *
+ * This code is the property of ON Semiconductor and may not be redistributed
+ * in any form without prior written permission from ON Semiconductor. The
+ * terms of use and warranty for this code are covered by contractual
+ * agreements between ON Semiconductor and the licensee.
+ * ----------------------------------------------------------------------------
+ * sections.ld
+ * - Simple sections load file
+ * ----------------------------------------------------------------------------
+ * $Revision: 1.32 $
+ * $Date: 2017/10/27 07:43:23 $
+ * ------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------
+ * Memory linker description
+ * ------------------------------------------------------------------------- */
+INPUT(& &)
+
+MEMORY
+{
+  FLASH (rx) : ORIGIN = 0x00100000, LENGTH = 380K
+  DRAM (xrw) : ORIGIN = 0x20000000, LENGTH = 24K
+}
+
+/* ----------------------------------------------------------------------------
+ * Stack related defines and provided variables
+ * ------------------------------------------------------------------------- */
+_estack = ORIGIN(DRAM) + LENGTH(DRAM);
+
+ENTRY(Reset)
+
+
+/* ----------------------------------------------------------------------------
+ * Section definitions
+ * ------------------------------------------------------------------------- */
+SECTIONS
+{
+  .text :
+  {
+    _isrVector = .;
+    KEEP(*(.isr_vector));
+    . = ALIGN(4);
+    KEEP(*(.text.Reset));
+    *(.text*)
+    . = ALIGN(4);
+    *(.rodata*)
+    _etext = .;
+  } >FLASH
+
+  .data  : AT (_etext)
+  {
+    . = ALIGN(4);
+    _sdata = .;
+    *(.data*)
+    . = ALIGN(4);
+    _edata = .;
+  } >DRAM
+
+  .bss :
+  {
+      _sbss = .;
+      *(.bss*)
+      *(COMMON)
+      . = ALIGN(4);
+      _ebss = .;
+  } >DRAM
+}

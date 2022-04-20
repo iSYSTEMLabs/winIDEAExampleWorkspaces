@@ -1,0 +1,39 @@
+INPUT(& &)
+ENTRY(ResetM4_0)
+
+MEMORY
+{
+  CM4_APP (rwx) : ORIGIN = 0x1FFD0000, LENGTH = 64K
+  CM4_SRAM (rwx) : ORIGIN = 0x20000000, LENGTH = 64K
+}
+_cm4_0_AppStart = ORIGIN(CM4_APP);
+_estackM4_0 = (ORIGIN(CM4_SRAM) + LENGTH(CM4_SRAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+    .text :
+    {
+        KEEP(*(.isr_vector))
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh_frame)
+        _etext = .;
+    } > CM4_APP
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > CM4_SRAM
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > CM4_SRAM
+}

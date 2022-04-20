@@ -1,0 +1,31 @@
+INPUT(& &)
+
+INCLUDE ../common.ind
+
+_estack = (ORIGIN(OCRAM_A53_0) + LENGTH(OCRAM_A53_0) - 8) & 0xFFFFFFF0;
+
+SECTIONS
+{  
+  .text_out :
+  {
+    KEEP(*(.isr_vector*))
+    KEEP(*(.text.resetHandler))
+    *(.text*)
+    . = ALIGN(8);
+    *(.rodata*)
+    . = ALIGN(8);
+    *(.data*)
+    . = ALIGN(8);
+    *(.bss*)
+    *(COMMON)
+  } > OCRAM_A53_0
+  
+  /* Remove information from the standard libraries */
+  /DISCARD/ :
+  {
+    *(.note.gnu.build-id*)
+    libc.a ( * )
+    libm.a ( * )
+    libgcc.a ( * )
+  }
+}

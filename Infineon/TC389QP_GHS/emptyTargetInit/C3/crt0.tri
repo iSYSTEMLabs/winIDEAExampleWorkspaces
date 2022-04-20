@@ -1,0 +1,537 @@
+/*
+ *                Language Independent Library
+ *
+ *       Copyright 1983-2007 Green Hills Software, Inc.
+ *
+ *  This program is the property of Green Hills Software, Inc,
+ *  its contents are proprietary information and no part of it
+ *  is to be disclosed to anyone except employees of Green Hills
+ *  Software, Inc., or as agreed in writing signed by the President
+ *  of Green Hills Software, Inc.
+ */
+
+/* crt0.tri: Initial C runtime startup file for TriCore family systems. */
+
+
+; Names of SFRs
+#include <RegDef.h>
+
+; Define macros (e.g. _INIT_EBU) to initialize CPU and on-chip peripherals
+#include <initcpu.asm>
+
+; MULTI system call information
+#include "indsyscl.h"
+
+
+; Number of Context Save Areas
+CTXCOUNT        .equ    64
+
+
+; Move 32-bit immediate into data reg
+.macro	MOV.W	reg val
+	movh	reg, %hi(val)
+	addi	reg, reg, %lo(val)
+.endm
+
+
+; Move 32-bit immediate into address reg
+.macro	MOV.WA	reg val
+	movh.a	reg, %hi(val)
+	lea	reg, [reg]%lo(val)
+.endm
+
+
+; Move 32-bit immediate into SFR (clobbers d2)
+.macro	store_sfr	sfr val
+	MOV.W	d2, val
+	mtcr	(sfr & 0xffff), d2
+	isync
+.endm
+
+; Move 32-bit immediate into SFR (clobbers d2)
+.macro	store_sfr_p	sfr val picreg
+	addih	d2, picreg, %hi(val)
+	addi	d2, d2, %lo(val)
+	mtcr	(sfr & 0xffff), d2
+	isync
+.endm
+
+; Store 32-bit immediate into 32-bit address immediate (clobbers a2 & d2)
+.macro	STI.W	addr, val
+	MOV.WA	a2, addr
+	MOV.W	d2, val
+	st.w	[a2], d2
+.endm
+
+;------------------------------------------------------------------------------
+; Initialization Vector in Boot Memory
+;------------------------------------------------------------------------------
+.section ".initvector","ax"
+initvector:
+    j32	iv2
+;------------------------------------------------------------------------------
+; Initialize the EBU configuration (BOOTCFG at .initvector+4)
+    .word 0x08e008e0
+;------------------------------------------------------------------------------
+    ; now do the actual indirect jump to _start
+iv2:
+    movh.a	a15,%hi(_start)
+    lea		a15,[a15]%lo(_start)
+    ; when romcopy is used, adjust a15 to be the ROM address of _start
+    MOV.W	d15, __ghs_rambootcodestart
+    MOV.W	d12, __ghs_rambootcodeend
+    jeq16	d15, d12, no_adjust_start
+    MOV.W	d13, __ghs_rombootcodestart
+    sub16	d15, d13, d15	; __ghs_rombootcodestart-__ghs_rambootcodestart
+    addsc16.a	a15, a15, d15, 0
+no_adjust_start:
+    ji	a15
+.maxstack   initvector, 0
+.scall	    initvector, _start
+.type	initvector,@function
+.size	initvector,.-initvector
+
+;------------------------------------------------------------------------------
+; Set up the context list
+;------------------------------------------------------------------------------
+.section ".contexts","ab"
+    ; Leave space for the Context Save Areas.  We will initialize the context
+    ; registers and the linked list of free contexts below.
+    .space 64 * CTXCOUNT
+
+;------------------------------------------------------------------------------
+; Set up the trap handlers
+;------------------------------------------------------------------------------
+; Supported Trap class; Used as index into Trap Handler table
+CLASS0      .equ   0
+CLASS1      .equ   1
+CLASS2      .equ   2
+CLASS3      .equ   3
+CLASS4      .equ   4
+CLASS5      .equ   5
+CLASS6      .equ   6 
+CLASS7      .equ   7 
+TOTAL_CLASS .equ   8
+;
+; Base of the Trap Handlers of each class 
+;
+CLASS_1_BASE  .equ  ((CLASS1 * TOTAL_CLASS) - 1)     ; -> 7     so for 8 vectors in each class the range is from 8 to f
+CLASS_2_BASE  .equ  ((CLASS2 * TOTAL_CLASS) - 1)     ; -> 0xf   
+CLASS_3_BASE  .equ  ((CLASS3 * TOTAL_CLASS) - 1)     ; -> 0x17  
+CLASS_4_BASE  .equ  ((CLASS4 * TOTAL_CLASS) - 1)     ; -> 0x1f 
+CLASS_5_BASE  .equ  ((CLASS5 * TOTAL_CLASS) - 1)     ; -> 0x27  
+CLASS_6_BASE  .equ  ((CLASS6 * TOTAL_CLASS) - 1)     ; -> 0x2f   
+CLASS_7_BASE  .equ  ((CLASS7 * TOTAL_CLASS) - 1)     ; -> 0x37   
+
+.section ".traps", "ax"
+; handler for Class 0
+.globl handler_class0
+handler_class0:
+    mov32	d13, 0
+    mov32	d14, d15
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class0, 0
+.scall		handler_class0, trap_handler
+.type	handler_class0,@function
+.size	handler_class0,.-handler_class0
+.globl handler_class1
+handler_class1:
+    mov32	d13, 1
+    add32	d14, d15, CLASS_1_BASE
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class1, 0
+.scall		handler_class1, trap_handler
+.type	handler_class1,@function
+.size	handler_class1,.-handler_class1
+.globl handler_class2
+handler_class2:
+    mov32	d13, 2
+    add32	d14, d15, CLASS_2_BASE
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class2, 0
+.scall		handler_class2, trap_handler
+.type	handler_class2,@function
+.size	handler_class2,.-handler_class2
+.globl handler_class3
+handler_class3:
+    mov32	d13, 3
+    add32	d14, d15, CLASS_3_BASE
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class3, 0
+.scall		handler_class3, trap_handler
+.type	handler_class3,@function
+.size	handler_class3,.-handler_class3
+.globl handler_class4
+handler_class4:
+    mov32	d13, 4
+    add32	d14, d15, CLASS_4_BASE
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class4, 0
+.scall		handler_class4, trap_handler
+.type	handler_class4,@function
+.size	handler_class4,.-handler_class4
+.globl handler_class5
+handler_class5:
+    mov32	d13, 5
+    add32	d14, d15, CLASS_5_BASE
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class5, 0
+.scall		handler_class5, trap_handler
+.type	handler_class5,@function
+.size	handler_class5,.-handler_class5
+.globl handler_class6
+handler_class6:
+    mov32	d13, 6
+    mov32	d14, CLASS_6_BASE	; don't add ID num for SYS
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class6, 0
+.scall		handler_class6, trap_handler
+.type	handler_class6,@function
+.size	handler_class6,.-handler_class6
+.globl handler_class7
+handler_class7:
+    mov32	d13, 7
+    add32	d14, d15, CLASS_7_BASE
+    j32		trap_handler
+    nop32
+    nop32
+    nop32
+    nop32
+    nop32
+.maxstack	handler_class7, 0
+.scall		handler_class7, trap_handler
+.type	handler_class7,@function
+.size	handler_class7,.-handler_class7
+.globl trap_handler
+trap_handler:
+th_piclabel:
+    ; It's okay to use the stack here, since it is the Interrupt Stack Pointer
+    mov		d4, SYSCALL_TRAPINFO
+    st.a	[+sp]-4, ra
+    st.w	[+sp]-4, d14
+#if defined(__ghs_pid)
+    addih.a	a15, a0, %pidhi(__dotsyscall_addr)
+    ld.a	a15, [a15]%pidlo(__dotsyscall_addr)
+#else
+    movh.a	a15, %hi(__dotsyscall_addr)
+    ld.a	a15, [a15]%lo(__dotsyscall_addr)
+#endif
+    jli		a15
+
+    mov		d4, SYSCALL_EXIT
+    mov		d0, -1
+    st.w	[+sp]-4, d0
+    jli		a15
+    
+trap_handler_loop:
+    nop
+    nop
+    j	 	trap_handler_loop
+.maxstack	trap_handler, 0
+.scall		trap_handler, __dotsyscall
+.scall		trap_handler, __dotsyscall
+.type	trap_handler,@function
+.size	trap_handler,.-trap_handler
+
+
+; Put the address of __dotsyscall in data so that it can be used by the trap
+; handler even in PIC mode.  The trap handler doesn't move with the PIC base,
+; so it cannot compute the __dotsyscall address itself.
+    .data
+    .align 4
+__dotsyscall_addr:
+    .word	__dotsyscall
+    .type	__dotsyscall_addr, @object
+    .size	__dotsyscall_addr, 4
+    .section ".fixaddr", "a"
+    .align 4
+    .word __dotsyscall_addr
+    .section ".fixtype", "a"
+    .byte 49
+    
+
+;------------------------------------------------------------------------------
+; Start of the .text section
+;------------------------------------------------------------------------------
+
+	.text
+	.globl _start
+  
+.section ".start", "ax"
+_start:
+#if defined(__ghs_asm)
+	.need	exit
+	.need	_sync_on_halt	; needed because debug servers call it
+	.need   handler_class0
+	.need   handler_class1
+	.need   handler_class2
+	.need   handler_class3
+	.need   handler_class4
+	.need   handler_class5
+	.need   handler_class6
+	.need   handler_class7
+#endif
+
+#if defined(TC113_CPU14)
+    dsync			; hardware bug workaround
+#endif
+
+    mov16	d14, d4		; save argc
+    mov16.aa	a12, a4		; save argv
+    mov16.aa	a13, a5		; save envp
+
+#if defined(__Tricore_TC1V13__)
+    /* CPU_TC.112 erratum: on pre-1.31 hardware, reading the PC
+     * with mfcr returns garbage.  To get the value we need to
+     * do a jump-and-link to the next instruction. */
+    jl		piclabel
+piclabel:
+    mov16.d	d15, ra
+#else
+piclabel:
+    mfcr	d15, (PC & 0xffff)
+#endif
+
+; Initialize all the EBU registers (ADDSELx, BUSCONx, EMUAS, EMUBC,...)
+    _INIT_EBU
+
+; Set up pointers to special memory
+; when romcopy is used, adjust the picbase we use here accordingly
+    mov		d13, d15
+    MOV.W	d2, __ghs_rambootcodestart
+    MOV.W	d3, __ghs_rambootcodeend
+    jeq		d2, d3, no_adjust_picbase
+    MOV.W	d4, __ghs_rombootcodestart
+    sub		d2, d4, d2	; __ghs_rombootcodestart-__ghs_rambootcodestart
+    sub16	d13, d2
+no_adjust_picbase:
+    store_sfr_p	BIV, (__ghsbegin_interrupts-piclabel), d13 ; Base Interrupt Vector Table Pointer
+    store_sfr_p	BTV, (__ghsbegin_traps-piclabel), d13	   ; Base Trap Vector Table Pointer
+    store_sfr	ISP, __ghsend_intstack-4		   ; Interrupt Stack Pointer
+
+; Set PSW to Supervisor mode, and set GW and CDE
+    mfcr	d2, (PSW & 0xffff)
+    andn	d2, d2, 0x7f		; reset the count
+    insert	d2, d2, 1, 7, 1		; set CDE
+    insert	d2, d2, 1, 8, 1		; set GW
+    mtcr	(PSW & 0xffff), d2
+    isync
+
+    store_sfr	SYSCON,  0x00000000	; turn off protection
+
+; Initialize Context Save Areas
+    MOV.W	d2, __ghsbegin_contexts		; d2=beginning of CSA space
+    extr.u	d3, d2, 6, 16			; Assemble CSA pointer for...
+    extr.u	d4, d2, 28, 4			; ...1st region
+    insert	d3, d3, d4, 16, 4
+    mtcr	(FCX & 0xffff), d3		; set free CSA list ptr (FCX)
+    add		d4, d3, 1			; d4=ptr to 2nd region
+    mov.a	a3, d2				; a3=beginning of CSA space
+    lea		a4, CTXCOUNT-2
+initcsa:
+    st.w	[a3+]64, d4
+    add16	d4, 1
+#if defined(TC112_COR1)
+    isync					; hardware bug workaround
+#endif
+    loop	a4, initcsa
+    mov		d13, 0
+    st.w	[a3+]64, d13			; null ptr for end of list
+    mtcr	(LCX & 0xffff), d4		; set free CSA limit ptr (LCX)
+    isync
+
+; Clear PCXS and PCXO fields of PCXI
+    mfcr	d2, (PCXI & 0xffff)
+    movh	d1, 0xfff0
+    and16	d2, d1
+    mtcr	(PCXI & 0xffff), d2
+    isync
+
+#if defined (TC113_PMU1)
+    ; hardware bug workaround
+    LFICON_VALUE    .equ 0x00000000
+
+    ;set SPLT(LFI_CON[0]) to '0'(no-split mode selected) 
+    STI.W LFI_CON, LFICON_VALUE
+    isync
+#endif
+
+#if defined(TC113_CPU13)
+    ; hardware bug workaround
+    DMUCON_VALUE    .equ 0x00000001
+
+    ;set DCSIZ(DMUCON[1:0]) to '01'(16K data cache, 16K data scratchpad SRAM)
+    STI.W DMUCON, DMUCON_VALUE
+    isync
+#endif
+
+
+; enable interrupts
+    enable
+
+    call	DUAL_FIX	; init background reg
+    j		dual_jump
+DUAL_FIX:
+#if defined(TC113_CPU14)
+    dsync			; hardware bug workaround
+#endif
+    mov		d8, 0
+    mov		d9, 0
+    mov		d10, 0
+    mov		d11, 0
+    mov		d12, 0
+    mov		d13, 0
+    mov		d14, 0
+    mov		d15, 0
+    lea		a8, 0
+    lea		a9, 0
+    lea		a12, 0
+    lea		a13, 0
+    lea		a14, 0
+    lea		a15, 0
+    ret
+
+dual_jump:
+
+; call syscall SYSCALL_HELLO to determine debug server 
+    mov		d4, SYSCALL_HELLO
+    mov16	d3, 1
+    mov16.aa	a14, ra
+    jl		__dotsyscall
+    mov16.aa	ra, a14
+    jz16	d3, regsokay
+
+; nobody handled the system call, we must be running on our own
+
+    MOV.WA	sp, __ghsend_stack-4
+
+regsokay:
+    .weak       __ghs_tricore_pid
+    mov         d11, %lo(__ghs_tricore_pid)
+    jnz16       d11, skip_sda           ; If __ghs_tricore_pid == 1, then we're
+    					; using PID, don't use the SDA base. 
+    MOV.WA	a0, _SMALL_DATA_	; a0 is SDA base register
+skip_sda:
+    MOV.WA	a1, _LITERAL_DATA_	; a1 is literal data base register
+    MOV.WA	a5, (regtab-piclabel)
+    MOV.WA	a4, (baseptrs-piclabel)
+    addsc16.a	a5, a5, d15, 0
+    addsc16.a	a4, a4, d15, 0
+    mov16	d4, d14
+
+    ; optionally initialize a8/a9 if _SMALL_DATA_A8_/_SMALL_DATA_A9_ are defined
+    ; a5 = &regtab
+    ld.a	a8, [a5]0
+    ld.a	a9, [a5]4
+
+    jz16        d11, skip_a8a9	; Setup PID base if we're using PID
+    mov16.d     d11, a0      	; d11 = a0
+    addih	d11,d11,0x1     ; d11 += 0x00010000
+    addi	d11,d11,-0x8000	; d11 -= 0x8000
+    mov16.a     a0, d11		; a0 = PID base + 0x8000
+
+skip_a8a9:
+    mov16.aa	a5, a12
+    mov16.aa	a6, a13
+    call	__ghs_ind_crt0
+
+; After program is executed:
+    nop
+    lea		a15, 0		; Clear the pass flag
+    movh.a	a14, 0x900d	; Indication of pass
+    nop
+hang:
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    j		hang
+
+
+    .align 4
+
+    .weak	__ghsbegin_picbase
+    .weak	__ghsbegin_robase
+    .weak	__ghsbegin_pidbase
+    .weak       __ghs_rambootcodestart
+    .weak       __ghs_rambootcodeend
+    .weak       __ghs_rombootcodestart
+    .weak       __ghs_rombootcodeend
+baseptrs:
+    .word	1	; baseptrs version number
+    .word	__ghsbegin_picbase
+    .word	__ghsbegin_robase
+    .word	__ghsbegin_pidbase
+    .word	__ghs_rambootcodestart
+    .word	__ghs_rambootcodeend
+    .word	__ghs_rombootcodestart
+    .word	__ghs_rombootcodeend
+    .type 	baseptrs,@object
+    .size	baseptrs,.-baseptrs
+
+    .weak	_SMALL_DATA_A8_
+    .weak	_SMALL_DATA_A9_
+regtab:
+    .word	_SMALL_DATA_A8_
+    .word	_SMALL_DATA_A9_
+    .type	regtab,@object
+    .size	regtab,.-regtab
+    .maxstack	_start, 0
+    .scall	_start, __dotsyscall
+    .scall	_start, __ghs_ind_crt0
+    .type	_start,@function
+    .size	_start,.-_start
+
+
+    ; This is called by debug servers to synchronize memory after halting.
+    .globl _sync_on_halt
+_sync_on_halt:
+    dsync
+    isync
+    nop
+    nop
+    ret
+    .maxstack	_sync_on_halt, 0
+    .scall	_sync_on_halt, __leaf__
+    .type	_sync_on_halt,@function
+    .size	_sync_on_halt,.-_sync_on_halt
+
+    .section ".secinfo","a"

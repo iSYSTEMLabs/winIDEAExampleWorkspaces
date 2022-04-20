@@ -1,0 +1,92 @@
+/*
+ ******************************************************************************** 
+ *
+ * Detail Description     : 
+ * Scott OBrien 4/29/10   : Leopard LSM File.
+ *
+ ******************************************************************************** 
+ * NOTE:
+ * 1) When generated a ROM Image - Which is a MUST if you have Initialzed Data
+ * The ROM Image ROM Locattion needs to match the "int_flash" Section Address
+ *
+ * 2) We are NOT using any Small Data
+ ******************************************************************************** 
+*/
+
+MEMORY
+{
+    resetvector:                    org=0x00000000, len=0x00000008
+    init:                           org=0x00000010, len=0x0000fff0
+    exception_handlers:             org=0x00010000, len=0x00010000
+    internal_flash:                 org=0x00030000, len=0x000D0000
+    internal_ram:                   org=0x40000000, len=0x0000D000
+    heap  :                         org=0x4000C000, len=0x00002000
+    stack :                         org=0x4000E000, len=0x00002000
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+/* This will ensure the rchw and reset vector are not stripped by the linker */
+FORCEACTIVE { "bam_rchw" "bam_resetvector" }
+
+SECTIONS
+{
+    .__bam_bootarea LOAD (0x00000000): {} > resetvector
+    
+    GROUP  : {
+      .init LOAD (0x00010) : {}
+      .init_vle (VLECODE) LOAD (0x00010 + SIZEOF(.init)) : {
+        *(.init)
+        *(.init_vle)
+      }
+     
+      
+    } > init
+
+    GROUP : 
+    { 
+      .exec_vect  LOAD (0x10000): {}
+      .exec_vect_Vle (VLECODE) LOAD (0x10000): {}
+    } > exception_handlers
+
+    GROUP  : {
+      .ivor4_vector_table ALIGN (2048) : {}
+      .text : {} 
+      .text_vle (VLECODE) : {
+         *(.text)
+         *(.text_vle)
+       }
+       .rodata (CONST) : {
+         *(.rdata)
+         *(.rodata)
+       }
+       .ctors : {}
+       .dtors : {}
+       extab : {}
+       extabindex : {}
+    } > internal_flash
+
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(2048) : {}
+       .data   : {}
+       .sdata  : {}
+       .sbss   : {}
+       .sdata2 : {}
+       .sbss2  : {}
+       .bss    : {}
+    } > internal_ram
+}
+
+/* Variable required for Startup, Interrupts, etc */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__ROM_SDATA_ADDR    = ROMADDR(.sdata);
+__RAM_SDATA_ADDR    = ADDR(.sdata);
+
+__IVPR_VALUE = ADDR(exception_handlers);
+
+

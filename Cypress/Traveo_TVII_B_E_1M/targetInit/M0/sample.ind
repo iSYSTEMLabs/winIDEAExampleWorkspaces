@@ -1,0 +1,50 @@
+INPUT(& &)
+ENTRY(ResetM0)
+
+INCLUDE common.ind
+
+_estackA = (ORIGIN(SRAM0A) + LENGTH(SRAM0A) - 4) & 0xFFFFFFFC;
+
+
+
+SECTIONS
+{
+    .vect :
+    {
+        MY_START = .;
+        KEEP(*(.isr_vector))
+    } > VECTA
+    
+    .text :
+    {
+        . = ALIGN(4);
+        _text = .;
+        *startup.o(.text)   
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        _etext = .;
+    } > FLASHA
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > SRAM0A
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > SRAM0A
+}
+
+
+
+
+
+

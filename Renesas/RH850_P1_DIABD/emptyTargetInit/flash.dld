@@ -1,0 +1,88 @@
+/*===========================================================================*/
+/* DIAB Linker Command File: RH850, link program to FLASH                    */
+/*===========================================================================*/
+
+zero_start = 0xffff8000;
+
+MEMORY
+{
+  iROM          : org = 0x00000000,  len = 0x00080000   /* 512k */  /* Start of internal ROM area (iROM) */
+  iROM_BOOT     : org = 0x01000000,  len = 0x00008000   /* 32k   */  /* Start of internal User-Boot-ROM area (iROM_BOOT) */
+  iRAM_LOCAL    : org = 0xFEDF0000,  len = 0x0000F400   /* 64k   */  /* Start of internal local RAM area (iRAM_LOCAL) */
+}
+
+SECTIONS
+ {
+ /* Start of internal ROM area (iROM) */
+
+ /* .intvect                       :>iROM   start of interrupt vector */
+ /* .intvect_end  0x065B           :>.       end   of interrupt vector */
+	.intvect : {} > iROM
+	
+	GROUP : {
+		/* Take all code from all objects and libraries.	    */
+
+		.text (TEXT)	: {
+			*(.text, ".text.*")
+			*(.rdata, ".rdata.*")
+			*(.rodata, ".rodata.*")
+			*(.eh_frame)
+			*(.frame_info)
+			*(.j_class_table)
+			*(.init)
+			*(.fini)
+		}
+
+		.sdata2 (TEXT)	: { *(.sdata2, ".sdata2.*") }   /* small CONST area for some targets */
+	} > iROM
+
+ 	GROUP : {
+		__DATA_ROM	= .;
+		__DATA_RAM	= .;
+		.data (DATA)	: {
+			*(.data, ".data.*")
+		}
+		.j_pdata (DATA) : { *(.j_pdata, ".j_pdata.*") }
+
+		/* constructor and destructor function ptrs                 */
+		.ctors ALIGN(4) : { ctordtor.o(.ctors) *(.ctors) }
+		.dtors ALIGN(4) : { ctordtor.o(.dtors) *(.dtors) }
+
+		/* .sdata is the "small data area" for some targets.	    */
+		.sdata (DATA)	: { *(.sdata, ".sdata.*") *(.j_spdata, ".j_spdata.*")}
+
+		/* .tidata is the "tiny data area" for NEC targets.	    */
+		.tidata (DATA)	: { *(.tidata, ".tidata.*") }
+
+		__DATA_END	= .;
+
+		/* Allocate uninitialized sections.			    */
+
+		__BSS_START	= .;
+		.sbss (BSS)	: { *(.sbss, ".sbss.*") }
+		.bss  (BSS)	: { *(.bss, ".bss.*") }
+		.tibss (BSS)	: { *(.tibss, ".tibss.*") }
+		__BSS_END	= .;
+
+		/* Any remaining space will be used as a heap.		    */
+
+		__HEAP_START	= .;
+	} > iRAM_LOCAL
+ 
+__SP_INIT	= ADDR(iRAM_LOCAL)+SIZEOF(iRAM_LOCAL);
+__SP_END	= __SP_INIT-0x800;	    /* Stack is 2KB.		    */
+__HEAP_END	= __SP_END;		    /* Heap contiguous with stack.  */
+
+/* Some targets use an extra underscore in front of identifiers
+ * ------------------------------------------------------------------------ */
+___HEAP_START	= __HEAP_START;
+___HEAP_END	= __HEAP_END;
+___SP_INIT	= __SP_INIT;
+___SP_END	= __SP_END;
+___BSS_START	= __BSS_START;
+___BSS_END	= __BSS_END; 
+ }
+
+/*===========================================================================*/
+/*      End of File                                                          */
+/*===========================================================================*/

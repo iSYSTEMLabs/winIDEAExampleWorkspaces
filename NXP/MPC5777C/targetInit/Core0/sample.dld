@@ -1,0 +1,63 @@
+MEMORY
+{
+  rom(RX):	          org = 0x00000000, len = 0x40000 
+	ram(RW):	          org = 0x40000000, len = 0x01000
+	stack:  	          org = 0x40002000, len = 0x02000
+}
+
+SECTIONS
+{
+  GROUP : { 
+  	.text (TEXT)	: { 
+      crt0.o(.text)
+			*(.text)
+			*(.rodata)
+			*(.init)
+			*(.fini)
+		}                                                           
+    .sdata2 (TEXT)	: {}   /* small CONST area for some targets */
+    __DATA_ROM	= .;
+    
+    /* We need to know where are vector table and all interrupt handler     */
+    /* going to be in flash memory, linking them to different section       */
+    /* didn't work, so I just put them in rom section at defined addresses. */
+    /* All interrupt handler accepts all interrupts and then calls          */
+    /* Timer interrupt handler                                              */
+    . = 0x30000;
+    .ivor4_vector_table : {}
+    . = 0x31000;
+    .all_inter_handler : {}
+	} > rom                   
+
+	GROUP : {
+		__DATA_RAM	= .;       
+		.data (DATA) LOAD(__DATA_ROM) : { *(.data) }  
+		.sdata (DATA) LOAD(ADDR(.sdata) - ADDR(.data) + __DATA_ROM)
+				: { *(.sdata) }
+		__DATA_END	= .;
+		__BSS_START	= .;
+		.sbss (BSS)	: {}
+		.bss  (BSS)	: {}
+		__BSS_END	= .;
+  	.ctors ALIGN(4):{ ctordtor.o(.ctors) *(.ctors) }
+  	.dtors ALIGN(4):{ ctordtor.o(.dtors) *(.dtors) }
+		__HEAP_START	= .;
+	} > ram
+}
+
+__SP_INIT	= ADDR(stack)+SIZEOF(stack);
+__SP_END	= ADDR(stack);
+__HEAP_END	= ADDR(ram)+SIZEOF(ram);
+__IVPR_VALUE = 0x31000; 
+
+/* Some targets use an extra underscore in front of identifiers  */
+___HEAP_START	= __HEAP_START;
+___HEAP_END	= __HEAP_END;
+___SP_INIT	= __SP_INIT;
+___SP_END	= __SP_END;
+___DATA_ROM	= __DATA_ROM;
+___DATA_RAM	= __DATA_RAM;
+___DATA_END	= __DATA_END;
+___BSS_START	= __BSS_START;
+___BSS_END	= __BSS_END; 
+___IVPR_VALUE = __IVPR_VALUE;                 

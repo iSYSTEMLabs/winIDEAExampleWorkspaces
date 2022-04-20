@@ -1,0 +1,42 @@
+INPUT(& &)
+ENTRY(ResetM4)
+
+INCLUDE common.ind
+
+_estackB = (ORIGIN(SRAM0B) + LENGTH(SRAM0B) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+    .vect :
+    {
+        _cm4Vect = .;
+        KEEP(*(.isr_vector))
+    } > VECTB
+    
+    .text :
+    {
+        . = ALIGN(4);
+        _text = .;
+        *startup.o(.text)   
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        _etext = .;
+    } > FLASHB
+    
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > SRAM0B
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > SRAM0B
+}

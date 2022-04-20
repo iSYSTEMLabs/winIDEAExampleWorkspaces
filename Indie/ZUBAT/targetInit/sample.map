@@ -1,0 +1,319 @@
+Archive member included to satisfy reference by file (symbol)
+
+x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o)
+                              D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o (__aeabi_fadd)
+x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+                              D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o (__aeabi_i2f)
+x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                              D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o (__aeabi_ui2f)
+x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                              x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+byTestByte          0x1               D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+wTestWord           0x2               D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00010000         xr
+RAM              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+START GROUP
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+END GROUP
+
+.text           0x00000000      0xd04
+ *(.vectors)
+ .vectors       0x00000000       0x98 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+                0x00000000                __Vectors
+                0x00000098                __Vectors_End = .
+                0x00000098                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x20000018                __end__ = .
+ *(.text*)
+ .text          0x00000098       0x6c D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+                0x00000098                main
+ .text          0x00000104      0x5dc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+                0x00000104                Type_Simple
+                0x000001a0                Type_Arrays
+                0x00000230                Type_Pointers
+                0x00000280                Type_Struct
+                0x000002f4                Type_Bitfields
+                0x00000348                Type_Enum
+                0x00000384                Mult
+                0x0000039c                Type_FunctionPointer
+                0x000003e4                ResetStrX
+                0x00000418                Type_Mixed
+                0x00000450                TestStatic
+                0x00000468                Address_GlobalVariables
+                0x00000488                Address_TestScopes
+                0x00000510                Func1
+                0x0000053a                Func2
+                0x00000584                Func3
+                0x0000059a                Func4
+                0x00000610                Address_DifferentFunctionParameters
+                0x00000650                InterruptRoutine
+                0x00000668                CPU_Pointers
+                0x00000680                Factorial
+                0x000006aa                CPU_Recursion
+ .text          0x000006e0      0x12c D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+                0x000006e0                initTimer
+                0x0000070c                targetEnableInterrupts
+                0x00000738                targetDisableInterrupts
+                0x00000774                hardReset
+                0x000007a0                CPU_Init
+                0x000007c8                targetInit
+                0x000007de                disableWatchdog
+                0x000007e8                TimerInterruptHandler
+ .text          0x0000080c       0x30 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+                0x0000080c                SystemCoreClockUpdate
+                0x00000824                SystemInit
+ .text          0x0000083c       0x50 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+                0x0000083c                Reset_Handler
+                0x00000888                IRQ08_IRQn
+                0x00000888                HardFault_Handler
+                0x00000888                TIMER2_IRQn
+                0x00000888                SysTick_Handler
+                0x00000888                IRQ14_IRQn
+                0x00000888                PendSV_Handler
+                0x00000888                NMI_Handler
+                0x00000888                BTE_IRQn
+                0x00000888                IRQ11_IRQn
+                0x00000888                IRQ00_IRQn
+                0x00000888                IRQ04_IRQn
+                0x00000888                IRQ12_IRQn
+                0x00000888                IRQ15_IRQn
+                0x00000888                WATCHDOG_IRQn
+                0x00000888                IRQ06_IRQn
+                0x00000888                Default_Handler
+                0x00000888                IRQ13_IRQn
+                0x00000888                IRQ07_IRQn
+                0x00000888                SVC_Handler
+                0x00000888                IRQ10_IRQn
+                0x00000888                IRQ02_IRQn
+                0x00000888                IRQ03_IRQn
+                0x00000888                TIMER1_IRQn
+                0x00000888                SDIO_IRQn
+                0x00000888                IRQ05_IRQn
+                0x00000888                IRQ01_IRQn
+                0x00000888                IRQ09_IRQn
+ .text          0x0000088c      0x338 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o)
+                0x0000088c                __aeabi_fadd
+ .text          0x00000bc4       0x8c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+                0x00000bc4                __aeabi_i2f
+ .text          0x00000c50       0x78 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                0x00000c50                __aeabi_ui2f
+ .text          0x00000cc8       0x3c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x00000cc8                __clzsi2
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ *(.eh_frame*)
+
+.glue_7         0x00000d04        0x0
+ .glue_7        0x00000d04        0x0 linker stubs
+
+.glue_7t        0x00000d04        0x0
+ .glue_7t       0x00000d04        0x0 linker stubs
+
+.vfp11_veneer   0x00000d04        0x0
+ .vfp11_veneer  0x00000d04        0x0 linker stubs
+
+.v4_bx          0x00000d04        0x0
+ .v4_bx         0x00000d04        0x0 linker stubs
+
+.iplt           0x00000d04        0x0
+ .iplt          0x00000d04        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+
+.rel.dyn        0x00000d04        0x0
+ .rel.iplt      0x00000d04        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000d04                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000d04                __exidx_end = .
+                0x00000d04                __etext = .
+
+.data           0x20000000        0x4 load address 0x00000d04
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0x20000000        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .data          0x20000000        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .data          0x20000000        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .data          0x20000000        0x4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+                0x20000000                SystemCoreClock
+ .data          0x20000004        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+ .data          0x20000004        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o)
+ .data          0x20000004        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .data          0x20000004        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .data          0x20000004        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x20000004                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+                0x20000004                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end = .)
+                0x20000004                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                __data_end__ = .
+
+.igot.plt       0x20000004        0x0 load address 0x00000d08
+ .igot.plt      0x20000004        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+
+.bss            0x20000004       0x10 load address 0x00000d08
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000004        0x8 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+                0x20000004                iCounter
+                0x20000008                iInterruptCounter
+ .bss           0x2000000c        0x4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .bss           0x20000010        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .bss           0x20000010        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .bss           0x20000010        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+ .bss           0x20000010        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o)
+ .bss           0x20000010        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .bss           0x20000010        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .bss           0x20000010        0x0 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ *(COMMON)
+ COMMON         0x20000010        0x4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+                0x20000010                byTestByte
+                0x20000012                wTestWord
+                0x20000014                . = ALIGN (0x4)
+                0x20000014                __bss_end__ = .
+
+.heap           0x20000018      0xc00
+                0x20000018                __HeapBase = .
+                0x20000018                __end__ = .
+                0x20000018                end = __end__
+ *(.heap*)
+ .heap          0x20000018      0xc00 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+                0x20000c18                __HeapLimit = .
+
+.stack_dummy    0x20000018      0x400
+ *(.stack*)
+ .stack         0x20000018      0x400 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+                0x20004000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20003c00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20004000                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(output.elf elf32-littlearm)
+
+.debug_frame    0x00000000      0x604
+ .debug_frame   0x00000000       0x34 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .debug_frame   0x00000034      0x3b8 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .debug_frame   0x000003ec      0x130 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .debug_frame   0x0000051c       0x58 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .debug_frame   0x00000574       0x38 x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o)
+ .debug_frame   0x000005ac       0x2c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .debug_frame   0x000005d8       0x2c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+
+.debug_info     0x00000000      0x9e3
+ .debug_info    0x00000000       0xb9 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .debug_info    0x000000b9      0x700 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .debug_info    0x000007b9      0x142 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .debug_info    0x000008fb       0xc2 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .debug_info    0x000009bd       0x26 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+
+.debug_abbrev   0x00000000      0x444
+ .debug_abbrev  0x00000000       0x68 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .debug_abbrev  0x00000068      0x28b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .debug_abbrev  0x000002f3       0xc8 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .debug_abbrev  0x000003bb       0x75 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .debug_abbrev  0x00000430       0x14 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+
+.debug_aranges  0x00000000       0xa0
+ .debug_aranges
+                0x00000000       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .debug_aranges
+                0x00000020       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .debug_aranges
+                0x00000040       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .debug_aranges
+                0x00000060       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .debug_aranges
+                0x00000080       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+
+.debug_line     0x00000000      0x8a1
+ .debug_line    0x00000000       0xe1 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .debug_line    0x000000e1      0x361 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .debug_line    0x00000442      0x1e2 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .debug_line    0x00000624      0x1b5 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .debug_line    0x000007d9       0xc8 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+
+.debug_str      0x00000000      0x612
+ .debug_str     0x00000000      0x18d D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .debug_str     0x0000018d      0x1c0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+                                0x334 (size before relaxing)
+ .debug_str     0x0000034d      0x105 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+                                0x270 (size before relaxing)
+ .debug_str     0x00000452       0xe5 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+                                0x23f (size before relaxing)
+ .debug_str     0x00000537       0xdb D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000079       0x7a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .comment       0x00000079       0x7a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .comment       0x00000079       0x7a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\main.o
+ .ARM.attributes
+                0x0000002b       0x2b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\test.o
+ .ARM.attributes
+                0x00000056       0x2b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\CPUFile.o
+ .ARM.attributes
+                0x00000081       0x2b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\system_ARMCM0.o
+ .ARM.attributes
+                0x000000ac       0x1b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\ZUBAT\targetInit\Debug\startup_ARMCM0.o
+ .ARM.attributes
+                0x000000c7       0x2c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(addsf3.o)
+ .ARM.attributes
+                0x000000f3       0x2c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .ARM.attributes
+                0x0000011f       0x2c x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .ARM.attributes
+                0x0000014b       0x1e x:/gcc/gcc-arm-none-eabi-9-2019-q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)

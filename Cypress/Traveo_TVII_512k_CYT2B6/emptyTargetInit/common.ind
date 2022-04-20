@@ -1,0 +1,24 @@
+MEMORY
+{
+    
+    
+    /*    FLASH and RAM for Cortex-M0+ core     */ 
+    VECTA (rwx) : ORIGIN = 0x10000000, LENGTH = 4K
+    FLASHA (rx) : ORIGIN = 0x10001000, LENGTH = 252K   
+    SRAM0A (rwx)  : ORIGIN = 0x08001000, LENGTH = 20K
+    
+    /*    FLASH and RAM for Cortex-M4 core    */ 
+    VECTB (rwx) : ORIGIN = 0x10040000, LENGTH = 4K   /*    Relocated table    */
+    FLASHB (rx) : ORIGIN = 0x10041000, LENGTH = 256K
+    SRAM0B (rwx)  : ORIGIN = 0x08008000, LENGTH = 20K
+}
+
+//_cm0Stack = ORIGIN(VECTA);
+//_cm0Boot = ORIGIN(VECTA) + 4;
+
+//_cm4Stack = ORIGIN(SRAM0B);
+//_cm4Boot = ORIGIN(SRAM0B) + 4;
+
+VECTA_ORIGIN = ORIGIN(VECTA);
+cm4OffsetInFlash = ORIGIN(VECTB) - ORIGIN(VECTA);
+cm4OffsetInRam = ORIGIN(SRAM0B) - ORIGIN(SRAM0A);

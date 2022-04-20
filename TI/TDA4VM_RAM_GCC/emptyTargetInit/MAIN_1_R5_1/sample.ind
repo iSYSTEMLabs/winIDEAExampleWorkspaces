@@ -1,0 +1,70 @@
+INPUT(&&)
+
+INCLUDE ../common.ind
+
+_stack_size_usr = 0x400;
+_stack_size_svc = 0x400;
+_stack_size_abt = 0x400;
+_stack_size_und = 0x400;
+_stack_size_irq = 0x400;
+_stack_size_fiq = 0x400;
+
+_estack_sys = (ORIGIN(RAM_MAIN_1_R5_1) + LENGTH(RAM_MAIN_1_R5_1) - 4) & 0xFFFFFFFC;
+_estack_usr = _estack_sys - 0x800;
+_estack_svc = _estack_usr - _stack_size_usr;
+_estack_abt = _estack_svc - _stack_size_svc;
+_estack_und = _estack_abt - _stack_size_abt;
+_estack_irq = _estack_und - _stack_size_und;
+_estack_fiq = _estack_irq - _stack_size_irq;
+
+SECTIONS
+{
+  .main_1_r5_1_boot_vectors :
+  {
+    *(.main_1_r5_1_boot_vectors*)
+  } > MAIN_1_R5_1_BOOT
+
+  .text :
+  {
+    . = ALIGN(4);
+    *(.text)
+    *(.text*)
+    *(.rodata)
+    *(.rodata*)
+    *(.glue_7) *(.glue_7t)
+    *(.eh*)
+    . = ALIGN(4);
+  } >RAM_MAIN_1_R5_1
+  
+  .exh :
+  {
+    *(.ARM.exidx*)
+    . = ALIGN(4);
+    _etext = .;
+  } >RAM_MAIN_1_R5_1
+  
+  .data :
+  {
+      _sdata = .;
+      *(vtable)
+      *(.data*)
+      . = ALIGN(4);
+      _edata = .;
+  } > RAM_MAIN_1_R5_1 AT> RAM_MAIN_1_R5_1
+
+  .bss :
+  {
+      _sbss = .;
+      *(.bss*)
+      *(COMMON)
+      . = ALIGN(4);
+      _ebss = .;
+      __bss_end__ = _ebss;
+  } > RAM_MAIN_1_R5_1
+  
+  PROVIDE ( end = _ebss );
+  PROVIDE ( _end = _ebss );
+}
+
+ROM_USAGE = 100 * (SIZEOF(.text) + SIZEOF(.data)) / LENGTH(RAM_MAIN_1_R5_1);
+RAM_USAGE = 100 * (SIZEOF(.data) + SIZEOF(.bss))  / LENGTH(RAM_MAIN_1_R5_1);

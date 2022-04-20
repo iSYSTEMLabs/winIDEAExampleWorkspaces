@@ -1,0 +1,46 @@
+INPUT(& &)
+ENTRY(Vector)
+
+MEMORY
+{
+    ROM_VECT (rwx)  : ORIGIN = 0xE6302000, LENGTH = 64
+    ROM_CODE (rwx)  : ORIGIN = 0xE6302040, LENGTH = 64K
+    RAM (rwx)       : ORIGIN = 0xE6320000, LENGTH = 64K
+}
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+    .vectors :
+    {
+        *(.text.isr_vectors*) 
+    } > ROM_VECT
+    
+    .text :
+    {
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > ROM_CODE
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > RAM
+}
+
+

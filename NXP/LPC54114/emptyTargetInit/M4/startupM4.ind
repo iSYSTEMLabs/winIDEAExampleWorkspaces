@@ -1,0 +1,52 @@
+INPUT(& &)
+ENTRY(ResetISR)
+
+INCLUDE common.ind
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECTA
+    
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)    
+        *(.eh*)
+        . = ALIGN(4);
+        _exid_data = .;
+    } > FLASHA
+    
+    .ARM.exidx : AT (_exid_data)
+    {
+        . = ALIGN(4);
+        *(.ARM.exidx*)
+        *(.gnu.linkonce.armexidx.*)
+        . = ALIGN(4);
+        _etext = .;
+    } > FLASHA
+    
+    .data : AT (_etext)
+    {
+        . = ALIGN(4);
+        _data = .;
+        *(vtable)
+        *(.data*)
+        . = ALIGN(4);
+        _edata = .;
+    } > SRAM0A
+
+    .bss :
+    {
+        . = ALIGN(4);
+        _bss = .;
+        *(.bss*)                    
+        *(COMMON)
+        . = ALIGN(4);
+        _ebss = .;
+    } > SRAM0A
+}

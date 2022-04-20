@@ -1,0 +1,110 @@
+/* lcf file for MPC5516 main core (e200z1)*/
+
+MEMORY
+{
+    resetvector:        org = 0x00FC0000,   len = 0x00000020
+    init:               org = 0x00FC0020,   len = 0x00001FE0
+    exception_handlers: org = 0x00FC0C00,   len = 0x00002000
+    internal_flash:     org = 0x00FC1A00,   len = 0x00014000
+    load_flash:         org = 0x00FE5A00,   len = 0x00002000
+    internal_ram:       org = 0x40068000,   len = 0x00004000  
+    heap  :             org = 0x4006C000,   len = 0x2000 // Heap start location 
+    stack :             org = 0x4006F000,   len = 0x2000 // Start location for Stack 
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+FORCEACTIVE { "RCHW" "CPU2_Vector" "CFG_bits0" "CFG_bits1" "CPU0_Vector" "CPUC_Vector" "CPU1_Vector" }
+
+		
+SECTIONS
+{
+    .__bam_bootarea         LOAD (0x00FC0000)                 : {} > resetvector
+
+    .init                   LOAD (0x00FC0020)                 : {} > init
+    .init_vle (VLECODE)     LOAD (ADDR(.init)+SIZEOF(.init))  : {
+        *(.init)
+        *(.init_vle)
+     } > init
+
+    GROUP  : {
+        .isrvectbl         (VLECODE) ALIGN(0x1000) LOAD (0x00FC0C00)   : {}  
+        .xptn_vectors      (VLECODE) ALIGN(0x1000) LOAD (0x00FC0C00+SIZEOF(.isrvectbl))   : {}     
+    } > exception_handlers
+
+    GROUP  : {
+        .text_vle (VLECODE) LOAD (0x00FC1A00)   : {
+            *(.text)
+            *(.text_vle)
+        }
+        
+        .ctors           LOAD(ADDR(.text_vle)+SIZEOF(.text_vle))              : {}
+        .dtors           LOAD(ADDR(.ctors)+SIZEOF(.ctors))                    : {}
+        extab            LOAD(ADDR(.dtors)+SIZEOF(.dtors))                    : {}
+        extabindex       LOAD(ADDR(extab)+SIZEOF(extab))                      : {}
+        .rodata (CONST)  LOAD(ADDR(extabindex)+SIZEOF(extabindex))                    : {
+            *(.rdata)
+            *(.rodata)
+        }
+        
+    } > internal_flash
+    .sdata2          LOAD(ADDR(.rodata)+SIZEOF(.rodata))      : {} > internal_flash
+    .sbss2           LOAD(ADDR(.sdata2)+SIZEOF(.sdata2))      : {} > internal_flash
+    
+    .load_data : {  
+      __START_DATA = ADDR(load_flash);
+      __END_DATA   = __START_DATA + SIZEOF(.data);
+      __START_BSS =    __START_DATA + ADDR(.bss)    -ADDR(.data);
+      __END_BSS =      __START_DATA + ADDR(.bss)    -ADDR(.data)+SIZEOF(.bss);  
+      __START_SDATA =  __START_DATA + ADDR(.sdata)  -ADDR(.data); 
+      __END_SDATA =    __START_DATA + ADDR(.sdata)  -ADDR(.data)+SIZEOF(.sdata); 
+      __START_SBSS =   __START_DATA + ADDR(.sbss)   -ADDR(.data);                  
+      __END_SBSS =     __START_DATA + ADDR(.sbss)   -ADDR(.data)+SIZEOF(.sbss);      
+      __START_SDATA2 = __START_DATA + ADDR(.sdata2) -ADDR(.data);    
+      __END_SDATA2 =   __START_DATA + ADDR(.sdata2) -ADDR(.data)+SIZEOF(.sdata2);
+    } > load_flash    
+
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(0x10) : {}
+       .data   LOAD (__START_DATA)                    : {}
+       .bss    LOAD (__START_BSS)                     : {}
+       .sdata  LOAD (__START_SDATA)                   : {}
+       .sbss   LOAD (__START_SBSS)                    : {}
+    } > internal_ram
+    
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+_heap_addr  = ADDR(heap);
+_heap_end   = ADDR(heap)+SIZEOF(heap);
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+__ROM_DATA_ADDR     = __START_DATA; 
+__ROM_DATA_SIZE     = SIZEOF(.data);
+__RAM_DATA_ADDR     = ADDR(.data);
+
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__ROM_SDATA_ADDR    = __START_SDATA;
+__RAM_SDATA_ADDR    = ADDR(.sdata);
+ 
+__ROM_SDATA2_ADDR   = __START_SDATA2;
+__ROM_SDATA2_SIZE   = SIZEOF(.sdata2);
+
+__RAM_BSS_SIZE      = SIZEOF(.bss);
+__RAM_BSS_ADDR      = ADDR(.bss);         
+
+__SRAM_BASE_ADDR    = ADDR(internal_ram);
+__SRAM_SIZE         = 0x00004000;
+
+/* Interrupt Handler Parameters */
+__IVPR              = ADDR(.xptn_vectors);
+
+__SP_INIT           = _stack_addr;
+
+EXCEPTION_HANDLERS = ADDR(.xptn_vectors);

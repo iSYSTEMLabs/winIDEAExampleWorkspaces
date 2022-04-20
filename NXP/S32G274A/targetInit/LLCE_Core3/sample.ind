@@ -1,0 +1,53 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)        : ORIGIN = 0x00000000, LENGTH = 64
+	FLASH (rwx)       : ORIGIN = 0x00000040, LENGTH = 15320
+  RAM (rwx)         : ORIGIN = 0x00003C00, LENGTH = 1024
+}
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 8) & 0xFFFFFFF8;
+_VTOR   =  ORIGIN(VECT);      /* Must be aligned to 64 bits */
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECT
+    
+    .text_section :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        *(.vfp11_veneer)
+        *(.v4_bx)
+        *(.init)
+        *(.fini)
+        *(.iplt)
+        *(.rel.dyn)
+        _etext = .;
+    } > FLASH
+
+    .data : AT (_etext)
+    {
+        _data = .;
+        *(.data*)
+        _edata = .;
+    } > RAM
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > RAM
+}
+
+

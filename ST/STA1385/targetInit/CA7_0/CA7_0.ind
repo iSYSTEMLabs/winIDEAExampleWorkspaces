@@ -1,0 +1,42 @@
+OUTPUT_FORMAT("elf32-littlearm")
+OUTPUT_ARCH(arm)
+INPUT(& &)
+ENTRY(__reset_)
+
+INCLUDE common\common.ind
+
+_estack_svc = (ORIGIN(SRAM_A7_0_REMAP) + LENGTH(SRAM_A7_0_REMAP));
+_estack_irq = _estack_svc - 0x800;
+_estack_fiq = _estack_irq - 0x800;
+_estack_usr = _estack_fiq - 0x800; 
+
+SECTIONS
+{   
+    .text : AT(ORIGIN(SRAM_A7_0)) 
+    {
+        KEEP(*(.text.vect))
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh_frame)
+        _etext = .;
+    } > SRAM_A7_0_REMAP
+
+    .data : AT(ORIGIN(SRAM_A7_0) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > SRAM_A7_0_REMAP
+
+    .bss : AT(ORIGIN(SRAM_A7_0) + SIZEOF(.text) + SIZEOF(.data))
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > SRAM_A7_0_REMAP
+    
+}
+

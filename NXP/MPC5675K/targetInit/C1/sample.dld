@@ -1,0 +1,196 @@
+/* ----------------------------------------------------------------------
+ * File: conf/sample.dld
+ *
+ * This is a sample linker command file specifying how the object files
+ * in a build might be linked and located. Combined with the other
+ * linker command files provided with the compiler, it provides a base
+ * to build your own file for your particular system.
+ *
+ * This sample.dld file differs from default.dld in three primary ways:
+ *
+ *    - default.dld is used by default (see it for details); this file
+ *	must be specified explicitly to the linker.
+ *
+ *    - This file defines three memory areas: a nominal "rom" area, a "ram"
+ *	area, and a "stack" area. default.dld defines only one "ram" area.
+ *
+ *    - This file uses LOAD specifications to define two addresses for the
+ *	section containing initialized variables: 1) a "physical" address at
+ *	which the section will be placed in the image and, 2) a "logical"
+ *	address to which the section will be copied during startup.
+ *
+ * For a description of the different statements in this file, please
+ * refer to the D-LD section of the User's Guide.
+ * ------------------------------------------------------------------------ */
+                                                    
+
+/* The MEMORY command defines the different memory areas available using
+ * names intended to suggest their purpose:
+ *
+ *   "rom":	512KB ROM at address 0x0
+ *   "ram":	512KB RAM at address 0x100000
+ *		512KB Gap (unused)
+ *   "stack"	512KB RAM at address 0x180000
+ * ------------------------------------------------------------------------ */
+
+MEMORY
+{
+  rom(RX):	org = 0x00100000, len = 0x00100000
+	ram(RW):	org = 0x50000000, len = 0x01000
+	stack:  	org = 0x50002000, len = 0x02000
+}
+
+/* The SECTIONS command specifies where and how the linker should locate
+/* different modules of the system.
+ *
+ * This example will allocate according to the following map. Numbers in
+ * parentheses refer to "Notes" below.	On the right are the locations of
+ * the different identifiers that are used by some library routines to do
+ * memory initialization and allocation. They are defined further below.
+ *
+ *
+ * 0x400000:	+-------------------------------+ <- __SP_INIT
+ * "stack"	| Memory reserved for the stack |
+ *		| (all of the "stack")		|
+ * 0x300000:	+-------------------------------+ <- __SP_END (3)
+ *
+ *
+ *		+-------------------------------+ <- __HEAP_END (3)
+ *		| Memory reserved for the heap	|
+ *		| (all unused "ram")		|
+ *		+-------------------------------+ <- __BSS_END, __HEAP_START
+ *		| Uninitialized data		|
+ *		|				|
+ *		+-------------------------------+ <- __DATA_END, __BSS_START
+ *		| Memory reserved for		|
+ * "ram"	| initialized data		|
+ * 0x100000:	+-------------------------------+ <- __DATA_RAM
+ *		| (Unused portion of "rom")	|
+ *		|				|
+ *		+-------------------------------+
+ *		| ROM image of initialized data |
+ *		| (4)				|
+ *		+-------------------------------+ <- __DATA_ROM
+ *		| Program code (1, 2)		|
+ * "rom"	|				|
+ * 0x0:		+-------------------------------+
+ *
+ * Notes:
+ * (1)	"const" variables and strings will also be in the .text segment unless
+ *	option -Xconst-in-text=0 is used.
+ *
+ * (2)	If C++ code is to be linked then code calling the static constructors
+ *	and destructors will be placed in sections named .init and .fini
+ *	allocated after the program code.
+ *
+ * (3)	If __SP_END and __HEAP_END point to the same address (i.e., the "ram"
+ *	and "stack" memory areas are contiguous), then programs compiled with
+ *	-Xstack-probe or -Xrtc will allocate more stack from the top of the 
+ *	heap on stack overflow if possible (see __sp_grow() in sbrk.c).
+ *
+ * (4)	The "physical" copy of the section containing initialized variables
+ *	will be put here. See the comment following the definition of
+ *	__DATA_RAM below for more details.
+ * ------------------------------------------------------------------------ */
+
+SECTIONS
+{
+	/* Some sections below are used only by certain targets supported by
+	 * Diab Data, or only for certain options. If not used by your
+	 * target, they will be ignored.
+	 *
+	 * Section names beginning with ".j_" are for the Diab Data FastJ
+	 * compiler for the Java language.
+	 *
+	 * The first GROUP contains code and constant data, and is
+	 * allocated in the "rom" area.
+	 */
+
+	GROUP : {
+		/* First take all code from all objects and libraries.	    */
+		.text (TEXT)	: {
+      crt0.o(.text)
+			*(.text)
+			*(.rodata)
+			*(.init)
+			*(.fini)
+		}
+
+		.sdata2 (TEXT)	: {}   /* small CONST area for some targets */
+
+		__DATA_ROM	= .;
+	} > rom
+
+	/* The second GROUP allocates space for the initialized data and
+	 * uninitialized data in the "ram" section.
+	 *
+	 * Initialized data is actually put at the end of the .text section
+	 * with the LOAD command. The function __init_main() moves the
+	 * initialized data from ROM to RAM using the symbols __DATA_ROM,
+	 * __DATA_RAM, and __DATA_END.
+	 */
+
+	GROUP : {
+		__DATA_RAM	= .;
+
+		/* With the LOAD specification, the next command will
+		 * reserve space for the .data section at the beginning of
+		 * "ram" (the "logical" address), but actually place the
+		 * data in the image at the end of the .text section as
+		 * defined by __DATA_ROM in the GROUP above (the "physical"
+		 * address).
+		 */
+
+		.data (DATA) LOAD(__DATA_ROM) : { *(.data) }
+
+		/* .sdata is the "small data area" for some targets.	    */
+
+		.sdata (DATA) LOAD(ADDR(.sdata) - ADDR(.data) + __DATA_ROM)
+				: { *(.sdata) }
+		__DATA_END	= .;
+
+		/* Allocate uninitialized sections.			    */
+
+		__BSS_START	= .;
+		.sbss (BSS)	: {}
+		.bss  (BSS)	: {}
+		__BSS_END	= .;
+
+  	.ctors ALIGN(4):{ ctordtor.o(.ctors) *(.ctors) }
+  	.dtors ALIGN(4):{ ctordtor.o(.dtors) *(.dtors) }
+		/* Any remaining space will be used as a heap.		    */
+
+		__HEAP_START	= .;
+	} > ram
+}
+
+__SP_INIT	= ADDR(stack)+SIZEOF(stack);
+__SP_END	= ADDR(stack);
+__HEAP_END	= ADDR(ram)+SIZEOF(ram);
+
+/* Definitions of identifiers used by sbrk.c, init.c and the different
+ * crt0.s files. Their purpose is to control initialization and memory
+ * memory allocation.
+ *
+ * __HEAP_START : Used by sbrk.c. Start of memory used by malloc() etc.
+ * __HEAP_END	: Used by sbrk.c. End of heap memory
+ * __SP_INIT	: Used by crt0.s. Initial address of stack pointer
+ * __SP_END	: Used by sbrk.c. Only used when stack probing
+ * __DATA_ROM	: Used by init.c. Address of initialized data in ROM
+ * __DATA_RAM	: Used by init.c. Address of initialized data in RAM
+ * __DATA_END	: Used by init.c. End of allocated initialized data
+ * __BSS_START	: Used by init.c. Start of uninitialized data
+ * __BSS_END	: Used by init.c. End of data to be cleared
+ * ------------------------------------------------------------------------ */
+
+/* Some targets use an extra underscore in front of identifiers
+ * ------------------------------------------------------------------------ */
+___HEAP_START	= __HEAP_START;
+___HEAP_END	= __HEAP_END;
+___SP_INIT	= __SP_INIT;
+___SP_END	= __SP_END;
+___DATA_ROM	= __DATA_ROM;
+___DATA_RAM	= __DATA_RAM;
+___DATA_END	= __DATA_END;
+___BSS_START	= __BSS_START;
+___BSS_END	= __BSS_END;

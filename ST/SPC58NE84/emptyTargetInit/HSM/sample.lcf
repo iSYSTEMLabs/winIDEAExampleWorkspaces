@@ -1,0 +1,62 @@
+/* lcf file for MPC5516 second core (e200z0) */
+
+ 
+
+MEMORY
+{       
+    init:               org = 0x01040000,   len = 0x00001000
+    internal_flash:     org = 0x01042000,   len = 0x0000E000
+    internal_ram:       org = 0xA0004000,   len = 0x00002000  
+    heap  :             org = 0xA0006000,   len = 0x1000 /* Heap start location */
+    stack :             org = 0xA0007000,   len = 0x1000 /* Start location for Stack */
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+		
+SECTIONS
+{   
+    .init LOAD(0x01040000) : {} > init
+    .init_vle (VLECODE) LOAD (ADDR(.init)+SIZEOF(.init)): {
+        *(.init)
+        *(.init_vle)
+     } > init
+    
+    GROUP  : {
+      .text : {} 
+      .text_vle (VLECODE) ALIGN(0x08): {
+         *(.text)
+         *(.text_vle)
+       }
+       .rodata (CONST) : {
+         *(.rdata)
+         *(.rodata)
+       }
+       .ctors : {}
+       .dtors : {}
+       extab : {}
+       extabindex : {}
+    } > internal_flash
+
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(0x10) : {}
+       .data   : {}
+       .sdata  : {}
+       .sbss   : {}
+       .sdata2 : {}
+       .sbss2  : {}
+       .bss    : {}
+    } > internal_ram
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+_heap_addr  = ADDR(heap);
+_heap_end   = ADDR(heap)+SIZEOF(heap);
+
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__ROM_SDATA_ADDR    = ROMADDR(.sdata);
+__RAM_SDATA_ADDR    = ADDR(.sdata);

@@ -1,0 +1,67 @@
+/* lcf file for MPC5516 main core (e200z1)*/
+
+MEMORY
+{
+  INSTR_RAM_RST_VECT:     org = 0x01000000,   len = 0x00000020
+  INSTR_RAM_INIT:         org = 0x01000020,   len = 0x00000BE0
+  INSTR_RAM_EXC_HANDLERS: org = 0x01000C00,   len = 0x00000E00
+  INSTR_RAM_CODE:         org = 0x01001A00,   len = 0x0000C600
+  DATA_RAM:               org = 0x40000000,   len = 0x00002000  
+  DATA_RAM_HEAP:          org = 0x40002000,   len = 0x1000 /* Heap start location */
+  DATA_RAM_STACK:         org = 0x40003000,   len = 0x1000 /* Start location for Stack */
+}
+
+__RAM_START_ADDR = ADDR(DATA_RAM);
+__RAM_END_ADDR = ADDR(DATA_RAM_STACK) + SIZEOF(DATA_RAM_STACK);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+FORCEACTIVE { "RCHW" "CPU2_Vector" "CFG_bits0" "CFG_bits1" "CPU0_Vector" "CPUC_Vector" "CPU1_Vector" "TimerInterruptHandler" }
+
+SECTIONS
+{
+  .__bam_bootarea LOAD (0x01000000): {} > INSTR_RAM_RST_VECT
+
+  .init  LOAD (0x01000020): {} > INSTR_RAM_INIT
+  .init_vle (VLECODE) LOAD (ADDR(.init)+SIZEOF(.init)): {
+    *(.init)
+    *(.init_vle)
+  } > INSTR_RAM_INIT
+
+  .__exception_handlers  LOAD (0x01000C00): {} > INSTR_RAM_EXC_HANDLERS 
+
+  GROUP  : {
+    .text : {} 
+    .text_vle (VLECODE) ALIGN(0x08): {
+      *(.text)
+      *(.text_vle)
+    }
+    .rodata (CONST) : {
+      *(.rdata)
+      *(.rodata)
+    }
+    .ctors : {}
+    .dtors : {}
+    extab : {}
+    extabindex : {}
+  } > INSTR_RAM_CODE
+  
+  GROUP : {
+    .__uninitialized_intc_handlertable ALIGN(0x10)  : {}
+    .data                                           : {}
+    .sdata                                          : {}
+    _bss_start = .;
+    .sbss                                           : {}
+    .bss                                            : {}
+    _bss_end   = .;
+    .sdata2                                         : {}
+  } > DATA_RAM
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(DATA_RAM_STACK)+SIZEOF(DATA_RAM_STACK);
+_stack_end  = ADDR(DATA_RAM_STACK);
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+EXCEPTION_HANDLERS = ADDR(INSTR_RAM_EXC_HANDLERS);

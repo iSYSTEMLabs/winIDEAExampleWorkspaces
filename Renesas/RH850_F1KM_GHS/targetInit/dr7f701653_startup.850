@@ -1,0 +1,2835 @@
+-------------------------------------------------------------------------------
+-- Module      = dr7f701653_startup.850
+-- Version     = V1.10
+--               extracted from device file dr7f701653.dvf 
+--               by DeFiXRH850 1.0.1.4
+-------------------------------------------------------------------------------
+--                                  COPYRIGHT
+-------------------------------------------------------------------------------
+-- Copyright (c) 2018 by Renesas Electronics Europe GmbH,
+--               a company of the Renesas Electronics Corporation
+-------------------------------------------------------------------------------
+-- Purpose:      Startup Code
+--
+-------------------------------------------------------------------------------
+--
+-- Warranty Disclaimer
+--
+-- Because the Product(s) is licensed free of charge, there is no warranty
+-- of any kind whatsoever and expressly disclaimed and excluded by Renesas,
+-- either expressed or implied, including but not limited to those for
+-- non-infringement of intellectual property, merchantability and/or
+-- fitness for the particular purpose.
+-- Renesas shall not have any obligation to maintain, service or provide bug
+-- fixes for the supplied Product(s) and/or the Application.
+--
+-- Each User is solely responsible for determining the appropriateness of
+-- using the Product(s) and assumes all risks associated with its exercise
+-- of rights under this Agreement, including, but not limited to the risks
+-- and costs of program errors, compliance with applicable laws, damage to
+-- or loss of data, programs or equipment, and unavailability or
+-- interruption of operations.
+--
+-- Limitation of Liability
+--
+-- In no event shall Renesas be liable to the User for any incidental,
+-- consequential, indirect, or punitive damage (including but not limited
+-- to lost profits) regardless of whether such liability is based on breach
+-- of contract, tort, strict liability, breach of warranties, failure of
+-- essential purpose or otherwise and even if advised of the possibility of
+-- such damages. Renesas shall not be liable for any services or products
+-- provided by third party vendors, developers or consultants identified or
+-- referred to the User by Renesas in connection with the Product(s) and/or
+-- the Application.
+--
+-------------------------------------------------------------------------------
+-- Environment:
+--              Device:         R7F701653   
+--              IDE:            GHS Multi for V800  V6.xx or later
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-------------  Selection of external interrupt service handler
+-------------  User modifiable section
+-------------  Please uncomment the required interrupt service handler
+-------------------------------------------------------------------------------
+#include <dr7f701653_IRQ.h>
+
+-------------------------------------------------------------------------------
+-------------  Basic Initialisation of the controller
+-------------  User modifiable section
+-------------------------------------------------------------------------------
+  .weak	___lowinit
+  .weak	___ghs_rramstart
+  .set   EBV, 0x8000
+  .text
+_RESET:
+  -- Initialization of the global pointer
+  mov     __gp, gp
+
+  -- Initialization of the text pointer
+  mov     __tp, r5
+
+  -- Initialization of the stack pointer
+  movhi	hi(___ghsend_stack),zero,sp
+  movea	lo(___ghsend_stack),sp,sp
+
+  -- 4-byte stack alignment
+  mov -4,r1
+  and r1,sp
+
+  -- Initialization of the interrupt base pointer
+  mov __ex_entry + IRQ_TABLE_START,r1
+  ldsr r1,intbp,1
+
+  -- First set EBASE register address
+  mov __ex_entry, r10
+  -- set 0x0 or 0x1 to EBASE.RINT for reduced interrupt 
+  -- ori  1, r10
+  ldsr r10, EBASE, 1
+  -- then set 1 to PSW.EBV -> RBASE!=EBASE
+  stsr PSW, r10, 0
+  mov  EBV, r11
+  or   r11, r10
+  ldsr r10, PSW, 0
+
+  -- Jump to the HW initialisation function
+  jarl	___lowinit, lp
+
+  -- Clear local RAM
+  -- destroys any content in local RAM/ECC initialization
+  -- Also SP is cleared.
+  mov   ___ghs_ramstart, r6   -- start of local RAM
+  mov   ___ghs_rramstart, r7  -- start of retention RAM
+  cmp   r7, r6                -- is only retention RAM available?
+  be    5f                    -- skip initialization of RAM
+
+  mov   ___ghs_ramend, r7     -- load end of local RAM
+  mov   r0, r1
+1:
+  st.dw r0, 0[r6]
+  addi  8, r6, r6
+  cmp   r7, r6
+  bl    1b
+5:
+
+  -- Jump to the initialisation functions of the library
+  -- and from there to main()
+  jr __start
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-------------  Interrupt service routine of unused interrupts
+  .global  __unused_isr
+__unused_isr:
+  br	__unused_isr
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-------------  Add section ".intvect" to your linker command file
+-------------  at address 0x0000
+-------------
+-------------	i.e.	.intvect    0x0000:
+-------------------------------------------------------------------------------
+.section".intvect",.text
+
+-------------------------------------------------------------------------------
+-------------  Initializing of interrupt vector table
+-------------  Please don't modify this section
+-------------------------------------------------------------------------------
+
+  .global _RESET
+__ex_entry:
+    .offset 0x0000
+  #if (RESET_ENABLE > 0x00000000)
+    .extern _RESET
+    jr _RESET
+  #else
+    jr __unused_isr
+  #endif
+
+#ifdef __OS_HANDLES__      
+
+/* OS interrupt code can be added here */
+
+#else /* __OS_HANDLES__ */ 
+
+__isr_prio_entry:
+    .offset 0x0010
+  #if (SYSERR_ENABLE > 0x00000000)
+    .extern _SYSERR
+    jr _SYSERR
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0030
+  #if (FETRAPEX_ENABLE > 0x00000000)
+    .extern _FETRAPEX
+    jr _FETRAPEX
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0040
+  #if (EITRAP0_ENABLE > 0x00000000)
+    .extern _EITRAP0
+    jr _EITRAP0
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0050
+  #if (EITRAP1_ENABLE > 0x00000000)
+    .extern _EITRAP1
+    jr _EITRAP1
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0060
+  #if (RIEX_ENABLE > 0x00000000)
+    .extern _RIEX
+    jr _RIEX
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0080
+  #if (UCPOP_ENABLE > 0x00000000)
+    .extern _UCPOP
+    jr _UCPOP
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0090
+  #if (MIP_MDP_ENABLE > 0x00000000)
+    .extern _MIP_MDP
+    jr _MIP_MDP
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x00a0
+  #if (PIE_ENABLE > 0x00000000)
+    .extern _PIE
+    jr _PIE
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x00c0
+  #if (MAE_MAEX_ENABLE > 0x00000000)
+    .extern _MAE_MAEX
+    jr _MAE_MAEX
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x00e0
+  #if (FENMI_ENABLE > 0x00000000)
+    .extern _FENMI
+    jr _FENMI
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x00f0
+  #if (FEINT_ENABLE > 0x00000000)
+    .extern _FEINT
+    jr _FEINT
+  #else
+    jr __unused_isr
+  #endif
+
+    --.global _TimerInterruptHandler
+    .offset 0x0100
+  #if (EINTPRIO_0_ENABLE > 0x00000000)
+    .extern _EINTPRIO_0
+    jr _TimerInterruptHandler
+  #else
+    jr _TimerInterruptHandler
+  #endif
+
+    .offset 0x0110
+  #if (EINTPRIO_1_ENABLE > 0x00000000)
+    .extern _EINTPRIO_1
+    jr _EINTPRIO_1
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0120
+  #if (EINTPRIO_2_ENABLE > 0x00000000)
+    .extern _EINTPRIO_2
+    jr _EINTPRIO_2
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0130
+  #if (EINTPRIO_3_ENABLE > 0x00000000)
+    .extern _EINTPRIO_3
+    jr _EINTPRIO_3
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0140
+  #if (EINTPRIO_4_ENABLE > 0x00000000)
+    .extern _EINTPRIO_4
+    jr _EINTPRIO_4
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0150
+  #if (EINTPRIO_5_ENABLE > 0x00000000)
+    .extern _EINTPRIO_5
+    jr _EINTPRIO_5
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0160
+  #if (EINTPRIO_6_ENABLE > 0x00000000)
+    .extern _EINTPRIO_6
+    jr _EINTPRIO_6
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0170
+  #if (EINTPRIO_7_ENABLE > 0x00000000)
+    .extern _EINTPRIO_7
+    jr _EINTPRIO_7
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0180
+  #if (EINTPRIO_8_ENABLE > 0x00000000)
+    .extern _EINTPRIO_8
+    jr _EINTPRIO_8
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x0190
+  #if (EINTPRIO_9_ENABLE > 0x00000000)
+    .extern _EINTPRIO_9
+    jr _EINTPRIO_9
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x01a0
+  #if (EINTPRIO_10_ENABLE > 0x00000000)
+    .extern _EINTPRIO_10
+    jr _EINTPRIO_10
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x01b0
+  #if (EINTPRIO_11_ENABLE > 0x00000000)
+    .extern _EINTPRIO_11
+    jr _EINTPRIO_11
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x01c0
+  #if (EINTPRIO_12_ENABLE > 0x00000000)
+    .extern _EINTPRIO_12
+    jr _EINTPRIO_12
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x01d0
+  #if (EINTPRIO_13_ENABLE > 0x00000000)
+    .extern _EINTPRIO_13
+    jr _EINTPRIO_13
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x01e0
+  #if (EINTPRIO_14_ENABLE > 0x00000000)
+    .extern _EINTPRIO_14
+    jr _EINTPRIO_14
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset 0x01f0
+  #if (EINTPRIO_15_ENABLE > 0x00000000)
+    .extern _EINTPRIO_15
+    jr _EINTPRIO_15
+  #else
+    jr __unused_isr
+  #endif
+
+    .offset (IRQ_TABLE_START)
+_irq_table_start:
+--    .offset (IRQ_TABLE_START+0x0018)
+  #if (INTICUPS_ENABLE > 0x00000000)
+    .extern _INTICUPS
+    .word _INTICUPS
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x001c)
+  #if (INTICUP_ENABLE > 0x00000000)
+    .extern _INTICUP
+    .word _INTICUP
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I0_ENABLE > 0x00000000)
+    .extern _INTTAUD0I0
+    .word _INTTAUD0I0
+  #endif
+  #if (INTCSIH2IC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH2IC_1
+    .word _INTCSIH2IC_1
+  #endif
+  #if (  (INTTAUD0I0_ENABLE == 0x00000000)  &&  (INTCSIH2IC_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I2
+    .word _INTTAUD0I2
+  #endif
+  #if (INTCSIH3IC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH3IC_1
+    .word _INTCSIH3IC_1
+  #endif
+  #if (  (INTTAUD0I2_ENABLE == 0x00000000)  &&  (INTCSIH3IC_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH2IR_1_ENABLE > 0x00000000)
+    .extern _INTCSIH2IR_1
+    .word _INTCSIH2IR_1
+  #endif
+  #if (INTTAUD0I4_ENABLE > 0x00000000)
+    .extern _INTTAUD0I4
+    .word _INTTAUD0I4
+  #endif
+  #if (  (INTCSIH2IR_1_ENABLE == 0x00000000)  &&  (INTTAUD0I4_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH2IRE_1_ENABLE > 0x00000000)
+    .extern _INTCSIH2IRE_1
+    .word _INTCSIH2IRE_1
+  #endif
+  #if (INTTAUD0I6_ENABLE > 0x00000000)
+    .extern _INTTAUD0I6
+    .word _INTTAUD0I6
+  #endif
+  #if (  (INTCSIH2IRE_1_ENABLE == 0x00000000)  &&  (INTTAUD0I6_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH2IJC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH2IJC_1
+    .word _INTCSIH2IJC_1
+  #endif
+  #if (INTTAUD0I8_ENABLE > 0x00000000)
+    .extern _INTTAUD0I8
+    .word _INTTAUD0I8
+  #endif
+  #if (  (INTCSIH2IJC_1_ENABLE == 0x00000000)  &&  (INTTAUD0I8_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH3IR_1_ENABLE > 0x00000000)
+    .extern _INTCSIH3IR_1
+    .word _INTCSIH3IR_1
+  #endif
+  #if (INTTAUD0I10_ENABLE > 0x00000000)
+    .extern _INTTAUD0I10
+    .word _INTTAUD0I10
+  #endif
+  #if (  (INTCSIH3IR_1_ENABLE == 0x00000000)  &&  (INTTAUD0I10_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I12_ENABLE > 0x00000000)
+    .extern _INTTAUD0I12
+    .word _INTTAUD0I12
+  #endif
+  #if (INTCSIH3IRE_1_ENABLE > 0x00000000)
+    .extern _INTCSIH3IRE_1
+    .word _INTCSIH3IRE_1
+  #endif
+  #if (  (INTTAUD0I12_ENABLE == 0x00000000)  &&  (INTCSIH3IRE_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH3IJC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH3IJC_1
+    .word _INTCSIH3IJC_1
+  #endif
+  #if (INTTAUD0I14_ENABLE > 0x00000000)
+    .extern _INTTAUD0I14
+    .word _INTTAUD0I14
+  #endif
+  #if (  (INTCSIH3IJC_1_ENABLE == 0x00000000)  &&  (INTTAUD0I14_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAPA0IPEK0_ENABLE > 0x00000000)
+    .extern _INTTAPA0IPEK0
+    .word _INTTAPA0IPEK0
+  #endif
+  #if (INTCSIH1IC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH1IC_1
+    .word _INTCSIH1IC_1
+  #endif
+  #if (  (INTTAPA0IPEK0_ENABLE == 0x00000000)  &&  (INTCSIH1IC_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAPA0IVLY0_ENABLE > 0x00000000)
+    .extern _INTTAPA0IVLY0
+    .word _INTTAPA0IVLY0
+  #endif
+  #if (INTCSIH1IR_1_ENABLE > 0x00000000)
+    .extern _INTCSIH1IR_1
+    .word _INTCSIH1IR_1
+  #endif
+  #if (  (INTTAPA0IVLY0_ENABLE == 0x00000000)  &&  (INTCSIH1IR_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0048)
+  #if (INTADCA0I0_ENABLE > 0x00000000)
+    .extern _INTADCA0I0
+    .word _INTADCA0I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x004c)
+  #if (INTADCA0I1_ENABLE > 0x00000000)
+    .extern _INTADCA0I1
+    .word _INTADCA0I1
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTADCA0I2_ENABLE > 0x00000000)
+    .extern _INTADCA0I2
+    .word _INTADCA0I2
+  #endif
+  #if (INTCSIH0IJC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH0IJC_1
+    .word _INTCSIH0IJC_1
+  #endif
+  #if (  (INTADCA0I2_ENABLE == 0x00000000)  &&  (INTCSIH0IJC_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0054)
+  #if (INTDCUTDI_ENABLE > 0x00000000)
+    .extern _INTDCUTDI
+    .word _INTDCUTDI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0058)
+  #if (INTRCANGERR0_ENABLE > 0x00000000)
+    .extern _INTRCANGERR0
+    .word _INTRCANGERR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x005c)
+  #if (INTRCANGRECC0_ENABLE > 0x00000000)
+    .extern _INTRCANGRECC0
+    .word _INTRCANGRECC0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0060)
+  #if (INTRCAN0ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN0ERR
+    .word _INTRCAN0ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0064)
+  #if (INTRCAN0REC_ENABLE > 0x00000000)
+    .extern _INTRCAN0REC
+    .word _INTRCAN0REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0068)
+  #if (INTRCAN0TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN0TRX
+    .word _INTRCAN0TRX
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH1IRE_1_ENABLE > 0x00000000)
+    .extern _INTCSIH1IRE_1
+    .word _INTCSIH1IRE_1
+  #endif
+  #if (INTCSIG0IC_ENABLE > 0x00000000)
+    .extern _INTCSIG0IC
+    .word _INTCSIG0IC
+  #endif
+  #if (  (INTCSIH1IRE_1_ENABLE == 0x00000000)  &&  (INTCSIG0IC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIG0IR_ENABLE > 0x00000000)
+    .extern _INTCSIG0IR
+    .word _INTCSIG0IR
+  #endif
+  #if (INTCSIH1IJC_1_ENABLE > 0x00000000)
+    .extern _INTCSIH1IJC_1
+    .word _INTCSIH1IJC_1
+  #endif
+  #if (  (INTCSIG0IR_ENABLE == 0x00000000)  &&  (INTCSIH1IJC_1_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0074)
+  #if (INTCSIH0IC_ENABLE > 0x00000000)
+    .extern _INTCSIH0IC
+    .word _INTCSIH0IC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0078)
+  #if (INTCSIH0IR_ENABLE > 0x00000000)
+    .extern _INTCSIH0IR
+    .word _INTCSIH0IR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x007c)
+  #if (INTCSIH0IRE_ENABLE > 0x00000000)
+    .extern _INTCSIH0IRE
+    .word _INTCSIH0IRE
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTADCA0I2_2_ENABLE > 0x00000000)
+    .extern _INTADCA0I2_2
+    .word _INTADCA0I2_2
+  #endif
+  #if (INTCSIH0IJC_ENABLE > 0x00000000)
+    .extern _INTCSIH0IJC
+    .word _INTCSIH0IJC
+  #endif
+  #if (  (INTADCA0I2_2_ENABLE == 0x00000000)  &&  (INTCSIH0IJC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0084)
+  #if (INTRLIN30_ENABLE > 0x00000000)
+    .extern _INTRLIN30
+    .word _INTRLIN30
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0088)
+  #if (INTRLIN30UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN30UR0
+    .word _INTRLIN30UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x008c)
+  #if (INTRLIN30UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN30UR1
+    .word _INTRLIN30UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0090)
+  #if (INTRLIN30UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN30UR2
+    .word _INTRLIN30UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0094)
+  #if (INTP0_ENABLE > 0x00000000)
+    .extern _INTP0
+    .word _INTP0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0098)
+  #if (INTP1_ENABLE > 0x00000000)
+    .extern _INTP1
+    .word _INTP1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x009c)
+  #if (INTP2_ENABLE > 0x00000000)
+    .extern _INTP2
+    .word _INTP2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00a0)
+  #if (INTWDTA0_ENABLE > 0x00000000)
+    .extern _INTWDTA0
+    .word _INTWDTA0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00a4)
+  #if (INTWDTA1_ENABLE > 0x00000000)
+    .extern _INTWDTA1
+    .word _INTWDTA1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00ac)
+  #if (INTP3_ENABLE > 0x00000000)
+    .extern _INTP3
+    .word _INTP3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00b0)
+  #if (INTP4_ENABLE > 0x00000000)
+    .extern _INTP4
+    .word _INTP4
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00b4)
+  #if (INTP5_ENABLE > 0x00000000)
+    .extern _INTP5
+    .word _INTP5
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00b8)
+  #if (INTP10_ENABLE > 0x00000000)
+    .extern _INTP10
+    .word _INTP10
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00bc)
+  #if (INTP11_ENABLE > 0x00000000)
+    .extern _INTP11
+    .word _INTP11
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00c0)
+  #if (INTTAUD0I1_ENABLE > 0x00000000)
+    .extern _INTTAUD0I1
+    .word _INTTAUD0I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00c4)
+  #if (INTTAUD0I3_ENABLE > 0x00000000)
+    .extern _INTTAUD0I3
+    .word _INTTAUD0I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00c8)
+  #if (INTTAUD0I5_ENABLE > 0x00000000)
+    .extern _INTTAUD0I5
+    .word _INTTAUD0I5
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00cc)
+  #if (INTTAUD0I7_ENABLE > 0x00000000)
+    .extern _INTTAUD0I7
+    .word _INTTAUD0I7
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00d0)
+  #if (INTTAUD0I9_ENABLE > 0x00000000)
+    .extern _INTTAUD0I9
+    .word _INTTAUD0I9
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00d4)
+  #if (INTTAUD0I11_ENABLE > 0x00000000)
+    .extern _INTTAUD0I11
+    .word _INTTAUD0I11
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00d8)
+  #if (INTTAUD0I13_ENABLE > 0x00000000)
+    .extern _INTTAUD0I13
+    .word _INTTAUD0I13
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00dc)
+  #if (INTTAUD0I15_ENABLE > 0x00000000)
+    .extern _INTTAUD0I15
+    .word _INTTAUD0I15
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00e0)
+  #if (INTADCA0ERR_ENABLE > 0x00000000)
+    .extern _INTADCA0ERR
+    .word _INTADCA0ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00e4)
+  #if (INTCSIG0IRE_ENABLE > 0x00000000)
+    .extern _INTCSIG0IRE
+    .word _INTCSIG0IRE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00e8)
+  #if (INTRLIN20_ENABLE > 0x00000000)
+    .extern _INTRLIN20
+    .word _INTRLIN20
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00ec)
+  #if (INTRLIN21_ENABLE > 0x00000000)
+    .extern _INTRLIN21
+    .word _INTRLIN21
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00f0)
+  #if (INTDMA0_ENABLE > 0x00000000)
+    .extern _INTDMA0
+    .word _INTDMA0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00f4)
+  #if (INTDMA1_ENABLE > 0x00000000)
+    .extern _INTDMA1
+    .word _INTDMA1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00f8)
+  #if (INTDMA2_ENABLE > 0x00000000)
+    .extern _INTDMA2
+    .word _INTDMA2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x00fc)
+  #if (INTDMA3_ENABLE > 0x00000000)
+    .extern _INTDMA3
+    .word _INTDMA3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0100)
+  #if (INTDMA4_ENABLE > 0x00000000)
+    .extern _INTDMA4
+    .word _INTDMA4
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0104)
+  #if (INTDMA5_ENABLE > 0x00000000)
+    .extern _INTDMA5
+    .word _INTDMA5
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0108)
+  #if (INTDMA6_ENABLE > 0x00000000)
+    .extern _INTDMA6
+    .word _INTDMA6
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x010c)
+  #if (INTDMA7_ENABLE > 0x00000000)
+    .extern _INTDMA7
+    .word _INTDMA7
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0110)
+  #if (INTDMA8_ENABLE > 0x00000000)
+    .extern _INTDMA8
+    .word _INTDMA8
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0114)
+  #if (INTDMA9_ENABLE > 0x00000000)
+    .extern _INTDMA9
+    .word _INTDMA9
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0118)
+  #if (INTDMA10_ENABLE > 0x00000000)
+    .extern _INTDMA10
+    .word _INTDMA10
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x011c)
+  #if (INTDMA11_ENABLE > 0x00000000)
+    .extern _INTDMA11
+    .word _INTDMA11
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0120)
+  #if (INTDMA12_ENABLE > 0x00000000)
+    .extern _INTDMA12
+    .word _INTDMA12
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0124)
+  #if (INTDMA13_ENABLE > 0x00000000)
+    .extern _INTDMA13
+    .word _INTDMA13
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0128)
+  #if (INTDMA14_ENABLE > 0x00000000)
+    .extern _INTDMA14
+    .word _INTDMA14
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x012c)
+  #if (INTDMA15_ENABLE > 0x00000000)
+    .extern _INTDMA15
+    .word _INTDMA15
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0130)
+  #if (INTRIIC0TI_ENABLE > 0x00000000)
+    .extern _INTRIIC0TI
+    .word _INTRIIC0TI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0134)
+  #if (INTRIIC0EE_ENABLE > 0x00000000)
+    .extern _INTRIIC0EE
+    .word _INTRIIC0EE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0138)
+  #if (INTRIIC0RI_ENABLE > 0x00000000)
+    .extern _INTRIIC0RI
+    .word _INTRIIC0RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x013c)
+  #if (INTRIIC0TEI_ENABLE > 0x00000000)
+    .extern _INTRIIC0TEI
+    .word _INTRIIC0TEI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0140)
+  #if (INTTAUJ0I0_ENABLE > 0x00000000)
+    .extern _INTTAUJ0I0
+    .word _INTTAUJ0I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0144)
+  #if (INTTAUJ0I1_ENABLE > 0x00000000)
+    .extern _INTTAUJ0I1
+    .word _INTTAUJ0I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0148)
+  #if (INTTAUJ0I2_ENABLE > 0x00000000)
+    .extern _INTTAUJ0I2
+    .word _INTTAUJ0I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x014c)
+  #if (INTTAUJ0I3_ENABLE > 0x00000000)
+    .extern _INTTAUJ0I3
+    .word _INTTAUJ0I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0150)
+  #if (INTOSTM0_ENABLE > 0x00000000)
+    .extern _TimerInterruptHandler
+    .word _TimerInterruptHandler
+  #else
+    .word _TimerInterruptHandler
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0154)
+  #if (INTENCA0IOV_ENABLE > 0x00000000)
+    .extern _INTENCA0IOV
+    .word _INTENCA0IOV
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0158)
+  #if (INTENCA0IUD_ENABLE > 0x00000000)
+    .extern _INTENCA0IUD
+    .word _INTENCA0IUD
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x015c)
+  #if (INTENCA0I0_ENABLE > 0x00000000)
+    .extern _INTENCA0I0
+    .word _INTENCA0I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0160)
+  #if (INTENCA0I1_ENABLE > 0x00000000)
+    .extern _INTENCA0I1
+    .word _INTENCA0I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0164)
+  #if (INTENCA0IEC_ENABLE > 0x00000000)
+    .extern _INTENCA0IEC
+    .word _INTENCA0IEC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0168)
+  #if (INTKR0_ENABLE > 0x00000000)
+    .extern _INTKR0
+    .word _INTKR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x016c)
+  #if (INTQFULL_ENABLE > 0x00000000)
+    .extern _INTQFULL
+    .word _INTQFULL
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0170)
+  #if (INTPWGAG00_ENABLE > 0x00000000)
+    .extern _INTPWGAG00
+    .word _INTPWGAG00
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0174)
+  #if (INTPWGAG01_ENABLE > 0x00000000)
+    .extern _INTPWGAG01
+    .word _INTPWGAG01
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0178)
+  #if (INTPWGAG02_ENABLE > 0x00000000)
+    .extern _INTPWGAG02
+    .word _INTPWGAG02
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01b8)
+  #if (INTFLERR_ENABLE > 0x00000000)
+    .extern _INTFLERR
+    .word _INTFLERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01bc)
+  #if (INTFLENDNM_ENABLE > 0x00000000)
+    .extern _INTFLENDNM
+    .word _INTFLENDNM
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01c0)
+  #if (INTCWEND_ENABLE > 0x00000000)
+    .extern _INTCWEND
+    .word _INTCWEND
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01c4)
+  #if (INTRCAN1ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN1ERR
+    .word _INTRCAN1ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01c8)
+  #if (INTRCAN1REC_ENABLE > 0x00000000)
+    .extern _INTRCAN1REC
+    .word _INTRCAN1REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01cc)
+  #if (INTRCAN1TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN1TRX
+    .word _INTRCAN1TRX
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTTAPA0IPEK0_2_ENABLE > 0x00000000)
+    .extern _INTTAPA0IPEK0_2
+    .word _INTTAPA0IPEK0_2
+  #endif
+  #if (INTCSIH1IC_ENABLE > 0x00000000)
+    .extern _INTCSIH1IC
+    .word _INTCSIH1IC
+  #endif
+  #if (  (INTTAPA0IPEK0_2_ENABLE == 0x00000000)  &&  (INTCSIH1IC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAPA0IVLY0_2_ENABLE > 0x00000000)
+    .extern _INTTAPA0IVLY0_2
+    .word _INTTAPA0IVLY0_2
+  #endif
+  #if (INTCSIH1IR_ENABLE > 0x00000000)
+    .extern _INTCSIH1IR
+    .word _INTCSIH1IR
+  #endif
+  #if (  (INTTAPA0IVLY0_2_ENABLE == 0x00000000)  &&  (INTCSIH1IR_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH1IRE_ENABLE > 0x00000000)
+    .extern _INTCSIH1IRE
+    .word _INTCSIH1IRE
+  #endif
+  #if (INTCSIG0IC_2_ENABLE > 0x00000000)
+    .extern _INTCSIG0IC_2
+    .word _INTCSIG0IC_2
+  #endif
+  #if (  (INTCSIH1IRE_ENABLE == 0x00000000)  &&  (INTCSIG0IC_2_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH1IJC_ENABLE > 0x00000000)
+    .extern _INTCSIH1IJC
+    .word _INTCSIH1IJC
+  #endif
+  #if (INTCSIG0IR_2_ENABLE > 0x00000000)
+    .extern _INTCSIG0IR_2
+    .word _INTCSIG0IR_2
+  #endif
+  #if (  (INTCSIH1IJC_ENABLE == 0x00000000)  &&  (INTCSIG0IR_2_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01e0)
+  #if (INTRLIN31_ENABLE > 0x00000000)
+    .extern _INTRLIN31
+    .word _INTRLIN31
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01e4)
+  #if (INTRLIN31UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN31UR0
+    .word _INTRLIN31UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01e8)
+  #if (INTRLIN31UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN31UR1
+    .word _INTRLIN31UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x01ec)
+  #if (INTRLIN31UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN31UR2
+    .word _INTRLIN31UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0200)
+  #if (INTP6_ENABLE > 0x00000000)
+    .extern _INTP6
+    .word _INTP6
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0204)
+  #if (INTP7_ENABLE > 0x00000000)
+    .extern _INTP7
+    .word _INTP7
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0208)
+  #if (INTP8_ENABLE > 0x00000000)
+    .extern _INTP8
+    .word _INTP8
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x020c)
+  #if (INTP12_ENABLE > 0x00000000)
+    .extern _INTP12
+    .word _INTP12
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I0_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I0_2
+    .word _INTTAUD0I0_2
+  #endif
+  #if (INTCSIH2IC_ENABLE > 0x00000000)
+    .extern _INTCSIH2IC
+    .word _INTCSIH2IC
+  #endif
+  #if (  (INTTAUD0I0_2_ENABLE == 0x00000000)  &&  (INTCSIH2IC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH2IR_ENABLE > 0x00000000)
+    .extern _INTCSIH2IR
+    .word _INTCSIH2IR
+  #endif
+  #if (INTTAUD0I4_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I4_2
+    .word _INTTAUD0I4_2
+  #endif
+  #if (  (INTCSIH2IR_ENABLE == 0x00000000)  &&  (INTTAUD0I4_2_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH2IRE_ENABLE > 0x00000000)
+    .extern _INTCSIH2IRE
+    .word _INTCSIH2IRE
+  #endif
+  #if (INTTAUD0I6_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I6_2
+    .word _INTTAUD0I6_2
+  #endif
+  #if (  (INTCSIH2IRE_ENABLE == 0x00000000)  &&  (INTTAUD0I6_2_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I8_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I8_2
+    .word _INTTAUD0I8_2
+  #endif
+  #if (INTCSIH2IJC_ENABLE > 0x00000000)
+    .extern _INTCSIH2IJC
+    .word _INTCSIH2IJC
+  #endif
+  #if (  (INTTAUD0I8_2_ENABLE == 0x00000000)  &&  (INTCSIH2IJC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0238)
+  #if (INTTAUB0I0_ENABLE > 0x00000000)
+    .extern _INTTAUB0I0
+    .word _INTTAUB0I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x023c)
+  #if (INTTAUB0I1_ENABLE > 0x00000000)
+    .extern _INTTAUB0I1
+    .word _INTTAUB0I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0240)
+  #if (INTTAUB0I2_ENABLE > 0x00000000)
+    .extern _INTTAUB0I2
+    .word _INTTAUB0I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0244)
+  #if (INTTAUB0I3_ENABLE > 0x00000000)
+    .extern _INTTAUB0I3
+    .word _INTTAUB0I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0248)
+  #if (INTTAUB0I4_ENABLE > 0x00000000)
+    .extern _INTTAUB0I4
+    .word _INTTAUB0I4
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x024c)
+  #if (INTTAUB0I5_ENABLE > 0x00000000)
+    .extern _INTTAUB0I5
+    .word _INTTAUB0I5
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0250)
+  #if (INTTAUB0I6_ENABLE > 0x00000000)
+    .extern _INTTAUB0I6
+    .word _INTTAUB0I6
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0254)
+  #if (INTTAUB0I7_ENABLE > 0x00000000)
+    .extern _INTTAUB0I7
+    .word _INTTAUB0I7
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0258)
+  #if (INTTAUB0I8_ENABLE > 0x00000000)
+    .extern _INTTAUB0I8
+    .word _INTTAUB0I8
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x025c)
+  #if (INTTAUB0I9_ENABLE > 0x00000000)
+    .extern _INTTAUB0I9
+    .word _INTTAUB0I9
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0260)
+  #if (INTTAUB0I10_ENABLE > 0x00000000)
+    .extern _INTTAUB0I10
+    .word _INTTAUB0I10
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0264)
+  #if (INTTAUB0I11_ENABLE > 0x00000000)
+    .extern _INTTAUB0I11
+    .word _INTTAUB0I11
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0268)
+  #if (INTTAUB0I12_ENABLE > 0x00000000)
+    .extern _INTTAUB0I12
+    .word _INTTAUB0I12
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x026c)
+  #if (INTTAUB0I13_ENABLE > 0x00000000)
+    .extern _INTTAUB0I13
+    .word _INTTAUB0I13
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0270)
+  #if (INTTAUB0I14_ENABLE > 0x00000000)
+    .extern _INTTAUB0I14
+    .word _INTTAUB0I14
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0274)
+  #if (INTTAUB0I15_ENABLE > 0x00000000)
+    .extern _INTTAUB0I15
+    .word _INTTAUB0I15
+  #else
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I2_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I2_2
+    .word _INTTAUD0I2_2
+  #endif
+  #if (INTCSIH3IC_ENABLE > 0x00000000)
+    .extern _INTCSIH3IC
+    .word _INTCSIH3IC
+  #endif
+  #if (  (INTTAUD0I2_2_ENABLE == 0x00000000)  &&  (INTCSIH3IC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTCSIH3IR_ENABLE > 0x00000000)
+    .extern _INTCSIH3IR
+    .word _INTCSIH3IR
+  #endif
+  #if (INTTAUD0I10_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I10_2
+    .word _INTTAUD0I10_2
+  #endif
+  #if (  (INTCSIH3IR_ENABLE == 0x00000000)  &&  (INTTAUD0I10_2_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I12_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I12_2
+    .word _INTTAUD0I12_2
+  #endif
+  #if (INTCSIH3IRE_ENABLE > 0x00000000)
+    .extern _INTCSIH3IRE
+    .word _INTCSIH3IRE
+  #endif
+  #if (  (INTTAUD0I12_2_ENABLE == 0x00000000)  &&  (INTCSIH3IRE_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+  #if (INTTAUD0I14_2_ENABLE > 0x00000000)
+    .extern _INTTAUD0I14_2
+    .word _INTTAUD0I14_2
+  #endif
+  #if (INTCSIH3IJC_ENABLE > 0x00000000)
+    .extern _INTCSIH3IJC
+    .word _INTCSIH3IJC
+  #endif
+  #if (  (INTTAUD0I14_2_ENABLE == 0x00000000)  &&  (INTCSIH3IJC_ENABLE == 0x00000000) )
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0288)
+  #if (INTRLIN22_ENABLE > 0x00000000)
+    .extern _INTRLIN22
+    .word _INTRLIN22
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x028c)
+  #if (INTRLIN23_ENABLE > 0x00000000)
+    .extern _INTRLIN23
+    .word _INTRLIN23
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0290)
+  #if (INTRLIN32_ENABLE > 0x00000000)
+    .extern _INTRLIN32
+    .word _INTRLIN32
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0294)
+  #if (INTRLIN32UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN32UR0
+    .word _INTRLIN32UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0298)
+  #if (INTRLIN32UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN32UR1
+    .word _INTRLIN32UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x029c)
+  #if (INTRLIN32UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN32UR2
+    .word _INTRLIN32UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02a0)
+  #if (INTTAUJ1I0_ENABLE > 0x00000000)
+    .extern _INTTAUJ1I0
+    .word _INTTAUJ1I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02a4)
+  #if (INTTAUJ1I1_ENABLE > 0x00000000)
+    .extern _INTTAUJ1I1
+    .word _INTTAUJ1I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02a8)
+  #if (INTTAUJ1I2_ENABLE > 0x00000000)
+    .extern _INTTAUJ1I2
+    .word _INTTAUJ1I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02ac)
+  #if (INTTAUJ1I3_ENABLE > 0x00000000)
+    .extern _INTTAUJ1I3
+    .word _INTTAUJ1I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02b4)
+  #if (INTFLXA0FDA_ENABLE > 0x00000000)
+    .extern _INTFLXA0FDA
+    .word _INTFLXA0FDA
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02b8)
+  #if (INTFLXA0FW_ENABLE > 0x00000000)
+    .extern _INTFLXA0FW
+    .word _INTFLXA0FW
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02bc)
+  #if (INTFLXA0IQE_ENABLE > 0x00000000)
+    .extern _INTFLXA0IQE
+    .word _INTFLXA0IQE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02c0)
+  #if (INTFLXA0IQF_ENABLE > 0x00000000)
+    .extern _INTFLXA0IQF
+    .word _INTFLXA0IQF
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02c4)
+  #if (INTFLXA0OT_ENABLE > 0x00000000)
+    .extern _INTFLXA0OT
+    .word _INTFLXA0OT
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02c8)
+  #if (INTFLXA0OW_ENABLE > 0x00000000)
+    .extern _INTFLXA0OW
+    .word _INTFLXA0OW
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02cc)
+  #if (INTFLXA0LINE0_ENABLE > 0x00000000)
+    .extern _INTFLXA0LINE0
+    .word _INTFLXA0LINE0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02d0)
+  #if (INTFLXA0LINE1_ENABLE > 0x00000000)
+    .extern _INTFLXA0LINE1
+    .word _INTFLXA0LINE1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02d4)
+  #if (INTFLXA0TIM0_ENABLE > 0x00000000)
+    .extern _INTFLXA0TIM0
+    .word _INTFLXA0TIM0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02d8)
+  #if (INTFLXA0TIM1_ENABLE > 0x00000000)
+    .extern _INTFLXA0TIM1
+    .word _INTFLXA0TIM1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x02dc)
+  #if (INTFLXA0TIM2_ENABLE > 0x00000000)
+    .extern _INTFLXA0TIM2
+    .word _INTFLXA0TIM2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0334)
+  #if (INTP9_ENABLE > 0x00000000)
+    .extern _INTP9
+    .word _INTP9
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0338)
+  #if (INTP13_ENABLE > 0x00000000)
+    .extern _INTP13
+    .word _INTP13
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x033c)
+  #if (INTP14_ENABLE > 0x00000000)
+    .extern _INTP14
+    .word _INTP14
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0340)
+  #if (INTP15_ENABLE > 0x00000000)
+    .extern _INTP15
+    .word _INTP15
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0344)
+  #if (INTRTCA01S_ENABLE > 0x00000000)
+    .extern _INTRTCA01S
+    .word _INTRTCA01S
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0348)
+  #if (INTRTCA0AL_ENABLE > 0x00000000)
+    .extern _INTRTCA0AL
+    .word _INTRTCA0AL
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x034c)
+  #if (INTRTCA0R_ENABLE > 0x00000000)
+    .extern _INTRTCA0R
+    .word _INTRTCA0R
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0350)
+  #if (INTADCA1ERR_ENABLE > 0x00000000)
+    .extern _INTADCA1ERR
+    .word _INTADCA1ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0354)
+  #if (INTADCA1I0_ENABLE > 0x00000000)
+    .extern _INTADCA1I0
+    .word _INTADCA1I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0358)
+  #if (INTADCA1I1_ENABLE > 0x00000000)
+    .extern _INTADCA1I1
+    .word _INTADCA1I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x035c)
+  #if (INTADCA1I2_ENABLE > 0x00000000)
+    .extern _INTADCA1I2
+    .word _INTADCA1I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0364)
+  #if (INTRCAN2ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN2ERR
+    .word _INTRCAN2ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0368)
+  #if (INTRCAN2REC_ENABLE > 0x00000000)
+    .extern _INTRCAN2REC
+    .word _INTRCAN2REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x036c)
+  #if (INTRCAN2TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN2TRX
+    .word _INTRCAN2TRX
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0370)
+  #if (INTRCAN3ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN3ERR
+    .word _INTRCAN3ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0374)
+  #if (INTRCAN3REC_ENABLE > 0x00000000)
+    .extern _INTRCAN3REC
+    .word _INTRCAN3REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0378)
+  #if (INTRCAN3TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN3TRX
+    .word _INTRCAN3TRX
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x037c)
+  #if (INTCSIG1IC_ENABLE > 0x00000000)
+    .extern _INTCSIG1IC
+    .word _INTCSIG1IC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0380)
+  #if (INTCSIG1IR_ENABLE > 0x00000000)
+    .extern _INTCSIG1IR
+    .word _INTCSIG1IR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0384)
+  #if (INTCSIG1IRE_ENABLE > 0x00000000)
+    .extern _INTCSIG1IRE
+    .word _INTCSIG1IRE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0388)
+  #if (INTRLIN24_ENABLE > 0x00000000)
+    .extern _INTRLIN24
+    .word _INTRLIN24
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x038c)
+  #if (INTRLIN25_ENABLE > 0x00000000)
+    .extern _INTRLIN25
+    .word _INTRLIN25
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0390)
+  #if (INTRLIN33_ENABLE > 0x00000000)
+    .extern _INTRLIN33
+    .word _INTRLIN33
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0394)
+  #if (INTRLIN33UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN33UR0
+    .word _INTRLIN33UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0398)
+  #if (INTRLIN33UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN33UR1
+    .word _INTRLIN33UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x039c)
+  #if (INTRLIN33UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN33UR2
+    .word _INTRLIN33UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03a0)
+  #if (INTRLIN34_ENABLE > 0x00000000)
+    .extern _INTRLIN34
+    .word _INTRLIN34
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03a4)
+  #if (INTRLIN34UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN34UR0
+    .word _INTRLIN34UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03a8)
+  #if (INTRLIN34UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN34UR1
+    .word _INTRLIN34UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03ac)
+  #if (INTRLIN34UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN34UR2
+    .word _INTRLIN34UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03b0)
+  #if (INTRLIN35_ENABLE > 0x00000000)
+    .extern _INTRLIN35
+    .word _INTRLIN35
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03b4)
+  #if (INTRLIN35UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN35UR0
+    .word _INTRLIN35UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03b8)
+  #if (INTRLIN35UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN35UR1
+    .word _INTRLIN35UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03bc)
+  #if (INTRLIN35UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN35UR2
+    .word _INTRLIN35UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03c0)
+  #if (INTRIIC1TI_ENABLE > 0x00000000)
+    .extern _INTRIIC1TI
+    .word _INTRIIC1TI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03c4)
+  #if (INTRIIC1EE_ENABLE > 0x00000000)
+    .extern _INTRIIC1EE
+    .word _INTRIIC1EE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03c8)
+  #if (INTRIIC1RI_ENABLE > 0x00000000)
+    .extern _INTRIIC1RI
+    .word _INTRIIC1RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x03cc)
+  #if (INTRIIC1TEI_ENABLE > 0x00000000)
+    .extern _INTRIIC1TEI
+    .word _INTRIIC1TEI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0400)
+  #if (INTTAUB1I0_ENABLE > 0x00000000)
+    .extern _INTTAUB1I0
+    .word _INTTAUB1I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0404)
+  #if (INTTAUB1I1_ENABLE > 0x00000000)
+    .extern _INTTAUB1I1
+    .word _INTTAUB1I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0408)
+  #if (INTTAUB1I2_ENABLE > 0x00000000)
+    .extern _INTTAUB1I2
+    .word _INTTAUB1I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x040c)
+  #if (INTTAUB1I3_ENABLE > 0x00000000)
+    .extern _INTTAUB1I3
+    .word _INTTAUB1I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0410)
+  #if (INTTAUB1I4_ENABLE > 0x00000000)
+    .extern _INTTAUB1I4
+    .word _INTTAUB1I4
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0414)
+  #if (INTTAUB1I5_ENABLE > 0x00000000)
+    .extern _INTTAUB1I5
+    .word _INTTAUB1I5
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0418)
+  #if (INTTAUB1I6_ENABLE > 0x00000000)
+    .extern _INTTAUB1I6
+    .word _INTTAUB1I6
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x041c)
+  #if (INTTAUB1I7_ENABLE > 0x00000000)
+    .extern _INTTAUB1I7
+    .word _INTTAUB1I7
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0420)
+  #if (INTTAUB1I8_ENABLE > 0x00000000)
+    .extern _INTTAUB1I8
+    .word _INTTAUB1I8
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0424)
+  #if (INTTAUB1I9_ENABLE > 0x00000000)
+    .extern _INTTAUB1I9
+    .word _INTTAUB1I9
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0428)
+  #if (INTTAUB1I10_ENABLE > 0x00000000)
+    .extern _INTTAUB1I10
+    .word _INTTAUB1I10
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x042c)
+  #if (INTTAUB1I11_ENABLE > 0x00000000)
+    .extern _INTTAUB1I11
+    .word _INTTAUB1I11
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0430)
+  #if (INTTAUB1I12_ENABLE > 0x00000000)
+    .extern _INTTAUB1I12
+    .word _INTTAUB1I12
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0434)
+  #if (INTTAUB1I13_ENABLE > 0x00000000)
+    .extern _INTTAUB1I13
+    .word _INTTAUB1I13
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0438)
+  #if (INTTAUB1I14_ENABLE > 0x00000000)
+    .extern _INTTAUB1I14
+    .word _INTTAUB1I14
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x043c)
+  #if (INTTAUB1I15_ENABLE > 0x00000000)
+    .extern _INTTAUB1I15
+    .word _INTTAUB1I15
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0440)
+  #if (INTRCAN4ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN4ERR
+    .word _INTRCAN4ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0444)
+  #if (INTRCAN4REC_ENABLE > 0x00000000)
+    .extern _INTRCAN4REC
+    .word _INTRCAN4REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0448)
+  #if (INTRCAN4TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN4TRX
+    .word _INTRCAN4TRX
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x044c)
+  #if (INTRLIN26_ENABLE > 0x00000000)
+    .extern _INTRLIN26
+    .word _INTRLIN26
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0450)
+  #if (INTRLIN27_ENABLE > 0x00000000)
+    .extern _INTRLIN27
+    .word _INTRLIN27
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0454)
+  #if (INTTAUJ2I0_ENABLE > 0x00000000)
+    .extern _INTTAUJ2I0
+    .word _INTTAUJ2I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0458)
+  #if (INTTAUJ2I1_ENABLE > 0x00000000)
+    .extern _INTTAUJ2I1
+    .word _INTTAUJ2I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x045c)
+  #if (INTTAUJ2I2_ENABLE > 0x00000000)
+    .extern _INTTAUJ2I2
+    .word _INTTAUJ2I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0460)
+  #if (INTTAUJ2I3_ENABLE > 0x00000000)
+    .extern _INTTAUJ2I3
+    .word _INTTAUJ2I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0464)
+  #if (INTTAUJ3I0_ENABLE > 0x00000000)
+    .extern _INTTAUJ3I0
+    .word _INTTAUJ3I0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0468)
+  #if (INTTAUJ3I1_ENABLE > 0x00000000)
+    .extern _INTTAUJ3I1
+    .word _INTTAUJ3I1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x046c)
+  #if (INTTAUJ3I2_ENABLE > 0x00000000)
+    .extern _INTTAUJ3I2
+    .word _INTTAUJ3I2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0470)
+  #if (INTTAUJ3I3_ENABLE > 0x00000000)
+    .extern _INTTAUJ3I3
+    .word _INTTAUJ3I3
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0474)
+  #if (INTRLIN28_ENABLE > 0x00000000)
+    .extern _INTRLIN28
+    .word _INTRLIN28
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0478)
+  #if (INTRLIN29_ENABLE > 0x00000000)
+    .extern _INTRLIN29
+    .word _INTRLIN29
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x047c)
+  #if (INTRCAN5ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN5ERR
+    .word _INTRCAN5ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0480)
+  #if (INTRCAN5REC_ENABLE > 0x00000000)
+    .extern _INTRCAN5REC
+    .word _INTRCAN5REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0484)
+  #if (INTRCAN5TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN5TRX
+    .word _INTRCAN5TRX
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04a8)
+  #if (INTDMA16_ENABLE > 0x00000000)
+    .extern _INTDMA16
+    .word _INTDMA16
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04ac)
+  #if (INTDMA17_ENABLE > 0x00000000)
+    .extern _INTDMA17
+    .word _INTDMA17
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04b0)
+  #if (INTDMA18_ENABLE > 0x00000000)
+    .extern _INTDMA18
+    .word _INTDMA18
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04b4)
+  #if (INTDMA19_ENABLE > 0x00000000)
+    .extern _INTDMA19
+    .word _INTDMA19
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04b8)
+  #if (INTDMA20_ENABLE > 0x00000000)
+    .extern _INTDMA20
+    .word _INTDMA20
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04bc)
+  #if (INTDMA21_ENABLE > 0x00000000)
+    .extern _INTDMA21
+    .word _INTDMA21
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04c0)
+  #if (INTDMA22_ENABLE > 0x00000000)
+    .extern _INTDMA22
+    .word _INTDMA22
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04c4)
+  #if (INTDMA23_ENABLE > 0x00000000)
+    .extern _INTDMA23
+    .word _INTDMA23
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04c8)
+  #if (INTDMA24_ENABLE > 0x00000000)
+    .extern _INTDMA24
+    .word _INTDMA24
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04cc)
+  #if (INTDMA25_ENABLE > 0x00000000)
+    .extern _INTDMA25
+    .word _INTDMA25
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04d0)
+  #if (INTDMA26_ENABLE > 0x00000000)
+    .extern _INTDMA26
+    .word _INTDMA26
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04d4)
+  #if (INTDMA27_ENABLE > 0x00000000)
+    .extern _INTDMA27
+    .word _INTDMA27
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04d8)
+  #if (INTDMA28_ENABLE > 0x00000000)
+    .extern _INTDMA28
+    .word _INTDMA28
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04dc)
+  #if (INTDMA29_ENABLE > 0x00000000)
+    .extern _INTDMA29
+    .word _INTDMA29
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04e0)
+  #if (INTDMA30_ENABLE > 0x00000000)
+    .extern _INTDMA30
+    .word _INTDMA30
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04e4)
+  #if (INTDMA31_ENABLE > 0x00000000)
+    .extern _INTDMA31
+    .word _INTDMA31
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04ec)
+  #if (INTETNB0DATA_ENABLE > 0x00000000)
+    .extern _INTETNB0DATA
+    .word _INTETNB0DATA
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04f0)
+  #if (INTETNB0ERR_ENABLE > 0x00000000)
+    .extern _INTETNB0ERR
+    .word _INTETNB0ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04f4)
+  #if (INTETNB0MNG_ENABLE > 0x00000000)
+    .extern _INTETNB0MNG
+    .word _INTETNB0MNG
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x04f8)
+  #if (INTETNB0MAC_ENABLE > 0x00000000)
+    .extern _INTETNB0MAC
+    .word _INTETNB0MAC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0504)
+  #if (INTRCAN6ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN6ERR
+    .word _INTRCAN6ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0508)
+  #if (INTRCAN6REC_ENABLE > 0x00000000)
+    .extern _INTRCAN6REC
+    .word _INTRCAN6REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x050c)
+  #if (INTRCAN6TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN6TRX
+    .word _INTRCAN6TRX
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0510)
+  #if (INTRLIN210_ENABLE > 0x00000000)
+    .extern _INTRLIN210
+    .word _INTRLIN210
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0514)
+  #if (INTRLIN211_ENABLE > 0x00000000)
+    .extern _INTRLIN211
+    .word _INTRLIN211
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0518)
+  #if (INTCSIG2IC_ENABLE > 0x00000000)
+    .extern _INTCSIG2IC
+    .word _INTCSIG2IC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x051c)
+  #if (INTCSIG2IR_ENABLE > 0x00000000)
+    .extern _INTCSIG2IR
+    .word _INTCSIG2IR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0520)
+  #if (INTCSIG2IRE_ENABLE > 0x00000000)
+    .extern _INTCSIG2IRE
+    .word _INTCSIG2IRE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0524)
+  #if (INTCSIG3IC_ENABLE > 0x00000000)
+    .extern _INTCSIG3IC
+    .word _INTCSIG3IC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0528)
+  #if (INTCSIG3IR_ENABLE > 0x00000000)
+    .extern _INTCSIG3IR
+    .word _INTCSIG3IR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x052c)
+  #if (INTCSIG3IRE_ENABLE > 0x00000000)
+    .extern _INTCSIG3IRE
+    .word _INTCSIG3IRE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0530)
+  #if (INTRCAN7ERR_ENABLE > 0x00000000)
+    .extern _INTRCAN7ERR
+    .word _INTRCAN7ERR
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0534)
+  #if (INTRCAN7REC_ENABLE > 0x00000000)
+    .extern _INTRCAN7REC
+    .word _INTRCAN7REC
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0538)
+  #if (INTRCAN7TRX_ENABLE > 0x00000000)
+    .extern _INTRCAN7TRX
+    .word _INTRCAN7TRX
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x053c)
+  #if (INTCXP10TI_ENABLE > 0x00000000)
+    .extern _INTCXP10TI
+    .word _INTCXP10TI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0540)
+  #if (INTCXP10RI_ENABLE > 0x00000000)
+    .extern _INTCXP10RI
+    .word _INTCXP10RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0544)
+  #if (INTCXP10SI_ENABLE > 0x00000000)
+    .extern _INTCXP10SI
+    .word _INTCXP10SI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0548)
+  #if (INTCXP11TI_ENABLE > 0x00000000)
+    .extern _INTCXP11TI
+    .word _INTCXP11TI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x054c)
+  #if (INTCXP11RI_ENABLE > 0x00000000)
+    .extern _INTCXP11RI
+    .word _INTCXP11RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0550)
+  #if (INTCXP11SI_ENABLE > 0x00000000)
+    .extern _INTCXP11SI
+    .word _INTCXP11SI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0554)
+  #if (INTCXP12TI_ENABLE > 0x00000000)
+    .extern _INTCXP12TI
+    .word _INTCXP12TI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0558)
+  #if (INTCXP12RI_ENABLE > 0x00000000)
+    .extern _INTCXP12RI
+    .word _INTCXP12RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x055c)
+  #if (INTCXP12SI_ENABLE > 0x00000000)
+    .extern _INTCXP12SI
+    .word _INTCXP12SI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0560)
+  #if (INTCXP13TI_ENABLE > 0x00000000)
+    .extern _INTCXP13TI
+    .word _INTCXP13TI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0564)
+  #if (INTCXP13RI_ENABLE > 0x00000000)
+    .extern _INTCXP13RI
+    .word _INTCXP13RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0568)
+  #if (INTCXP13SI_ENABLE > 0x00000000)
+    .extern _INTCXP13SI
+    .word _INTCXP13SI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x056c)
+  #if (INTSENT0SI_ENABLE > 0x00000000)
+    .extern _INTSENT0SI
+    .word _INTSENT0SI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0570)
+  #if (INTSENT0RI_ENABLE > 0x00000000)
+    .extern _INTSENT0RI
+    .word _INTSENT0RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0574)
+  #if (INTSENT1SI_ENABLE > 0x00000000)
+    .extern _INTSENT1SI
+    .word _INTSENT1SI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0578)
+  #if (INTSENT1RI_ENABLE > 0x00000000)
+    .extern _INTSENT1RI
+    .word _INTSENT1RI
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0590)
+  #if (INTDPE_ENABLE > 0x00000000)
+    .extern _INTDPE
+    .word _INTDPE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0594)
+  #if (INTAPE_ENABLE > 0x00000000)
+    .extern _INTAPE
+    .word _INTAPE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x0598)
+  #if (INTFICUIF0CFRQPE_ENABLE > 0x00000000)
+    .extern _INTFICUIF0CFRQPE
+    .word _INTFICUIF0CFRQPE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x059c)
+  #if (INTFICUIF0DFRQPE_ENABLE > 0x00000000)
+    .extern _INTFICUIF0DFRQPE
+    .word _INTFICUIF0DFRQPE
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05a0)
+  #if (INTRLIN36_ENABLE > 0x00000000)
+    .extern _INTRLIN36
+    .word _INTRLIN36
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05a4)
+  #if (INTRLIN36UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN36UR0
+    .word _INTRLIN36UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05a8)
+  #if (INTRLIN36UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN36UR1
+    .word _INTRLIN36UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05ac)
+  #if (INTRLIN36UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN36UR2
+    .word _INTRLIN36UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05b0)
+  #if (INTRLIN37_ENABLE > 0x00000000)
+    .extern _INTRLIN37
+    .word _INTRLIN37
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05b4)
+  #if (INTRLIN37UR0_ENABLE > 0x00000000)
+    .extern _INTRLIN37UR0
+    .word _INTRLIN37UR0
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05b8)
+  #if (INTRLIN37UR1_ENABLE > 0x00000000)
+    .extern _INTRLIN37UR1
+    .word _INTRLIN37UR1
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05bc)
+  #if (INTRLIN37UR2_ENABLE > 0x00000000)
+    .extern _INTRLIN37UR2
+    .word _INTRLIN37UR2
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05c0)
+  #if (INTP16_ENABLE > 0x00000000)
+    .extern _INTP16
+    .word _INTP16
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05c4)
+  #if (INTP17_ENABLE > 0x00000000)
+    .extern _INTP17
+    .word _INTP17
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05c8)
+  #if (INTP18_ENABLE > 0x00000000)
+    .extern _INTP18
+    .word _INTP18
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05cc)
+  #if (INTP19_ENABLE > 0x00000000)
+    .extern _INTP19
+    .word _INTP19
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05d0)
+  #if (INTP20_ENABLE > 0x00000000)
+    .extern _INTP20
+    .word _INTP20
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05d4)
+  #if (INTP21_ENABLE > 0x00000000)
+    .extern _INTP21
+    .word _INTP21
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05d8)
+  #if (INTP22_ENABLE > 0x00000000)
+    .extern _INTP22
+    .word _INTP22
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05dc)
+  #if (INTP23_ENABLE > 0x00000000)
+    .extern _INTP23
+    .word _INTP23
+  #else
+    .word __unused_isr
+  #endif
+
+--    .offset (IRQ_TABLE_START+0x05e0)
+  #if (INTGRZF_ENABLE > 0x00000000)
+    .extern _INTGRZF
+    .word _INTGRZF
+  #else
+    .word __unused_isr
+  #endif
+
+
+#endif   /* __OS_HANDLES__ */  
+

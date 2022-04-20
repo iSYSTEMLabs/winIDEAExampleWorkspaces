@@ -1,0 +1,23 @@
+MEMORY
+{    
+    /*  A7 cores will start from 0x0000_0000 so load a branch 
+        to their application here.
+    */
+    
+    /*    SRAM for Cortex-M3 core     */ 
+    SRAM_CM3 (rwx)  : ORIGIN = 0x10000000, LENGTH = 256K
+    
+    /*    SRAM for Cortex-A7.0 core    */ 
+    SRAM_A7_0 (rwx) : ORIGIN = 0x70000000, LENGTH = 128K
+    
+    /*    SRAM remap for Cortex-A7.0 core    */ 
+    SRAM_A7_0_REMAP (rx) : ORIGIN = 0x00000000, LENGTH = 128K
+    
+    /*    SRAM for Cortex-A7.1 core    */ 
+    SRAM_A7_1 (rwx) : ORIGIN = 0x70020000, LENGTH = 128K
+    
+    /*    SRAM remap for Cortex-A7.1 core    */ 
+    SRAM_A7_1_REMAP (rx) : ORIGIN = 0x00020000, LENGTH = 128K
+
+
+}

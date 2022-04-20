@@ -1,0 +1,44 @@
+INPUT(& &)
+ENTRY(reset)
+
+MEMORY
+{
+    FLASH (rx)   : ORIGIN = 0x00000000, LENGTH = 4M
+    RAM   (rwx)  : ORIGIN = 0x08000000, LENGTH = 512K
+}
+
+_estack_svc = (ORIGIN(RAM) + LENGTH(RAM) - 4) & 0xFFFFFFFC;
+_estack_irq = _estack_svc - 0x800;
+_estack_fiq = _estack_irq - 0x800;
+_estack_usr = _estack_fiq - 0x800; 
+
+SECTIONS
+{
+    .text :
+    {
+        KEEP(*(.text.vect))
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        _etext = .;
+    } > FLASH
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > RAM
+    
+}
+
+

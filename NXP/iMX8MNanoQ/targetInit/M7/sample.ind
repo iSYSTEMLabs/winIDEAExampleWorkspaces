@@ -1,0 +1,47 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)         : ORIGIN = 0x00000000, LENGTH = 0x400  
+	TCM_RAM_CODE (rwx) : ORIGIN = 0x00000400, LENGTH = 59K
+  TCM_RAM_DATA (rwx) : ORIGIN = 0x0000F000, LENGTH = 4K
+}
+
+_estack = (ORIGIN(TCM_RAM_DATA) + LENGTH(TCM_RAM_DATA) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECT
+    
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > TCM_RAM_CODE
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > TCM_RAM_DATA
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > TCM_RAM_DATA
+}
+
+

@@ -1,0 +1,56 @@
+MEMORY
+{       
+  INSTR_RAM_INIT:         org = 0x01010000,   len = 0x00001000
+  INSTR_RAM_EXC_HANDLERS: org = 0x01011000,   len = 0x00001000
+  INSTR_RAM_CODE:         org = 0x01012000,   len = 0x0000A000
+  DATA_RAM:               org = 0x40004000,   len = 0x00002000
+  DATA_RAM_STACK :        org = 0x40007000,   len = 0x1000 /* Start location for Stack */
+}
+
+SECTIONS
+{
+  .init  LOAD (0x01010000): {} > INSTR_RAM_INIT
+  .init_vle (VLECODE) LOAD (ADDR(.init)+SIZEOF(.init)): {
+    *(.init)
+    *(.init_vle)
+  } > INSTR_RAM_INIT
+
+  .__exception_handlers  LOAD (0x01011000): {} > INSTR_RAM_EXC_HANDLERS 
+
+  GROUP  : {
+    .startup_vle (VLECODE): { __start.o (.text) }
+    .text : {} 
+    .text_vle (VLECODE) ALIGN(0x08): {
+      *(.text)
+      *(.text_vle)
+    }
+    .rodata (CONST) : {
+      *(.rdata)
+      *(.rodata)
+    }
+    .ctors : {}
+    .dtors : {}
+    extab : {}
+    extabindex : {}
+  } > INSTR_RAM_CODE
+
+  GROUP : {
+    .__uninitialized_intc_handlertable ALIGN(0x10)  : {}
+    .data                                           : {}
+    .sdata                                          : {}
+    _bss_start = .;
+    .sbss                                           : {}
+    .bss                                            : {}
+    _bss_end   = .;
+    .sdata2                                         : {}
+  } > DATA_RAM
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(DATA_RAM_STACK)+SIZEOF(DATA_RAM_STACK);
+_stack_end  = ADDR(DATA_RAM_STACK);
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+EXCEPTION_HANDLERS = ADDR(INSTR_RAM_EXC_HANDLERS);

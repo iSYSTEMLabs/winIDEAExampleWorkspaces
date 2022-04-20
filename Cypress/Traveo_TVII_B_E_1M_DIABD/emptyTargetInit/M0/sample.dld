@@ -1,0 +1,82 @@
+/* The MEMORY command is used to name four areas of memory: "rom1", "rom2",
+ * "ram", and "stack" as pictured below. A #pragma directive is used during
+ * compilation to assign the "sort" function to a .text2 section, while a
+ * "section" assembler directive assigns the "swap" function to .text2.
+ *
+ * On the right are symbols used during initialization and by memory allocation
+ * routines. These symbols are defined at the end of this file.
+ *
+ *
+ *   0xc0000    +-------------------------------+ <- __SP_INIT
+ *       |      |                               |
+ *    "stack"   | stack, 64KB, grows down       |
+ *       |      |                               |
+ *   0xb0000    +-------------------------------+ <- __SP_END, __HEAP_END
+ *       |      | used for heap by malloc if    |
+ *       |      | present (all unused "ram")    |
+ *       |      +-------------------------------+ <- __HEAP_START
+ *       |      | .bss: uninitialized data,     |
+ *     "ram"    |       zeroed by __init_main   |
+ *       |      +-------------------------------+ <- __DATA_END, __BSS_START
+ *       |      | .data: initialized data,      |
+ *       |      |       including "array",      |
+ *       |      |       copied here from flashA |
+ *       |      |       by __init_main          |
+ *   0x80000    +-------------------------------+ <- __DATA_RAM
+ *
+ *                   256KB gap -- unreserved
+ *
+ *   0x40000    +-------------------------------+
+ *       |      | / / / / / (unused)  / / / / / |
+ *       |      +-------------------------------+
+ *       |      | physical image of .data to be |
+ *       |      | copied to "ram"               |
+ *       |      +-------------------------------+ <- __DATA_ROM
+ *    "rom1"    |          library code         |
+ *       |      |          main function        |
+ *       |      | .text:   crt0 code            |
+ *   0x20000    +-------------------------------+
+ *
+ * ------------------------------------------------------------------------- */
+
+_estackA = (ADDR(ramA) + SIZEOF(ramA) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{    
+    GROUP : {
+      _isrVectAddr = .;
+      .isr_vector (=TEXT) KEEP : {*(.isr_vector )}
+    } > isr_vectorA
+
+    GROUP : {
+      . = ALIGN(4);
+      .text : { *(.text) }
+      .rodata (=DATA) : {*(.rodata)}
+      . = ALIGN(4);
+      __DATA_ROM	= .;
+    } > flashA
+
+    GROUP : {
+        __DATA_RAM	= .;
+        /* Load .data section from __DATA_ROM onward */
+        .data (DATA) LOAD(__DATA_ROM) : { *(.data) *(.overlay) }
+
+        . = ALIGN(4);
+        /* What is .sdata */
+        /* .sdata is the "small data area" for some targets. */
+        .sdata (DATA) LOAD(ADDR(.sdata) - ADDR(.data) + __DATA_ROM) : {}
+
+        . = ALIGN(4);
+        
+        __DATA_END	= .;
+    } > ramA
+    
+    GROUP : {
+        . = ALIGN(4);
+        __BSS_START	= .;
+        .sbss (BSS) : {}
+        .bss (BSS) : {}
+        . = ALIGN(4);
+        __BSS_END	= .;      
+    } > ramA
+}

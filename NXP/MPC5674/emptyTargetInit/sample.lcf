@@ -1,0 +1,103 @@
+ENTRY(__asyst_start)
+
+/* input files from winIDEA project groups */ 
+
+INPUT(&& &&Assembler files&)   
+INPUT(&& &&Source files&)
+INPUT(&& &&Startup files&)
+
+
+MEMORY
+{
+  MEM_ROM            : ORIGIN = 0x00000000,  LENGTH = 0x200000
+  MEM_RAM            : ORIGIN = 0x40000000,  LENGTH = 0x010000
+}
+__ASYST_STACK_TOP = 0x40010000-8;
+__ASYST_HEAP_SIZE = 0;
+
+
+__RAM_START_ADDR = 0x40000000;
+__RAM_END_ADDR = 0x40000000 + 0x010000;
+__RAM_SIZE = 0x010000;
+
+SECTIONS
+{  
+  .vectors :                    /* vector crt0.s */
+  {
+    __IVPR_VALUE = .;
+    *(.startupBytes)
+    *(.intc_hw_branch_table)
+    *(.vectors)
+  } > MEM_ROM
+  
+  .text : 
+  {
+    __ASYST_TEXT_START = .;     /* executable code */
+    *(.text)                   
+    *(.text.*)
+    *(.init)                    
+    *(.fini)                        
+    *(.gnu.linkonce.t*)
+    __ASYST_TEXT_END = .;      
+    
+    . = ALIGN(4);
+    __ASYST_CTOR_START = .;    /* constructors */   
+    *(.ctors)
+    __ASYST_CTOR_END = .;
+    
+    . = ALIGN(4);
+    __ASYST_DTOR_START = .;    /* destructors */
+    *(.dtors)
+    __ASYST_DTOR_END = .;
+  } > MEM_ROM
+  
+  .rodata :
+  {
+    *(.rodata)                  /* read-only data */
+    *(.rodata.*)     
+    *(.rdata)                   
+    *(.rdata.*)                  
+    *(.sdata2)                  /* small constant data */
+    *(.sdata2.*)
+    *(.gnu.linkonce.r*)
+  } > MEM_ROM
+
+  .data : AT(__ASYST_DATA_LOAD)
+  {
+    __ASYST_DATA_START  = .;    /* start of the data */
+    *(.data)                    /* data */
+    *(.data.*)
+    *(.sdata)                   /* small data */
+    *(.sdata.*)
+    *(.gnu.linkonce.d*)
+    __ASYST_DATA_END  = .;      /* end of the data */
+  } > MEM_RAM
+  
+ .initdata (NOLOAD): 
+  {
+    __ASYST_DATA_LOAD = .;
+    . += SIZEOF(.data);  
+  } > MEM_ROM
+  
+  .bss (NOLOAD) :
+  {
+    __ASYST_BSS_START = .;       /* start of the bss */
+    *(.bss) 
+    *(.bss.*)
+    *(.sbss)   
+    *(.sbss.*)
+    *(COMMON)          
+    *(.gnu.linkonce.b*)          
+    __ASYST_BSS_END = .;         /* end of the bss */
+  } > MEM_RAM
+  
+  .heap (NOLOAD) :
+  {
+    __ASYST_HEAP_START  = .;     /* start of the heap */
+    . += __ASYST_HEAP_SIZE;  
+  } > MEM_RAM 
+
+}
+
+
+

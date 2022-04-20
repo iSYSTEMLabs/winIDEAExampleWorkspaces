@@ -1,0 +1,89 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)        : ORIGIN = 0x2C400000, LENGTH = 1k  
+  FLASH (rwx)       : ORIGIN = 0x2C400400, LENGTH = 512K
+  RAM (rwx)         : ORIGIN = 0x65320000, LENGTH = 32K
+  RAM_0_TA (rwx)    : ORIGIN = 0x60000000, LENGTH = 32K /* Cluster_0 Local Memory */ 
+  RAM_1_TA (rwx)    : ORIGIN = 0x60100000, LENGTH = 32K /* Cluster_1 Local Memory */ 
+  RAM_2_TA (rwx)    : ORIGIN = 0x60200000, LENGTH = 32K /* Cluster_2 Local Memory */
+  RAM_0_0_TCMA (rwx): ORIGIN = 0x68000000, LENGTH = 32K /* Cluster0_C0_TCM_A   */
+  RAM_0_0_TCMB (rwx): ORIGIN = 0x68100000, LENGTH = 32K /* Cluster0_C0_TCM_B   */
+  RAM_0_0_TCMC (rwx): ORIGIN = 0x68200000, LENGTH = 32K /* Cluster0_C0_TCM_C   */
+}
+
+_estackC0 = (ORIGIN(RAM) + LENGTH(RAM) - 0x5000 - 8) & 0xFFFFFFF8;
+_estackC1 = (ORIGIN(RAM) + LENGTH(RAM) - 0x4000 - 8) & 0xFFFFFFF8;
+_estackC2 = (ORIGIN(RAM) + LENGTH(RAM) - 0x3000 - 8) & 0xFFFFFFF8;
+_estackC3 = (ORIGIN(RAM) + LENGTH(RAM) - 0x2000 - 8) & 0xFFFFFFF8;
+_estackC4 = (ORIGIN(RAM) + LENGTH(RAM) - 0x1000 - 8) & 0xFFFFFFF8;
+_estackC5 = (ORIGIN(RAM) + LENGTH(RAM) - 0x0000 - 8) & 0xFFFFFFF8;
+_VTOR   =  ORIGIN(VECT);      /* Must be aligned to 64 bits */
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.boot_headers))
+    } > VECT
+    
+    .Cluster0_SRAM  (NOLOAD):
+    {
+        
+    } > RAM_0_TA
+    
+    .Cluster1_SRAM  (NOLOAD):
+    {
+        
+    } > RAM_1_TA
+    
+    .Cluster2_SRAM  (NOLOAD):
+    {
+        
+    } > RAM_2_TA
+    
+    .Cluster0_Core0_TCMA  (NOLOAD):
+    {
+        
+    } > RAM_0_0_TCMA
+    
+    .Cluster0_Core0_TCMB  (NOLOAD):
+    {
+        
+    } > RAM_0_0_TCMB
+    
+    .Cluster0_Core0_TCMC  (NOLOAD):
+    {
+        
+    } > RAM_0_0_TCMC
+    
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > FLASH
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > RAM
+}
+
+
