@@ -1,0 +1,316 @@
+Archive member included to satisfy reference by file (symbol)
+
+x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a(_arm_addsubsf3.o)
+                              D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o (__aeabi_fadd)
+
+Allocating common symbols
+Common symbol       size              file
+
+byTestByte          0x1               D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+wTestWord           0x2               D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+
+Discarded input sections
+
+ .group         0x00000000        0xc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .group         0x00000000        0xc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_macro   0x00000000      0xa84 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .group         0x00000000        0xc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .group         0x00000000        0xc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_macro   0x00000000      0xa84 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .group         0x00000000        0xc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .group         0x00000000        0xc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .debug_macro   0x00000000      0xa84 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .debug_macro   0x00000000       0x28 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+VECT             0x08000000         0x00000400         xrw
+FLASH            0x08000400         0x0007fc00         xr
+SRAM1            0x20000000         0x00030000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+LOAD D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+LOAD D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+LOAD D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+                0x00001000                __STACK_SIZE = 0x1000
+                0x00001000                __HEAP_SIZE = 0x1000
+                0x08000000                _VTOR = ORIGIN (VECT)
+
+.vect           0x08000000      0x384
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x384 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+                0x08000000                g_pfnVectors
+
+.text           0x08000400      0x8ac
+ *(.vectors)
+ *(.text*)
+ .text          0x08000400       0x6c D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+                0x08000400                main
+ .text          0x0800046c      0x5b8 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+                0x0800046c                Type_Simple
+                0x080004fc                Type_Arrays
+                0x08000594                Type_Pointers
+                0x080005e0                Type_Struct
+                0x08000648                Type_Bitfields
+                0x0800068c                Type_Enum
+                0x080006c8                Mult
+                0x080006e4                Type_FunctionPointer
+                0x0800072c                ResetStrX
+                0x08000762                Type_Mixed
+                0x08000798                TestStatic
+                0x080007b4                Address_GlobalVariables
+                0x080007d4                Address_TestScopes
+                0x08000850                Func1
+                0x0800087c                Func2
+                0x080008c0                Func3
+                0x080008d8                Func4
+                0x08000950                Address_DifferentFunctionParameters
+                0x0800098c                InterruptRoutine
+                0x080009a8                CPU_Pointers
+                0x080009c4                Factorial
+                0x080009f0                CPU_Recursion
+ .text          0x08000a24       0x18 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+                0x08000a24                disableWatchdog
+                0x08000a30                targetInit
+ .text          0x08000a3c       0x54 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+                0x08000a3c                Reset
+                0x08000a84                IntDefaultHandler
+ .text          0x08000a90      0x21c x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x08000a90                __aeabi_frsub
+                0x08000a98                __subsf3
+                0x08000a98                __aeabi_fsub
+                0x08000a9c                __aeabi_fadd
+                0x08000a9c                __addsf3
+                0x08000bfc                __aeabi_ui2f
+                0x08000bfc                __floatunsisf
+                0x08000c04                __aeabi_i2f
+                0x08000c04                __floatsisf
+                0x08000c20                __aeabi_ul2f
+                0x08000c20                __floatundisf
+                0x08000c30                __aeabi_l2f
+                0x08000c30                __floatdisf
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ *(.eh_frame*)
+
+.glue_7         0x08000cac        0x0
+ .glue_7        0x08000cac        0x0 linker stubs
+
+.glue_7t        0x08000cac        0x0
+ .glue_7t       0x08000cac        0x0 linker stubs
+
+.vfp11_veneer   0x08000cac        0x0
+ .vfp11_veneer  0x08000cac        0x0 linker stubs
+
+.v4_bx          0x08000cac        0x0
+ .v4_bx         0x08000cac        0x0 linker stubs
+
+.iplt           0x08000cac        0x0
+ .iplt          0x08000cac        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+
+.rel.dyn        0x08000cac        0x0
+ .rel.iplt      0x08000cac        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000cac                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08000cac                __exidx_end = .
+
+.ecc.table      0x08000cac       0x40
+                0x08000cac                . = ALIGN (0x4)
+                0x08000cac                __ecc_table_start__ = .
+                0x08000cac        0x8 QUAD 0x20000000 __data_start__
+                0x08000cb4        0x8 QUAD 0x0 ((__data_end__ - __data_start__) / 0x8)
+                0x08000cbc        0x8 QUAD 0x20000000 __bss_start__
+                0x08000cc4        0x8 QUAD 0x2 ((__bss_end__ - __bss_start__) / 0x8)
+                0x08000ccc        0x8 QUAD 0x20000010 __HeapTop
+                0x08000cd4        0x8 QUAD 0x200 ((__HeapLimit - __HeapTop) / 0x8)
+                0x08000cdc        0x8 QUAD 0x2002f000 __StackLimit
+                0x08000ce4        0x8 QUAD 0x200 ((__StackTop - __StackLimit) / 0x8)
+                0x08000cec                __ecc_table_end__ = .
+
+.copy.table     0x08000cec        0xc
+                0x08000cec                . = ALIGN (0x4)
+                0x08000cec                __copy_table_start__ = .
+                0x08000cec        0x4 LONG 0x8000cf8 __etext
+                0x08000cf0        0x4 LONG 0x20000000 __data_start__
+                0x08000cf4        0x4 LONG 0x0 ((__data_end__ - __data_start__) / 0x4)
+                0x08000cf8                __copy_table_end__ = .
+
+.zero.table     0x08000cf8        0x0
+                0x08000cf8                . = ALIGN (0x4)
+                0x08000cf8                __zero_table_start__ = .
+                0x08000cf8                __zero_table_end__ = .
+                0x08000cf8                __etext = ALIGN (0x8)
+
+.boot_header
+ *(.boot_header)
+
+.data           0x20000000        0x0 load address 0x08000cf8
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data)
+ .data          0x20000000        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .data          0x20000000        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .data          0x20000000        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .data          0x20000000        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .data          0x20000000        0x0 x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a(_arm_addsubsf3.o)
+ *(.data.*)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end = .)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __data_end__ = .
+
+.igot.plt       0x20000000        0x0 load address 0x08000cf8
+ .igot.plt      0x20000000        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+
+.bss            0x20000000       0x10 load address 0x08000cf8
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __bss_start__ = .
+ *(.bss)
+ .bss           0x20000000        0x8 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+                0x20000000                iCounter
+                0x20000004                iInterruptCounter
+ .bss           0x20000008        0x4 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .bss           0x2000000c        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .bss           0x2000000c        0x0 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .bss           0x2000000c        0x0 x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a(_arm_addsubsf3.o)
+ *(.bss.*)
+ *(COMMON)
+ COMMON         0x2000000c        0x4 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+                0x2000000c                byTestByte
+                0x2000000e                wTestWord
+                0x20000010                . = ALIGN (0x8)
+                0x20000010                __bss_end__ = .
+
+.heap           0x20000010     0x1000
+                0x20000010                . = ALIGN (0x8)
+                0x20000010                __HeapTop = .
+                0x20000010                __end__ = .
+                0x20000010                _end = .
+                [!provide]                PROVIDE (end = .)
+                0x20001010                . = (. + __HEAP_SIZE)
+ *fill*         0x20000010     0x1000 
+                0x20001010                . = ALIGN (0x8)
+                0x20001010                __HeapLimit = .
+
+.stack          0x2002f000     0x1000
+                0x2002f000                . = ALIGN (0x8)
+                0x2002f000                __StackLimit = .
+                0x20030000                . = (. + __STACK_SIZE)
+ *fill*         0x2002f000     0x1000 
+                0x20030000                . = ALIGN (0x8)
+                0x20030000                __StackTop = .
+                0x20030000                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x08000400                START_ADDRESS = ORIGIN (FLASH)
+                0x00030000                __RAM_SIZE = LENGTH (SRAM1)
+                0x20000000                __RAM_START = ORIGIN (SRAM1)
+LOAD x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a
+LOAD x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libc.a
+OUTPUT(output.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x91e
+ .debug_info    0x00000000       0xbd D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_info    0x000000bd      0x704 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_info    0x000007c1       0x4e D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_info    0x0000080f      0x10f D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+.debug_abbrev   0x00000000      0x3ff
+ .debug_abbrev  0x00000000       0x6b D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_abbrev  0x0000006b      0x28e D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_abbrev  0x000002f9       0x49 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_abbrev  0x00000342       0xbd D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+.debug_aranges  0x00000000       0x80
+ .debug_aranges
+                0x00000000       0x20 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_aranges
+                0x00000020       0x20 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_aranges
+                0x00000040       0x20 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_aranges
+                0x00000060       0x20 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+.debug_macro    0x00000000      0xb2a
+ .debug_macro   0x00000000       0x25 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_macro   0x00000025      0xa84 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_macro   0x00000aa9       0x1b D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_macro   0x00000ac4       0x1a D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_macro   0x00000ade       0x28 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_macro   0x00000b06       0x24 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+.debug_line     0x00000000      0x609
+ .debug_line    0x00000000      0x105 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_line    0x00000105      0x37b D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_line    0x00000480       0xa4 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_line    0x00000524       0xe5 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+.debug_str      0x00000000     0x31e9
+ .debug_str     0x00000000     0x2ddc D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+                               0x2dfd (size before relaxing)
+ .debug_str     0x00002ddc      0x1da D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+                               0x2f98 (size before relaxing)
+ .debug_str     0x00002fb6      0x144 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+                               0x2e7e (size before relaxing)
+ .debug_str     0x000030fa       0xef D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+                               0x2f0e (size before relaxing)
+
+.comment        0x00000000       0x76
+ .comment       0x00000000       0x76 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+                                 0x77 (size before relaxing)
+ .comment       0x00000076       0x77 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .comment       0x00000076       0x77 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .comment       0x00000076       0x77 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+
+.ARM.attributes
+                0x00000000       0x32
+ .ARM.attributes
+                0x00000000       0x32 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .ARM.attributes
+                0x00000032       0x32 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .ARM.attributes
+                0x00000064       0x32 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .ARM.attributes
+                0x00000096       0x32 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .ARM.attributes
+                0x000000c8       0x22 x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a(_arm_addsubsf3.o)
+
+.debug_frame    0x00000000      0x44c
+ .debug_frame   0x00000000       0x2c D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\main.o
+ .debug_frame   0x0000002c      0x34c D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\test.o
+ .debug_frame   0x00000378       0x50 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\CPUFile.o
+ .debug_frame   0x000003c8       0x38 D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\Debug\startup.o
+ .debug_frame   0x00000400       0x4c x:/gcc/gcc-arm-none-eabi-8-2019-q3/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v8-m.main/nofp\libgcc.a(_arm_addsubsf3.o)
