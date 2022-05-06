@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296371712</RegVer>
+   <RegVer>1296408576</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -111,21 +111,21 @@
       <LinkGroup.0>
        <LinkGroupName>Source files</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)CPUFile.c</FileName>
+        <FileName>$(IRFDIR)..\main.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
          <CompilerOptions>-Ctc1766 -co $(INCLUDES) -o$(OUTPUTDIR)$(NOEXT).$(COUTEXT) -v -g --optimize=0 $(EDNAME) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
        <File.1>
-        <FileName>$(IRFDIR)..\main.c</FileName>
+        <FileName>$(IRFDIR)..\test.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
          <CompilerOptions>-Ctc1766 -co $(INCLUDES) -o$(OUTPUTDIR)$(NOEXT).$(COUTEXT) -v -g --optimize=0 $(EDNAME) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.1>
        <File.2>
-        <FileName>$(IRFDIR)..\test.c</FileName>
+        <FileName>$(IRFDIR)CPUFile.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
          <CompilerOptions>-Ctc1766 -co $(INCLUDES) -o$(OUTPUTDIR)$(NOEXT).$(COUTEXT) -v -g --optimize=0 $(EDNAME) $(DEFINES)</CompilerOptions>

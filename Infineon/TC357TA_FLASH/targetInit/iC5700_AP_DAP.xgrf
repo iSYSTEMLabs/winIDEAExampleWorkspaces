@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -21,65 +21,65 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>360</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_pointer.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>6539</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_basic.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>210</ScrollPos>
+        </__.10>
+        <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>1752</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\trace.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>74</ScrollPos>
-        </__.10>
-        <__.11>
+        </__.11>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>21</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_float.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.11>
-        <__.12>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.12>
         <__.13>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1833</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\cstart.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>15</ScrollPos>
-        </__.13>
-        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\production.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1833</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\cstart.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>15</ScrollPos>
         </__.14>
         <__.15>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>314</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\customTests.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\TriCore.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.15>
         <__.16>
          <BookmarkList></BookmarkList>
-         <CaretPos>314</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\TriCore.h</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\customTests.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.16>
@@ -101,41 +101,41 @@
         </__.18>
         <__.19>
          <BookmarkList></BookmarkList>
-         <CaretPos>604</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\Debug_tasking.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.19>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>360</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.20>
-         <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TT\CoverageA.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1087</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_system.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>604</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\Debug_tasking.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.20>
         <__.21>
          <BookmarkList></BookmarkList>
-         <CaretPos>60</CaretPos>
+         <CaretPos>735</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\sample.ind</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\tc_arch.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.21>
         <__.22>
          <BookmarkList></BookmarkList>
-         <CaretPos>735</CaretPos>
+         <CaretPos>60</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\tc_arch.lsl</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.22>
@@ -157,65 +157,65 @@
         </__.24>
         <__.25>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
          <CaretPos>1068</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.25>
-        <__.26>
+        </__.26>
+        <__.27>
          <BookmarkList></BookmarkList>
          <CaretPos>965</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\TriCore.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
+        </__.27>
+        <__.28>
          <BookmarkList></BookmarkList>
          <CaretPos>7102</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_SimpleTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>251</ScrollPos>
-        </__.27>
-        <__.28>
+        </__.28>
+        <__.29>
          <BookmarkList></BookmarkList>
          <CaretPos>516</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.28>
-        <__.29>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\C0\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.29>
         <__.3>
          <BookmarkList></BookmarkList>
-         <CaretPos>1087</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_system.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>12</ScrollPos>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\tempFolder\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.3>
         <__.30>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\test.c</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\tempFolder\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.30>
         <__.31>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>217</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\main.c</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.31>
@@ -223,49 +223,49 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_smallStruct.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_pointer.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.4>
         <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_smallStruct.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>82</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\trace.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
+        </__.6>
+        <__.7>
          <BookmarkList></BookmarkList>
          <CaretPos>1850</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_stubStruc.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>36</ScrollPos>
-        </__.6>
-        <__.7>
+        </__.7>
+        <__.8>
          <BookmarkList></BookmarkList>
          <CaretPos>98</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.7>
-        <__.8>
+        </__.8>
+        <__.9>
          <BookmarkList></BookmarkList>
          <CaretPos>10663</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>294</ScrollPos>
-        </__.8>
-        <__.9>
-         <BookmarkList></BookmarkList>
-         <CaretPos>6539</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_basic.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>210</ScrollPos>
         </__.9>
        </EditorPersist>
       </EditorPersist>
@@ -280,7 +280,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -292,21 +292,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296371712</RegVer>
+    <RegVer>1296408576</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>C0\TriCore.c</RelativeFilePath>
+        <RelativeFilePath>C0\sample.ind</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\..\common\iTest\test_SimpleTest.c</RelativeFilePath>
+        <RelativeFilePath>C0\TriCore.h</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>C0\sample.ind</RelativeFilePath>
+        <RelativeFilePath>C0\TriCore.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>..\..\common\iTest\test_SimpleTest.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -330,19 +330,27 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>17</ViewId>
+        <ViewId>9</ViewId>
         <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>16</ViewId>
+        <ViewId>8</ViewId>
         <ViewType>SFR</ViewType>
        </__.1>
+       <__.10>
+        <ViewId>13</ViewId>
+        <ViewType>Output_Build</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.11>
        <__.2>
-        <ViewId>14</ViewId>
+        <ViewId>6</ViewId>
         <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>15</ViewId>
+        <ViewId>7</ViewId>
         <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
@@ -358,22 +366,22 @@
         <ViewType>CustomWatch</ViewType>
        </__.6>
        <__.7>
-        <ViewId>18</ViewId>
+        <ViewId>10</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>19</ViewId>
+        <ViewId>11</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>12</ViewId>
+        <ViewType>Output_Tools</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>15</ViewId>
+        <ViewId>7</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -384,14 +392,14 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>394</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>14</ViewId>
+        <ViewId>6</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -415,19 +423,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>18</ViewId>
+        <ViewId>10</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>19</ViewId>
+        <ViewId>11</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>17</ViewId>
+        <ViewId>9</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -442,8 +450,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x54022E03</Address>
-           <AddressOffset>0x54022E00</AddressOffset>
+           <Address>0xFFFFFFFF</Address>
+           <AddressOffset>0xFFFFFBC0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -453,7 +461,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x54022E00</Address>
+         <Address>0xFFFFFBC0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -487,7 +495,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>-1</ViewId>
+        <ViewId>12</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -495,7 +503,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>-1</ViewId>
+        <ViewId>13</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -509,7 +517,7 @@
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\test.c</SelectedItems>
+         <SelectedItems>Source files</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -523,16 +531,6 @@
               <Options>4</Options>
              </__.0>
              <__.1>
-              <Name>Linker files</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>sample.ind</Name>
-                <Options>4</Options>
-               </__.0>
-              </ChildItems>
-             </__.1>
-             <__.2>
               <Name>Source files</Name>
               <Options>1</Options>
               <ChildItems>
@@ -541,7 +539,7 @@
                 <Options>4</Options>
                </__.0>
               </ChildItems>
-             </__.2>
+             </__.1>
             </ChildItems>
            </__.0>
           </ChildItems>
@@ -558,9 +556,6 @@
             <__.2>
              <Name>Source files</Name>
             </__.2>
-            <__.3>
-             <Name>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\test.c</Name>
-            </__.3>
            </Segments>
           </__.0>
          </SelectedItemPaths>
@@ -572,7 +567,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>16</ViewId>
+        <ViewId>8</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -744,6 +739,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -766,14 +773,14 @@
       <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>17</FocusedViewId>
-        <FrameState>9</FrameState>
+        <FocusedViewId>13</FocusedViewId>
+        <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1174</Bottom>
-         <Left>595</Left>
-         <Right>1827</Right>
-         <Top>167</Top>
+         <Bottom>1124</Bottom>
+         <Left>174</Left>
+         <Right>1406</Right>
+         <Top>117</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -808,32 +815,76 @@
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>true</IsDocumentPane>
+             <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>19</TopTabViewId>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
+               <DockType>None</DockType>
+               <Extent>0.75</Extent>
+               <IsDocumentPane>true</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>18</ViewId>
+               <TopTabViewId>11</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>10</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>11</ViewId>
+                </__.1>
+               </Children>
               </__.0>
               <__.1>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>None</DockType>
+               <Extent>0.25</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>19</ViewId>
+               <TopTabViewId>13</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>12</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>13</ViewId>
+                </__.1>
+               </Children>
               </__.1>
              </Children>
             </__.1>
@@ -854,7 +905,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>15</TopTabViewId>
+               <TopTabViewId>7</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -865,7 +916,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>14</ViewId>
+                 <ViewId>6</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -875,7 +926,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>15</ViewId>
+                 <ViewId>7</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -897,7 +948,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16</ViewId>
+                 <ViewId>8</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -967,7 +1018,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>17</ViewId>
+           <ViewId>9</ViewId>
           </__.1>
          </Children>
         </Dock>

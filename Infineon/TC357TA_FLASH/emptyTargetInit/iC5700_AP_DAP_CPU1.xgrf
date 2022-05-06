@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -31,7 +31,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\readMe.txt</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\tempFolder\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.10>
@@ -39,10 +39,26 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\tempFolder\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>169</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1174</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.13>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>226</CaretPos>
@@ -69,17 +85,17 @@
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>52</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\tempFolder\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>52</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\emptyTargetInit\main.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.6>
@@ -103,7 +119,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\main.c</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\tempFolder\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
@@ -120,7 +136,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -132,7 +148,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296371712</RegVer>
+    <RegVer>1296408576</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -152,19 +168,19 @@
      </FileHistory>
      <ToolbarData>
       <Toolbars.Debug>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.Debug>
       <Toolbars.FBM>
        <Opened>false</Opened>
       </Toolbars.FBM>
       <Toolbars.File>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.File>
       <Toolbars.Project>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.Project>
       <Toolbars.View>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.View>
      </ToolbarData>
      <ViewData>
@@ -290,8 +306,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x1DD5FDD1</Address>
-           <AddressOffset>0x1DD5FDC0</AddressOffset>
+           <Address>0x0</Address>
+           <AddressOffset>0x0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -301,7 +317,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x1DD5FDC0</Address>
+         <Address>0x0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -370,16 +386,6 @@
               <Name>Info</Name>
               <Options>4</Options>
              </__.0>
-             <__.1>
-              <Name>Source files</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>CPUFile.c</Name>
-                <Options>4</Options>
-               </__.0>
-              </ChildItems>
-             </__.1>
             </ChildItems>
            </__.0>
           </ChildItems>
@@ -580,14 +586,14 @@
       <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>15</FocusedViewId>
+        <FocusedViewId>13</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1174</Bottom>
-         <Left>595</Left>
-         <Right>1827</Right>
-         <Top>167</Top>
+         <Bottom>1124</Bottom>
+         <Left>174</Left>
+         <Right>1406</Right>
+         <Top>117</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -846,6 +852,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

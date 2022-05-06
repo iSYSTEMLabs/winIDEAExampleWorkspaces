@@ -39,6 +39,10 @@ Multi-core workspace available
 
 **************************************************
 
+TimerInterrupt implemented
+
+**************************************************
+
 Real-time memory access is possible
 
 **************************************************

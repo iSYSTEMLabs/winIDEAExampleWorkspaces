@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296371712</RegVer>
+    <RegVer>1296408576</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -184,7 +184,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.81</winIDEA>
+      <winIDEA>Build 9.21.90</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -296,7 +296,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296371712</RegVer>
+    <RegVer>1296408576</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5000_DAP_CPU1 - Debug</DefaultTargetName>
@@ -311,7 +311,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296371712</RegVer>
+    <RegVer>1296408576</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -2635,7 +2635,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>81</V_BUILD>
+      <V_BUILD>90</V_BUILD>
+      <V_BUILD_SCC>134678</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -2644,7 +2645,6 @@
         <Attach_ConnectToSoC_Same>false</Attach_ConnectToSoC_Same>
         <Attach_InitSoC_Same>false</Attach_InitSoC_Same>
         <Attach_StopToExecute>true</Attach_StopToExecute>
-        <CoreSync>false</CoreSync>
         <Debug_ConnectToSoC_Same>false</Debug_ConnectToSoC_Same>
         <Debug_InitSoC_Same>false</Debug_InitSoC_Same>
         <Program_ResetAfterProgram>false</Program_ResetAfterProgram>

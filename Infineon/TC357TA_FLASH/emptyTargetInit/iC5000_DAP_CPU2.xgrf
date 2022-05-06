@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -23,79 +23,79 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\emptyTargetInit\main.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>184</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\emptyTargetInit\readMe.txt</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
-         <ScrollPos>6</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.11>
         <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>286</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C2\TriCoreC2.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
+        </__.2>
+        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>357</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C2\tc_arch.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.4>
-        <__.5>
+        </__.3>
+        <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\lowPowerModeStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
+        </__.4>
+        <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>21</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C2\TriCoreC2.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.7>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>159</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C2\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>9</ScrollPos>
+        </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
@@ -103,8 +103,8 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC357TA_FLASH\targetInit\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
        </EditorPersist>
@@ -120,7 +120,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296371712</RegVer>
+      <RegVer>1296408576</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -132,7 +132,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296371712</RegVer>
+    <RegVer>1296408576</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -152,19 +152,19 @@
      </FileHistory>
      <ToolbarData>
       <Toolbars.Debug>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.Debug>
       <Toolbars.FBM>
        <Opened>false</Opened>
       </Toolbars.FBM>
       <Toolbars.File>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.File>
       <Toolbars.Project>
        <Opened>false</Opened>
       </Toolbars.Project>
       <Toolbars.View>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.View>
      </ToolbarData>
      <ViewData>
@@ -179,16 +179,12 @@
        </__.1>
        <__.10>
         <ViewId>15</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewType>Output_Build</ViewType>
        </__.10>
        <__.11>
-        <ViewId>16</ViewId>
-        <ViewType>Output_Build</ViewType>
-       </__.11>
-       <__.12>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.12>
+       </__.11>
        <__.2>
         <ViewId>6</ViewId>
         <ViewType>Disassembly</ViewType>
@@ -219,7 +215,7 @@
        </__.8>
        <__.9>
         <ViewId>14</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewType>Output_Tools</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -294,8 +290,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x74696E48</Address>
-           <AddressOffset>0x74696E40</AddressOffset>
+           <Address>0xFFFFFF</Address>
+           <AddressOffset>0xFFFFC0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -305,7 +301,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x74696E40</Address>
+         <Address>0xFFFFC0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -331,7 +327,7 @@
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>14</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -339,7 +335,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>15</ViewId>
+        <ViewId>14</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -347,7 +343,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>16</ViewId>
+        <ViewId>15</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -421,6 +417,12 @@
          <RootItem>
           <Name></Name>
           <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>TC1.6.2P,TC357TA</Name>
+            <Options>4</Options>
+           </__.0>
+          </ChildItems>
          </RootItem>
         </TreeState>
        </__.0>
@@ -571,17 +573,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>16</FocusedViewId>
+        <FocusedViewId>13</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1174</Bottom>
-         <Left>595</Left>
-         <Right>1827</Right>
-         <Top>167</Top>
+         <Bottom>979</Bottom>
+         <Left>652</Left>
+         <Right>1676</Right>
+         <Top>211</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -662,7 +664,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>16</TopTabViewId>
+               <TopTabViewId>15</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -685,16 +687,6 @@
                  <TopTabViewId>-1</TopTabViewId>
                  <ViewId>15</ViewId>
                 </__.1>
-                <__.2>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16</ViewId>
-                </__.2>
                </Children>
               </__.1>
              </Children>
@@ -971,13 +963,6 @@
      </WindowsInfo>
     </Environment>
     <Plugins>
-     <_108541C3-E380-41DE-AFA5-3D8517465B5E>
-      <Plugin>
-       <Data>
-        <DiscreteBkg>0x4040</DiscreteBkg>
-       </Data>
-      </Plugin>
-     </_108541C3-E380-41DE-AFA5-3D8517465B5E>
     </Plugins>
    </REG_ROOT>
   </winIDEA>
