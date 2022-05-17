@@ -1,0 +1,34 @@
+INPUT(&&)
+ENTRY(reset)
+INCLUDE ../common.ind
+
+_estack = (ORIGIN(RAM_CM3_0) + LENGTH(RAM_CM3_0) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+    .text :
+    {
+        KEEP(*(.isr_vector))  
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > RAM_CM3_0
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM_CM3_0
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > RAM_CM3_0
+}

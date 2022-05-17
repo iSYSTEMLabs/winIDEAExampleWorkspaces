@@ -1,0 +1,24 @@
+START _start
+
+MEMORY {
+    CSM_ICCM : ORIGIN = 0x00000000, LENGTH = 0x00000800
+    CSM_DCCM : ORIGIN = 0x00008000, LENGTH = 0x00000800
+    }
+SECTIONS {
+    GROUP BLOCK(4): {
+        .vectors? (TEXT): {}
+	.text? : { *('.text$crt*') }
+        * (TEXT): {}
+    	* (LIT): {}
+	} > CSM_ICCM
+
+    GROUP BLOCK(4): {
+	/* _SDA_BASE_ computed implicitly */
+        .sdata?: {}
+        .sbss?: {}
+        * (DATA): {}
+        * (BSS): {}
+       .stack ALIGN(4) SIZE(DEFINED _STACKSIZE?_STACKSIZE:512): {}
+       .heap? ALIGN(4) SIZE(DEFINED _HEAPSIZE?_HEAPSIZE:0): {}
+	} > CSM_DCCM
+}

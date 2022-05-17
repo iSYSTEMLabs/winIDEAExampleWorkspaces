@@ -46,5 +46,6 @@ Real-time memory access is possible
 Debug entry configuration:
 
 	- MCU_0_R5: Stop after reset at program entry point
+  - CM3_0: Stop after reset at program entry point
 
 **************************************************

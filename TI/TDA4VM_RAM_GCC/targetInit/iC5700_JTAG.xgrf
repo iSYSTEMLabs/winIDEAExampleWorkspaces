@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296367616</RegVer>
+      <RegVer>1296420864</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -77,28 +77,36 @@
         </__.15>
         <__.16>
          <BookmarkList></BookmarkList>
-         <CaretPos>493</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\MCU_0_R5\startup0.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2746</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>203</ScrollPos>
-        </__.17>
-        <__.18>
-         <BookmarkList></BookmarkList>
          <CaretPos>632</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>493</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\MCU_0_R5\startup0.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>869</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>73</ScrollPos>
         </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.19>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>4085</CaretPos>
@@ -107,6 +115,14 @@
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>498</CaretPos>
@@ -176,7 +192,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296367616</RegVer>
+      <RegVer>1296420864</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -188,21 +204,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296367616</RegVer>
+    <RegVer>1296420864</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>MCU_0_R5\startup.c</RelativeFilePath>
+        <RelativeFilePath>MCU_0_R5\startup0.s</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>MCU_0_R5\TDA4VM.c</RelativeFilePath>
+        <RelativeFilePath>test.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>MCU_0_R5\startup0.s</RelativeFilePath>
+        <RelativeFilePath>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\MCU_0_R5\startup0.s</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\test.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -673,17 +689,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>22</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>23</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>1</FocusedViewId>
+        <FocusedViewId>49</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>871</Bottom>
-         <Left>2537</Left>
-         <Right>3561</Right>
-         <Top>217</Top>
+         <Bottom>1138</Bottom>
+         <Left>1930</Left>
+         <Right>3810</Right>
+         <Top>115</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -913,6 +929,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
