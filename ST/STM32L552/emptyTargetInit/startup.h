@@ -7,6 +7,7 @@ extern int main();
 void setVTOR(void);
 void enableFPU(void);
 void IntDefaultHandler(void);
+void InterruptRoutine(void);
 
 extern unsigned long __stack;
 

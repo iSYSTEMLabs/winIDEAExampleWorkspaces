@@ -8,46 +8,46 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296404480</RegVer>
+      <RegVer>1296433152</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
+         <BookmarkList></BookmarkList>
+         <CaretPos>37</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552_flash.ld</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>159</ScrollPos>
+        </__.0>
+        <__.1>
          <BookmarkList></BookmarkList>
          <CaretPos>4488</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.0>
-        <__.1>
-         <BookmarkList></BookmarkList>
-         <CaretPos>37</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552_flash.ld</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
-         <BookmarkList></BookmarkList>
-         <CaretPos>337</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.10>
-        <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>215</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\lowPowerMode.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.11>
-        <__.12>
+        </__.10>
+        <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>88</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>170</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\customTests.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
@@ -55,87 +55,111 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\st2\STM32L552_FLASH_GCC\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.13>
         <__.14>
          <BookmarkList></BookmarkList>
-         <CaretPos>170</CaretPos>
+         <CaretPos>65817</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\customTests.h</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552_sfr.h</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>3155</ScrollPos>
         </__.14>
         <__.15>
          <BookmarkList></BookmarkList>
-         <CaretPos>266</CaretPos>
+         <CaretPos>995</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\startup.c</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552.h</FileName>
          <FileType>1</FileType>
-         <ScrollPos>7</ScrollPos>
+         <ScrollPos>12</ScrollPos>
         </__.15>
         <__.16>
          <BookmarkList></BookmarkList>
-         <CaretPos>783</CaretPos>
+         <CaretPos>90</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.16>
         <__.17>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>189</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\main.c</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\startup.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.17>
         <__.18>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>3259</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_stubStruc.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>88</ScrollPos>
         </__.18>
         <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>35</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1985</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>51</ScrollPos>
+        </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\st2\STM32L552_FLASH_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\st2\STM32L552_FLASH_GCC\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\st2\STM32L552_FLASH_GCC\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552_FLASH_GCC\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.19>
-        <__.2>
+        </__.23>
+        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>3603</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>83</ScrollPos>
-        </__.2>
-        <__.20>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32L552\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>24</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\STM32L552.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>72</CaretPos>
+         <CaretPos>126</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\userTracePort.h</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_system.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.4>
@@ -149,33 +173,33 @@
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
+         <CaretPos>2396</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>38</ScrollPos>
+        </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
          <CaretPos>1</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\daq.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.7>
-         <BookmarkList></BookmarkList>
-         <CaretPos>126</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_system.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
-         <CaretPos>52</CaretPos>
+         <CaretPos>72</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\trace.h</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\userTracePort.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>155</CaretPos>
+         <CaretPos>52</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32L552_FLASH_GCC\startup.h</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\trace.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
@@ -192,7 +216,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296404480</RegVer>
+      <RegVer>1296433152</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -204,15 +228,15 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296404480</RegVer>
+    <RegVer>1296433152</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\targetInit\customTests.h</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\startup.h</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\targetInit\startup.c</RelativeFilePath>
+        <RelativeFilePath>..\..\common\iTest\test_testing_stubStruc.c</RelativeFilePath>
        </__.1>
        <__.2>
         <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
@@ -242,27 +266,27 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>9</ViewId>
+        <ViewId>10067</ViewId>
         <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>8</ViewId>
+        <ViewId>10066</ViewId>
         <ViewType>SFR</ViewType>
        </__.1>
        <__.2>
-        <ViewId>6</ViewId>
+        <ViewId>10064</ViewId>
         <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>7</ViewId>
+        <ViewId>10065</ViewId>
         <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
-        <ViewId>3</ViewId>
+        <ViewId>10062</ViewId>
         <ViewType>Locals</ViewType>
        </__.4>
        <__.5>
-        <ViewId>4</ViewId>
+        <ViewId>10063</ViewId>
         <ViewType>This</ViewType>
        </__.5>
        <__.6>
@@ -270,11 +294,11 @@
         <ViewType>CustomWatch</ViewType>
        </__.6>
        <__.7>
-        <ViewId>12</ViewId>
+        <ViewId>10070</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>13</ViewId>
+        <ViewId>10071</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
@@ -285,7 +309,7 @@
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>7</ViewId>
+        <ViewId>10065</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -296,14 +320,14 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>931</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>6</ViewId>
+        <ViewId>10064</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -327,19 +351,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>12</ViewId>
+        <ViewId>10070</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>13</ViewId>
+        <ViewId>10071</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>9</ViewId>
+        <ViewId>10067</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -354,25 +378,25 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x22E0DBA4</Address>
-           <AddressOffset>0x22E0DB80</AddressOffset>
-           <AddressStr></AddressStr>
-           <DisplayMode>0</DisplayMode>
+           <Address>0x42020400</Address>
+           <AddressOffset>0x42020400</AddressOffset>
+           <AddressStr>0x42020400</AddressStr>
+           <DisplayMode>2</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
            <IsIntLowFirst>true</IsIntLowFirst>
-           <IsRealTime>false</IsRealTime>
+           <IsRealTime>true</IsRealTime>
           </Info>
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x22E0DB80</Address>
+         <Address>0x42020400</Address>
          <Bits>8</Bits>
-         <DisplayMode>0</DisplayMode>
+         <DisplayMode>2</DisplayMode>
          <High>0xFFFFFFFF</High>
          <LimitMAUsPerLine>None</LimitMAUsPerLine>
          <Low>0x0</Low>
-         <RealTime>false</RealTime>
-         <StrAddress></StrAddress>
+         <RealTime>true</RealTime>
+         <StrAddress>0x42020400</StrAddress>
          <SwapFloat>true</SwapFloat>
          <SwapInt>true</SwapInt>
          <Area>
@@ -414,6 +438,14 @@
          <IsVisible>false</IsVisible>
         </FindData>
        </__.2>
+       <__.3>
+        <ViewId>-1</ViewId>
+        <ViewType>Output_FindInFiles</ViewType>
+        <FindData>
+         <IsInReplaceMode>false</IsInReplaceMode>
+         <IsVisible>false</IsVisible>
+        </FindData>
+       </__.3>
       </OutputViews>
       <ProjectViews>
        <__.0>
@@ -421,23 +453,29 @@
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>Files [iC5700_JTAG - Debug]</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
             <Name>Files</Name>
-            <Options>5</Options>
-            <ChildItems>
-             <__.0>
-              <Name>Info</Name>
-              <Options>4</Options>
-             </__.0>
-            </ChildItems>
+            <Options>4</Options>
            </__.0>
           </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Files [iC5700_JTAG - Debug]</Name>
+            </__.1>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -446,7 +484,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>8</ViewId>
+        <ViewId>10066</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -483,7 +521,7 @@
           <Options>0</Options>
           <ChildItems>
            <__.0>
-            <Name>Cortex-M33,STM32L55x</Name>
+            <Name>Cortex-M33,STM32L552xE</Name>
             <Options>4</Options>
            </__.0>
           </ChildItems>
@@ -493,7 +531,7 @@
       </SfrViews>
       <VariableViews>
        <__.0>
-        <ViewId>3</ViewId>
+        <ViewId>10062</ViewId>
         <ViewType>Locals</ViewType>
         <ColumnData>
          <__.0>
@@ -524,7 +562,7 @@
         </ColumnData>
        </__.0>
        <__.1>
-        <ViewId>4</ViewId>
+        <ViewId>10063</ViewId>
         <ViewType>This</ViewType>
         <ColumnData>
          <__.0>
@@ -618,6 +656,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -637,17 +687,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>180</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>165</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>13</FocusedViewId>
+        <FocusedViewId>10067</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>923</Bottom>
-         <Left>324</Left>
-         <Right>1348</Right>
-         <Top>155</Top>
+         <Bottom>949</Bottom>
+         <Left>453</Left>
+         <Right>1477</Right>
+         <Top>181</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -686,7 +736,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>13</TopTabViewId>
+             <TopTabViewId>10071</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -697,7 +747,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>12</ViewId>
+               <ViewId>10070</ViewId>
               </__.0>
               <__.1>
                <DockType>Document</DockType>
@@ -707,7 +757,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>13</ViewId>
+               <ViewId>10071</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -728,7 +778,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>6</TopTabViewId>
+               <TopTabViewId>10065</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -739,7 +789,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>6</ViewId>
+                 <ViewId>10064</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -749,7 +799,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>7</ViewId>
+                 <ViewId>10065</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -771,7 +821,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>8</ViewId>
+                 <ViewId>10066</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -800,7 +850,7 @@
                    <IsPinned>false</IsPinned>
                    <IsTabbed>true</IsTabbed>
                    <Orientation>None</Orientation>
-                   <TopTabViewId>4</TopTabViewId>
+                   <TopTabViewId>10063</TopTabViewId>
                    <ViewId>-1</ViewId>
                    <Children>
                     <__.0>
@@ -811,7 +861,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>3</ViewId>
+                     <ViewId>10062</ViewId>
                     </__.0>
                     <__.1>
                      <DockType>View</DockType>
@@ -821,7 +871,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>4</ViewId>
+                     <ViewId>10063</ViewId>
                     </__.1>
                    </Children>
                   </__.1>
@@ -841,7 +891,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>9</ViewId>
+           <ViewId>10067</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -856,9 +906,47 @@
        <IncludeAllFilesInProjectFolders>false</IncludeAllFilesInProjectFolders>
        <IncludeProjectDependencies>true</IncludeProjectDependencies>
        <IncludeProjectFiles>true</IncludeProjectFiles>
-       <LastFileType></LastFileType>
+       <LastFileType>*.c;*.h</LastFileType>
        <Subfolders>false</Subfolders>
        <WholeWords>false</WholeWords>
+       <FileType>
+        <__.0>
+         <V>*.c;*.h</V>
+        </__.0>
+        <__.1>
+         <V>*.c</V>
+        </__.1>
+        <__.2>
+         <V>*.h</V>
+        </__.2>
+        <__.3>
+         <V>*.s</V>
+        </__.3>
+        <__.4>
+         <V>*.inc;*.h</V>
+        </__.4>
+        <__.5>
+         <V>*.txt</V>
+        </__.5>
+        <__.6>
+         <V>*.*</V>
+        </__.6>
+       </FileType>
+       <Find>
+        <__.0>
+         <V>mainLoopCounter</V>
+        </__.0>
+       </Find>
+       <Folder>
+        <__.0>
+         <V></V>
+        </__.0>
+       </Folder>
+       <Replace>
+        <__.0>
+         <V></V>
+        </__.0>
+       </Replace>
       </FindInFilesDialogData>
      </GlobalData>
      <History>
@@ -878,7 +966,7 @@
        <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
-       <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
+       <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
       </MemoryWindow>
       <ProjectWindow>
        <Symbols>
@@ -978,6 +1066,12 @@
        <RootItem>
         <Name></Name>
         <Options>0</Options>
+        <ChildItems>
+         <__.0>
+          <Name>V850G3, R7F701527x</Name>
+          <Options>4</Options>
+         </__.0>
+        </ChildItems>
        </RootItem>
       </SFR_Tree>
      </WindowsInfo>

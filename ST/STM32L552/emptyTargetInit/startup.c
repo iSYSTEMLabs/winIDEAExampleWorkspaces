@@ -20,6 +20,7 @@ void Reset()
     *pulDest++ = 0;       
   
   main();
+  while(1);
 }
 
 void IntDefaultHandler()
@@ -28,6 +29,13 @@ void IntDefaultHandler()
   {
   }
 }
+
+void TimerInterruptHandler(void)
+{
+  InterruptRoutine();
+  TIM2_SR &= ~(1 << 0); // Clear interrupt flag
+}
+
 
 __attribute__ ((section(".isr_vector")))
 void (* const g_pfnVectors[])(void) =
@@ -48,7 +56,7 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // Debug monitor handler
     0,
     IntDefaultHandler,                      // Pendable request for system service (PendableSrvReq)
-    IntDefaultHandler,                      // System tick timer (SysTick)
+    IntDefaultHandler,                  // System tick timer (SysTick)
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
@@ -71,6 +79,7 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
+    IntDefaultHandler, 
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
@@ -92,9 +101,7 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
-    IntDefaultHandler,
-    IntDefaultHandler,
-    IntDefaultHandler,
+    TimerInterruptHandler, // TIM2 interrupt
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
