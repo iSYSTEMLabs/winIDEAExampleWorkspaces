@@ -1,0 +1,88 @@
+/* lcf file for CCFC20012BC*/
+
+MEMORY
+{
+  
+  init:                     org = 0x40000000,   len = 0x00000500
+  exception_handlers_ram:   org = 0x40000500,   len = 0x00001500
+  internal_ram:             org = 0x40002000,   len = 0x0000F000
+  internal_ram_data:        org = 0x40011000,   len = 0x00005000
+  stack :                   org = 0x40016000,   len = 0x1000 /* Start location for Stack */
+  heap  :                   org = 0x40017000,   len = 0x1000 /* Heap start location */
+}
+
+SECTIONS
+{
+  .init                     LOAD(ADDR(init))                                        : {} > init
+  .init_vle (VLECODE)       LOAD (ADDR(.init)+SIZEOF(.init))                        : {
+    *(.init)
+    *(.init_vle)
+   } > init
+     
+  
+  GROUP  : {
+    .ivor_branch_table      (VLECODE) LOAD (ADDR(exception_handlers_ram))           : {}
+    .intc_hw_branch_table   (VLECODE) LOAD (_e_ivor_branch_table) ALIGN (0x800)     : {}
+    .ivor_handlers          (VLECODE) LOAD (_e_intc_hw_branch_table)                : {}
+  } > exception_handlers_ram
+
+  GROUP  : {
+    .text                                                                           : {} 
+    .text_vle               (VLECODE) ALIGN(0x08)                                   : {
+      *(.text)
+      *(.text_vle)
+  }                   
+      
+    .rodata (CONST)                                                                 : {
+      *(.rdata)
+      *(.rodata)
+    }  
+       
+    .ctors     : {}
+    .dtors     : {}
+      extab      : {}
+      extabindex : {}
+    } > internal_ram
+    
+/* Metrowerks CodeWarrior compiler address designations */
+
+  __RAM_START_ADDR = ADDR(internal_ram);
+  __RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+  __RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+    
+  __START_DATA    =   ADDR(.data);
+  __END_DATA      =   __START_DATA + SIZEOF(.data);  
+    
+  __START_BSS     =   ADDR(.bss);
+  __END_BSS       =   __START_BSS + SIZEOF(.bss);  
+  __RAM_BSS_SIZE = __END_BSS - __START_BSS;   
+    
+  __START_SDATA   =   ADDR(.sdata); 
+  __END_SDATA     =   __START_SDATA + SIZEOF(.sdata); 
+  __SDATA_SIZE    =   SIZEOF(.sdata);
+    
+  __START_SBSS    =   ADDR(.sbss);                  
+  __END_SBSS      =   __START_SBSS + SIZEOF(.sbss);
+  __RAM_SBSS_SIZE = __END_SBSS - __START_SBSS;
+    
+  __START_SDATA2  =   ADDR(.sdata2);    
+  __END_SDATA2    =   __START_SDATA2 + SIZEOF(.sdata2);  
+    
+  _stack_addr = ADDR(stack)+SIZEOF(stack);
+  _stack_end  = ADDR(stack);
+  _heap_addr  = ADDR(heap);
+  _heap_end   = ADDR(heap)+SIZEOF(heap);
+
+  GROUP : {
+    .__uninitialized_intc_handlertable ALIGN(0x10)             : {}
+    .data               LOAD  (__START_DATA)                   : {}
+    .bss                ALIGN(0x4) LOAD  (__START_BSS)         : {}
+    .sdata              LOAD  (__START_SDATA)                  : {}
+    .sbss               ALIGN(0x10) LOAD  (__START_SBSS)       : {}
+    .sdata2             LOAD  (__START_SDATA2)                 : {}
+  } > internal_ram_data
+}
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+__IVPR_VALUE = ADDR(exception_handlers_ram);

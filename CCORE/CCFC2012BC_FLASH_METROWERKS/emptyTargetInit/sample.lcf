@@ -1,0 +1,80 @@
+/* Linker file for CCFC2012BC */
+
+MEMORY
+{
+    resetvector:        org = 0x00000000,   len = 0x00000008
+    init:               org = 0x00000020,   len = 0x00000FE0
+    exception_handlers: org = 0x00001000,   len = 0x00001000
+    internal_flash:     org = 0x00002000,   len = 0x0000E000
+    internal_flash1:    org = 0x00010000,   len = 0x00010000
+    internal_ram:       org = 0x40000000,   len = 0x00015000
+    stack :             org = 0x40016000,   len = 0x100 /* Start location for Stack */
+    heap  :             org = 0x40017000,   len = 0x100 /* Heap start location */
+}
+
+__RAM_START_ADDR = ADDR(internal_ram);
+__RAM_END_ADDR = ADDR(stack) + SIZEOF(stack);
+__RAM_SIZE = __RAM_END_ADDR - __RAM_START_ADDR;
+
+FORCEACTIVE { "bam_rchw" "bam_resetvector" }
+		
+SECTIONS
+{
+    .__bam_bootarea LOAD (0x00000000): {} > resetvector
+
+    GROUP : {
+      .init LOAD (0x00000020) : {}
+      .init_vle (VLECODE) LOAD (_e_init) : {
+        *(.init)
+        *(.init_vle)
+      }
+    } > init
+
+    .__exception_handlers  LOAD (0x00001000): {} > exception_handlers 
+    
+    GROUP  : {
+      .ivor_branch_table    (VLECODE) LOAD (ADDR(internal_flash1))   : {}
+      .intc_hw_branch_table  (VLECODE) LOAD (_e_ivor_branch_table) ALIGN (0x800) : {}
+      .ivor_handlers     (VLECODE) LOAD (_e_intc_hw_branch_table) : {}
+    } > internal_flash1
+
+    GROUP  : {
+      .text : {} 
+      .text_vle (VLECODE) ALIGN(0x08): {
+         *(.text)
+         *(.text_vle)
+       }
+       .rodata (CONST) : {
+         *(.rdata)
+         *(.rodata)
+       }
+       .ctors : {}
+       .dtors : {}
+       extab : {}
+       extabindex : {}
+    } > internal_flash
+    
+    GROUP : {
+       .__uninitialized_intc_handlertable ALIGN(2048) : {}
+       .data   : {}
+       .sdata  : {}
+       .sbss   : {}
+       .sdata2 : {}
+       .sbss2  : {}
+       .bss    : {}
+    } > internal_ram
+}
+
+/* Metrowerks CodeWarrior compiler address designations */
+
+_stack_addr = ADDR(stack)+SIZEOF(stack);
+_stack_end  = ADDR(stack);
+__ROM_SDATA_SIZE    = SIZEOF(.sdata);
+__ROM_SDATA_ADDR    = ROMADDR(.sdata);
+__RAM_SDATA_ADDR    = ADDR(.sdata);
+
+__IVPR_VALUE = ADDR(internal_flash1);
+
+/* Exceptions Handlers Location (used in z650Exceptions.c for IVPR initialization) */
+
+EXCEPTION_HANDLERS = ADDR(exception_handlers);
