@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296429056</RegVer>
+      <RegVer>1296437248</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -93,19 +93,19 @@
         </__.17>
         <__.18>
          <BookmarkList></BookmarkList>
+         <CaretPos>305</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\CPUFile.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
          <CaretPos>1007</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>87</ScrollPos>
-        </__.18>
-        <__.19>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1566</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\__start.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>21</ScrollPos>
         </__.19>
         <__.2>
          <BookmarkList></BookmarkList>
@@ -117,20 +117,60 @@
         </__.2>
         <__.20>
          <BookmarkList></BookmarkList>
+         <CaretPos>1566</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>21</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
          <CaretPos>259</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\CPUFile.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.21>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>1429</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.21>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1566</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>11</ScrollPos>
+        </__.23>
+        <__.24>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3334</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>261</ScrollPos>
+        </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>126</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_RAM_METROWERKS\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.26>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>487</CaretPos>
@@ -200,7 +240,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296429056</RegVer>
+      <RegVer>1296437248</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -212,7 +252,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296429056</RegVer>
+    <RegVer>1296437248</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -220,13 +260,13 @@
         <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>__start.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>__start.c</RelativeFilePath>
+        <RelativeFilePath>CPUFile.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>CPUFile.c</RelativeFilePath>
+        <RelativeFilePath>test.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -250,7 +290,7 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>57</ViewId>
+        <ViewId>64</ViewId>
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
@@ -470,21 +510,42 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>57</ViewId>
+        <ViewId>64</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>Source files</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
             <Name>Files</Name>
-            <Options>4</Options>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>Info</Name>
+              <Options>4</Options>
+             </__.0>
+            </ChildItems>
            </__.0>
           </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Files [iC5000_JTAG - Debug]</Name>
+            </__.1>
+            <__.2>
+             <Name>Source files</Name>
+            </__.2>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -665,6 +726,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -684,17 +757,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>55</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>1</FocusedViewId>
+        <FocusedViewId>47</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
-         <Top>100</Top>
+         <Bottom>946</Bottom>
+         <Left>222</Left>
+         <Right>1246</Right>
+         <Top>178</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -734,7 +807,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>57</ViewId>
+               <ViewId>64</ViewId>
               </__.0>
               <__.1>
                <DockType>View</DockType>
@@ -918,10 +991,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

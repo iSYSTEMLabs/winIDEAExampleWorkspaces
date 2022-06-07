@@ -8,40 +8,40 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296429056</RegVer>
+      <RegVer>1296437248</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
          <BookmarkList></BookmarkList>
-         <CaretPos>354</CaretPos>
+         <CaretPos>249</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC_FLASH_METROWERKS\init.c</FileName>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\CCFC2012BC.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>1065</CaretPos>
+         <CaretPos>414</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\init.c</FileName>
-         <FileType>1</FileType>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC_FLASH_METROWERKS\sample.lcf</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\CCFC20012BC_asm.c</FileName>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\CCFC2012BC_asm.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>54</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
-         <CaretPos>1566</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\__start.c</FileName>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\CCFC20012BC_asm.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>42</ScrollPos>
+         <ScrollPos>54</ScrollPos>
         </__.11>
         <__.12>
          <BookmarkList></BookmarkList>
@@ -53,137 +53,169 @@
         </__.12>
         <__.13>
          <BookmarkList></BookmarkList>
+         <CaretPos>1566</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>42</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.15>
+         <BookmarkList></BookmarkList>
          <CaretPos>13815</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>404</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>1566</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC50_RAM_METROWERKS\__start.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>14</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>936</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>12</ScrollPos>
-        </__.15>
-        <__.16>
+        </__.17>
+        <__.18>
          <BookmarkList></BookmarkList>
          <CaretPos>1360</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>47</ScrollPos>
-        </__.16>
-        <__.17>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.17>
-        <__.18>
+        </__.18>
+        <__.19>
          <BookmarkList></BookmarkList>
          <CaretPos>1620</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\__start.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>11</ScrollPos>
-        </__.18>
-        <__.19>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.19>
         <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC_FLASH_METROWERKS\Sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.20>
-         <BookmarkList></BookmarkList>
-         <CaretPos>869</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>42</ScrollPos>
-        </__.20>
-        <__.21>
-         <BookmarkList></BookmarkList>
-         <CaretPos>362</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\CPUFile.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.22>
-        <__.23>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.23>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\Sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>487</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\clockInit.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.4>
-        <__.5>
-         <BookmarkList></BookmarkList>
-         <CaretPos>414</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC_FLASH_METROWERKS\sample.lcf</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>1754</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\sample.lcf</FileName>
          <FileType>0</FileType>
          <ScrollPos>57</ScrollPos>
+        </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>869</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>42</ScrollPos>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>362</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\CPUFile.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.23>
+        <__.24>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\public\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1799</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>128</ScrollPos>
+        </__.26>
+        <__.27>
+         <BookmarkList></BookmarkList>
+         <CaretPos>127</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.27>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC_FLASH_METROWERKS\Sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.3>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\Sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>487</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\clockInit.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>354</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCFC2012BC_FLASH_METROWERKS\init.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.6>
         <__.7>
          <BookmarkList></BookmarkList>
-         <CaretPos>249</CaretPos>
+         <CaretPos>1065</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\CCFC2012BC.h</FileName>
+         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\init.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
@@ -197,11 +229,11 @@
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>1620</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\BlueBox\fitIDEA\samples\src\powerPC\CCF2012BC50_RAM_METROWERKS\CCFC2012BC_asm.c</FileName>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\CCORE\CCFC2012BC_FLASH_METROWERKS\emptyTargetInit\__start.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>11</ScrollPos>
         </__.9>
        </EditorPersist>
       </EditorPersist>
@@ -216,7 +248,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296429056</RegVer>
+      <RegVer>1296437248</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -228,7 +260,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296429056</RegVer>
+    <RegVer>1296437248</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -236,13 +268,13 @@
         <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>CPUFile.c</RelativeFilePath>
        </__.1>
        <__.2>
         <RelativeFilePath>__start.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>CPUFile.c</RelativeFilePath>
+        <RelativeFilePath>test.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -266,41 +298,37 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>79</ViewId>
+        <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>58</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
        </__.1>
        <__.2>
-        <ViewId>5</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>58</ViewId>
+        <ViewType>This</ViewType>
        </__.2>
        <__.3>
-        <ViewId>67</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>5</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.3>
        <__.4>
-        <ViewId>68</ViewId>
+        <ViewId>67</ViewId>
         <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>69</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>68</ViewId>
+        <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>70</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewId>69</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.6>
        <__.7>
-        <ViewId>71</ViewId>
-        <ViewType>Output_Build</ViewType>
-       </__.7>
-       <__.8>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.8>
+       </__.7>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
@@ -464,7 +492,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>70</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -472,7 +500,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>71</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -490,42 +518,21 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>79</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>Source files</SelectedItems>
+         <SelectedItems></SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
             <Name>Files</Name>
-            <Options>5</Options>
-            <ChildItems>
-             <__.0>
-              <Name>Info</Name>
-              <Options>4</Options>
-             </__.0>
-            </ChildItems>
+            <Options>4</Options>
            </__.0>
           </ChildItems>
          </RootItem>
-         <SelectedItemPaths>
-          <__.0>
-           <Segments>
-            <__.0>
-             <Name></Name>
-            </__.0>
-            <__.1>
-             <Name>Files [iC5000_JTAG - Debug]</Name>
-            </__.1>
-            <__.2>
-             <Name>Source files</Name>
-            </__.2>
-           </Segments>
-          </__.0>
-         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -706,6 +713,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -725,17 +744,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>27</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>26</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>1</FocusedViewId>
+        <FocusedViewId>69</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
-         <Top>100</Top>
+         <Bottom>946</Bottom>
+         <Left>222</Left>
+         <Right>1246</Right>
+         <Top>178</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -758,14 +777,36 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
+             <DockType>None</DockType>
              <Extent>0.25</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
+             <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>1</ViewId>
+             <TopTabViewId>79</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>79</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>1</ViewId>
+              </__.1>
+             </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
@@ -812,46 +853,14 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.4</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>69</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>69</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>70</ViewId>
-              </__.1>
-              <__.2>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>71</ViewId>
-              </__.2>
-             </Children>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>69</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>

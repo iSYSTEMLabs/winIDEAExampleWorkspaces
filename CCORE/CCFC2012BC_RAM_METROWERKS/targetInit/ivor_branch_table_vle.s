@@ -58,5 +58,3 @@ IVOR14trap: e_b	IVOR14trap	 # IVOR 14 interrupt handler
 
 				.align SIXTEEN_BYTES       
 IVOR15trap: e_b	IVOR15trap	 # IVOR15 interrupt handler
-
-

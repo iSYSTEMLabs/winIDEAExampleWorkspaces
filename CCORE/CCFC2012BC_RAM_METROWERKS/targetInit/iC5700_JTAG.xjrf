@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296429056</RegVer>
+      <RegVer>1296437248</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296429056</RegVer>
+      <RegVer>1296437248</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296429056</RegVer>
+    <RegVer>1296437248</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -484,7 +484,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.95</winIDEA>
+      <winIDEA>Build 9.21.97</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -596,7 +596,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296429056</RegVer>
+    <RegVer>1296437248</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5000_JTAG - Debug</DefaultTargetName>
@@ -611,7 +611,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296429056</RegVer>
+    <RegVer>1296437248</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -6665,8 +6665,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>95</V_BUILD>
-      <V_BUILD_SCC>135622</V_BUILD_SCC>
+      <V_BUILD>97</V_BUILD>
+      <V_BUILD_SCC>135920</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>

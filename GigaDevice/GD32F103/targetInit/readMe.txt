@@ -27,11 +27,15 @@ iSYSTEM AG reserves the right to make changes in the sample
 workspace or winIDEA without further notice to improve
 reliability, function or design.
 
-Copyright (C) iSYSTEM AG 2021
+Copyright (C) iSYSTEM AG 2022
 
 **************************************************
 
 Compiler: GCC
+
+**************************************************
+
+TimerInterrupt implemented
 
 **************************************************
 

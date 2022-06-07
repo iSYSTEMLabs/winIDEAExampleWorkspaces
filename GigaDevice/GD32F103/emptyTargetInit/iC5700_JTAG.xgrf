@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296232448</RegVer>
+      <RegVer>1296441344</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -21,11 +21,11 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>2696</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58EC80E3\C2\sample.lcf</FileName>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103_FLASH\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
-         <ScrollPos>45</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
@@ -45,18 +45,18 @@
         </__.11>
         <__.12>
          <BookmarkList></BookmarkList>
-         <CaretPos>86</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103_FLASH\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
         <__.13>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>86</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\public\GD32F103_FLASH\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.13>
         <__.14>
@@ -69,17 +69,17 @@
         </__.14>
         <__.15>
          <BookmarkList></BookmarkList>
-         <CaretPos>2406</CaretPos>
+         <CaretPos>2290</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.15>
         <__.16>
          <BookmarkList></BookmarkList>
-         <CaretPos>2290</CaretPos>
+         <CaretPos>2406</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.16>
@@ -93,49 +93,113 @@
         </__.17>
         <__.18>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>220</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\public\GD32F103_FLASH\targetInit\main.c</FileName>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103\emptyTargetInit\CPUFile.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1533</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\GD32F103_FLASH\GD32F103.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.19>
         <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>377</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\GD32F103_FLASH\GD32F103.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\GD32F103_FLASH\projectDefs.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>381</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\GD32F103_FLASH\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3446</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103_FLASH\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.23>
+        <__.24>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103_FLASH\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>253</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>369</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\GigaDevice\GD32F103\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.26>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2696</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58EC80E3\C2\sample.lcf</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>45</ScrollPos>
+        </__.3>
+        <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58EC80E3\C2\__start.c</FileName>
          <FileType>0</FileType>
          <ScrollPos>174</ScrollPos>
-        </__.2>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>707</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
+        </__.4>
+        <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.4>
-        <__.5>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\public\GD32F103_FLASH\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>707</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>K:\samplesRecompile\common\main.c</FileName>
+         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.6>
@@ -143,7 +207,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>K:\samplesRecompile\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
@@ -159,8 +223,8 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\public\GD32F103_FLASH\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
        </EditorPersist>
@@ -176,7 +240,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296232448</RegVer>
+      <RegVer>1296441344</RegVer>
       <ANGUIData.0>
        <Filetime type="B">BPAEFCKMNFDHNBAB</Filetime>
        <GUID type="B">KHFHAOAJEFBPNEEFKGBLDCKHCCILAIIN</GUID>
@@ -826,21 +890,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296232448</RegVer>
+    <RegVer>1296441344</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\..\common\coverageC.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\GD32F103.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\targetInit\startup.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
+        <RelativeFilePath>CPUFile.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -871,6 +935,14 @@
         <ViewId>16545</ViewId>
         <ViewType>SFR</ViewType>
        </__.1>
+       <__.10>
+        <ViewId>16552</ViewId>
+        <ViewType>Output_Build</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>16538</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.11>
        <__.2>
         <ViewId>16543</ViewId>
         <ViewType>Disassembly</ViewType>
@@ -900,8 +972,8 @@
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>16538</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>16551</ViewId>
+        <ViewType>Output_Tools</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -918,7 +990,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>931</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -1021,7 +1093,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>-1</ViewId>
+        <ViewId>16551</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -1029,7 +1101,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>-1</ViewId>
+        <ViewId>16552</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -1117,10 +1189,64 @@
        <__.0>
         <ViewId>16540</ViewId>
         <ViewType>Locals</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>180</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>140</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
        </__.0>
        <__.1>
         <ViewId>16541</ViewId>
         <ViewType>This</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>180</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>140</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
        </__.1>
       </VariableViews>
       <WatchViews>
@@ -1128,6 +1254,33 @@
         <Name>Watch</Name>
         <ViewId>16542</ViewId>
         <ViewType>CustomWatch</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>180</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>140</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>0</Width>
+         </__.4>
+        </ColumnData>
         <WatchData>
          <MiscData>
           <InitScript></InitScript>
@@ -1159,6 +1312,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -1178,17 +1343,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>50</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>16546</FocusedViewId>
+        <FocusedViewId>16550</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>887</Bottom>
-         <Left>1273</Left>
-         <Right>2567</Right>
-         <Top>24</Top>
+         <Bottom>1148</Bottom>
+         <Left>98</Left>
+         <Right>1775</Right>
+         <Top>193</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1223,32 +1388,76 @@
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>true</IsDocumentPane>
+             <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>16550</TopTabViewId>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
+               <DockType>None</DockType>
+               <Extent>0.75</Extent>
+               <IsDocumentPane>true</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16549</ViewId>
+               <TopTabViewId>16550</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16549</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16550</ViewId>
+                </__.1>
+               </Children>
               </__.0>
               <__.1>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>None</DockType>
+               <Extent>0.25</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16550</ViewId>
+               <TopTabViewId>16552</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16551</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16552</ViewId>
+                </__.1>
+               </Children>
               </__.1>
              </Children>
             </__.1>
