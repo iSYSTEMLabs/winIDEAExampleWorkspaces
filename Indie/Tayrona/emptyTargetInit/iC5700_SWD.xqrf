@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296187392</RegVer>
+   <RegVer>1296375808</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -68,7 +68,6 @@
      </Env.0>
      <IncludePath.0>
       <Path>$(IRFDIR)</Path>
-      <SubDir>0</SubDir>
      </IncludePath.0>
      <mbBuild>
       <Mode>0</Mode>
@@ -103,7 +102,7 @@
        <AssemblerOptionsWR>True</AssemblerOptionsWR>
        <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
        <CompilerDefinesWR>True</CompilerDefinesWR>
-       <CompilerOptions>-g3 -O0 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
+       <CompilerOptions>-g3 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
        <CompilerOptionsWR>True</CompilerOptionsWR>
       </FileOptios>
       <LinkGroup.0>
@@ -112,21 +111,21 @@
         <FileName>$(IRFDIR)main.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
-         <CompilerOptions>-g3 -O0 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
+         <CompilerOptions>-g3 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
        <File.1>
         <FileName>$(IRFDIR)test.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
-         <CompilerOptions>-g3 -O0 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
+         <CompilerOptions>-g3 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.1>
        <File.2>
         <FileName>$(IRFDIR)CPUFile.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
-         <CompilerOptions>-g3 -O0 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
+         <CompilerOptions>-g3 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.2>
       </LinkGroup.0>
@@ -136,7 +135,7 @@
         <FileName>$(IRFDIR)startup.c</FileName>
         <FileOptios>
          <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
-         <CompilerOptions>-g3 -O0 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
+         <CompilerOptions>-g3 -c -mthumb -mcpu=cortex-m4 -mthumb  $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT) $(EDNAME) -gdwarf-2 $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
       </LinkGroup.1>

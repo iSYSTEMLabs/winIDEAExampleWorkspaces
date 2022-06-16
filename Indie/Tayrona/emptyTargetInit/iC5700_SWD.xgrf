@@ -8,118 +8,262 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296187392</RegVer>
+      <RegVer>1296375808</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
          <BookmarkList></BookmarkList>
-         <CaretPos>51</CaretPos>
+         <CaretPos>1033</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\Tayrona.h</FileName>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>1363</CaretPos>
+         <CaretPos>29535</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_SimpleTest.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>8</ScrollPos>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\iC5700_SWD.xgrf</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>962</ScrollPos>
         </__.1>
         <__.10>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Indie\Tayrona\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.10>
-        <__.11>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Indie\Tayrona\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.11>
-        <__.12>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Indie\Tayrona\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.12>
-        <__.13>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Indie\Tayrona\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.13>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>60</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>526</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\common\gcc\ARMv7\thumb\coverageA.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>21</ScrollPos>
-        </__.4>
-        <__.5>
-         <BookmarkList></BookmarkList>
-         <CaretPos>309</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\Tayrona.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>15</ScrollPos>
-        </__.5>
-        <__.6>
-         <BookmarkList></BookmarkList>
-         <CaretPos>316</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\startup.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.7>
          <BookmarkList></BookmarkList>
          <CaretPos>734</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.7>
-        <__.8>
+        </__.10>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>316</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>2488</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>82</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\common\gcc\ARMv7\thumb\debugA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.15>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\common\gcc\ARMv7\thumb\coverageA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.15>
+        <__.16>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1085</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\emptyTargetInit\Tayrona_sfr.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>18</ScrollPos>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\ZUBAT\ZUBAT.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>293</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>51</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\Tayrona.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1258</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3747</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\Tayrona.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>98</ScrollPos>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>316</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.23>
+        <__.24>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1113</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\Tayrona.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>261</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\projectDefs.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\compilerDirectives.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.26>
+        <__.27>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.27>
+        <__.28>
+         <BookmarkList></BookmarkList>
+         <CaretPos>241</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.28>
+        <__.29>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1019</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\emptyTargetInit\CPUFile.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>18</ScrollPos>
+        </__.29>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1363</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_SimpleTest.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>8</ScrollPos>
+        </__.3>
+        <__.30>
+         <BookmarkList></BookmarkList>
+         <CaretPos>798</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\emptyTargetInit\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>24</ScrollPos>
+        </__.30>
+        <__.31>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2746</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\Dumper\Public_sample\Tayrona\emptyTargetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>214</ScrollPos>
+        </__.31>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\NejcKambic\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\Tayrona\customTests.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>60</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
+         <CaretPos>526</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\common\gcc\ARMv7\thumb\coverageA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>21</ScrollPos>
+        </__.7>
+        <__.8>
+         <BookmarkList></BookmarkList>
+         <CaretPos>309</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\TAYRONA\Tayrona.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>15</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Indie\Tayrona\targetInit\startup.c</FileName>
+         <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
@@ -136,7 +280,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296187392</RegVer>
+      <RegVer>1296375808</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -148,21 +292,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296187392</RegVer>
+    <RegVer>1296375808</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\..\common\main.h</RelativeFilePath>
+        <RelativeFilePath>startup.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\targetInit\startup.c</RelativeFilePath>
+        <RelativeFilePath>Tayrona_sfr.h</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
+        <RelativeFilePath>CPUFile.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
+        <RelativeFilePath>test.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -186,58 +330,50 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>10055</ViewId>
-        <ViewType>Project</ViewType>
+        <ViewId>93</ViewId>
+        <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>10059</ViewId>
-        <ViewType>Memory</ViewType>
-       </__.1>
-       <__.10>
-        <ViewId>10054</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.10>
-       <__.11>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.11>
-       <__.2>
-        <ViewId>10058</ViewId>
+        <ViewId>92</ViewId>
         <ViewType>SFR</ViewType>
+       </__.1>
+       <__.2>
+        <ViewId>90</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>10056</ViewId>
-        <ViewType>Disassembly</ViewType>
+        <ViewId>91</ViewId>
+        <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
-        <ViewId>10057</ViewId>
-        <ViewType>CoreRegisters</ViewType>
+        <ViewId>87</ViewId>
+        <ViewType>Locals</ViewType>
        </__.4>
        <__.5>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>88</ViewId>
+        <ViewType>This</ViewType>
        </__.5>
        <__.6>
-        <ViewId>4</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>89</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.6>
        <__.7>
-        <ViewId>5</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>96</ViewId>
+        <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>30</ViewId>
+        <ViewId>97</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>31</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>62</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>10057</ViewId>
+        <ViewId>91</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -255,7 +391,7 @@
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>10056</ViewId>
+        <ViewId>90</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -279,19 +415,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>30</ViewId>
+        <ViewId>96</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>31</ViewId>
+        <ViewId>97</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
-        <Name>Memory</Name>
-        <ViewId>10059</ViewId>
+        <Name>PFLASH0</Name>
+        <ViewId>93</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -306,8 +442,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0xFFFFFFFF</Address>
-           <AddressOffset>0xFFFFFC00</AddressOffset>
+           <Address>0x4F164F15</Address>
+           <AddressOffset>0x4F164F00</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -317,7 +453,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0xFFFFFC00</Address>
+         <Address>0x4F164F00</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -334,16 +470,61 @@
          </Area>
         </WndData>
        </__.0>
+       <__.1>
+        <Name>DSPR0</Name>
+        <ViewId>-1</ViewId>
+        <ViewType>Memory</ViewType>
+        <AreaPersistInfo>
+         <Address>0x0</Address>
+         <AddressOffset>0x0</AddressOffset>
+         <AddressStr></AddressStr>
+         <DisplayMode>0</DisplayMode>
+         <IsFloatLowFirst>false</IsFloatLowFirst>
+         <IsIntLowFirst>false</IsIntLowFirst>
+         <IsRealTime>false</IsRealTime>
+        </AreaPersistInfo>
+        <PerAreaPersistInfo>
+         <__.0>
+          <MemArea>0</MemArea>
+          <Info>
+           <Address>0x0</Address>
+           <AddressOffset>0x0</AddressOffset>
+           <AddressStr></AddressStr>
+           <DisplayMode>0</DisplayMode>
+           <IsFloatLowFirst>true</IsFloatLowFirst>
+           <IsIntLowFirst>true</IsIntLowFirst>
+           <IsRealTime>false</IsRealTime>
+          </Info>
+         </__.0>
+        </PerAreaPersistInfo>
+        <WndData>
+         <Address>0x0</Address>
+         <Bits>8</Bits>
+         <DisplayMode>0</DisplayMode>
+         <High>0xFFFFFFFF</High>
+         <LimitMAUsPerLine>None</LimitMAUsPerLine>
+         <Low>0x0</Low>
+         <RealTime>false</RealTime>
+         <StrAddress></StrAddress>
+         <SwapFloat>true</SwapFloat>
+         <SwapInt>true</SwapInt>
+         <Area>
+          <Addr>0x0</Addr>
+          <Area>0</Area>
+          <Type>Core</Type>
+         </Area>
+        </WndData>
+       </__.1>
       </MemoryViews>
       <OtherViews>
        <__.0>
-        <ViewId>1</ViewId>
+        <ViewId>62</ViewId>
         <ViewType>Symbols</ViewType>
        </__.0>
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>10054</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -377,8 +558,66 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>10055</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems>Linker files</SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>Files</Name>
+            <Options>5</Options>
+            <ChildItems>
+             <__.0>
+              <Name>Info</Name>
+              <Options>4</Options>
+             </__.0>
+            </ChildItems>
+           </__.0>
+          </ChildItems>
+         </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Files [iC5700_SWD - Debug]</Name>
+            </__.1>
+            <__.2>
+             <Name>Linker files</Name>
+            </__.2>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
+        </TreeState>
+       </__.0>
+      </ProjectViews>
+      <SessionExplorerViews>
+       <__.0>
+        <ViewId>-1</ViewId>
+        <ViewType>SessionExplorer</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>150</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>220</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>140</Width>
+         </__.2>
+        </ColumnData>
         <TreeState>
          <ReorderItems>false</ReorderItems>
          <SelectedItems></SelectedItems>
@@ -387,20 +626,20 @@
           <Options>0</Options>
           <ChildItems>
            <__.0>
-            <Name>Files</Name>
+            <Name>App/CORE_CM4</Name>
             <Options>4</Options>
            </__.0>
           </ChildItems>
          </RootItem>
         </TreeState>
        </__.0>
-      </ProjectViews>
+      </SessionExplorerViews>
       <SfrViews>
        <__.0>
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>10058</ViewId>
+        <ViewId>92</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -411,7 +650,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>100</Width>
+          <Width>439</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
@@ -447,7 +686,7 @@
       </SfrViews>
       <VariableViews>
        <__.0>
-        <ViewId>3</ViewId>
+        <ViewId>87</ViewId>
         <ViewType>Locals</ViewType>
         <ColumnData>
          <__.0>
@@ -478,7 +717,7 @@
         </ColumnData>
        </__.0>
        <__.1>
-        <ViewId>4</ViewId>
+        <ViewId>88</ViewId>
         <ViewType>This</ViewType>
         <ColumnData>
          <__.0>
@@ -512,7 +751,7 @@
       <WatchViews>
        <__.0>
         <Name>Watch</Name>
-        <ViewId>5</ViewId>
+        <ViewId>89</ViewId>
         <ViewType>CustomWatch</ViewType>
         <ColumnData>
          <__.0>
@@ -572,18 +811,6 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
-           <__.1>
-            <Name>iInterruptCounter</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>0</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -603,17 +830,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>32</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>31</FocusedViewId>
+        <FocusedViewId>97</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>963</Bottom>
-         <Left>49</Left>
-         <Right>954</Right>
-         <Top>30</Top>
+         <Bottom>1163</Bottom>
+         <Left>521</Left>
+         <Right>1925</Right>
+         <Top>264</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -636,88 +863,44 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.2</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
+             <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>10055</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>10055</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>1</ViewId>
-              </__.1>
-             </Children>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>62</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
+             <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>97</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
-               <Extent>0.7</Extent>
-               <IsDocumentPane>true</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>31</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>30</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>31</ViewId>
-                </__.1>
-               </Children>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>0.3</Extent>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>Vertical</Orientation>
+               <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>10054</ViewId>
+               <ViewId>96</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>97</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -738,7 +921,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>10057</TopTabViewId>
+               <TopTabViewId>91</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -749,7 +932,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10056</ViewId>
+                 <ViewId>90</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -759,7 +942,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10057</ViewId>
+                 <ViewId>91</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -781,7 +964,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10058</ViewId>
+                 <ViewId>92</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -801,7 +984,7 @@
                    <IsTabbed>false</IsTabbed>
                    <Orientation>Vertical</Orientation>
                    <TopTabViewId>-1</TopTabViewId>
-                   <ViewId>5</ViewId>
+                   <ViewId>89</ViewId>
                   </__.0>
                   <__.1>
                    <DockType>None</DockType>
@@ -810,7 +993,7 @@
                    <IsPinned>false</IsPinned>
                    <IsTabbed>true</IsTabbed>
                    <Orientation>None</Orientation>
-                   <TopTabViewId>4</TopTabViewId>
+                   <TopTabViewId>88</TopTabViewId>
                    <ViewId>-1</ViewId>
                    <Children>
                     <__.0>
@@ -821,7 +1004,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>3</ViewId>
+                     <ViewId>87</ViewId>
                     </__.0>
                     <__.1>
                      <DockType>View</DockType>
@@ -831,7 +1014,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>4</ViewId>
+                     <ViewId>88</ViewId>
                     </__.1>
                    </Children>
                   </__.1>
@@ -851,7 +1034,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>10059</ViewId>
+           <ViewId>93</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -866,7 +1049,7 @@
        <IncludeAllFilesInProjectFolders>false</IncludeAllFilesInProjectFolders>
        <IncludeProjectDependencies>true</IncludeProjectDependencies>
        <IncludeProjectFiles>true</IncludeProjectFiles>
-       <LastFileType>*.c;*.cpp;*.h</LastFileType>
+       <LastFileType>*.*</LastFileType>
        <Subfolders>false</Subfolders>
        <WholeWords>false</WholeWords>
        <FileType>
@@ -894,14 +1077,20 @@
        </FileType>
        <Find>
         <__.0>
-         <V>g_adwVectors</V>
+         <V>bool</V>
         </__.0>
         <__.1>
-         <V>g_pfnVectors</V>
+         <V>ENAREQ</V>
         </__.1>
         <__.2>
-         <V>__bss_end</V>
+         <V>g_adwVectors</V>
         </__.2>
+        <__.3>
+         <V>g_pfnVectors</V>
+        </__.3>
+        <__.4>
+         <V>__bss_end</V>
+        </__.4>
        </Find>
        <Folder>
         <__.0>
@@ -1036,12 +1225,6 @@
        <RootItem>
         <Name></Name>
         <Options>0</Options>
-        <ChildItems>
-         <__.0>
-          <Name>V850G3, R7F701527x</Name>
-          <Options>4</Options>
-         </__.0>
-        </ChildItems>
        </RootItem>
       </SFR_Tree>
      </WindowsInfo>
