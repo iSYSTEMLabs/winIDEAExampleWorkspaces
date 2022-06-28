@@ -2281,7 +2281,7 @@
        </FixedFNode.1>
       </FNet>
       <Op>
-       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+       <TraceCalibrationPerformed>true</TraceCalibrationPerformed>
       </Op>
       <Op_BPs>
        <BPs>
@@ -2761,7 +2761,7 @@
         <IRPostfix>0</IRPostfix>
         <IRPrefix>0</IRPrefix>
         <PostResetDelay_ms>100</PostResetDelay_ms>
-        <Protocol>1</Protocol>
+        <Protocol>0</Protocol>
         <ResetDuration_ms>100</ResetDuration_ms>
         <SingleComponentAddress>0</SingleComponentAddress>
         <SpecificJTAGTAPOnly>0</SpecificJTAGTAPOnly>
@@ -2937,12 +2937,12 @@
          </CTM>
         </CortexData>
         <OCD_ARM>
-         <CortexDebugProtocol>SWD</CortexDebugProtocol>
+         <CortexDebugProtocol>JTAG</CortexDebugProtocol>
          <CortexSWDClock>6000</CortexSWDClock>
          <CortexSwoClkPrescaler>0</CortexSwoClkPrescaler>
          <CortexSWOClock>0</CortexSWOClock>
          <CortexTraceProtocol>Parallel</CortexTraceProtocol>
-         <CortexTRACEWidth>4-bit</CortexTRACEWidth>
+         <CortexTRACEWidth>1-bit</CortexTRACEWidth>
          <UseCTMCh0and1ForSyncedRunStop>false</UseCTMCh0and1ForSyncedRunStop>
          <UseCTMCh2and3ForTrace>false</UseCTMCh2and3ForTrace>
          <CC26xx>
@@ -3002,8 +3002,8 @@
         <Breakpoints>HW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>13</CalibratePhase>
-        <CalibrateVref>116</CalibrateVref>
+        <CalibratePhase>9</CalibratePhase>
+        <CalibrateVref>38</CalibrateVref>
         <ClockkHz>200000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
@@ -3053,8 +3053,8 @@
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>13</CalibratePhase>
-        <CalibrateVref>116</CalibrateVref>
+        <CalibratePhase>9</CalibratePhase>
+        <CalibrateVref>38</CalibrateVref>
         <ClockkHz>200000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>

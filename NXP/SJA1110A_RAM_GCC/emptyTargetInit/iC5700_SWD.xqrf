@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296457728</RegVer>
+   <RegVer>1296461824</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -13,8 +13,8 @@
      <AInpExtensions>s</AInpExtensions>
      <AOutExtensions>o</AOutExtensions>
      <AsmAdditionalOutExt></AsmAdditionalOutExt>
-     <AssemblerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</AssemblerRelPath>
-     <BeepWhenDone>0</BeepWhenDone>
+     <AssemblerRelPath>$(CMPDIR)arm-none-eabi-gcc.exe</AssemblerRelPath>
+     <BeepWhenDone>1</BeepWhenDone>
      <CaptureTranslatorsOutputAsm>1</CaptureTranslatorsOutputAsm>
      <CaptureTranslatorsOutputCmp>1</CaptureTranslatorsOutputCmp>
      <CaptureTranslatorsOutputLnk>1</CaptureTranslatorsOutputLnk>
@@ -23,9 +23,9 @@
      <CmpAdditionalOutExt></CmpAdditionalOutExt>
      <CompCmdLineIncPrefix>-I</CompCmdLineIncPrefix>
      <CompCmdLinePostfix></CompCmdLinePostfix>
-     <CompCmdLinePrefix></CompCmdLinePrefix>
-     <CompilerDirectory>X:\GCC\arm-8-2018-q4\</CompilerDirectory>
-     <CompilerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</CompilerRelPath>
+     <CompCmdLinePrefix>-D</CompCmdLinePrefix>
+     <CompilerDirectory>X:\GCC\gcc-arm-none-eabi-10.3-2021.07\bin\</CompilerDirectory>
+     <CompilerRelPath>$(CMPDIR)arm-none-eabi-gcc.exe</CompilerRelPath>
      <CopyOutputFilesToTargetDir>1</CopyOutputFilesToTargetDir>
      <COutExtensions>o</COutExtensions>
      <DeleteTemporalyFiles>0</DeleteTemporalyFiles>
@@ -36,12 +36,12 @@
      <DF_ReqBlanks>True</DF_ReqBlanks>
      <DF_Start></DF_Start>
      <DF_Valid>False</DF_Valid>
-     <DisplayParameters>0</DisplayParameters>
+     <DisplayParameters>1</DisplayParameters>
      <ExecutableFileName>sample.elf</ExecutableFileName>
      <ExternalMake>0</ExternalMake>
      <ExternalMakeFile></ExternalMakeFile>
      <HeaderExtension>h</HeaderExtension>
-     <LinkerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</LinkerRelPath>
+     <LinkerRelPath>$(CMPDIR)arm-none-eabi-gcc.exe</LinkerRelPath>
      <LInpExtensions>o;a</LInpExtensions>
      <LnkAdditionalOutExt></LnkAdditionalOutExt>
      <ParallelBuild>1</ParallelBuild>
@@ -81,8 +81,8 @@
      </mbMake>
     </GlobalOptions>
     <Project.0>
-     <DefaultTargetName>Debug</DefaultTargetName>
-     <FilterName>GCC stdout</FilterName>
+     <DefaultTargetName>iC5700_JTAG_ETF - Debug</DefaultTargetName>
+     <FilterName>GCC</FilterName>
      <ProjectName></ProjectName>
      <AdvancedLinkerOptions>
       <AsmCustomFilterName></AsmCustomFilterName>
@@ -96,11 +96,13 @@
       <UseExternalFilter>False</UseExternalFilter>
      </AdvancedLinkerOptions>
      <Target.0>
-      <TargetName>Debug</TargetName>
+      <TargetName>iC5700_JTAG_ETF - Debug</TargetName>
       <FileOptios>
-       <AssemblerOptions>-c -O0 -g3 -mcpu=cortex-m4 -o $(OUTPUTDIR)$(NOEXT).$(COUTEXT) $(EDNAME)</AssemblerOptions>
+       <AssemblerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -c -g -nostartfiles -nostdlib $(EDNAME)</AssemblerOptions>
        <AssemblerOptionsWR>True</AssemblerOptionsWR>
-       <CompilerOptions>-c -O0 -g3 -mcpu=cortex-m4 $(INCLUDES) -o $(OUTPUTDIR)$(NOEXT).$(COUTEXT) $(EDNAME)</CompilerOptions>
+       <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+       <CompilerDefinesWR>True</CompilerDefinesWR>
+       <CompilerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -c -g -std=c11 -nostartfiles -nostdlib -I$(IRFDIR) -I$(IRFDIR)..\..\common -I$(IRFDIR)..\..\common\iTest $(EDNAME) $(DEFINES)</CompilerOptions>
        <CompilerOptionsWR>True</CompilerOptionsWR>
       </FileOptios>
       <LinkGroup.0>
@@ -114,19 +116,22 @@
        <File.0>
         <FileName>$(IRFDIR)main.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g3 -mcpu=cortex-m4 $(INCLUDES) -o $(OUTPUTDIR)$(NOEXT).$(COUTEXT) $(EDNAME)</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -c -g -std=c11 -nostartfiles -nostdlib -I$(IRFDIR) -I$(IRFDIR)..\..\common -I$(IRFDIR)..\..\common\iTest $(EDNAME) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
        <File.1>
         <FileName>$(IRFDIR)test.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g3 -mcpu=cortex-m4 $(INCLUDES) -o $(OUTPUTDIR)$(NOEXT).$(COUTEXT) $(EDNAME)</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -c -g -std=c11 -nostartfiles -nostdlib -I$(IRFDIR) -I$(IRFDIR)..\..\common -I$(IRFDIR)..\..\common\iTest $(EDNAME) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.1>
        <File.2>
         <FileName>$(IRFDIR)CPUFile.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g3 -mcpu=cortex-m4 $(INCLUDES) -o $(OUTPUTDIR)$(NOEXT).$(COUTEXT) $(EDNAME)</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -c -g -std=c11 -nostartfiles -nostdlib -I$(IRFDIR) -I$(IRFDIR)..\..\common -I$(IRFDIR)..\..\common\iTest $(EDNAME) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.2>
       </LinkGroup.1>
@@ -135,7 +140,8 @@
        <File.0>
         <FileName>$(IRFDIR)startup.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g3 -mcpu=cortex-m4 $(INCLUDES) -o $(OUTPUTDIR)$(NOEXT).$(COUTEXT) $(EDNAME)</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -c -g -std=c11 -nostartfiles -nostdlib -I$(IRFDIR) -I$(IRFDIR)..\..\common -I$(IRFDIR)..\..\common\iTest $(EDNAME) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
       </LinkGroup.2>
@@ -153,7 +159,7 @@
        <ExternalMakeFileParameters></ExternalMakeFileParameters>
        <IndFileLocation>0</IndFileLocation>
        <IndirectionFile>$(IRFDIR)sample.ld</IndirectionFile>
-       <LinkerOptions>-Wl,--output=$(OUTPUTFILE),-Map=$(OUTPUTNOEXT).map,--script=$(INDPATH) -mcpu=cortex-m4 -nostartfiles -lc -lgcc</LinkerOptions>
+       <LinkerOptions>-mthumb -mcpu=cortex-m7 -mfpu=vfp -mfloat-abi=softfp -g -nostartfiles -lgcc -lc -Xlinker --output=$(OUTPUTFILE) -Xlinker -Map=sample.map -Xlinker --script=$(INDPATH)</LinkerOptions>
        <MakeOptions></MakeOptions>
        <RunAfterLinkParam></RunAfterLinkParam>
        <SkipObjectCheck>False</SkipObjectCheck>
