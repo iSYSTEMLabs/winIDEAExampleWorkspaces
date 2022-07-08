@@ -27,7 +27,7 @@ iSYSTEM AG reserves the right to make changes in the sample
 workspace or winIDEA without further notice to improve
 reliability, function or design.
 
-Copyright (C) iSYSTEM AG 2021
+Copyright (C) iSYSTEM AG 2022
 
 **************************************************
 
@@ -40,11 +40,5 @@ TimerInterrupt implemented
 **************************************************
 
 Real-time memory access is possible
-
-**************************************************
-
-Debug entry configuration:
-
-	Stop after reset at program entry point
 
 **************************************************

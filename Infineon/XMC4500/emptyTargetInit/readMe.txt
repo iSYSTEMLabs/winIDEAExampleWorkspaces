@@ -42,9 +42,3 @@ TimerInterrupt implemented
 Real-time memory access is possible
 
 **************************************************
-
-Debug entry configuration:
-
-	Stop after reset at program entry point
-
-**************************************************

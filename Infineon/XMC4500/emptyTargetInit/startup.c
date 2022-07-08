@@ -1,70 +1,65 @@
-
-extern int main(void);
-extern void TimerInterruptHandler(void);
+extern unsigned long _stext, _etext;
+extern unsigned long _sdata, _edata;
+extern unsigned long _sbss, _ebss;
 extern unsigned long _estack;
 
-extern unsigned long _etext;
-extern unsigned long _data;
-extern unsigned long _edata;
-extern unsigned long _bss;
-extern unsigned long _ebss;
+extern void main();
+extern void InterruptRoutine();
 
+#define SCB_VTOR (*(volatile unsigned long*)0xE000ED08)
+#define CPACR    (*(volatile unsigned long*)0xE000ED88)
 
-void Reset()
-{
-  // If this is a ram workspace, set VTOR to RAM
-  #ifdef RAM_WORKSPACE
-  (*(unsigned int volatile*)0xE000ED08) = 0x20000000;
-  #endif
-
-  volatile unsigned long *pulSrc = &_etext;
-  volatile unsigned long *pulDest = &_data;
-  
-  while( pulDest < &_edata )
-    *pulDest++ = *pulSrc++;
-  
-  pulDest = &_bss;
-  while ( pulDest < &_ebss )
-    *pulDest++ = 0;       
-  
-  main();
+void TimerInterruptHandler() {
+  InterruptRoutine();
 }
 
-void IntDefaultHandler()
-{
-  while(1)
-  {
-  }
-}
+void reset_ISR();
+void nmi_ISR() 	      { while(1); }
+void fault_ISR()      { while(1); }
+void memfault_ISR()   { while(1); }
+void busfault_ISR()   { while(1); }
+void usagefault_ISR() { while(1); }
+void default_ISR()    { while(1); }
 
-typedef void (*pfnISR)(void);
-
-__attribute__ ((section(".isr_vector")))
-struct SISRType
-{
-  union
-  {
-    pfnISR        m_pfnISR;
-    unsigned long m_dword;
-  };
-}g_ISRTable[] =
-{
-  (unsigned long )&_estack,               // Initial stack pointer
-                             
-  Reset,                  // Reset handler
-  IntDefaultHandler,      // NMI handler
-  IntDefaultHandler,      // Hard fault handler
-  IntDefaultHandler,      // MPU fault handler
-  IntDefaultHandler,      // Bus fault handler
-  IntDefaultHandler,      // Usage fault handler
-  0,                      // Reserved
-  0,                      // Reserved
-  0,                      // Reserved
-  0,                      // Reserved
-  IntDefaultHandler,      // SVCall handler
-  IntDefaultHandler,      // Debug monitor handler
-  0,                      // Reserved
-  IntDefaultHandler,      // PendSV handler
-  TimerInterruptHandler,      // SysTick handler
+__attribute__((section(".vectors")))
+const unsigned long g_adwVectors[] = {
+  (unsigned long)&_estack,
+  (unsigned long)reset_ISR,
+  (unsigned long)nmi_ISR,
+  (unsigned long)fault_ISR,
+  (unsigned long)memfault_ISR,
+  (unsigned long)busfault_ISR,
+  (unsigned long)usagefault_ISR,
+  0,
+  0,
+  0,
+  0,
+  (unsigned long)default_ISR,
+  (unsigned long)default_ISR,
+  0,
+  (unsigned long)default_ISR,
+  (unsigned long)TimerInterruptHandler,
 };
 
+__attribute__((naked))
+void reset_ISR() {
+  __asm volatile ("cpsid i");
+  register unsigned long sreg __asm("sp");
+  sreg = (unsigned long)&_estack;
+  SCB_VTOR = (unsigned long)g_adwVectors;
+  
+  unsigned long* s = &_etext;
+  unsigned long* d = &_sdata;
+  while(d < &_edata)
+     *d++ = *s++;
+  
+  d = &_sbss;
+  while(d < &_ebss)
+     *d++ = 0;
+  
+  // Enable FPU
+  CPACR = (0xF << 20);
+  
+  main();
+  while(1);
+}

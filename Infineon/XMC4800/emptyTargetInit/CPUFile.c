@@ -1,67 +1,57 @@
-#include "CPU.h" 
-#include "System_XMC4500.h"
-#include "XMC4500.h" 
+#include "XMC4800.h" 
 
 
-#define memW32(address) (*(unsigned long*)(address))
-#define ITM_BASE_ADDRESS (0xE0000000UL)
-
-
-void CPU_Init()
+void initITM()
 {
-  int i;
-  int iPllFreq;
-  
-  SCU_PLL->PLLCON0 &= ~(SCU_PLL_PLLCON0_VCOPWD_Msk | SCU_PLL_PLLCON0_PLLPWD_Msk);
-  SCU_OSC->OSCHPCTRL = (OSC_HP_MODE<<4);    // Enable the OSC_HP	 
-  SCU_OSC->OSCHPCTRL |= (OSCHPWDGDIV<<16);  // Setup OSC WDG devider
-  SCU_PLL->PLLCON2 &= ~SCU_PLL_PLLCON2_PINSEL_Msk;  //Select external OSC as PLL input
-  SCU_PLL->PLLCON0 &= ~SCU_PLL_PLLCON0_OSCRES_Msk;  //Restart OSC Watchdog
-  while(!( (SCU_PLL->PLLSTAT) & (SCU_PLL_PLLSTAT_PLLHV_Msk | SCU_PLL_PLLSTAT_PLLLV_Msk | SCU_PLL_PLLSTAT_PLLSP_Msk)));
-  
-  //Setup Main PLL   
-  if(SCU_CLK->SYSCLKCR != 0x000000) // Select FOFI as system clock
-    SCU_CLK->SYSCLKCR = 0x00000000; // Select FOFI
-  SCU_PLL->PLLCON0 |= SCU_PLL_PLLCON0_VCOBYP_Msk; // Go to bypass the Main PLL
-  SCU_PLL->PLLCON0 |= SCU_PLL_PLLCON0_FINDIS_Msk; // Disconnect OSC_HP to PLL
-  SCU_PLL->PLLCON1 = ((PLL_NDIV<<8) | (PLL_K2DIV<<16) | (PLL_PDIV<<24)); // Setup devider settings for main PLL
-  SCU_PLL->PLLCON0 |= SCU_PLL_PLLCON0_OSCDISCDIS_Msk; // We may have to set OSCDISCDIS
-  SCU_PLL->PLLCON0 &= ~SCU_PLL_PLLCON0_FINDIS_Msk;    // Connect OSC_HP to PLL
-  SCU_PLL->PLLCON0 |= SCU_PLL_PLLCON0_RESLD_Msk;      // Restart PLL Lock detection
-  while (!(SCU_PLL->PLLSTAT & SCU_PLL_PLLSTAT_VCOLOCK_Msk));  // Wait for PLL Lock
-  SCU_PLL->PLLCON0 &= ~SCU_PLL_PLLCON0_VCOBYP_Msk;    // Go back to the Main PLL
-  
-  SCU_CLK->CPUCLKCR = 0; // Setup system clock dividers
-	SCU_CLK->PBCLKCR = 0;	
-	SCU_CLK->CCUCLKCR = 0;
-  SCU_CLK->SYSCLKCR |= 0x00010000;  // Switch system clock to PLL
-  
-  iPllFreq = CLOCK_CRYSTAL_FREQUENCY * (PLL_NDIV+1) / (PLL_K2DIV+1) / (PLL_PDIV+1);
-  asm("nop");
+  ITM_LOCK_ACCESS_REGISTER     = 0xC5ACCE55;  // Unlock write access to ITM
+  ITM_TRACE_ENABLE_REGISTER    = 0xFFFFFFFF;  // Enable stimulus port 0-31 
+  ITM_TRACE_PRIVILEGE_REGISTER = 0x1;         // Set privilege
 }
 
 
-void SysTickInit()
+void initClock()
 {
-  PPB->SYST_RVR = 0x20000; //reload value to 1.09ms
+  // Enable 12 MHz crystal oscillator
+  SCU_OSCHPCTRL |= (0b01 << SCU_OSCHPCTRL_GAINSEL) | (5 << SCU_OSCHPCTRL_OSCVAL);
+  SCU_OSCHPCTRL &= ~(0b11 << SCU_OSCHPCTRL_MODE);
+  
+  // Power up PLL, select crystal as PLL source, enable oscillator watchdog
+  SCU_PLLCON0 &= ~((1 << SCU_PLLCON0_PLLPWD) | (1 << SCU_PLLCON0_VCOPWD) | (1 << SCU_PLLCON0_OSCRES));
+  SCU_PLLCON2 &= ~ (1 << SCU_PLLCON2_PINSEL);
+  
+  // Wait for stable PLL
+  unsigned long pllstat_mask = (1 << SCU_PLLSTAT_PLLLV) | (1 << SCU_PLLSTAT_PLLHV) | (1 << SCU_PLLSTAT_PLLSP);
+  while((SCU_PLLSTAT & pllstat_mask) != pllstat_mask);
+  
+  // Set up PLL dividers
+  // fPLL = fCRYSTAL * (N+1)/((P+1)(K2+1)) = 12MHz * 48/4 = 144MHz
+  SCU_PLLCON1 = (1 << SCU_PLLCON1_PDIV)  |
+                (47 << SCU_PLLCON1_NDIV) |
+                (1 << SCU_PLLCON1_K2DIV);
+  
+  // Connect crystal to PLL
+  SCU_PLLCON0 |= (1 << SCU_PLLCON0_OSCDISCDIS);
+  SCU_PLLCON0 &= ~(1 << SCU_PLLCON0_FINDIS);
+  SCU_PLLCON0 |= (1 << SCU_PLLCON0_RESLD);
+  while(!(SCU_PLLSTAT & (1 << SCU_PLLSTAT_VCOLOCK)));
+  
+  // Disable VCO bypass and switch system clock to PLL
+  SCU_PLLCON0 &= ~(1 << SCU_PLLCON0_VCOBYP);
+  SCU_SYSCLKCR = (1 << SCU_SYSCLKCR_SYSSEL);
 }
 
-void GPIOInit()
+void initTimer()
 {
-  PORT3->IOCR8 = 0x00008000;  //set led as output
-  PORT3->OUT = 0x00000200; //set led off
-  PORT0->IOCR4 = 0x00800000;  //set gpio as output
-  PORT0->OUT = 0x00000040; //set gpio off
-}
-
-void TimerInterruptHandler()
-{
-  InterruptRoutine();
+  SYSTICK_RVR = 144000; // 144k/144MHz = 1ms
+  SYSTICK_CVR = 0;
+  SYSTICK_CSR = (1 << SYSTICK_CSR_ENABLE) |
+                (1 << SYSTICK_CSR_TICKINT) |
+                (1 << SYSTICK_CSR_CLKSOURCE);
 }
 
 void targetEnableInterrupts()
 {
-  PPB->SYST_CSR = 0x7; //start timer and enable interrupt and select cpu clock 
+  __asm volatile ("cpsie i");
 }
 
 
@@ -69,10 +59,10 @@ void targetInit()
 {   
   #ifndef EMPTY_TARGET_INIT
 
-    CPU_Init();
-    SysTickInit();
-    GPIOInit();
-    targetEnableInterrupts();
+  initITM();
+  initClock();
+  initTimer();
+  targetEnableInterrupts();
 
   #endif /* EMPTY_TARGET_INIT */
 }
@@ -80,4 +70,5 @@ void targetInit()
 
 void disableWatchdog()
 {
+  
 }
