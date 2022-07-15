@@ -1,0 +1,44 @@
+CALIBRATING	
+Done.LOADING	D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\Debug\sample.elf
+EMULATION	Asserting reset
+EMULATION	Initial debug frequency set
+
+****************************************
+************* CORE INFO ****************
+**  (CORE INDEX:  0:CORE_CM33)
+**
+**  CPUID:        0x410FD214
+**  PARTNO:       0xD21
+**  VARIANT:      0x0
+**  REVISION:     0x4
+**
+**  Detected:     Cortex-M33 r0p4
+****************************************
+
+EMULATION	Finished connecting to SoC
+EMULATION	Reset is ACTIVE
+EMULATION	Releasing reset
+EMULATION	Reset is INACTIVE
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	1608 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (2 sectors)
+EMULATION	Asserting reset
+EMULATION	Initial debug frequency set
+EMULATION	Finished connecting to SoC
+EMULATION	Reset is ACTIVE
+EMULATION	Releasing reset
+EMULATION	Reset is INACTIVE
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+	AREA: AHB_0
+	Verifying 0x380 locations from 0x0800'0000
+	Verifying 0x2BC locations from 0x0800'0400
+	Verifying 0xC locations from 0x0800'F000
+	Verify OK
+EMULATION	END - Without cleanup

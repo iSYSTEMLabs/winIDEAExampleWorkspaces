@@ -1,14 +1,27 @@
+#include "AWR6843_sfr.h"
+
 extern int main(void);
 extern void InterruptRoutine(void); 
 
-extern volatile unsigned long _estack;
+extern volatile unsigned long _estack_sys;
+extern volatile unsigned long _estack_usr;
+extern volatile unsigned long _etext;
+extern volatile unsigned long _sdata;
+extern volatile unsigned long _edata;
 extern volatile unsigned long _sbss;
 extern volatile unsigned long _ebss;
 
 void resetHandler()
 {
-  volatile unsigned long *pulDest = &_sbss;
+  volatile unsigned long *pulSrc = &_etext;
+  volatile unsigned long *pulDest = &_sdata;
   
+  while( pulDest < &_edata )
+  {
+    *pulDest++ = *pulSrc++;
+  }
+  
+  pulDest = &_sbss;
   while ( pulDest < &_ebss )
   {
     *pulDest++ = 0;
@@ -54,25 +67,21 @@ void FIQHandler()
   while(1);
 }
 
+void IntDefaultHandler()
+{
+  while(1);
+}
+
+__attribute__ ((interrupt("IRQ")))
 void TimerInterruptHandler()
 {
+  // Read IRQIVEC to clear interrupt
+  int irqIndex = VIM.IRQIVEC.B.IRQIVEC;
+  
+  // Clear interrupt flag in timer
+  RTIA.RTIINTFLAG.B.INT0 = 1;
+  
+  // Run our interrupt routine
   InterruptRoutine();
 }
 
-__attribute__ ((section(".isr_vector")))
-void reset()
-{
-  asm(" B _rst");
-  asm(" B UndefinedInstructionHandler");
-  asm(" B SupervisorCallHandler");
-  asm(" B PrefetchAbortHandler");
-  asm(" B DataAbortHandler");
-  asm(" B HypervisorTrapHandler");
-  asm(" B IRQHandler");
-  asm(" B FIQHandler");
-  
-  asm("_rst:");
-  asm(" LDR R0, =_estack");
-  asm(" MOV SP, R0");
-  asm(" B resetHandler");
-}

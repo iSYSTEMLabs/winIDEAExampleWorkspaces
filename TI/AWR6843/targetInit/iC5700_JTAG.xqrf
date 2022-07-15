@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296412672</RegVer>
+   <RegVer>1296478208</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -14,7 +14,7 @@
      <AOutExtensions>o</AOutExtensions>
      <AsmAdditionalOutExt></AsmAdditionalOutExt>
      <AssemblerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</AssemblerRelPath>
-     <BeepWhenDone>1</BeepWhenDone>
+     <BeepWhenDone>0</BeepWhenDone>
      <CaptureTranslatorsOutputAsm>1</CaptureTranslatorsOutputAsm>
      <CaptureTranslatorsOutputCmp>1</CaptureTranslatorsOutputCmp>
      <CaptureTranslatorsOutputLnk>1</CaptureTranslatorsOutputLnk>
@@ -98,9 +98,9 @@
      <Target.0>
       <TargetName>Debug</TargetName>
       <FileOptios>
-       <AssemblerOptions>-c -O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f -o $(OUTPUTDIR)/$(NOEXT).$(AOUTEXT) $(EDNAME)</AssemblerOptions>
+       <AssemblerOptions>-mlittle-endian -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 -o $(OUTPUTDIR)/$(NOEXT).$(AOUTEXT) $(EDNAME)</AssemblerOptions>
        <AssemblerOptionsWR>True</AssemblerOptionsWR>
-       <CompilerOptions>-c -O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
+       <CompilerOptions>-mlittle-endian -x c -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
        <CompilerOptionsWR>True</CompilerOptionsWR>
       </FileOptios>
       <LinkGroup.0>
@@ -114,19 +114,19 @@
        <File.0>
         <FileName>$(IRFDIR)main.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
+         <CompilerOptions>-mlittle-endian -x c -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.0>
        <File.1>
         <FileName>$(IRFDIR)test.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
+         <CompilerOptions>-mlittle-endian -x c -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.1>
        <File.2>
         <FileName>$(IRFDIR)CPUFile.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
+         <CompilerOptions>-mlittle-endian -x c -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.2>
       </LinkGroup.1>
@@ -135,9 +135,15 @@
        <File.0>
         <FileName>$(IRFDIR)startup.c</FileName>
         <FileOptios>
-         <CompilerOptions>-c -O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
+         <CompilerOptions>-mlittle-endian -x c -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 $(INCLUDES) -o $(OUTPUTDIR)/$(NOEXT).$(COUTEXT)  $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)startup0.s</FileName>
+        <FileOptios>
+         <AssemblerOptions>-mlittle-endian -c -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 -o $(OUTPUTDIR)/$(NOEXT).$(AOUTEXT) $(EDNAME)</AssemblerOptions>
+        </FileOptios>
+       </File.1>
       </LinkGroup.2>
       <LinkGroup.3>
        <LinkGroupName>Info</LinkGroupName>
@@ -153,7 +159,7 @@
        <ExternalMakeFileParameters></ExternalMakeFileParameters>
        <IndFileLocation>0</IndFileLocation>
        <IndirectionFile>$(IRFDIR)sample.ld</IndirectionFile>
-       <LinkerOptions>-O0 -g -mthumb -mfloat-abi=softfp -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4f -nostartfiles -Wl,-Map,$(OUTPUTDIR)/sample.map,--output=$(OUTPUTFILE),--script=$(INDPATH) -lc -lgcc &amp; &amp;</LinkerOptions>
+       <LinkerOptions>-mlittle-endian -g -mfloat-abi=soft -march=armv7-r+vfpv3-d16-fp16 -mcpu=cortex-r4 -nostartfiles -n -Wl,-Map,$(OUTPUTDIR)/sample.map,--output=$(OUTPUTFILE),--script=$(INDPATH) -lc -lgcc &amp; &amp;</LinkerOptions>
        <MakeOptions></MakeOptions>
        <RunAfterLinkParam></RunAfterLinkParam>
        <SkipObjectCheck>False</SkipObjectCheck>

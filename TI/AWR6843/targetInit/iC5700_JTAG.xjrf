@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296412672</RegVer>
+      <RegVer>1296478208</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296412672</RegVer>
+      <RegVer>1296478208</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296412672</RegVer>
+    <RegVer>1296478208</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -222,7 +222,7 @@
       <SoCs>
        <__.0>
         <Enabled>true</Enabled>
-        <ProbeURL></ProbeURL>
+        <ProbeURL>System</ProbeURL>
         <SFRName>AWR6843</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
@@ -484,7 +484,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.91</winIDEA>
+      <winIDEA>Build 9.21.107</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -542,6 +542,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -675,7 +678,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296412672</RegVer>
+    <RegVer>1296478208</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>Debug</DefaultTargetName>
@@ -690,7 +693,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296412672</RegVer>
+    <RegVer>1296478208</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -3014,8 +3017,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>91</V_BUILD>
-      <V_BUILD_SCC>135024</V_BUILD_SCC>
+      <V_BUILD>107</V_BUILD>
+      <V_BUILD_SCC>137940</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3025,7 +3028,7 @@
         <Attach_InitSoC_Same>false</Attach_InitSoC_Same>
         <Attach_StopToExecute>true</Attach_StopToExecute>
         <Debug_ConnectToSoC_Same>false</Debug_ConnectToSoC_Same>
-        <Debug_InitSoC_Same>false</Debug_InitSoC_Same>
+        <Debug_InitSoC_Same>true</Debug_InitSoC_Same>
         <Program_ResetAfterProgram>false</Program_ResetAfterProgram>
         <WDTDisable>false</WDTDisable>
         <Attach_ConnectToSoC>
@@ -3042,7 +3045,7 @@
         </Debug_ConnectToSoC>
         <Debug_InitSoC>
          <Execute>Default</Execute>
-         <Scripts></Scripts>
+         <Scripts>$(SFR_FILE_DIR)\AWR1843_SoftReset.cpp</Scripts>
         </Debug_InitSoC>
         <Detach_CleanupSoC>
          <Execute>Default</Execute>
@@ -3053,8 +3056,8 @@
          <Scripts></Scripts>
         </Program_ConnectToSoC>
         <Program_InitSoC>
-         <Execute>Default</Execute>
-         <Scripts></Scripts>
+         <Execute>Custom</Execute>
+         <Scripts>$(SFR_FILE_DIR)\AWR1843_SoftReset.cpp</Scripts>
         </Program_InitSoC>
         <Trace_Done>
          <Execute>Default</Execute>
@@ -3064,6 +3067,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
         <CPU1>67</CPU1>
@@ -3156,7 +3163,7 @@
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>116</CalibrateVref>
-        <ClockkHz>1000</ClockkHz>
+        <ClockkHz>200000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -3166,7 +3173,7 @@
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
-        <InitRAM>Auto</InitRAM>
+        <InitRAM>Never</InitRAM>
         <LatchRESET>true</LatchRESET>
         <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
@@ -3190,6 +3197,7 @@
         <ResetDuration>100</ResetDuration>
         <ResetMethod>SoC</ResetMethod>
         <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
@@ -3206,7 +3214,7 @@
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>116</CalibrateVref>
-        <ClockkHz>1000</ClockkHz>
+        <ClockkHz>200000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
@@ -3215,7 +3223,7 @@
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
-        <InitRAM>2</InitRAM>
+        <InitRAM>0</InitRAM>
         <LatchRESET>1</LatchRESET>
         <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
@@ -3265,13 +3273,13 @@
         </PeriodicService>
        </ExtWDT>
        <InitSequence>
-        <File></File>
+        <File>$(SFR_FILE_DIR)\AWR1843_SoftReset.cpp</File>
         <InitAfterReset>0</InitAfterReset>
         <ResetCPUAfterDownload>0</ResetCPUAfterDownload>
-        <Use>0</Use>
+        <Use>1</Use>
        </InitSequence>
        <InitSequence2nd>
-        <File></File>
+        <File>$(SFR_FILE_DIR)\AWR1843_SoftReset.cpp</File>
         <InitAfterReset>1</InitAfterReset>
         <ResetCPUAfterDownload>0</ResetCPUAfterDownload>
         <Use>0</Use>
@@ -3359,8 +3367,8 @@
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
-            <PresetPCAfterStoppedInInit>EntryPoint</PresetPCAfterStoppedInInit>
-            <Type>Catch</Type>
+            <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>
+            <Type>NonIntrusive</Type>
            </DebugEntry>
           </Common>
           <Cortex>
