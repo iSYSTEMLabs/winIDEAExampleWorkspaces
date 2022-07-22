@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296474112</RegVer>
+      <RegVer>1296486400</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296474112</RegVer>
+      <RegVer>1296486400</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296474112</RegVer>
+    <RegVer>1296486400</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -448,7 +448,7 @@
         <DisplayCollapsedArrayStruct>true</DisplayCollapsedArrayStruct>
         <DisplayPointerMemArea>false</DisplayPointerMemArea>
         <EnumDisplay>Enum</EnumDisplay>
-        <Hex>false</Hex>
+        <Hex>true</Hex>
         <MaxParseUpload>256</MaxParseUpload>
         <QualifiedNames>Unique</QualifiedNames>
         <UseSpacers>false</UseSpacers>
@@ -484,7 +484,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.106</winIDEA>
+      <winIDEA>Build 9.21.109</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -625,7 +625,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296474112</RegVer>
+    <RegVer>1296486400</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5700_JTAG_ETB - Debug</DefaultTargetName>
@@ -640,7 +640,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296474112</RegVer>
+    <RegVer>1296486400</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -2964,8 +2964,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>106</V_BUILD>
-      <V_BUILD_SCC>137635</V_BUILD_SCC>
+      <V_BUILD>109</V_BUILD>
+      <V_BUILD_SCC>138230</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3050,7 +3050,7 @@
          <CortexTraceProtocol>ETB</CortexTraceProtocol>
          <CortexTRACEWidth>8-bit</CortexTRACEWidth>
          <UseCTMCh0and1ForSyncedRunStop>false</UseCTMCh0and1ForSyncedRunStop>
-         <UseCTMCh2and3ForTrace>false</UseCTMCh2and3ForTrace>
+         <UseCTMCh2and3ForTrace>true</UseCTMCh2and3ForTrace>
          <CC26xx>
           <SWO_._DIO_._Pin>0</SWO_._DIO_._Pin>
          </CC26xx>
@@ -3234,7 +3234,7 @@
        <JTAGPos>
         <DRPostfix>0</DRPostfix>
         <DRPrefix>0</DRPrefix>
-        <HWBurstClockkHz>10000</HWBurstClockkHz>
+        <HWBurstClockkHz>5000</HWBurstClockkHz>
         <IdleTCKCount>0</IdleTCKCount>
         <InhibitTRST>0</InhibitTRST>
         <InitScanClockkHz>500</InitScanClockkHz>
@@ -3306,6 +3306,7 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>

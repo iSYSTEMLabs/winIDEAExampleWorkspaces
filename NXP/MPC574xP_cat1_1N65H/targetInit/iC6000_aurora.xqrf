@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296207872</RegVer>
+   <RegVer>1296482304</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -37,7 +37,7 @@
      <DF_Start></DF_Start>
      <DF_Valid>False</DF_Valid>
      <DisplayParameters>0</DisplayParameters>
-     <ExecutableFileName>output.elf</ExecutableFileName>
+     <ExecutableFileName>Sample.out</ExecutableFileName>
      <ExternalMake>0</ExternalMake>
      <ExternalMakeFile></ExternalMakeFile>
      <HeaderExtension>H</HeaderExtension>
@@ -83,11 +83,9 @@
      </Env.5>
      <IncludePath.0>
       <Path>$(CMPDIR)PowerPC_EABI_Support\MSL\MSL_C\MSL_Common\Include</Path>
-      <SubDir>0</SubDir>
      </IncludePath.0>
      <IncludePath.1>
       <Path>$(CMPDIR)PowerPC_EABI_Support\Runtime\Include</Path>
-      <SubDir>0</SubDir>
      </IncludePath.1>
      <mbBuild>
       <Mode>0</Mode>
@@ -162,11 +160,17 @@
         </FileOptios>
        </File.5>
        <File.6>
-        <FileName>$(IRFDIR)CPUFile.c</FileName>
+        <FileName>$(IRFDIR)lowPowerMode.c</FileName>
         <FileOptios>
          <CompilerOptions>-c -sym on -stderr -vle -char signed $(EDNAME) -gdwarf-2 -I..\..\common -I..\..\common\itest</CompilerOptions>
         </FileOptios>
        </File.6>
+       <File.7>
+        <FileName>$(IRFDIR)CPUFile.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -sym on -stderr -vle -char signed $(EDNAME) -gdwarf-2 -I..\..\common -I..\..\common\itest</CompilerOptions>
+        </FileOptios>
+       </File.7>
       </LinkGroup.0>
       <LinkGroup.1>
        <LinkGroupName>Startup files</LinkGroupName>
@@ -206,7 +210,7 @@
        <ExternalMakeFileParameters></ExternalMakeFileParameters>
        <IndFileLocation>0</IndFileLocation>
        <IndirectionFile>$(IRFDIR)Sample.ind</IndirectionFile>
-       <LinkerOptions>-stderr @Sample.ind -v -o $(OUTPUTFILE) -gdwarf-2 -w on -romaddr 0x01000000 -rambuffer 0x01000000</LinkerOptions>
+       <LinkerOptions>-stderr @Sample.ind -v -o $(OUTPUTFILE) -gdwarf-2 -w on -romaddr 0x00F98000 -rambuffer 0x00F98000</LinkerOptions>
        <MakeOptions></MakeOptions>
        <RunAfterLinkParam></RunAfterLinkParam>
        <SkipObjectCheck>False</SkipObjectCheck>

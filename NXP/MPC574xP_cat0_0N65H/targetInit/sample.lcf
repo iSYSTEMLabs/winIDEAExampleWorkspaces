@@ -1,10 +1,10 @@
 
-RCW_FLASH_ADDR          = 0x01000000;
+RCW_FLASH_ADDR          = 0x00F98000;
 RCW_FLASH_SIZE          = 0x02000;
 
 MEMORY
 {
-    rcw_flash:          org = 0x01000000,   len = 0x00001000    
+    rcw_flash:          org = 0x00F98000,   len = 0x00001000    
     init_flash:         org = 0x01002000,   len = 0x00002000
     xcpt_vect:          org = 0x01004000,   len = 0x00002000
     internal_flash:     org = 0x01006000,   len = 0x00020000

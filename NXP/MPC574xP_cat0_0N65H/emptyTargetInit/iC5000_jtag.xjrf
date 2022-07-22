@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296482304</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,14 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296482304</RegVer>
+      <WorkspaceOptions>
+       <SessionDumpFilter>
+        <Enabled>false</Enabled>
+        <SampleRangeBegin>0</SampleRangeBegin>
+        <SampleRangeEnd>0</SampleRangeEnd>
+       </SessionDumpFilter>
+      </WorkspaceOptions>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -33,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296244736</RegVer>
+    <RegVer>1296482304</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -65,6 +72,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -130,7 +140,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>debug\output.elf</Path>
+           <Path>debug\Sample.out</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -222,7 +232,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>debug\output.elf</Path>
+           <Path>debug\Sample.out</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -472,14 +482,6 @@
       <Parser>
        <ExpressionMemoryAccessOperator>58</ExpressionMemoryAccessOperator>
       </Parser>
-      <SFR>
-       <ExternalFormat>CMSIS-SVD</ExternalFormat>
-       <ExternalPath></ExternalPath>
-       <InternalCustom></InternalCustom>
-       <InternalSource>iOPEN</InternalSource>
-       <UseExternal>false</UseExternal>
-       <UseInternal>true</UseInternal>
-      </SFR>
       <StackUsage>
        <End></End>
        <Pattern>0xCC</Pattern>
@@ -540,7 +542,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.50</winIDEA>
+      <winIDEA>Build 9.21.108</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -598,6 +600,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -652,7 +657,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296244736</RegVer>
+    <RegVer>1296482304</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>sample - Debug</DefaultTargetName>
@@ -667,7 +672,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296244736</RegVer>
+    <RegVer>1296482304</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -4331,6 +4336,9 @@
         </Cfg>
        </FixedFNode.1>
       </FNet>
+      <Op>
+       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+      </Op>
       <Op_BPs>
        <BPs>
         <Core0>
@@ -6715,10 +6723,159 @@
        </TriCore>
       </Trace>
       <UMI1>
+       <Devices>
+        <Devices>
+         <__.0>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>Panther Code 2464 KB</Device>
+          <DeviceAddress>0xF98000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>Freescale</Manufacturer>
+          <Name>Freescale Panther Code 2464 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.0>
+         <__.1>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>Panther Data 80 KB</Device>
+          <DeviceAddress>0x800000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>Freescale</Manufacturer>
+          <Name>Freescale Panther Data 80 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.1>
+         <__.2>
+          <AllowDownloadOnly>true</AllowDownloadOnly>
+          <AllowErase>false</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>UTEST 16 KB</Device>
+          <DeviceAddress>0x400000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>false</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>Freescale/ST</Manufacturer>
+          <Name>Freescale/ST UTEST 16 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.2>
+        </Devices>
+       </Devices>
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>50</V_BUILD>
+      <V_BUILD>108</V_BUILD>
+      <V_BUILD_SCC>138185</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -6747,6 +6904,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Debug_InitSoC>
+        <Detach_CleanupSoC>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Detach_CleanupSoC>
         <Program_ConnectToSoC>
          <Execute>Default</Execute>
          <Scripts></Scripts>
@@ -6763,6 +6924,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
         <CPU1>120</CPU1>
@@ -6923,7 +7088,7 @@
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
         <MemorySecurityND_Policy>Reject</MemorySecurityND_Policy>
-        <MultiCoreSync>true</MultiCoreSync>
+        <MultiCoreSync>false</MultiCoreSync>
         <NexusClockDivider>4</NexusClockDivider>
         <NexusDataRate>Single</NexusDataRate>
         <NexusForcePeriodicSYNC>false</NexusForcePeriodicSYNC>
@@ -6941,6 +7106,7 @@
         <ResetDuration>100</ResetDuration>
         <ResetMethod>Regular</ResetMethod>
         <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
@@ -6957,7 +7123,6 @@
         <CalibrateClockVref>0</CalibrateClockVref>
         <CalibratePhase>10</CalibratePhase>
         <CalibrateVref>114</CalibrateVref>
-        <CalibrationPerformed>0</CalibrationPerformed>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000050000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -7103,7 +7268,10 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>BE</Endian>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
@@ -7260,7 +7428,7 @@
        </XCP>
       </HW>
       <Trace>
-       <Type>0</Type>
+       <Type>8</Type>
       </Trace>
      </HW>
     </HServerData>

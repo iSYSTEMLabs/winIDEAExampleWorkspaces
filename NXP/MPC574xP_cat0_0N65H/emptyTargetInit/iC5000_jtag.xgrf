@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296482304</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -23,47 +23,55 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\MPC574xP_cat0_0N65H\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\fitIDEA\samples\src\powerPC\MPC574xP_cat0_0N65H\mpc5744p.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
-         <CaretPos>1872</CaretPos>
+         <CaretPos>5141</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\winIDEA_public\NXP\MPC574xP_cat0_0N65H\emptyTargetInit\__start.c</FileName>
+         <FileName>D:\AlesErjavec\venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\MPC574xP_cat0_0N65H\mpc5744p.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>13</ScrollPos>
+         <ScrollPos>135</ScrollPos>
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
-         <CaretPos>1386</CaretPos>
+         <CaretPos>1872</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\winIDEA_public\NXP\MPC574xP_cat0_0N65H\emptyTargetInit\test.c</FileName>
+         <FileName>D:\AlesErjavec\venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\MPC574xP_cat0_0N65H\__start.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>89</ScrollPos>
+         <ScrollPos>7</ScrollPos>
         </__.11>
         <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\winIDEA_public\NXP\MPC574xP_cat0_0N65H\emptyTargetInit\main.c</FileName>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\NXP\MPC574xP_cat0_0N65H\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
         <__.13>
          <BookmarkList></BookmarkList>
-         <CaretPos>1299</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\winIDEA_public\NXP\MPC574xP_cat0_0N65H\emptyTargetInit\readMe.txt</FileName>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\NXP\MPC574xP_cat0_0N65H\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.13>
-        <__.2>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\MPC574xP_cat0_0N65H\mpc5744p.c</FileName>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\NXP\MPC574xP_cat0_0N65H\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>466</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\AlesErjavec\venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\MPC574xP_cat0_0N65H\init.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.2>
@@ -71,7 +79,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\MPC574xP_cat0_0N65H\emptyTargetInit\main.c</FileName>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\NXP\MPC574xP_cat0_0N65H\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.3>
@@ -103,24 +111,24 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\MPC574xP_cat0_0N65H\targetInit\main.c</FileName>
+         <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>130</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\AlesErjavec\venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\MPC574xP_cat0_0N65H\sample.lcf</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>516</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\MPC574xP_cat0_0N65H\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\AlesErjavec\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
        </EditorPersist>
@@ -136,7 +144,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296482304</RegVer>
       <ANGUIData.0>
        <Filetime type="B">MIGDLOPBKGLINAAB</Filetime>
        <GUID type="B">DKNGDEPEMELGBDEHIMAKAFBDHBOCNAGH</GUID>
@@ -3882,21 +3890,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296244736</RegVer>
+    <RegVer>1296482304</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\mpc5744p.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\__start.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>__start.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -3920,58 +3928,54 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>10340</ViewId>
+        <ViewId>12389</ViewId>
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>10330</ViewId>
+        <ViewId>12403</ViewId>
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>10337</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>12407</ViewId>
+        <ViewType>Document</ViewType>
        </__.10>
-       <__.11>
-        <ViewId>8850</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.11>
        <__.2>
-        <ViewId>10329</ViewId>
-        <ViewType>SFR</ViewType>
+        <ViewId>12400</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>10327</ViewId>
-        <ViewType>Disassembly</ViewType>
+        <ViewId>12401</ViewId>
+        <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
-        <ViewId>10328</ViewId>
-        <ViewType>CoreRegisters</ViewType>
+        <ViewId>12392</ViewId>
+        <ViewType>Locals</ViewType>
        </__.4>
        <__.5>
-        <ViewId>8847</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>12393</ViewId>
+        <ViewType>This</ViewType>
        </__.5>
        <__.6>
-        <ViewId>8852</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>12394</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.6>
        <__.7>
-        <ViewId>8848</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>12390</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.7>
        <__.8>
-        <ViewId>10333</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>12402</ViewId>
+        <ViewType>SFR</ViewType>
        </__.8>
        <__.9>
-        <ViewId>10334</ViewId>
+        <ViewId>12406</ViewId>
         <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>10328</ViewId>
+        <ViewId>12401</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -3989,7 +3993,7 @@
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>10327</ViewId>
+        <ViewId>12400</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -4013,19 +4017,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>10333</ViewId>
+        <ViewId>12406</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>10334</ViewId>
+        <ViewId>12407</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>10330</ViewId>
+        <ViewId>12403</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -4040,8 +4044,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0xFFFFFFFF</Address>
-           <AddressOffset>0xFFFFFC40</AddressOffset>
+           <Address>0x0</Address>
+           <AddressOffset>0x0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -4051,7 +4055,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0xFFFFFC40</Address>
+         <Address>0x0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -4071,13 +4075,13 @@
       </MemoryViews>
       <OtherViews>
        <__.0>
-        <ViewId>8850</ViewId>
+        <ViewId>12390</ViewId>
         <ViewType>Symbols</ViewType>
        </__.0>
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>10337</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -4103,7 +4107,7 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>10340</ViewId>
+        <ViewId>12389</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
@@ -4126,7 +4130,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>10329</ViewId>
+        <ViewId>12402</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -4173,7 +4177,7 @@
       </SfrViews>
       <VariableViews>
        <__.0>
-        <ViewId>8847</ViewId>
+        <ViewId>12392</ViewId>
         <ViewType>Locals</ViewType>
         <ColumnData>
          <__.0>
@@ -4204,7 +4208,7 @@
         </ColumnData>
        </__.0>
        <__.1>
-        <ViewId>8852</ViewId>
+        <ViewId>12393</ViewId>
         <ViewType>This</ViewType>
         <ColumnData>
          <__.0>
@@ -4238,7 +4242,7 @@
       <WatchViews>
        <__.0>
         <Name>Watch</Name>
-        <ViewId>8848</ViewId>
+        <ViewId>12394</ViewId>
         <ViewType>CustomWatch</ViewType>
         <ColumnData>
          <__.0>
@@ -4329,17 +4333,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>47</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>44</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>10337</FocusedViewId>
+        <FocusedViewId>12407</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1024</Bottom>
-         <Left>181</Left>
-         <Right>1205</Right>
-         <Top>286</Top>
+         <Bottom>874</Bottom>
+         <Left>-7</Left>
+         <Right>1240</Right>
+         <Top>0</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4368,7 +4372,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>10340</TopTabViewId>
+             <TopTabViewId>12390</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -4379,7 +4383,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>10340</ViewId>
+               <ViewId>12389</ViewId>
               </__.0>
               <__.1>
                <DockType>View</DockType>
@@ -4389,61 +4393,39 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>8850</ViewId>
+               <ViewId>12390</ViewId>
               </__.1>
              </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
+             <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>12407</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
-               <Extent>0.7</Extent>
-               <IsDocumentPane>true</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>10334</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10333</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10334</ViewId>
-                </__.1>
-               </Children>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>0.3</Extent>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>Vertical</Orientation>
+               <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>10337</ViewId>
+               <ViewId>12406</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>12407</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -4464,7 +4446,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>10328</TopTabViewId>
+               <TopTabViewId>12401</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -4475,7 +4457,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10327</ViewId>
+                 <ViewId>12400</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -4485,7 +4467,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10328</ViewId>
+                 <ViewId>12401</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -4507,7 +4489,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10329</ViewId>
+                 <ViewId>12402</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -4527,7 +4509,7 @@
                    <IsTabbed>false</IsTabbed>
                    <Orientation>Vertical</Orientation>
                    <TopTabViewId>-1</TopTabViewId>
-                   <ViewId>8848</ViewId>
+                   <ViewId>12394</ViewId>
                   </__.0>
                   <__.1>
                    <DockType>None</DockType>
@@ -4536,7 +4518,7 @@
                    <IsPinned>false</IsPinned>
                    <IsTabbed>true</IsTabbed>
                    <Orientation>None</Orientation>
-                   <TopTabViewId>8852</TopTabViewId>
+                   <TopTabViewId>12393</TopTabViewId>
                    <ViewId>-1</ViewId>
                    <Children>
                     <__.0>
@@ -4547,7 +4529,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>8847</ViewId>
+                     <ViewId>12392</ViewId>
                     </__.0>
                     <__.1>
                      <DockType>View</DockType>
@@ -4557,7 +4539,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>8852</ViewId>
+                     <ViewId>12393</ViewId>
                     </__.1>
                    </Children>
                   </__.1>
@@ -4577,7 +4559,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>10330</ViewId>
+           <ViewId>12403</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -4878,7 +4860,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>1</Default8bitMAUDisplayOptions>
@@ -4897,18 +4879,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4988,6 +4964,53 @@
          </__.0>
         </ChildItems>
        </RootItem>
+       <SelectedItemPaths>
+        <__.0>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M0, Zephyr</Name>
+          </__.1>
+          <__.2>
+           <Name>SYSCTRLA System control</Name>
+          </__.2>
+          <__.3>
+           <Name>VRGL_GPB</Name>
+          </__.3>
+         </Segments>
+        </__.0>
+        <__.1>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M0, Zephyr</Name>
+          </__.1>
+          <__.2>
+           <Name>GPIO GPIO Registers</Name>
+          </__.2>
+         </Segments>
+        </__.1>
+        <__.2>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M0, Zephyr</Name>
+          </__.1>
+          <__.2>
+           <Name>GPIO GPIO Registers</Name>
+          </__.2>
+          <__.3>
+           <Name>GPENA</Name>
+          </__.3>
+         </Segments>
+        </__.2>
+       </SelectedItemPaths>
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
