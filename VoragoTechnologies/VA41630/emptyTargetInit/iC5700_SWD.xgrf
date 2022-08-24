@@ -214,23 +214,23 @@
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>293</ViewId>
+        <ViewId>320</ViewId>
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>297</ViewId>
+        <ViewId>324</ViewId>
         <ViewType>Document</ViewType>
        </__.10>
        <__.2>
-        <ViewId>292</ViewId>
+        <ViewId>319</ViewId>
         <ViewType>SFR</ViewType>
        </__.2>
        <__.3>
-        <ViewId>290</ViewId>
+        <ViewId>317</ViewId>
         <ViewType>Disassembly</ViewType>
        </__.3>
        <__.4>
-        <ViewId>291</ViewId>
+        <ViewId>318</ViewId>
         <ViewType>CoreRegisters</ViewType>
        </__.4>
        <__.5>
@@ -250,14 +250,14 @@
         <ViewType>Symbols</ViewType>
        </__.8>
        <__.9>
-        <ViewId>296</ViewId>
+        <ViewId>323</ViewId>
         <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>291</ViewId>
+        <ViewId>318</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -275,7 +275,7 @@
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>290</ViewId>
+        <ViewId>317</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -299,19 +299,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>296</ViewId>
+        <ViewId>323</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>297</ViewId>
+        <ViewId>324</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>293</ViewId>
+        <ViewId>320</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -506,7 +506,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>292</ViewId>
+        <ViewId>319</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -678,6 +678,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -697,10 +709,10 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>41</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>44</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>297</FocusedViewId>
+        <FocusedViewId>324</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -768,7 +780,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>297</TopTabViewId>
+             <TopTabViewId>324</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -779,7 +791,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>296</ViewId>
+               <ViewId>323</ViewId>
               </__.0>
               <__.1>
                <DockType>Document</DockType>
@@ -789,7 +801,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>297</ViewId>
+               <ViewId>324</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -810,7 +822,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>291</TopTabViewId>
+               <TopTabViewId>318</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -821,7 +833,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>290</ViewId>
+                 <ViewId>317</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -831,7 +843,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>291</ViewId>
+                 <ViewId>318</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -853,7 +865,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>292</ViewId>
+                 <ViewId>319</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -923,7 +935,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>293</ViewId>
+           <ViewId>320</ViewId>
           </__.1>
          </Children>
         </Dock>

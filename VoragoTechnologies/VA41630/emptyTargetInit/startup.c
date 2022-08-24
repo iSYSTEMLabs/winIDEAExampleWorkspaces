@@ -29,15 +29,12 @@ const unsigned long g_adwVectors[] = {
   (unsigned long)memfault_ISR,
   (unsigned long)busfault_ISR,
   (unsigned long)usagefault_ISR,
-  0,
-  0,
-  0,
-  0,
+  0, 0, 0, 0,
   (unsigned long)default_ISR,
   (unsigned long)default_ISR,
   0,
   (unsigned long)default_ISR,
-  (unsigned long)TimerInterruptHandler,
+  (unsigned long)TimerInterruptHandler
 };
 
 __attribute__((naked))

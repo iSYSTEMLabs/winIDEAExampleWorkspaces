@@ -3036,7 +3036,7 @@
         <RequireDeviceIDMatch>false</RequireDeviceIDMatch>
         <RESETDriveWhenDetached>no</RESETDriveWhenDetached>
         <ResetDuration>100</ResetDuration>
-        <ResetMethod>SoC</ResetMethod>
+        <ResetMethod>Regular</ResetMethod>
         <RESETMode>OD</RESETMode>
         <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
@@ -3085,7 +3085,7 @@
         <RequireDeviceIDMatch>0</RequireDeviceIDMatch>
         <ResetDelay>100</ResetDelay>
         <RESETDriveWhenDetached>0</RESETDriveWhenDetached>
-        <ResetMethod>2</ResetMethod>
+        <ResetMethod>0</ResetMethod>
         <RESETMode>0</RESETMode>
         <ReversedAuroraLanes>0</ReversedAuroraLanes>
         <StopAfterReset>0</StopAfterReset>

@@ -2871,7 +2871,7 @@
         <Debug_ConnectToSoC_Same>false</Debug_ConnectToSoC_Same>
         <Debug_InitSoC_Same>false</Debug_InitSoC_Same>
         <Program_ResetAfterProgram>false</Program_ResetAfterProgram>
-        <WDTDisable>false</WDTDisable>
+        <WDTDisable>true</WDTDisable>
         <Attach_ConnectToSoC>
          <Execute>Default</Execute>
          <Scripts></Scripts>
@@ -3014,7 +3014,7 @@
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
-        <InitRAM>Auto</InitRAM>
+        <InitRAM>Never</InitRAM>
         <LatchRESET>true</LatchRESET>
         <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
@@ -3036,7 +3036,7 @@
         <RequireDeviceIDMatch>false</RequireDeviceIDMatch>
         <RESETDriveWhenDetached>no</RESETDriveWhenDetached>
         <ResetDuration>100</ResetDuration>
-        <ResetMethod>SoC</ResetMethod>
+        <ResetMethod>Regular</ResetMethod>
         <RESETMode>OD</RESETMode>
         <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
@@ -3064,7 +3064,7 @@
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
-        <InitRAM>2</InitRAM>
+        <InitRAM>0</InitRAM>
         <LatchRESET>1</LatchRESET>
         <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
@@ -3085,7 +3085,7 @@
         <RequireDeviceIDMatch>0</RequireDeviceIDMatch>
         <ResetDelay>100</ResetDelay>
         <RESETDriveWhenDetached>0</RESETDriveWhenDetached>
-        <ResetMethod>2</ResetMethod>
+        <ResetMethod>0</ResetMethod>
         <RESETMode>0</RESETMode>
         <ReversedAuroraLanes>0</ReversedAuroraLanes>
         <StopAfterReset>0</StopAfterReset>
