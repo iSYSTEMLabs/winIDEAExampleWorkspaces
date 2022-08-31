@@ -1,0 +1,273 @@
+Archive member included to satisfy reference by file (symbol)
+
+x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a(_arm_addsubsf3.o)
+                              D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o (__aeabi_fadd)
+
+Allocating common symbols
+Common symbol       size              file
+
+byTestByte          0x1               D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+wTestWord           0x2               D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+
+Discarded input sections
+
+ .group         0x00000000        0xc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .group         0x00000000        0xc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_macro   0x00000000      0xa8a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .group         0x00000000        0xc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .group         0x00000000        0xc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_macro   0x00000000      0xa8a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .group         0x00000000        0xc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+ .debug_macro   0x00000000      0xa8a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM_CM4          0x05000000         0x00040000         xrw
+RAM_MAIN_0_R5_0  0x70000000         0x00040000         xrw
+RAM_MAIN_0_R5_1  0x70040000         0x00040000         xrw
+RAM_MAIN_1_R5_0  0x70080000         0x00040000         xrw
+RAM_MAIN_1_R5_1  0x700c0000         0x00040000         xrw
+ATCM_MAIN_0_R5_0 0x78000000         0x00010000         xrw
+ATCM_MAIN_0_R5_1 0x78200000         0x00010000         xrw
+ATCM_MAIN_1_R5_0 0x78400000         0x00010000         xrw
+ATCM_MAIN_1_R5_1 0x78600000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+LOAD D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+                0x05000000                _bootAddr_CM4 = ORIGIN (RAM_CM4)
+                0x7003fffc                _estack_sys = (((ORIGIN (RAM_MAIN_0_R5_0) + LENGTH (RAM_MAIN_0_R5_0)) - 0x4) & 0xfffffffc)
+                0x7003f7fc                _estack_usr = (_estack_sys - 0x800)
+                0x7003effc                _estack_svc = (_estack_usr - _stack_size_usr)
+                0x7003e7fc                _estack_abt = (_estack_svc - _stack_size_svc)
+                0x7003dffc                _estack_und = (_estack_abt - _stack_size_abt)
+                0x7003d7fc                _estack_irq = (_estack_und - _stack_size_und)
+                0x7003cffc                _estack_fiq = (_estack_irq - _stack_size_irq)
+                0x00000800                _stack_size_usr = 0x800
+                0x00000800                _stack_size_svc = 0x800
+                0x00000800                _stack_size_abt = 0x800
+                0x00000800                _stack_size_und = 0x800
+                0x00000800                _stack_size_irq = 0x800
+                0x00000800                _stack_size_fiq = 0x800
+
+.boot           0x70000000       0x34
+ *(.main_0_r5_0_boot_vectors)
+ .main_0_r5_0_boot_vectors
+                0x70000000       0x34 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+                0x70000000                reset
+
+.text           0x70000034     0x1328
+                0x70000034                . = ALIGN (0x4)
+ *(.text)
+ .text          0x70000034       0x94 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+                0x70000034                main
+ .text          0x700000c8      0xa80 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+                0x700000c8                Type_Simple
+                0x700001d4                Type_Arrays
+                0x700002f8                Type_Pointers
+                0x70000384                Type_Struct
+                0x70000444                Type_Bitfields
+                0x700004b4                Type_Enum
+                0x70000524                Mult
+                0x70000554                Type_FunctionPointer
+                0x700005d4                ResetStrX
+                0x7000063c                Type_Mixed
+                0x70000698                TestStatic
+                0x700006cc                Address_GlobalVariables
+                0x70000700                Address_TestScopes
+                0x700007f4                Func1
+                0x70000848                Func2
+                0x700008cc                Func3
+                0x700008f8                Func4
+                0x700009cc                Address_DifferentFunctionParameters
+                0x70000a34                InterruptRoutine
+                0x70000a68                CPU_Pointers
+                0x70000a9c                Factorial
+                0x70000ae8                CPU_Recursion
+ .text          0x70000b48      0x3dc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+                0x70000b48                disableWatchdog
+                0x70000bb8                execute_PD_change
+                0x70000c2c                execute_MCU_PD_change
+                0x70000ca0                targetInit
+                0x70000cbc                enable_M4FFS0_Core
+                0x70000d20                enable_R5FSS0_Cores
+                0x70000dac                enable_R5FSS1_Cores
+                0x70000eac                setRatRegion
+ .text          0x70000f24      0x10c D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+                0x70000f24                ResetHandler
+ .text          0x70001030       0x80 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+                0x70001030                Reset
+                0x700010a0                IntDefaultHandler
+ .text          0x700010b0      0x2ac x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a(_arm_addsubsf3.o)
+                0x700010b0                __aeabi_frsub
+                0x700010b8                __subsf3
+                0x700010b8                __aeabi_fsub
+                0x700010bc                __aeabi_fadd
+                0x700010bc                __addsf3
+                0x70001278                __aeabi_ui2f
+                0x70001278                __floatunsisf
+                0x70001280                __aeabi_i2f
+                0x70001280                __floatsisf
+                0x700012a0                __aeabi_ul2f
+                0x700012a0                __floatundisf
+                0x700012b0                __aeabi_l2f
+                0x700012b0                __floatdisf
+ *(.text*)
+ *(.rodata)
+ *(.rodata*)
+ *(.glue_7)
+ .glue_7        0x7000135c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x7000135c        0x0 linker stubs
+ *(.eh*)
+                0x7000135c                . = ALIGN (0x4)
+
+.vfp11_veneer   0x7000135c        0x0
+ .vfp11_veneer  0x7000135c        0x0 linker stubs
+
+.v4_bx          0x7000135c        0x0
+ .v4_bx         0x7000135c        0x0 linker stubs
+
+.iplt           0x7000135c        0x0
+ .iplt          0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+
+.rel.dyn        0x7000135c        0x0
+ .rel.iplt      0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+
+.exh            0x7000135c        0x0
+ *(.ARM.exidx*)
+                0x7000135c                . = ALIGN (0x4)
+                0x7000135c                _etext = .
+
+.data           0x7000135c        0x0
+                0x7000135c                _sdata = .
+ *(vtable)
+ *(.data*)
+ .data          0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .data          0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .data          0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .data          0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .data          0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+ .data          0x7000135c        0x0 x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a(_arm_addsubsf3.o)
+                0x7000135c                . = ALIGN (0x4)
+                0x7000135c                _edata = .
+
+.igot.plt       0x7000135c        0x0
+ .igot.plt      0x7000135c        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+
+.bss            0x7000135c       0x10
+                0x7000135c                _sbss = .
+ *(.bss*)
+ .bss           0x7000135c        0x8 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+                0x7000135c                iCounter
+                0x70001360                iInterruptCounter
+ .bss           0x70001364        0x4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .bss           0x70001368        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .bss           0x70001368        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .bss           0x70001368        0x0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+ .bss           0x70001368        0x0 x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a(_arm_addsubsf3.o)
+ *(COMMON)
+ COMMON         0x70001368        0x4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+                0x70001368                byTestByte
+                0x7000136a                wTestWord
+                0x7000136c                . = ALIGN (0x4)
+                0x7000136c                _ebss = .
+                0x7000136c                __bss_end__ = _ebss
+                [!provide]                PROVIDE (end = _ebss)
+                [!provide]                PROVIDE (_end = _ebss)
+                0x00000001                ROM_USAGE = ((0x64 * (SIZEOF (.text) + SIZEOF (.data))) / LENGTH (RAM_MAIN_0_R5_0))
+                0x00000000                RAM_USAGE = ((0x64 * (SIZEOF (.data) + SIZEOF (.bss))) / LENGTH (RAM_MAIN_0_R5_0))
+LOAD x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib\libc.a
+LOAD x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a
+OUTPUT(sample.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x9e5
+ .debug_info    0x00000000       0xbd D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_info    0x000000bd      0x704 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_info    0x000007c1      0x123 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_info    0x000008e4       0x26 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .debug_info    0x0000090a       0xdb D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+.debug_abbrev   0x00000000      0x411
+ .debug_abbrev  0x00000000       0x6b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_abbrev  0x0000006b      0x28e D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_abbrev  0x000002f9       0x7c D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_abbrev  0x00000375       0x14 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .debug_abbrev  0x00000389       0x88 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+.debug_aranges  0x00000000       0xa8
+ .debug_aranges
+                0x00000000       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_aranges
+                0x00000020       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_aranges
+                0x00000040       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_aranges
+                0x00000060       0x20 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .debug_aranges
+                0x00000080       0x28 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+.debug_macro    0x00000000      0xc13
+ .debug_macro   0x00000000       0x25 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_macro   0x00000025      0xa8a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_macro   0x00000aaf       0x1b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_macro   0x00000aca       0x1a D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_macro   0x00000ae4      0x11e D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_macro   0x00000c02       0x11 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+.debug_line     0x00000000      0x7c1
+ .debug_line    0x00000000       0xf4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_line    0x000000f4      0x36c D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_line    0x00000460      0x1b0 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_line    0x00000610       0xcf D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .debug_line    0x000006df       0xe2 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+.debug_str      0x00000000     0x3d57
+ .debug_str     0x00000000     0x2e01 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+                               0x2e22 (size before relaxing)
+ .debug_str     0x00002e01      0x1c9 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+                               0x2fbd (size before relaxing)
+ .debug_str     0x00002fca      0xc6f D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+                               0x39cd (size before relaxing)
+ .debug_str     0x00003c39       0x6b D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+                                 0xba (size before relaxing)
+ .debug_str     0x00003ca4       0xb3 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+                               0x2e31 (size before relaxing)
+
+.comment        0x00000000       0x75
+ .comment       0x00000000       0x75 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+                                 0x76 (size before relaxing)
+ .comment       0x00000075       0x76 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .comment       0x00000075       0x76 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .comment       0x00000075       0x76 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .ARM.attributes
+                0x00000031       0x31 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .ARM.attributes
+                0x00000062       0x31 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .ARM.attributes
+                0x00000093       0x21 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup0RA.o
+ .ARM.attributes
+                0x000000b4       0x31 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+ .ARM.attributes
+                0x000000e5       0x1c x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a(_arm_addsubsf3.o)
+
+.debug_frame    0x00000000      0x490
+ .debug_frame   0x00000000       0x2c D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\main.o
+ .debug_frame   0x0000002c      0x2d4 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\test.o
+ .debug_frame   0x00000300       0xfc D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\CPUFile.o
+ .debug_frame   0x000003fc       0x48 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o
+ .debug_frame   0x00000444       0x4c x:/gcc/arm-8-2018-q4/bin/../lib/gcc/arm-none-eabi/8.2.1\libgcc.a(_arm_addsubsf3.o)
+
+.debug_ranges   0x00000000       0x18
+ .debug_ranges  0x00000000       0x18 D:\Venus\trunk\BlueBox\fitIDEA\samples\public\AM2432_RAM_GCC\targetInit\Core_0\Debug\startup.o

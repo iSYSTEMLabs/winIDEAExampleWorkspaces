@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296478208</RegVer>
+      <RegVer>1296519168</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296478208</RegVer>
+      <RegVer>1296519168</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296478208</RegVer>
+    <RegVer>1296519168</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -339,10 +339,10 @@
          <DisplayLoadMap>true</DisplayLoadMap>
          <PostDLActionAlsoAfterReset>false</PostDLActionAlsoAfterReset>
          <TargetDownload>None</TargetDownload>
-         <VerifyDownload>true</VerifyDownload>
+         <VerifyDownload>false</VerifyDownload>
          <LoadReport>
-          <FileName>$Download.xml</FileName>
-          <Format>none</Format>
+          <FileName>downloadReport.xml</FileName>
+          <Format>XML</Format>
           <Loaded>true</Loaded>
           <Overlap>true</Overlap>
           <VerifyErrors>true</VerifyErrors>
@@ -484,7 +484,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.107</winIDEA>
+      <winIDEA>Build 9.21.117</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -599,7 +599,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296478208</RegVer>
+    <RegVer>1296519168</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>STM32U5x5_JTAG - Debug</DefaultTargetName>
@@ -614,11 +614,11 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296478208</RegVer>
+    <RegVer>1296519168</RegVer>
     <HServerData>
      <Data>
       <BBSync>
-       <Sync>Slave</Sync>
+       <Sync>Disabled</Sync>
        <SyncTime>false</SyncTime>
       </BBSync>
       <Debug>
@@ -2574,8 +2574,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>107</V_BUILD>
-      <V_BUILD_SCC>137959</V_BUILD_SCC>
+      <V_BUILD>117</V_BUILD>
+      <V_BUILD_SCC>139522</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -2638,7 +2638,7 @@
          <CTM>
           <Channels>
            <__.0>
-            <UseForDebug>false</UseForDebug>
+            <UseForDebug>true</UseForDebug>
            </__.0>
            <__.1>
             <UseForDebug>true</UseForDebug>
@@ -2660,7 +2660,7 @@
          <CortexTraceProtocol>Parallel</CortexTraceProtocol>
          <CortexTRACEWidth>4-bit</CortexTRACEWidth>
          <UseCTMCh0and1ForSyncedRunStop>false</UseCTMCh0and1ForSyncedRunStop>
-         <UseCTMCh2and3ForTrace>false</UseCTMCh2and3ForTrace>
+         <UseCTMCh2and3ForTrace>true</UseCTMCh2and3ForTrace>
          <CC26xx>
           <SWO_._DIO_._Pin>0</SWO_._DIO_._Pin>
          </CC26xx>
@@ -2717,10 +2717,10 @@
         <BootCore>0</BootCore>
         <Breakpoints>HW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
-        <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>7</CalibratePhase>
-        <CalibrateVref>62</CalibrateVref>
-        <ClockkHz>64000</ClockkHz>
+        <CalibrateClockVref>0</CalibrateClockVref>
+        <CalibratePhase>22</CalibratePhase>
+        <CalibrateVref>98</CalibrateVref>
+        <ClockkHz>1000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -2730,7 +2730,7 @@
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
-        <InitRAM>Auto</InitRAM>
+        <InitRAM>Always</InitRAM>
         <LatchRESET>true</LatchRESET>
         <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
@@ -2768,10 +2768,10 @@
         <Breakpoints>0</Breakpoints>
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
-        <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>7</CalibratePhase>
-        <CalibrateVref>62</CalibrateVref>
-        <ClockkHz>64000</ClockkHz>
+        <CalibrateClockVref>0</CalibrateClockVref>
+        <CalibratePhase>22</CalibratePhase>
+        <CalibrateVref>98</CalibrateVref>
+        <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
@@ -2780,7 +2780,7 @@
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
-        <InitRAM>2</InitRAM>
+        <InitRAM>1</InitRAM>
         <LatchRESET>1</LatchRESET>
         <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
@@ -2916,6 +2916,7 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
@@ -2924,8 +2925,8 @@
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
-            <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>
-            <Type>NonIntrusive</Type>
+            <PresetPCAfterStoppedInInit>EntryPoint</PresetPCAfterStoppedInInit>
+            <Type>Catch</Type>
            </DebugEntry>
           </Common>
           <Cortex>

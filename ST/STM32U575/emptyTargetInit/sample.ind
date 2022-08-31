@@ -1,4 +1,3 @@
-
 INPUT(& &)
 
 __STACK_SIZE = 0x00001000;
@@ -7,50 +6,22 @@ __HEAP_SIZE  = 0x00001000;
 /* Linker script to configure memory regions. */
 MEMORY
 {
-  VECT        (RXW): ORIGIN = 0x08000000, LENGTH = 1K  
-  FLASH       (RX) : ORIGIN = 0x08000400, LENGTH = 44K
-  FLASH1       (RX) : ORIGIN = 0x0800F000, LENGTH = 44K
-  SRAM1        (RW) : ORIGIN = 0x0E000000, LENGTH = 192K
+  FLASH       (RX) : ORIGIN = 0x08000000, LENGTH = 2048K
+  RAM         (RW) : ORIGIN = 0x0E000000, LENGTH = 768K
 }
 
-_VTOR   =  ORIGIN(VECT);      /* Must be aligned to 64 bits */
+_VTOR   =  ORIGIN(FLASH);      /* Must be aligned to 64 bits */
 
-/* Linker script to place sections and symbol values. Should be used together
- * with other linker script that defines memory regions FLASH and RAM.
- * It references following symbols, which must be defined in code:
- *   Reset_Handler : Entry of reset handler
- *
- * It defines following symbols, which code can use without definition:
- *   __exidx_start
- *   __exidx_end
- *   __ecc_table_start__
- *   __ecc_table_end__
- *   __etext
- *   __data_start__
- *   __preinit_array_start
- *   __preinit_array_end
- *   __init_array_start
- *   __init_array_end
- *   __fini_array_start
- *   __fini_array_end
- *   __data_end__
- *   __bss_start__
- *   __bss_end__
- *   __end__
- *   end
- *   __HeapLimit
- *   __StackLimit
- *   __StackTop
- *   __stack
- */
-ENTRY(Reset)
+ENTRY(Reset_Handler)
+
+_estack = ORIGIN(RAM) + LENGTH(RAM);	/* end of "RAM" Ram type memory */
 
 SECTIONS
 {
   .vect :
   {
     KEEP(*(.isr_vector))
-  } > VECT
+  } > FLASH
   
   .text :
   {
@@ -60,20 +31,12 @@ SECTIONS
     KEEP(*(.init))
     KEEP(*(.fini))
 
-    /* .ctors */
-    *crtbegin.o(.ctors)
-    *crtbegin?.o(.ctors)
-    *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
-    *(SORT(.ctors.*))
-    *(.ctors)
-
-    /* .dtors */
-     *crtbegin.o(.dtors)
-     *crtbegin?.o(.dtors)
-     *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
-     *(SORT(.dtors.*))
-     *(.dtors)
-
+    _etext = .;
+  } > FLASH
+  
+  
+  .rodata : 
+  {
     *(.rodata*)
     KEEP(*(.eh_frame*))
   } > FLASH
@@ -95,11 +58,11 @@ SECTIONS
     . = ALIGN(4);
     __ecc_table_start__ = .;
 
-    QUAD (__data_start__)
-    QUAD ((__data_end__ - __data_start__) / 8)
+    QUAD (_sdata)
+    QUAD ((_edata - _sdata) / 8)
 
-    QUAD (__bss_start__)
-    QUAD ((__bss_end__ - __bss_start__) / 8)
+    QUAD (_sbss)
+    QUAD ((_ebss - _sbss) / 8)
 
     QUAD (__HeapTop)
     QUAD ((__HeapLimit - __HeapTop) / 8)
@@ -115,43 +78,25 @@ SECTIONS
     . = ALIGN(4);
     __copy_table_start__ = .;
 
-    LONG (__etext)
-    LONG (__data_start__)
-    LONG ((__data_end__ - __data_start__) / 4)
+    LONG (_etext)
+    LONG (_sdata)
+    LONG ((_edata - _sdata) / 4)
 
-    /* Add each additional data section here */
-    /*
-      LONG (__etext2)
-      LONG (__data2_start__)
-      LONG ((__data2_end__ - __data2_start__) / 4)
-    */
     __copy_table_end__ = .;
-  } > FLASH1
+  } > FLASH
 
-  .zero.table :
-  {
-    . = ALIGN(4);
-    __zero_table_start__ = .;
-    /* Add each additional bss section here */
-    /*
-      LONG (__bss2_start__)
-      LONG ((__bss2_end__ - __bss2_start__) / 4)
-    */
-    __zero_table_end__ = .;
-  } > FLASH1
-
-  __etext = ALIGN(8);
+  _sidata = ALIGN(8);
 
   .boot_header :
   {
     KEEP(*(.boot_header))
-  } > FLASH1
+  } > FLASH
 
-  /* Due ECC initialization sequence __data_start__ and __data_end__ should be aligned on 8 bytes */
-  .data : AT (__etext)
+  /* Due ECC initialization sequence _sdata and _edata should be aligned on 8 bytes */
+  .data : AT (_sidata)
   {
     . = ALIGN(8);
-    __data_start__ = .;
+    _sdata = .;
     *(vtable)
     *(.data)
     *(.data.*)
@@ -179,21 +124,21 @@ SECTIONS
     KEEP(*(.jcr*))
     . = ALIGN(8);
     /* All data end */
-    __data_end__ = .;
+    _edata = .;
 
-  } > SRAM1
+  } > RAM
 
   /* Due ECC initialization sequence __bss_start__ and __bss_end__ should be aligned on 8 bytes */
   .bss :
   {
     . = ALIGN(8);
-    __bss_start__ = .;
+    _sbss = .;
     *(.bss)
     *(.bss.*)
     *(COMMON)
     . = ALIGN(8);
-    __bss_end__ = .;
-  } > SRAM1
+    _ebss = .;
+  } > RAM
 
   /* Due ECC initialization sequence __HeapTop and __HeapLimit should be aligned on 8 bytes */
   .heap (COPY):
@@ -206,22 +151,32 @@ SECTIONS
     . = . + __HEAP_SIZE;
     . = ALIGN(8);
     __HeapLimit = .;
-  } > SRAM1
+  } > RAM
 
   /* Due ECC initialization sequence __StackLimit and __StackTop should be aligned on 8 bytes */
-  .stack (ORIGIN(SRAM1) + LENGTH(SRAM1) - __STACK_SIZE) (COPY) :
+  .stack (ORIGIN(RAM) + LENGTH(RAM) - __STACK_SIZE) (COPY) :
   {
     . = ALIGN(8);
     __StackLimit = .;
     . = . + __STACK_SIZE;
     . = ALIGN(8);
     __StackTop = .;
-  } > SRAM1
-  PROVIDE(__stack = __StackTop);
+  } > RAM
+  PROVIDE(__estack = __StackTop);
 
   /* Check if data + heap + stack exceeds RAM limit */
   ASSERT(__StackLimit >= __HeapLimit, "region RAM overflowed with stack")
   START_ADDRESS = ORIGIN(FLASH);
-  __RAM_SIZE = LENGTH(SRAM1);
-  __RAM_START = ORIGIN(SRAM1);
+  __RAM_SIZE = LENGTH(RAM);
+  __RAM_START = ORIGIN(RAM);
+
+  /* Remove information from the compiler libraries */
+  /DISCARD/ :
+  {
+    libc.a ( * )
+    libm.a ( * )
+    libgcc.a ( * )
+  }
+
+  .ARM.attributes 0 : { *(.ARM.attributes) }
 }

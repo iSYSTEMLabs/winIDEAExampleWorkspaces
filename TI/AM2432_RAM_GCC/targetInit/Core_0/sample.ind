@@ -1,0 +1,85 @@
+INPUT(&&)
+
+MEMORY
+{
+  RAM_CM4           (rwx) : ORIGIN = 0x05000000, LENGTH = 256K
+  RAM_MAIN_0_R5_0   (rwx) : ORIGIN = 0x70000000, LENGTH = 256K
+  RAM_MAIN_0_R5_1   (rwx) : ORIGIN = 0x70040000, LENGTH = 256K
+  RAM_MAIN_1_R5_0   (rwx) : ORIGIN = 0x70080000, LENGTH = 256K
+  RAM_MAIN_1_R5_1   (rwx) : ORIGIN = 0x700C0000, LENGTH = 256K
+
+  ATCM_MAIN_0_R5_0  (rwx) : ORIGIN = 0x78000000, LENGTH = 64K
+  ATCM_MAIN_0_R5_1  (rwx) : ORIGIN = 0x78200000, LENGTH = 64K
+  ATCM_MAIN_1_R5_0  (rwx) : ORIGIN = 0x78400000, LENGTH = 64K
+  ATCM_MAIN_1_R5_1  (rwx) : ORIGIN = 0x78600000, LENGTH = 64K
+  
+}
+
+_bootAddr_CM4 = ORIGIN(RAM_CM4);
+
+_estack_sys = (ORIGIN(RAM_MAIN_0_R5_0) + LENGTH(RAM_MAIN_0_R5_0) - 4) & 0xFFFFFFFC;
+_estack_usr = _estack_sys - 0x800;
+_estack_svc = _estack_usr - _stack_size_usr;
+_estack_abt = _estack_svc - _stack_size_svc;
+_estack_und = _estack_abt - _stack_size_abt;
+_estack_irq = _estack_und - _stack_size_und;
+_estack_fiq = _estack_irq - _stack_size_irq;
+
+_stack_size_usr = 0x800;
+_stack_size_svc = 0x800;
+_stack_size_abt = 0x800;
+_stack_size_und = 0x800;
+_stack_size_irq = 0x800;
+_stack_size_fiq = 0x800;
+
+SECTIONS
+{
+  .boot :
+  {
+    KEEP(*(.main_0_r5_0_boot_vectors))    
+  } >RAM_MAIN_0_R5_0
+  
+  .text :
+  {
+    . = ALIGN(4);
+    *(.text)
+    *(.text*)
+    *(.rodata)
+    *(.rodata*)
+    *(.glue_7) *(.glue_7t)
+    *(.eh*)
+    . = ALIGN(4);
+  } >RAM_MAIN_0_R5_0
+  
+  .exh :
+  {
+    *(.ARM.exidx*)
+    . = ALIGN(4);
+    _etext = .;
+  } >RAM_MAIN_0_R5_0
+  
+  .data :
+  {
+      _sdata = .;
+      *(vtable)
+      *(.data*)
+      . = ALIGN(4);
+      _edata = .;
+  } > RAM_MAIN_0_R5_0 AT> RAM_MAIN_0_R5_0
+
+  .bss :
+  {
+      _sbss = .;
+      *(.bss*)
+      *(COMMON)
+      . = ALIGN(4);
+      _ebss = .;
+      __bss_end__ = _ebss;
+  } > RAM_MAIN_0_R5_0
+  
+  PROVIDE ( end = _ebss );
+  PROVIDE ( _end = _ebss );
+}
+
+ROM_USAGE = 100 * (SIZEOF(.text) + SIZEOF(.data)) / LENGTH(RAM_MAIN_0_R5_0);
+RAM_USAGE = 100 * (SIZEOF(.data) + SIZEOF(.bss))  / LENGTH(RAM_MAIN_0_R5_0);

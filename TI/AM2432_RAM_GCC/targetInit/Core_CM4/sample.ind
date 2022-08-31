@@ -1,0 +1,51 @@
+INPUT(&&)
+ENTRY(reset)
+
+MEMORY
+{
+  RAM_256K_CM4        (rwx) : ORIGIN = 0x05000000, LENGTH = 256K
+  MSRAM_256K0_RAM     (rwx) : ORIGIN = 0x70000000, LENGTH = 256K
+  MSRAM_256K1_RAM     (rwx) : ORIGIN = 0x70040000, LENGTH = 256K
+  MSRAM_256K2_RAM     (rwx) : ORIGIN = 0x70080000, LENGTH = 256K
+  MSRAM_256K3_RAM     (rwx) : ORIGIN = 0x700C0000, LENGTH = 256K
+  MSRAM_256K4_RAM     (rwx) : ORIGIN = 0x70100000, LENGTH = 256K
+  
+  ATCM_MAIN_0_R5_0  (rwx) : ORIGIN = 0x78000000, LENGTH = 64K
+  ATCM_MAIN_0_R5_1  (rwx) : ORIGIN = 0x78200000, LENGTH = 64K
+  ATCM_MAIN_1_R5_0  (rwx) : ORIGIN = 0x78400000, LENGTH = 64K
+  ATCM_MAIN_1_R5_1  (rwx) : ORIGIN = 0x78600000, LENGTH = 64K
+}
+
+_bootAddr_CM4 = ORIGIN(RAM_256K_CM4);
+
+_estack = (ORIGIN(RAM_256K_CM4) + LENGTH(RAM_256K_CM4) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+
+    .text :
+    {
+        KEEP(*(.isr_vector))  
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > RAM_256K_CM4
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM_256K_CM4
+
+    .bss :
+    {
+        _bss = .;
+        *(.bss*)
+        *(COMMON)
+        _ebss = .;
+    } > RAM_256K_CM4
+}

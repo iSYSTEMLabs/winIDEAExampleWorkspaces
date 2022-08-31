@@ -8,14 +8,14 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296478208</RegVer>
+      <RegVer>1296519168</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\EMULTEST\PPC\SPC58xxChorus10M\CH10M_MC\C2\CPUTest.c</FileName>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\userTracePort.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.0>
@@ -23,121 +23,345 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\userTracePort.c</FileName>
+         <FileName>E:\EMULTEST\PPC\SPC58xxChorus10M\CH10M_MC\C2\init.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
-         <BookmarkList></BookmarkList>
-         <CaretPos>113</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\Test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.10>
-        <__.100>
-         <BookmarkList></BookmarkList>
-         <CaretPos>138</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.100>
-        <__.101>
-         <BookmarkList></BookmarkList>
-         <CaretPos>23</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\CPUFile.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.101>
-        <__.102>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2746</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>216</ScrollPos>
-        </__.102>
-        <__.103>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.103>
-        <__.104>
-         <BookmarkList></BookmarkList>
-         <CaretPos>90</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\startup_ARMCM33.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.104>
-        <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\softwareTraceStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.11>
-        <__.12>
+        </__.10>
+        <__.100>
          <BookmarkList></BookmarkList>
-         <CaretPos>1842</CaretPos>
+         <CaretPos>9819</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\__start.c</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u5xx_hal.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>21</ScrollPos>
-        </__.12>
-        <__.13>
+         <ScrollPos>127</ScrollPos>
+        </__.100>
+        <__.101>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\CPUTest.c</FileName>
+         <CaretPos>1031</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u5xx_hal.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>19</ScrollPos>
+        </__.101>
+        <__.102>
+         <BookmarkList></BookmarkList>
+         <CaretPos>12269</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u5xx_hal_cortex.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>226</ScrollPos>
+        </__.102>
+        <__.103>
+         <BookmarkList></BookmarkList>
+         <CaretPos>848</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u5xx_hal_msp.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.103>
+        <__.104>
+         <BookmarkList></BookmarkList>
+         <CaretPos>5645</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\system_stm32u5xx.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>81</ScrollPos>
+        </__.104>
+        <__.105>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3082</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u5xx_it.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.105>
+        <__.106>
+         <BookmarkList></BookmarkList>
+         <CaretPos>18900</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u575xx.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.106>
+        <__.107>
+         <BookmarkList></BookmarkList>
+         <CaretPos>4679</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\stm32u5xx.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>106</ScrollPos>
+        </__.107>
+        <__.108>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2546</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\STM32U5x5.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>48</ScrollPos>
+        </__.108>
+        <__.109>
+         <BookmarkList></BookmarkList>
+         <CaretPos>88</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\STM32U575ZITXQ_FLASH.ld</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.109>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>113</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\Test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.110>
+         <BookmarkList></BookmarkList>
+         <CaretPos>470</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\startup.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.110>
+        <__.111>
+         <BookmarkList></BookmarkList>
+         <CaretPos>624</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>149</ScrollPos>
+        </__.111>
+        <__.112>
+         <BookmarkList></BookmarkList>
+         <CaretPos>5760</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\jakas\STM32CubeIDE\U5\U676_3\Core\Src\stm32u5xx_it.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>190</ScrollPos>
+        </__.112>
+        <__.113>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1113</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\startup.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>32</ScrollPos>
+        </__.113>
+        <__.114>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2045</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_RAM_GCC\startup.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>54</ScrollPos>
+        </__.114>
+        <__.115>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2925</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_RAM_GCC\STM32U5x5.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>51</ScrollPos>
+        </__.115>
+        <__.116>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2234</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\jakas\STM32CubeIDE\U575_2\U676_3\Core\Startup\startup_stm32u575zitxq.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>49</ScrollPos>
+        </__.116>
+        <__.117>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\startup.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.117>
+        <__.118>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3668</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.118>
+        <__.119>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1047</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\STM32U5x5.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.119>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>287</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\daq.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.12>
+        <__.120>
+         <BookmarkList></BookmarkList>
+         <CaretPos>370</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>36</ScrollPos>
+        </__.120>
+        <__.121>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2234</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\jakas\STM32CubeIDE\U5\U676_3\Core\Startup\startup_stm32u575zitxq.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>60</ScrollPos>
+        </__.121>
+        <__.122>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3243</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\STM32U5x5.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>51</ScrollPos>
+        </__.122>
+        <__.123>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\customTests.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.123>
+        <__.124>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.124>
+        <__.125>
+         <BookmarkList></BookmarkList>
+         <CaretPos>170</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.125>
+        <__.126>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2161</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\STM32U5x5.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>54</ScrollPos>
+        </__.126>
+        <__.127>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2064</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\trace.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>93</ScrollPos>
+        </__.127>
+        <__.128>
+         <BookmarkList></BookmarkList>
+         <CaretPos>74</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\startup_ARMCM33.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>3</ScrollPos>
+        </__.128>
+        <__.129>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.129>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1842</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>21</ScrollPos>
+        </__.13>
+        <__.130>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.130>
+        <__.131>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.131>
+        <__.132>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32U5x5\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.132>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\CPUTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.15>
-        <__.16>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>42</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\coverageA.h</FileName>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.17>
-        <__.18>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>46</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\sample.lcf</FileName>
          <FileType>0</FileType>
          <ScrollPos>24</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\coverageA.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.18>
         <__.19>
          <BookmarkList></BookmarkList>
@@ -151,7 +375,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\EMULTEST\PPC\SPC58xxChorus10M\CH10M_MC\C2\init.c</FileName>
+         <FileName>E:\EMULTEST\PPC\SPC58xxChorus10M\CH10M_MC\C2\CPUTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.2>
@@ -165,43 +389,43 @@
         </__.20>
         <__.21>
          <BookmarkList></BookmarkList>
-         <CaretPos>464</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\init.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>3</ScrollPos>
-        </__.21>
-        <__.22>
-         <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\coverageC.h</FileName>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92_isr_vectors.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.22>
-        <__.23>
-         <BookmarkList></BookmarkList>
-         <CaretPos>34</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\coverageA.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>165</ScrollPos>
-        </__.23>
-        <__.24>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>794</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\slowRun.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>43</ScrollPos>
-        </__.24>
-        <__.25>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>464</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\init.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>3</ScrollPos>
+        </__.23>
+        <__.24>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92_isr_vectors.c</FileName>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\coverageC.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>34</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\coverageA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>165</ScrollPos>
         </__.25>
         <__.26>
          <BookmarkList></BookmarkList>
@@ -253,65 +477,65 @@
         </__.30>
         <__.31>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\multipleSymbolTable.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.31>
-        <__.32>
-         <BookmarkList></BookmarkList>
          <CaretPos>62</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.31>
+        <__.32>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\multipleSymbolTable.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.32>
         <__.33>
+         <BookmarkList></BookmarkList>
+         <CaretPos>6075</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_smallStruct.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>158</ScrollPos>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\multipleSymbolTableStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.33>
-        <__.34>
+        </__.34>
+        <__.35>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\profilerStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.34>
-        <__.35>
+        </__.35>
+        <__.36>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\customTests.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.36>
+        <__.37>
          <BookmarkList></BookmarkList>
          <CaretPos>713</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\coverageA.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.35>
-        <__.36>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\slowRunStub.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.36>
-        <__.37>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\traceStub.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.37>
         <__.38>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\main.c</FileName>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\slowRunStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.38>
@@ -325,265 +549,265 @@
         </__.39>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>1743</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\Vector_SW_VLE - Z4.s</FileName>
-         <FileType>0</FileType>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\userTracePortStub.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.4>
         <__.40>
          <BookmarkList></BookmarkList>
-         <CaretPos>1411</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\sampleOverlayMem.lcf</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\traceStub.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.40>
         <__.41>
-         <BookmarkList></BookmarkList>
-         <CaretPos>911</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\Vector_SW_VLE - Z4.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.41>
-        <__.42>
          <BookmarkList></BookmarkList>
          <CaretPos>6598</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_basic.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>225</ScrollPos>
+        </__.41>
+        <__.42>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1411</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\sampleOverlayMem.lcf</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.42>
         <__.43>
          <BookmarkList></BookmarkList>
-         <CaretPos>956</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\init.c</FileName>
-         <FileType>1</FileType>
+         <CaretPos>911</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\Vector_SW_VLE - Z4.s</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.43>
         <__.44>
+         <BookmarkList></BookmarkList>
+         <CaretPos>212</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_RAM_GCC\startup.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.44>
+        <__.45>
          <BookmarkList></BookmarkList>
          <CaretPos>487</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\startup.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.44>
-        <__.45>
+        </__.45>
+        <__.46>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.45>
-        <__.46>
-         <BookmarkList></BookmarkList>
-         <CaretPos>10166</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>291</ScrollPos>
         </__.46>
         <__.47>
+         <BookmarkList></BookmarkList>
+         <CaretPos>956</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\init.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.47>
+        <__.48>
          <BookmarkList></BookmarkList>
          <CaretPos>173</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\compilerDirectives.h</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.47>
-        <__.48>
-         <BookmarkList></BookmarkList>
-         <CaretPos>131</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\debugStub.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.48>
         <__.49>
+         <BookmarkList></BookmarkList>
+         <CaretPos>10166</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>291</ScrollPos>
+        </__.49>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NE84\C1\__start.c</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>81</ScrollPos>
+        </__.5>
+        <__.50>
+         <BookmarkList></BookmarkList>
+         <CaretPos>459802</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\STM32U5x5_sfr.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>21280</ScrollPos>
+        </__.50>
+        <__.51>
          <BookmarkList></BookmarkList>
          <CaretPos>13</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\common.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.49>
-        <__.5>
+        </__.51>
+        <__.52>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\EMULTEST\PPC\SPC58xxChorus10M\CH10M_MC\C2\__start.c</FileName>
+         <CaretPos>131</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\common\debugStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.50>
+        </__.52>
+        <__.53>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.53>
+        <__.54>
          <BookmarkList></BookmarkList>
          <CaretPos>2253</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>70</ScrollPos>
-        </__.50>
-        <__.51>
+        </__.54>
+        <__.55>
          <BookmarkList></BookmarkList>
          <CaretPos>2233</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\__start.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>78</ScrollPos>
-        </__.51>
-        <__.52>
+        </__.55>
+        <__.56>
          <BookmarkList></BookmarkList>
          <CaretPos>103</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\eiger.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.52>
-        <__.53>
+        </__.56>
+        <__.57>
          <BookmarkList></BookmarkList>
          <CaretPos>668</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\fitIDEA\samples\src\common\iTest\test_SimpleTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>6</ScrollPos>
-        </__.53>
-        <__.54>
+        </__.57>
+        <__.58>
          <BookmarkList></BookmarkList>
          <CaretPos>429</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92_isr_vectors.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.54>
-        <__.55>
+        </__.58>
+        <__.59>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.h</FileName>
          <FileType>0</FileType>
          <ScrollPos>24</ScrollPos>
-        </__.55>
-        <__.56>
+        </__.59>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.6>
+        <__.60>
          <BookmarkList></BookmarkList>
          <CaretPos>9732</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>323</ScrollPos>
-        </__.56>
-        <__.57>
+        </__.60>
+        <__.61>
          <BookmarkList></BookmarkList>
          <CaretPos>101</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\eiger.h</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.57>
-        <__.58>
+        </__.61>
+        <__.62>
          <BookmarkList></BookmarkList>
          <CaretPos>5689</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NH92\C2\intc_sw_handlers.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>75</ScrollPos>
-        </__.58>
-        <__.59>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.59>
-        <__.6>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\common\userTracePortStub.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.60>
+        </__.62>
+        <__.63>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\MPC5777M_GHS\coverageA.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.60>
-        <__.61>
+        </__.63>
+        <__.64>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.64>
+        <__.65>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NN84\C1\__start.c</FileName>
          <FileType>0</FileType>
          <ScrollPos>75</ScrollPos>
-        </__.61>
-        <__.62>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.62>
-        <__.63>
+        </__.65>
+        <__.66>
          <BookmarkList></BookmarkList>
          <CaretPos>2886</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>84</ScrollPos>
-        </__.63>
-        <__.64>
+        </__.66>
+        <__.67>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NN84\C0\__start.c</FileName>
          <FileType>0</FileType>
          <ScrollPos>99</ScrollPos>
-        </__.64>
-        <__.65>
-         <BookmarkList></BookmarkList>
-         <CaretPos>514</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U575\emptyTargetInit\startup.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.65>
-        <__.66>
+        </__.67>
+        <__.68>
          <BookmarkList></BookmarkList>
          <CaretPos>607</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NE84\C0\__start.c</FileName>
          <FileType>0</FileType>
          <ScrollPos>78</ScrollPos>
-        </__.66>
-        <__.67>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>K:\samplesRecompile\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.67>
-        <__.68>
-         <BookmarkList></BookmarkList>
-         <CaretPos>3106</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\intc_sw_handlers.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>30</ScrollPos>
         </__.68>
         <__.69>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\debug_SPC58NH92.c</FileName>
+         <FileName>K:\samplesRecompile\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.69>
@@ -591,177 +815,177 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\SPC58NE84\C1\__start.c</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>81</ScrollPos>
+         <FileName>E:\EMULTEST\PPC\SPC58xxChorus10M\CH10M_MC\C2\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.7>
         <__.70>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3106</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\intc_sw_handlers.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>30</ScrollPos>
+        </__.70>
+        <__.71>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\debug_SPC58NH92.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.71>
+        <__.72>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\__start.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>24</ScrollPos>
-        </__.70>
-        <__.71>
+        </__.72>
+        <__.73>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>X:\Metrowerks\MPC55xx\2.5\PowerPC_EABI_Support\Runtime\Lib\Runtime.PPCEABI.V.UC.a</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.71>
-        <__.72>
+        </__.73>
+        <__.74>
          <BookmarkList></BookmarkList>
          <CaretPos>5212</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\venus\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>143</ScrollPos>
-        </__.72>
-        <__.73>
+        </__.74>
+        <__.75>
          <BookmarkList></BookmarkList>
          <CaretPos>52</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.73>
-        <__.74>
-         <BookmarkList></BookmarkList>
-         <CaretPos>349</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.74>
-        <__.75>
+        </__.75>
+        <__.76>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\compilerDirectives.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.75>
-        <__.76>
+        </__.76>
+        <__.77>
+         <BookmarkList></BookmarkList>
+         <CaretPos>349</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.77>
+        <__.78>
          <BookmarkList></BookmarkList>
          <CaretPos>25</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\lowPowerMode.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.76>
-        <__.77>
+        </__.78>
+        <__.79>
          <BookmarkList></BookmarkList>
          <CaretPos>4787</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>121</ScrollPos>
-        </__.77>
-        <__.78>
+        </__.79>
+        <__.8>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1743</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\Vector_SW_VLE - Z4.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.8>
+        <__.80>
          <BookmarkList></BookmarkList>
          <CaretPos>460955</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\SPC58NH92.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>17744</ScrollPos>
-        </__.78>
-        <__.79>
+        </__.80>
+        <__.81>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\startup.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.81>
+        <__.82>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1168</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_RAM_GCC\STM32U5x5.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>69</ScrollPos>
+        </__.82>
+        <__.83>
          <BookmarkList></BookmarkList>
          <CaretPos>523</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\STM32U5x5.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.79>
-        <__.8>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\fitIDEA\samples\src\powerPC\SPC58NH92\C2\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.8>
-        <__.80>
+        </__.83>
+        <__.84>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\gcc_arm.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>41</ScrollPos>
-        </__.80>
-        <__.81>
+        </__.84>
+        <__.85>
+         <BookmarkList></BookmarkList>
+         <CaretPos>74</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC_2\startup_ARMCM33.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>3</ScrollPos>
+        </__.85>
+        <__.86>
          <BookmarkList></BookmarkList>
          <CaretPos>3621</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>80</ScrollPos>
-        </__.81>
-        <__.82>
+        </__.86>
+        <__.87>
          <BookmarkList></BookmarkList>
          <CaretPos>166</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\debug.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.82>
-        <__.83>
+        </__.87>
+        <__.88>
          <BookmarkList></BookmarkList>
          <CaretPos>4495</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_basic.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.83>
-        <__.84>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2256</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\trace.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>105</ScrollPos>
-        </__.84>
-        <__.85>
-         <BookmarkList></BookmarkList>
-         <CaretPos>553</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\startup_ARMCM33.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>22</ScrollPos>
-        </__.85>
-        <__.86>
-         <BookmarkList></BookmarkList>
-         <CaretPos>57</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\STM32U5x5.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.86>
-        <__.87>
-         <BookmarkList></BookmarkList>
-         <CaretPos>5031</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>168</ScrollPos>
-        </__.87>
-        <__.88>
-         <BookmarkList></BookmarkList>
-         <CaretPos>104566</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\sample.map</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>1295</ScrollPos>
         </__.88>
         <__.89>
          <BookmarkList></BookmarkList>
-         <CaretPos>397</CaretPos>
+         <CaretPos>2371</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>108</ScrollPos>
         </__.89>
         <__.9>
          <BookmarkList></BookmarkList>
@@ -773,82 +997,82 @@
         </__.9>
         <__.90>
          <BookmarkList></BookmarkList>
-         <CaretPos>1579</CaretPos>
+         <CaretPos>3269</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>42</ScrollPos>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_RAM_GCC\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>96</ScrollPos>
         </__.90>
         <__.91>
          <BookmarkList></BookmarkList>
-         <CaretPos>424</CaretPos>
+         <CaretPos>90</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\startup_ARMCM33.c</FileName>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5\startup_ARMCM33.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>6</ScrollPos>
         </__.91>
         <__.92>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>531</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\targetInit\startup_ARMCM33.c</FileName>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_RAM_GCC\startup_ARMCM33.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>3</ScrollPos>
         </__.92>
         <__.93>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>491</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\targetInit\main.c</FileName>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\trace.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>7</ScrollPos>
         </__.93>
         <__.94>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>1959</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
+         <FileName>K:\Issues\2022\S006174\sample_STM32U5x5_FLASH_GCC\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>68</ScrollPos>
         </__.94>
         <__.95>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>90</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\startup_ARMCM33.c</FileName>
+         <FileName>K:\Issues\2022\S006174\sample_STM32U5x5_FLASH_GCC\CortexM-x\STM32U5x5_FLASH_GCC\startup_ARMCM33.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.95>
         <__.96>
          <BookmarkList></BookmarkList>
-         <CaretPos>15</CaretPos>
+         <CaretPos>90</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\CPUFile.c</FileName>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\startup_ARMCM33.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.96>
         <__.97>
          <BookmarkList></BookmarkList>
-         <CaretPos>336</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\STM32U5x5.h</FileName>
+         <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\ST\STM32U5x5\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.97>
         <__.98>
          <BookmarkList></BookmarkList>
-         <CaretPos>559</CaretPos>
+         <CaretPos>2044</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
+         <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>76</ScrollPos>
         </__.98>
         <__.99>
          <BookmarkList></BookmarkList>
-         <CaretPos>491</CaretPos>
+         <CaretPos>238</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\bbsamples\Distribution\winIDEA_public\ST\STM32U5x5_FLASH_GCC\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\JakaSter\venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32U5x5_FLASH_GCC\projectDefs.h</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.99>
        </EditorPersist>
@@ -864,7 +1088,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296478208</RegVer>
+      <RegVer>1296519168</RegVer>
       <ANGUIData.0>
        <Filetime type="B">EEKCNMAKCAMINEAB</Filetime>
        <GUID type="B">KHFHAOAJEFBPNEEFKGBLDCKHCCILAIIN</GUID>
@@ -1406,6 +1630,809 @@
         </ViewData>
        </ProfilerData>
       </ANGUIData.2>
+      <ANGUIData.3>
+       <Filetime type="B">GMIPLHIPBAIGNIAB</Filetime>
+       <GUID type="B">GHPDJCKJLIHJAAEKIEGLPJOOHBGEIIBJ</GUID>
+       <CVData>
+        <Columns>
+         <SortBy>0</SortBy>
+         <SortSmallLast>false</SortSmallLast>
+         <Columns>
+          <__.0>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>300</Width>
+          </__.0>
+          <__.1>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.1>
+          <__.2>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.2>
+          <__.3>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.3>
+          <__.4>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>150</Width>
+          </__.4>
+          <__.5>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.5>
+          <__.6>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>100</Width>
+          </__.6>
+         </Columns>
+         <Sort>
+          <Column>0</Column>
+          <Direction>Ascending</Direction>
+         </Sort>
+        </Columns>
+        <Search>
+         <MatchCase>false</MatchCase>
+         <Text></Text>
+         <Up>false</Up>
+        </Search>
+       </CVData>
+       <ProfilerData>
+        <InitialLayoutProcessed>true</InitialLayoutProcessed>
+        <Docking>
+         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
+         <Frames>
+          <__.0>
+           <FocusedViewId>2</FocusedViewId>
+           <FrameState>9</FrameState>
+           <IsPrimary>true</IsPrimary>
+           <Bounds>
+            <Bottom>587</Bottom>
+            <Left>0</Left>
+            <Right>717</Right>
+            <Top>0</Top>
+           </Bounds>
+           <Dock>
+            <DockType>None</DockType>
+            <Extent>1</Extent>
+            <IsDocumentPane>false</IsDocumentPane>
+            <IsPinned>false</IsPinned>
+            <IsTabbed>false</IsTabbed>
+            <Orientation>Vertical</Orientation>
+            <TopTabViewId>-1</TopTabViewId>
+            <ViewId>-1</ViewId>
+            <Children>
+             <__.0>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Vertical</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>0</ViewId>
+             </__.0>
+             <__.1>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>2</ViewId>
+             </__.1>
+            </Children>
+           </Dock>
+          </__.0>
+         </Frames>
+        </Docking>
+        <PRSettings>
+         <DisplayDownloadFile>false</DisplayDownloadFile>
+         <DisplayInspectorGroup>false</DisplayInspectorGroup>
+         <MaxNumberOfStates>128</MaxNumberOfStates>
+         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
+         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
+        </PRSettings>
+        <TimelineViews>
+         <__.0>
+          <ScrollPosition>0</ScrollPosition>
+          <SnapOnFindEvent>true</SnapOnFindEvent>
+          <TimeLeft>0</TimeLeft>
+          <TimeRight>0</TimeRight>
+          <ZoomLevel>1</ZoomLevel>
+          <ViewData>
+           <CurrentApplicationIndex>0</CurrentApplicationIndex>
+           <CurrentContextIndex>65535</CurrentContextIndex>
+           <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
+           <ViewTitle>Profiler Timeline</ViewTitle>
+           <Pane>
+            <Areas.areaAux>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaAux>
+            <Areas.areaCode>
+             <Height>100</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaCode>
+            <Areas.areaData>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaData>
+            <ColumnWidths>
+             <__.0>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>150</Width>
+             </__.0>
+             <__.1>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>40</Width>
+             </__.1>
+             <__.2>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>800</Width>
+             </__.2>
+            </ColumnWidths>
+           </Pane>
+          </ViewData>
+         </__.0>
+        </TimelineViews>
+        <ViewData>
+         <__.0>
+          <DataIndex>0</DataIndex>
+          <ViewId>0</ViewId>
+          <ViewType>Timeline</ViewType>
+         </__.0>
+         <__.1>
+          <DataIndex>-1</DataIndex>
+          <ViewId>2</ViewId>
+          <ViewType>Trace</ViewType>
+         </__.1>
+        </ViewData>
+       </ProfilerData>
+      </ANGUIData.3>
+      <ANGUIData.4>
+       <Filetime type="B">FMLNFADDBEIGNIAB</Filetime>
+       <GUID type="B">PLDDPCKLGOAGHDEBLDLDPBPBOOABBDGN</GUID>
+       <CVData>
+        <Columns>
+         <SortBy>0</SortBy>
+         <SortSmallLast>false</SortSmallLast>
+         <Columns>
+          <__.0>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>300</Width>
+          </__.0>
+          <__.1>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.1>
+          <__.2>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.2>
+          <__.3>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.3>
+          <__.4>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>150</Width>
+          </__.4>
+          <__.5>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.5>
+          <__.6>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>100</Width>
+          </__.6>
+         </Columns>
+         <Sort>
+          <Column>0</Column>
+          <Direction>Ascending</Direction>
+         </Sort>
+        </Columns>
+        <Search>
+         <MatchCase>false</MatchCase>
+         <Text></Text>
+         <Up>false</Up>
+        </Search>
+       </CVData>
+       <ProfilerData>
+        <InitialLayoutProcessed>true</InitialLayoutProcessed>
+        <Docking>
+         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
+         <Frames>
+          <__.0>
+           <FocusedViewId>2</FocusedViewId>
+           <FrameState>9</FrameState>
+           <IsPrimary>true</IsPrimary>
+           <Bounds>
+            <Bottom>587</Bottom>
+            <Left>0</Left>
+            <Right>1433</Right>
+            <Top>0</Top>
+           </Bounds>
+           <Dock>
+            <DockType>None</DockType>
+            <Extent>1</Extent>
+            <IsDocumentPane>false</IsDocumentPane>
+            <IsPinned>false</IsPinned>
+            <IsTabbed>false</IsTabbed>
+            <Orientation>Vertical</Orientation>
+            <TopTabViewId>-1</TopTabViewId>
+            <ViewId>-1</ViewId>
+            <Children>
+             <__.0>
+              <DockType>View</DockType>
+              <Extent>0.333333</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Vertical</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>0</ViewId>
+             </__.0>
+             <__.1>
+              <DockType>View</DockType>
+              <Extent>0.333333</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>1</ViewId>
+             </__.1>
+             <__.2>
+              <DockType>View</DockType>
+              <Extent>0.333333</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>2</ViewId>
+             </__.2>
+            </Children>
+           </Dock>
+          </__.0>
+         </Frames>
+        </Docking>
+        <PRSettings>
+         <DisplayDownloadFile>false</DisplayDownloadFile>
+         <DisplayInspectorGroup>false</DisplayInspectorGroup>
+         <MaxNumberOfStates>128</MaxNumberOfStates>
+         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
+         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
+        </PRSettings>
+        <TimelineViews>
+         <__.0>
+          <ScrollPosition>0</ScrollPosition>
+          <SnapOnFindEvent>true</SnapOnFindEvent>
+          <TimeLeft>0</TimeLeft>
+          <TimeRight>0</TimeRight>
+          <ZoomLevel>1</ZoomLevel>
+          <ViewData>
+           <CurrentApplicationIndex>0</CurrentApplicationIndex>
+           <CurrentContextIndex>65535</CurrentContextIndex>
+           <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
+           <ViewTitle>Profiler Timeline</ViewTitle>
+           <Pane>
+            <Areas.areaAux>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaAux>
+            <Areas.areaCode>
+             <Height>100</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaCode>
+            <Areas.areaData>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaData>
+            <ColumnWidths>
+             <__.0>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>150</Width>
+             </__.0>
+             <__.1>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>40</Width>
+             </__.1>
+             <__.2>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>800</Width>
+             </__.2>
+            </ColumnWidths>
+           </Pane>
+          </ViewData>
+         </__.0>
+        </TimelineViews>
+        <ViewData>
+         <__.0>
+          <DataIndex>0</DataIndex>
+          <ViewId>0</ViewId>
+          <ViewType>Timeline</ViewType>
+         </__.0>
+         <__.1>
+          <DataIndex>-1</DataIndex>
+          <ViewId>1</ViewId>
+          <ViewType>CoverageStatistics</ViewType>
+         </__.1>
+         <__.2>
+          <DataIndex>-1</DataIndex>
+          <ViewId>2</ViewId>
+          <ViewType>Output</ViewType>
+         </__.2>
+        </ViewData>
+       </ProfilerData>
+      </ANGUIData.4>
+      <ANGUIData.5>
+       <Filetime type="B">CJCEAJBBNJJFNIAB</Filetime>
+       <GUID type="B">MCNNKGBMHAABBPEFLKPLCNPFIBIJKAPO</GUID>
+       <CVData>
+        <Columns>
+         <SortBy>0</SortBy>
+         <SortSmallLast>false</SortSmallLast>
+         <Columns>
+          <__.0>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>300</Width>
+          </__.0>
+          <__.1>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.1>
+          <__.2>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.2>
+          <__.3>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.3>
+          <__.4>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>150</Width>
+          </__.4>
+          <__.5>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.5>
+          <__.6>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>100</Width>
+          </__.6>
+         </Columns>
+         <Sort>
+          <Column>0</Column>
+          <Direction>Ascending</Direction>
+         </Sort>
+        </Columns>
+        <Search>
+         <MatchCase>false</MatchCase>
+         <Text></Text>
+         <Up>false</Up>
+        </Search>
+       </CVData>
+       <ProfilerData>
+        <InitialLayoutProcessed>true</InitialLayoutProcessed>
+        <Docking>
+         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
+         <Frames>
+          <__.0>
+           <FocusedViewId>1</FocusedViewId>
+           <FrameState>9</FrameState>
+           <IsPrimary>true</IsPrimary>
+           <Bounds>
+            <Bottom>704</Bottom>
+            <Left>0</Left>
+            <Right>1444</Right>
+            <Top>0</Top>
+           </Bounds>
+           <Dock>
+            <DockType>None</DockType>
+            <Extent>1</Extent>
+            <IsDocumentPane>false</IsDocumentPane>
+            <IsPinned>false</IsPinned>
+            <IsTabbed>false</IsTabbed>
+            <Orientation>Vertical</Orientation>
+            <TopTabViewId>-1</TopTabViewId>
+            <ViewId>-1</ViewId>
+            <Children>
+             <__.0>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Vertical</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>0</ViewId>
+             </__.0>
+             <__.1>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>1</ViewId>
+             </__.1>
+            </Children>
+           </Dock>
+          </__.0>
+         </Frames>
+        </Docking>
+        <PRSettings>
+         <DisplayDownloadFile>false</DisplayDownloadFile>
+         <DisplayInspectorGroup>false</DisplayInspectorGroup>
+         <MaxNumberOfStates>128</MaxNumberOfStates>
+         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
+         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
+        </PRSettings>
+        <TimelineViews>
+         <__.0>
+          <ScrollPosition>0</ScrollPosition>
+          <SnapOnFindEvent>true</SnapOnFindEvent>
+          <TimeLeft>9223372036854775807</TimeLeft>
+          <TimeRight>0</TimeRight>
+          <ZoomLevel>1</ZoomLevel>
+          <ViewData>
+           <CurrentApplicationIndex>0</CurrentApplicationIndex>
+           <CurrentContextIndex>65535</CurrentContextIndex>
+           <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
+           <ViewTitle>Profiler Timeline</ViewTitle>
+           <Pane>
+            <Areas.areaAux>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaAux>
+            <Areas.areaCode>
+             <Height>100</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaCode>
+            <Areas.areaData>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaData>
+            <ColumnWidths>
+             <__.0>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>150</Width>
+             </__.0>
+             <__.1>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>40</Width>
+             </__.1>
+             <__.2>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>800</Width>
+             </__.2>
+            </ColumnWidths>
+           </Pane>
+          </ViewData>
+         </__.0>
+        </TimelineViews>
+        <ViewData>
+         <__.0>
+          <DataIndex>0</DataIndex>
+          <ViewId>0</ViewId>
+          <ViewType>Timeline</ViewType>
+         </__.0>
+         <__.1>
+          <DataIndex>-1</DataIndex>
+          <ViewId>1</ViewId>
+          <ViewType>CoverageStatistics</ViewType>
+         </__.1>
+        </ViewData>
+       </ProfilerData>
+      </ANGUIData.5>
+      <ANGUIData.6>
+       <Filetime type="B">AADEAHNDHJLLNIAB</Filetime>
+       <GUID type="B">LBCLJCEJJAGPGHEOIOENEMHBNOHBJAEL</GUID>
+       <CVData>
+        <Columns>
+         <SortBy>0</SortBy>
+         <SortSmallLast>false</SortSmallLast>
+         <Columns>
+          <__.0>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>300</Width>
+          </__.0>
+          <__.1>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.1>
+          <__.2>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.2>
+          <__.3>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.3>
+          <__.4>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>150</Width>
+          </__.4>
+          <__.5>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.5>
+          <__.6>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>100</Width>
+          </__.6>
+         </Columns>
+         <Sort>
+          <Column>0</Column>
+          <Direction>Ascending</Direction>
+         </Sort>
+        </Columns>
+        <Search>
+         <MatchCase>false</MatchCase>
+         <Text></Text>
+         <Up>false</Up>
+        </Search>
+       </CVData>
+       <ProfilerData>
+        <InitialLayoutProcessed>true</InitialLayoutProcessed>
+        <Docking>
+         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
+         <Frames>
+          <__.0>
+           <FocusedViewId>1</FocusedViewId>
+           <FrameState>9</FrameState>
+           <IsPrimary>true</IsPrimary>
+           <Bounds>
+            <Bottom>505</Bottom>
+            <Left>0</Left>
+            <Right>1238</Right>
+            <Top>0</Top>
+           </Bounds>
+           <Dock>
+            <DockType>None</DockType>
+            <Extent>1</Extent>
+            <IsDocumentPane>false</IsDocumentPane>
+            <IsPinned>false</IsPinned>
+            <IsTabbed>false</IsTabbed>
+            <Orientation>Vertical</Orientation>
+            <TopTabViewId>-1</TopTabViewId>
+            <ViewId>-1</ViewId>
+            <Children>
+             <__.0>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Vertical</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>0</ViewId>
+             </__.0>
+             <__.1>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>1</ViewId>
+             </__.1>
+            </Children>
+           </Dock>
+          </__.0>
+         </Frames>
+        </Docking>
+        <PRSettings>
+         <DisplayDownloadFile>false</DisplayDownloadFile>
+         <DisplayInspectorGroup>false</DisplayInspectorGroup>
+         <MaxNumberOfStates>128</MaxNumberOfStates>
+         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
+         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
+        </PRSettings>
+        <TimelineViews>
+         <__.0>
+          <ScrollPosition>0</ScrollPosition>
+          <SnapOnFindEvent>true</SnapOnFindEvent>
+          <TimeLeft>9223372036854775807</TimeLeft>
+          <TimeRight>0</TimeRight>
+          <ZoomLevel>1</ZoomLevel>
+          <ViewData>
+           <CurrentApplicationIndex>65535</CurrentApplicationIndex>
+           <CurrentContextIndex>65535</CurrentContextIndex>
+           <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
+           <ViewTitle>Profiler Timeline</ViewTitle>
+           <Pane>
+            <Areas.areaAux>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaAux>
+            <Areas.areaCode>
+             <Height>100</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaCode>
+            <Areas.areaData>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaData>
+            <ColumnWidths>
+             <__.0>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>150</Width>
+             </__.0>
+             <__.1>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>40</Width>
+             </__.1>
+             <__.2>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>800</Width>
+             </__.2>
+            </ColumnWidths>
+           </Pane>
+          </ViewData>
+         </__.0>
+        </TimelineViews>
+        <ViewData>
+         <__.0>
+          <DataIndex>0</DataIndex>
+          <ViewId>0</ViewId>
+          <ViewType>Timeline</ViewType>
+         </__.0>
+         <__.1>
+          <DataIndex>-1</DataIndex>
+          <ViewId>1</ViewId>
+          <ViewType>CoverageStatistics</ViewType>
+         </__.1>
+        </ViewData>
+       </ProfilerData>
+      </ANGUIData.6>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -1417,21 +2444,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296478208</RegVer>
+    <RegVer>1296519168</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>startup_ARMCM33.c</RelativeFilePath>
+        <RelativeFilePath>..\..\common\trace.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>CPUFile.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\startup_ARMCM33.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\readMe.txt</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>startup.h</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -1455,46 +2482,50 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>16698</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>16725</ViewId>
+        <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>16699</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>16723</ViewId>
+        <ViewType>SFR</ViewType>
        </__.1>
        <__.2>
-        <ViewId>16700</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>16721</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>16683</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>16722</ViewId>
+        <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
-        <ViewId>16686</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>16619</ViewId>
+        <ViewType>Locals</ViewType>
        </__.4>
        <__.5>
-        <ViewId>16703</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewId>16724</ViewId>
+        <ViewType>This</ViewType>
        </__.5>
        <__.6>
-        <ViewId>16704</ViewId>
-        <ViewType>Output_Build</ViewType>
+        <ViewId>16621</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.6>
        <__.7>
-        <ViewId>16617</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>16728</ViewId>
+        <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>16706</ViewId>
+        <ViewId>16729</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
+       <__.9>
+        <ViewId>16617</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>-1</ViewId>
+        <ViewId>16722</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -1505,20 +2536,20 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>469</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>16721</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>215</Width>
+          <Width>100</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
@@ -1535,73 +2566,20 @@
       </DissasemblyViews>
       <DocumentViews>
        <__.0>
-        <RelativePath>readMe.txt</RelativePath>
-        <ViewId>16683</ViewId>
+        <RelativePath>main.c</RelativePath>
+        <ViewId>16728</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
-        <RelativePath>startup_ARMCM33.c</RelativePath>
-        <ViewId>16706</ViewId>
+        <RelativePath>readMe.txt</RelativePath>
+        <ViewId>16729</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
-      <FolderViews>
-       <__.0>
-        <FolderSort>true</FolderSort>
-        <ViewId>-1</ViewId>
-        <ViewType>Folder</ViewType>
-        <ColumnData>
-         <__.0>
-          <Pos>0</Pos>
-          <Visible>true</Visible>
-          <Width>150</Width>
-         </__.0>
-         <__.1>
-          <Pos>0</Pos>
-          <Visible>true</Visible>
-          <Width>60</Width>
-         </__.1>
-         <__.2>
-          <Pos>0</Pos>
-          <Visible>true</Visible>
-          <Width>80</Width>
-         </__.2>
-         <__.3>
-          <Pos>0</Pos>
-          <Visible>true</Visible>
-          <Width>120</Width>
-         </__.3>
-        </ColumnData>
-        <ColumnSort>
-         <Column>0</Column>
-         <Direction>Ascending</Direction>
-        </ColumnSort>
-        <TreeState>
-         <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
-         <RootItem>
-          <Name></Name>
-          <Options>0</Options>
-          <ChildItems>
-           <__.0>
-            <Name>emptyTargetInit</Name>
-            <Options>5</Options>
-            <ChildItems>
-             <__.0>
-              <Name>Debug</Name>
-              <Options>4</Options>
-             </__.0>
-            </ChildItems>
-           </__.0>
-          </ChildItems>
-         </RootItem>
-        </TreeState>
-       </__.0>
-      </FolderViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>-1</ViewId>
+        <ViewId>16725</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -1616,25 +2594,25 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x656C72CD</Address>
-           <AddressOffset>0x656C72C0</AddressOffset>
-           <AddressStr></AddressStr>
-           <DisplayMode>0</DisplayMode>
+           <Address>0x40022020</Address>
+           <AddressOffset>0x40022000</AddressOffset>
+           <AddressStr>0x40022020</AddressStr>
+           <DisplayMode>2</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
            <IsIntLowFirst>true</IsIntLowFirst>
-           <IsRealTime>false</IsRealTime>
+           <IsRealTime>true</IsRealTime>
           </Info>
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x656C72C0</Address>
+         <Address>0x40022000</Address>
          <Bits>8</Bits>
-         <DisplayMode>0</DisplayMode>
+         <DisplayMode>2</DisplayMode>
          <High>0xFFFFFFFF</High>
          <LimitMAUsPerLine>None</LimitMAUsPerLine>
          <Low>0x0</Low>
-         <RealTime>false</RealTime>
-         <StrAddress></StrAddress>
+         <RealTime>true</RealTime>
+         <StrAddress>0x40022020</StrAddress>
          <SwapFloat>true</SwapFloat>
          <SwapInt>true</SwapInt>
          <Area>
@@ -1645,7 +2623,7 @@
         </WndData>
        </__.0>
        <__.1>
-        <Name>DSPR0</Name>
+        <Name>Memory 2</Name>
         <ViewId>-1</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
@@ -1661,25 +2639,25 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x5C001BFF</Address>
-           <AddressOffset>0x5C001BF0</AddressOffset>
-           <AddressStr></AddressStr>
-           <DisplayMode>0</DisplayMode>
+           <Address>0x800B500</Address>
+           <AddressOffset>0x800B500</AddressOffset>
+           <AddressStr>0x0800B500</AddressStr>
+           <DisplayMode>2</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
            <IsIntLowFirst>true</IsIntLowFirst>
-           <IsRealTime>false</IsRealTime>
+           <IsRealTime>true</IsRealTime>
           </Info>
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x5C001BF0</Address>
+         <Address>0x800B500</Address>
          <Bits>8</Bits>
-         <DisplayMode>0</DisplayMode>
+         <DisplayMode>2</DisplayMode>
          <High>0xFFFFFFFF</High>
          <LimitMAUsPerLine>None</LimitMAUsPerLine>
          <Low>0x0</Low>
-         <RealTime>false</RealTime>
-         <StrAddress></StrAddress>
+         <RealTime>true</RealTime>
+         <StrAddress>0x0800B500</StrAddress>
          <SwapFloat>true</SwapFloat>
          <SwapInt>true</SwapInt>
          <Area>
@@ -1695,18 +2673,10 @@
         <ViewId>16617</ViewId>
         <ViewType>Symbols</ViewType>
        </__.0>
-       <__.1>
-        <ViewId>-1</ViewId>
-        <ViewType>Callstack</ViewType>
-       </__.1>
-       <__.2>
-        <ViewId>-1</ViewId>
-        <ViewType>Terminal</ViewType>
-       </__.2>
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>16686</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -1714,7 +2684,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>16703</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -1722,7 +2692,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>16704</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -1744,38 +2714,17 @@
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>Startup files</SelectedItems>
+         <SelectedItems></SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
             <Name>Files</Name>
-            <Options>5</Options>
-            <ChildItems>
-             <__.0>
-              <Name>Info</Name>
-              <Options>4</Options>
-             </__.0>
-            </ChildItems>
+            <Options>4</Options>
            </__.0>
           </ChildItems>
          </RootItem>
-         <SelectedItemPaths>
-          <__.0>
-           <Segments>
-            <__.0>
-             <Name></Name>
-            </__.0>
-            <__.1>
-             <Name>Files [STM32U5x5_JTAG - Debug]</Name>
-            </__.1>
-            <__.2>
-             <Name>Startup files</Name>
-            </__.2>
-           </Segments>
-          </__.0>
-         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -1820,8 +2769,8 @@
        <__.0>
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
-        <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>-1</ViewId>
+        <RealTimeUpdate>true</RealTimeUpdate>
+        <ViewId>16723</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -1842,7 +2791,7 @@
          <__.3>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>100</Width>
+          <Width>270</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
@@ -1868,7 +2817,7 @@
       </SfrViews>
       <VariableViews>
        <__.0>
-        <ViewId>16698</ViewId>
+        <ViewId>16619</ViewId>
         <ViewType>Locals</ViewType>
         <ColumnData>
          <__.0>
@@ -1899,7 +2848,7 @@
         </ColumnData>
        </__.0>
        <__.1>
-        <ViewId>16699</ViewId>
+        <ViewId>16724</ViewId>
         <ViewType>This</ViewType>
         <ColumnData>
          <__.0>
@@ -1933,7 +2882,7 @@
       <WatchViews>
        <__.0>
         <Name>Watch</Name>
-        <ViewId>16700</ViewId>
+        <ViewId>16621</ViewId>
         <ViewType>CustomWatch</ViewType>
         <ColumnData>
          <__.0>
@@ -2012,17 +2961,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>59</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>76</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>16683</FocusedViewId>
+        <FocusedViewId>16725</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>914</Bottom>
-         <Left>836</Left>
-         <Right>1860</Right>
-         <Top>146</Top>
+         <Bottom>935</Bottom>
+         <Left>2023</Left>
+         <Right>3729</Right>
+         <Top>42</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -2046,7 +2995,7 @@
            <Children>
             <__.0>
              <DockType>View</DockType>
-             <Extent>0.25</Extent>
+             <Extent>0.2</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
@@ -2056,12 +3005,12 @@
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.75</Extent>
+             <Extent>0.4</Extent>
              <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>16683</TopTabViewId>
+             <TopTabViewId>16729</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -2072,7 +3021,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16683</ViewId>
+               <ViewId>16728</ViewId>
               </__.0>
               <__.1>
                <DockType>Document</DockType>
@@ -2082,107 +3031,141 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16706</ViewId>
-              </__.1>
-             </Children>
-            </__.1>
-           </Children>
-          </__.0>
-          <__.1>
-           <DockType>None</DockType>
-           <Extent>0.3</Extent>
-           <IsDocumentPane>false</IsDocumentPane>
-           <IsPinned>false</IsPinned>
-           <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
-           <TopTabViewId>-1</TopTabViewId>
-           <ViewId>-1</ViewId>
-           <Children>
-            <__.0>
-             <DockType>None</DockType>
-             <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>16686</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16686</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16703</ViewId>
-              </__.1>
-              <__.2>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16704</ViewId>
-              </__.2>
-             </Children>
-            </__.0>
-            <__.1>
-             <DockType>None</DockType>
-             <Extent>0.3</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>16699</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16698</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16699</ViewId>
+               <ViewId>16729</ViewId>
               </__.1>
              </Children>
             </__.1>
             <__.2>
-             <DockType>View</DockType>
-             <Extent>0.3</Extent>
+             <DockType>None</DockType>
+             <Extent>0.4</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
              <Orientation>Vertical</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>16700</ViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>None</DockType>
+               <Extent>0.4</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>16722</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16721</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16722</ViewId>
+                </__.1>
+               </Children>
+              </__.0>
+              <__.1>
+               <DockType>None</DockType>
+               <Extent>0.6</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>Horizontal</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>0.4</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>Vertical</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>16723</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>None</DockType>
+                 <Extent>0.6</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>Vertical</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>-1</ViewId>
+                 <Children>
+                  <__.0>
+                   <DockType>View</DockType>
+                   <Extent>0.5</Extent>
+                   <IsDocumentPane>false</IsDocumentPane>
+                   <IsPinned>false</IsPinned>
+                   <IsTabbed>false</IsTabbed>
+                   <Orientation>Vertical</Orientation>
+                   <TopTabViewId>-1</TopTabViewId>
+                   <ViewId>16621</ViewId>
+                  </__.0>
+                  <__.1>
+                   <DockType>None</DockType>
+                   <Extent>0.5</Extent>
+                   <IsDocumentPane>false</IsDocumentPane>
+                   <IsPinned>false</IsPinned>
+                   <IsTabbed>true</IsTabbed>
+                   <Orientation>None</Orientation>
+                   <TopTabViewId>16724</TopTabViewId>
+                   <ViewId>-1</ViewId>
+                   <Children>
+                    <__.0>
+                     <DockType>View</DockType>
+                     <Extent>1</Extent>
+                     <IsDocumentPane>false</IsDocumentPane>
+                     <IsPinned>false</IsPinned>
+                     <IsTabbed>false</IsTabbed>
+                     <Orientation>None</Orientation>
+                     <TopTabViewId>-1</TopTabViewId>
+                     <ViewId>16619</ViewId>
+                    </__.0>
+                    <__.1>
+                     <DockType>View</DockType>
+                     <Extent>1</Extent>
+                     <IsDocumentPane>false</IsDocumentPane>
+                     <IsPinned>false</IsPinned>
+                     <IsTabbed>false</IsTabbed>
+                     <Orientation>None</Orientation>
+                     <TopTabViewId>-1</TopTabViewId>
+                     <ViewId>16724</ViewId>
+                    </__.1>
+                   </Children>
+                  </__.1>
+                 </Children>
+                </__.1>
+               </Children>
+              </__.1>
+             </Children>
             </__.2>
            </Children>
+          </__.0>
+          <__.1>
+           <DockType>View</DockType>
+           <Extent>0.3</Extent>
+           <IsDocumentPane>false</IsDocumentPane>
+           <IsPinned>false</IsPinned>
+           <IsTabbed>false</IsTabbed>
+           <Orientation>Vertical</Orientation>
+           <TopTabViewId>-1</TopTabViewId>
+           <ViewId>16725</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -2197,7 +3180,7 @@
        <IncludeAllFilesInProjectFolders>false</IncludeAllFilesInProjectFolders>
        <IncludeProjectDependencies>true</IncludeProjectDependencies>
        <IncludeProjectFiles>true</IncludeProjectFiles>
-       <LastFileType>*.*</LastFileType>
+       <LastFileType>*.c;*.h</LastFileType>
        <Subfolders>false</Subfolders>
        <WholeWords>false</WholeWords>
        <FileType>
@@ -2225,14 +3208,29 @@
        </FileType>
        <Find>
         <__.0>
-         <V>START_ADDRESS</V>
+         <V>g_cInitializedVariable</V>
         </__.0>
         <__.1>
-         <V>START_ADDRESS</V>
+         <V>_stack</V>
         </__.1>
         <__.2>
-         <V>storeRegisters</V>
+         <V>VTOR</V>
         </__.2>
+        <__.3>
+         <V>RCC_Osc</V>
+        </__.3>
+        <__.4>
+         <V>__FPU_PRESENT</V>
+        </__.4>
+        <__.5>
+         <V>#include &quot;stm32u5xx_hal_conf.h&quot;</V>
+        </__.5>
+        <__.6>
+         <V>START_ADDRESS</V>
+        </__.6>
+        <__.7>
+         <V>storeRegisters</V>
+        </__.7>
        </Find>
        <Folder>
         <__.0>
@@ -2247,6 +3245,20 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+        <__.10>
+         <Items>
+          <__.0>
+           <V>0X80000000</V>
+          </__.0>
+          <__.1>
+           <V>0xE0000104</V>
+          </__.1>
+         </Items>
+        </__.10>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -2263,7 +3275,7 @@
        <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
-       <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
+       <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
       </MemoryWindow>
       <ProjectWindow>
        <Symbols>
@@ -2280,7 +3292,7 @@
       </RTOSWindow>
       <SFRWindow>
        <Display>Descr</Display>
-       <FilterString></FilterString>
+       <FilterString>DHC</FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
@@ -2298,14 +3310,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>

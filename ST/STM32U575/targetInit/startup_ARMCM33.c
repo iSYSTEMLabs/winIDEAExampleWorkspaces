@@ -1,23 +1,22 @@
 #include "startup.h"
 
-extern int main();
-
 __attribute__ ((naked))
-void Reset()
+void Reset_Handler()
 {
-
-  __asm__("  ldr R0, =__stack"); 
+  __asm__("  ldr R0, =_estack"); 
   __asm__("  mov sp, R0      ");
 
-  volatile unsigned long *pulSrc = &__etext;
-  volatile unsigned long *pulDest = &__data_start__;
+  volatile unsigned long *pulSrc = &_sidata;
+  volatile unsigned long *pulDest = &_sdata;
 
-  while( pulDest < &__data_end__ )
+  while( pulDest < &_edata)
     *pulDest++ = *pulSrc++;
 
-  pulDest = &__bss_start__;
-  while ( pulDest < &__bss_end__)
+  pulDest = &_sbss;
+  while ( pulDest < &_ebss)
     *pulDest++ = 0;       
+    
+  VTOR = 0x08000000;
   
   main();
   while(1);
@@ -32,19 +31,17 @@ void IntDefaultHandler()
 
 void TimerInterruptHandler(void)
 {
-
+  InterruptRoutine();
+  TIM2_SR &= ~(1 << 0); // Clear interrupt flag
 }
 
-
-//TO DO - Interupt table not correct
 __attribute__ ((section(".isr_vector")))
 void (* const g_pfnVectors[])(void) =
 {
-   (void (*)(void))(&__stack),              // Initial stack pointer
-    Reset,                                  // The reset handler
+   (void (*)(void))(&_estack),              // Initial stack pointer
+    Reset_Handler,                          // The reset handler
     IntDefaultHandler,                      // The NMI handler
-    IntDefaultHandler,                      // The secure hard fault handler
-    IntDefaultHandler,                      // The non-secure hard fault handler
+    IntDefaultHandler,                      // Hard fault handler
     IntDefaultHandler,                      // The MPU fault handler
     IntDefaultHandler,                      // The bus fault handler
     IntDefaultHandler,                      // The usage fault handler
@@ -56,7 +53,7 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // Debug monitor handler
     0,
     IntDefaultHandler,                      // Pendable request for system service (PendableSrvReq)
-    IntDefaultHandler,                  // System tick timer (SysTick)
+    IntDefaultHandler,                      // System tick timer (SysTick)
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
@@ -101,8 +98,8 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,
-    TimerInterruptHandler, // TIM2 interrupt
     IntDefaultHandler,
+    TimerInterruptHandler, // TIM2 interrupt
     IntDefaultHandler,
     IntDefaultHandler,
     IntDefaultHandler,

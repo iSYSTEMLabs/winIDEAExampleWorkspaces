@@ -1,22 +1,21 @@
 #ifndef STARTUP_H
 #define STARTUP_H
 
-#include "STM32U5x5_sfr.h"
+#include "STM32U5x5.h"
 
 extern int main();
-void setVTOR(void);
 void enableFPU(void);
 void IntDefaultHandler(void);
 void InterruptRoutine(void);
 
-extern unsigned long __stack;
+extern unsigned volatile long _estack;
 
-extern unsigned volatile long __etext;
-extern unsigned volatile long __data_start__;
-extern unsigned volatile long __data_end__;
-extern unsigned volatile long __bss_start__;
-extern unsigned volatile long __bss_end__;
+extern unsigned volatile long _sidata;
+extern unsigned volatile long _sdata;
+extern unsigned volatile long _edata;
+extern unsigned volatile long _sbss;
+extern unsigned volatile long _ebss;
 
-extern unsigned volatile long __VTOR;
+#define VTOR (*(unsigned long volatile *)0xE000ED08)
 
 #endif // STARTUP_H
