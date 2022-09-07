@@ -8,168 +8,264 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
-         <BookmarkList></BookmarkList>
-         <CaretPos>45</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>X:\Metrowerks\MPC55xx\2.5\PowerPC_EABI_Support\Runtime\Lib\Runtime.PPCEABI.V.UC.a</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.0>
-        <__.1>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\Sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.1>
-        <__.10>
-         <BookmarkList></BookmarkList>
-         <CaretPos>3249</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\intc_sw_handlers.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>31</ScrollPos>
-        </__.10>
-        <__.11>
-         <BookmarkList></BookmarkList>
-         <CaretPos>709</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\sample.lcf</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>12</ScrollPos>
-        </__.11>
-        <__.12>
-         <BookmarkList></BookmarkList>
-         <CaretPos>711</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\init.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.12>
-        <__.13>
-         <BookmarkList></BookmarkList>
-         <CaretPos>754</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\S32R372.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>19</ScrollPos>
-        </__.13>
-        <__.14>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1712</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\debugA.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2024</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\__start.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>49</ScrollPos>
-        </__.15>
-        <__.16>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1649</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\PowerPC_asm.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>54</ScrollPos>
-        </__.16>
-        <__.17>
-         <BookmarkList></BookmarkList>
-         <CaretPos>17335</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>528</ScrollPos>
-        </__.17>
-        <__.18>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\PowerPC_asm.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
-         <BookmarkList></BookmarkList>
-         <CaretPos>375</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\S32R372.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.19>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1413</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\debugA.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>30</ScrollPos>
-        </__.2>
-        <__.20>
-         <BookmarkList></BookmarkList>
-         <CaretPos>662</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\sample.lcf</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.21>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\tempFolder\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
-         <BookmarkList></BookmarkList>
-         <CaretPos>734</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\init.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>7</ScrollPos>
-        </__.22>
-        <__.23>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\tempFolder\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.23>
-        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.0>
+        <__.1>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1413</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\debugA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>30</ScrollPos>
+        </__.1>
+        <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2024</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>48</ScrollPos>
+        </__.10>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\cores_0_interrupt_vectors.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>27</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3249</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\intc_sw_handlers.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>31</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.15>
+         <BookmarkList></BookmarkList>
+         <CaretPos>709</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\sample.lcf</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.15>
+        <__.16>
+         <BookmarkList></BookmarkList>
+         <CaretPos>711</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\init.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>754</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\S32R372.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>19</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1712</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\debugA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2024</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>49</ScrollPos>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\Sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1649</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\PowerPC_asm.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>54</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>17335</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>528</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\PowerPC_asm.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\projectDefs.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.23>
+        <__.24>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>149</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\intc_z7a.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.26>
+        <__.27>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2711</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\intc_sw_handlers.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.27>
+        <__.28>
+         <BookmarkList></BookmarkList>
+         <CaretPos>4905</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\Vector_SW_VLE_e200z7.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>33</ScrollPos>
+        </__.28>
+        <__.29>
+         <BookmarkList></BookmarkList>
+         <CaretPos>756</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\init.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.29>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1183</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\hw_isr.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>3</ScrollPos>
         </__.3>
+        <__.30>
+         <BookmarkList></BookmarkList>
+         <CaretPos>705</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\sample.lcf</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>66</ScrollPos>
+        </__.30>
+        <__.31>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1258</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.31>
+        <__.32>
+         <BookmarkList></BookmarkList>
+         <CaretPos>5185</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\cores_0_interrupt_vectors.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>1</ScrollPos>
+        </__.32>
+        <__.33>
+         <BookmarkList></BookmarkList>
+         <CaretPos>224</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\coverageA.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>9</ScrollPos>
+        </__.33>
+        <__.34>
+         <BookmarkList></BookmarkList>
+         <CaretPos>5871</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\S32R372.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>156</ScrollPos>
+        </__.34>
+        <__.35>
+         <BookmarkList></BookmarkList>
+         <CaretPos>4152</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\S32R372.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>195</ScrollPos>
+        </__.35>
         <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>45</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>X:\Metrowerks\MPC55xx\2.5\PowerPC_EABI_Support\Runtime\Lib\Runtime.PPCEABI.V.UC.a</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.4>
+        <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\coverageA.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>697</ScrollPos>
-        </__.4>
-        <__.5>
-         <BookmarkList></BookmarkList>
-         <CaretPos>496</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\S32R372.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
@@ -181,27 +277,27 @@
         </__.6>
         <__.7>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>496</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\S32R372.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>2060</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_FLASH_MW\Z7A\cores_0_interrupt_vectors.s</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>27</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>2024</CaretPos>
+         <CaretPos>2210</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\__start.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>9</ScrollPos>
+         <FileName>E:\NikolaBrkovic\VenusTrunk1\BlueBox\fitIDEA\samples\src\powerPC\S32R372_RAM_MW\Z7A\Vector_SW_BookE-Z3_Z4_Z6_Z7.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>21</ScrollPos>
         </__.9>
        </EditorPersist>
       </EditorPersist>
@@ -216,7 +312,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <ANGUIData.0>
        <Filetime type="B">AHJJLCOMKCLHNIAB</Filetime>
        <GUID type="B">JKPMOLBLEGIPNNEJJGMLNHGJDPDJMCBA</GUID>
@@ -414,6 +510,203 @@
         </ViewData>
        </ProfilerData>
       </ANGUIData.0>
+      <ANGUIData.1>
+       <Filetime type="B">NOOCPEKEBHMBNIAB</Filetime>
+       <GUID type="B">GCNFFBKOGEECIDEPLMKLJBPHEHJNNKNL</GUID>
+       <CVData>
+        <Columns>
+         <SortBy>0</SortBy>
+         <SortSmallLast>false</SortSmallLast>
+         <Columns>
+          <__.0>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>300</Width>
+          </__.0>
+          <__.1>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.1>
+          <__.2>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.2>
+          <__.3>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.3>
+          <__.4>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>150</Width>
+          </__.4>
+          <__.5>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.5>
+          <__.6>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>100</Width>
+          </__.6>
+         </Columns>
+         <Sort>
+          <Column>0</Column>
+          <Direction>Ascending</Direction>
+         </Sort>
+        </Columns>
+        <Search>
+         <MatchCase>false</MatchCase>
+         <Text></Text>
+         <Up>false</Up>
+        </Search>
+       </CVData>
+       <ProfilerData>
+        <InitialLayoutProcessed>true</InitialLayoutProcessed>
+        <Docking>
+         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
+         <Frames>
+          <__.0>
+           <FocusedViewId>0</FocusedViewId>
+           <FrameState>9</FrameState>
+           <IsPrimary>true</IsPrimary>
+           <Bounds>
+            <Bottom>685</Bottom>
+            <Left>0</Left>
+            <Right>740</Right>
+            <Top>0</Top>
+           </Bounds>
+           <Dock>
+            <DockType>None</DockType>
+            <Extent>1</Extent>
+            <IsDocumentPane>false</IsDocumentPane>
+            <IsPinned>false</IsPinned>
+            <IsTabbed>false</IsTabbed>
+            <Orientation>Vertical</Orientation>
+            <TopTabViewId>-1</TopTabViewId>
+            <ViewId>-1</ViewId>
+            <Children>
+             <__.0>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Vertical</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>0</ViewId>
+             </__.0>
+             <__.1>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>3</ViewId>
+             </__.1>
+            </Children>
+           </Dock>
+          </__.0>
+         </Frames>
+        </Docking>
+        <PRSettings>
+         <DisplayDownloadFile>false</DisplayDownloadFile>
+         <DisplayInspectorGroup>false</DisplayInspectorGroup>
+         <MaxNumberOfStates>128</MaxNumberOfStates>
+         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
+         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
+        </PRSettings>
+        <TimelineViews>
+         <__.0>
+          <ScrollPosition>0</ScrollPosition>
+          <SnapOnFindEvent>true</SnapOnFindEvent>
+          <TimeLeft>0</TimeLeft>
+          <TimeRight>1789318690</TimeRight>
+          <ZoomLevel>10246675</ZoomLevel>
+          <ViewData>
+           <CurrentApplicationIndex>65535</CurrentApplicationIndex>
+           <CurrentContextIndex>65535</CurrentContextIndex>
+           <HideAreasWithNoActivity>true</HideAreasWithNoActivity>
+           <ViewTitle>Profiler Timeline</ViewTitle>
+           <Pane>
+            <Areas.areaAux>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaAux>
+            <Areas.areaCode>
+             <Height>100</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaCode>
+            <Areas.areaData>
+             <Height>0</Height>
+             <Filter>
+              <ShowChildItems>false</ShowChildItems>
+              <Text></Text>
+              <Visible>false</Visible>
+             </Filter>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaData>
+            <ColumnWidths>
+             <__.0>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>381</Width>
+             </__.0>
+             <__.1>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>40</Width>
+             </__.1>
+             <__.2>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>800</Width>
+             </__.2>
+            </ColumnWidths>
+           </Pane>
+          </ViewData>
+         </__.0>
+        </TimelineViews>
+        <ViewData>
+         <__.0>
+          <DataIndex>0</DataIndex>
+          <ViewId>0</ViewId>
+          <ViewType>Timeline</ViewType>
+         </__.0>
+         <__.1>
+          <DataIndex>-1</DataIndex>
+          <ViewId>3</ViewId>
+          <ViewType>Trace</ViewType>
+         </__.1>
+        </ViewData>
+       </ProfilerData>
+      </ANGUIData.1>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -425,21 +718,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>Z7A\sample.lcf</RelativeFilePath>
+        <RelativeFilePath>..\..\common\main.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>Z7A\init.c</RelativeFilePath>
+        <RelativeFilePath>S32R372.h</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>iC5700_JTAG_AuroraAP_4x1_25gbps.trd</RelativeFilePath>
+        <RelativeFilePath>Z7A\__start.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>Z7A\__start.c</RelativeFilePath>
+        <RelativeFilePath>Z7A\S32R372.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -471,8 +764,8 @@
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>11</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.10>
        <__.2>
         <ViewId>7</ViewId>
@@ -483,27 +776,27 @@
         <ViewType>Disassembly</ViewType>
        </__.3>
        <__.4>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
-       </__.4>
-       <__.5>
-        <ViewId>4</ViewId>
-        <ViewType>CustomWatch</ViewType>
-       </__.5>
-       <__.6>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.6>
-       <__.7>
         <ViewId>6</ViewId>
         <ViewType>CoreRegisters</ViewType>
-       </__.7>
-       <__.8>
+       </__.4>
+       <__.5>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
+       </__.5>
+       <__.6>
         <ViewId>8</ViewId>
         <ViewType>This</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>4</ViewId>
+        <ViewType>CustomWatch</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>10</ViewId>
+        <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>10</ViewId>
+        <ViewId>11</ViewId>
         <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
@@ -579,25 +872,37 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x50810000</Address>
-           <AddressOffset>0x50810000</AddressOffset>
-           <AddressStr>0x50810000</AddressStr>
+           <Address>0x40030000</Address>
+           <AddressOffset>0x40030000</AddressOffset>
+           <AddressStr>0x40030000</AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>false</IsFloatLowFirst>
            <IsIntLowFirst>false</IsIntLowFirst>
            <IsRealTime>false</IsRealTime>
           </Info>
          </__.0>
+         <__.1>
+          <MemArea>1</MemArea>
+          <Info>
+           <Address>0x40030021</Address>
+           <AddressOffset>0x40030290</AddressOffset>
+           <AddressStr>0x40030020</AddressStr>
+           <DisplayMode>0</DisplayMode>
+           <IsFloatLowFirst>false</IsFloatLowFirst>
+           <IsIntLowFirst>false</IsIntLowFirst>
+           <IsRealTime>false</IsRealTime>
+          </Info>
+         </__.1>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x50810000</Address>
+         <Address>0x40030000</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
          <LimitMAUsPerLine>None</LimitMAUsPerLine>
          <Low>0x0</Low>
          <RealTime>false</RealTime>
-         <StrAddress>0x50810000</StrAddress>
+         <StrAddress>0x40030000</StrAddress>
          <SwapFloat>false</SwapFloat>
          <SwapInt>false</SwapInt>
          <Area>
@@ -639,6 +944,14 @@
          <IsVisible>false</IsVisible>
         </FindData>
        </__.2>
+       <__.3>
+        <ViewId>-1</ViewId>
+        <ViewType>Output_FindInFiles</ViewType>
+        <FindData>
+         <IsInReplaceMode>false</IsInReplaceMode>
+         <IsVisible>false</IsVisible>
+        </FindData>
+       </__.3>
       </OutputViews>
       <ProjectViews>
        <__.0>
@@ -677,7 +990,7 @@
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>200</Width>
+          <Width>439</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
@@ -808,7 +1121,7 @@
          </__.3>
          <__.4>
           <Pos>0</Pos>
-          <Visible>true</Visible>
+          <Visible>false</Visible>
           <Width>0</Width>
          </__.4>
         </ColumnData>
@@ -843,6 +1156,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -912,17 +1237,17 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>18</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>71</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>11</FocusedViewId>
+        <FocusedViewId>9</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>771</Bottom>
+         <Bottom>775</Bottom>
          <Left>-12</Left>
          <Right>1012</Right>
-         <Top>2</Top>
+         <Top>6</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1153,9 +1478,50 @@
        <IncludeAllFilesInProjectFolders>false</IncludeAllFilesInProjectFolders>
        <IncludeProjectDependencies>true</IncludeProjectDependencies>
        <IncludeProjectFiles>true</IncludeProjectFiles>
-       <LastFileType></LastFileType>
+       <LastFileType>*.*</LastFileType>
        <Subfolders>false</Subfolders>
        <WholeWords>false</WholeWords>
+       <FileType>
+        <__.0>
+         <V>*.c;*.h</V>
+        </__.0>
+        <__.1>
+         <V>*.c</V>
+        </__.1>
+        <__.2>
+         <V>*.h</V>
+        </__.2>
+        <__.3>
+         <V>*.s</V>
+        </__.3>
+        <__.4>
+         <V>*.inc</V>
+        </__.4>
+        <__.5>
+         <V>*.txt</V>
+        </__.5>
+        <__.6>
+         <V>*.*</V>
+        </__.6>
+       </FileType>
+       <Find>
+        <__.0>
+         <V>IVPR_init_core_0</V>
+        </__.0>
+        <__.1>
+         <V>INTC_CPR0 &amp;= ~(0x1F);</V>
+        </__.1>
+       </Find>
+       <Folder>
+        <__.0>
+         <V></V>
+        </__.0>
+       </Folder>
+       <Replace>
+        <__.0>
+         <V></V>
+        </__.0>
+       </Replace>
       </FindInFilesDialogData>
      </GlobalData>
      <History>
@@ -1164,11 +1530,14 @@
         <__.13>
          <Items>
           <__.0>
-           <V>0x01040000</V>
+           <V>0x50814BFC</V>
           </__.0>
           <__.1>
-           <V>0x01040001</V>
+           <V>0x01040000</V>
           </__.1>
+          <__.2>
+           <V>0x01040001</V>
+          </__.2>
          </Items>
         </__.13>
        </ComboBoxes>

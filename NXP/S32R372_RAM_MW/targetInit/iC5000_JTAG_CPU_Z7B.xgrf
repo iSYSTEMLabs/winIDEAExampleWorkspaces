@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -136,7 +136,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <ANGUIData.0>
        <Filetime type="B">AMIHGAHHPPLFNIAB</Filetime>
        <GUID type="B">LGNIBDDOPPDFPIELLKOGBJOCLOOBGLFB</GUID>
@@ -345,7 +345,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -1225,7 +1225,7 @@
            <ID>0</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>510</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>351</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -1264,7 +1264,7 @@
            <ID>1</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>510</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>351</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -1303,7 +1303,7 @@
            <ID>2</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>510</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>351</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -1342,7 +1342,7 @@
            <ID>3</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>510</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>351</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>

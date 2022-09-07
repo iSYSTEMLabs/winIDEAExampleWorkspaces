@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296519168</RegVer>
+   <RegVer>1296523264</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -154,13 +154,13 @@
       <LinkGroup.2>
        <LinkGroupName>Source files</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)intc_sw_handlers.s</FileName>
+        <FileName>$(IRFDIR)cores_0_interrupt_vectors.s</FileName>
         <FileOptios>
          <AssemblerOptions>-g -stderr -vle -MD $(EDNAME) -gdwarf-2</AssemblerOptions>
         </FileOptios>
        </File.0>
        <File.1>
-        <FileName>$(IRFDIR)cores_0_interrupt_vectors.s</FileName>
+        <FileName>$(IRFDIR)hw_isr.s</FileName>
         <FileOptios>
          <AssemblerOptions>-g -stderr -vle -MD $(EDNAME) -gdwarf-2</AssemblerOptions>
         </FileOptios>

@@ -28,7 +28,7 @@ SECTIONS
      } > init
 
     .xcptn_core_0  (VLECODE) LOAD(ADDR(exception_handlers)): {} > exception_handlers 
-
+    
     GROUP  : {
         .text : {}
         .text_vle (VLECODE) LOAD(ADDR(internal_ram)): {

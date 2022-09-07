@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -39,7 +39,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\tempFolder\targetInit\main.c</FileName>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.11>
@@ -47,7 +47,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\tempFolder\targetInit\readMe.txt</FileName>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
@@ -55,7 +55,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\tempFolder\emptyTargetInit\main.c</FileName>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.13>
@@ -63,7 +63,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\tempFolder\emptyTargetInit\readMe.txt</FileName>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\NXP\S32R372_RAM_MW\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.14>
@@ -144,7 +144,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <ANGUIData.0>
        <Filetime type="B">AMIHGAHHPPLFNIAB</Filetime>
        <GUID type="B">LGNIBDDOPPDFPIELLKOGBJOCLOOBGLFB</GUID>
@@ -353,7 +353,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -395,43 +395,43 @@
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>68</ViewId>
-        <ViewType>Disassembly</ViewType>
-       </__.1>
-       <__.10>
-        <ViewId>76</ViewId>
-        <ViewType>Document</ViewType>
-       </__.10>
-       <__.2>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
-       </__.2>
-       <__.3>
-        <ViewId>4</ViewId>
-        <ViewType>CustomWatch</ViewType>
-       </__.3>
-       <__.4>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.4>
-       <__.5>
-        <ViewId>69</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.5>
-       <__.6>
-        <ViewId>70</ViewId>
-        <ViewType>SFR</ViewType>
-       </__.6>
-       <__.7>
-        <ViewId>71</ViewId>
-        <ViewType>This</ViewType>
-       </__.7>
-       <__.8>
         <ViewId>72</ViewId>
         <ViewType>Memory</ViewType>
+       </__.1>
+       <__.10>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.10>
+       <__.2>
+        <ViewId>70</ViewId>
+        <ViewType>SFR</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>68</ViewId>
+        <ViewType>Disassembly</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>69</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>71</ViewId>
+        <ViewType>This</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>4</ViewId>
+        <ViewType>CustomWatch</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>77</ViewId>
+        <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>75</ViewId>
+        <ViewId>78</ViewId>
         <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
@@ -480,12 +480,12 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>75</ViewId>
+        <ViewId>77</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>76</ViewId>
+        <ViewId>78</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
@@ -648,7 +648,7 @@
           <Options>0</Options>
           <ChildItems>
            <__.0>
-            <Name>e200z7260,S32R372</Name>
+            <Name></Name>
             <Options>4</Options>
            </__.0>
           </ChildItems>
@@ -802,17 +802,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>42</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>76</FocusedViewId>
+        <FocusedViewId>72</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
-         <Top>100</Top>
+         <Bottom>775</Bottom>
+         <Left>-12</Left>
+         <Right>1012</Right>
+         <Top>6</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -873,7 +873,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>76</TopTabViewId>
+             <TopTabViewId>78</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -884,7 +884,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>75</ViewId>
+               <ViewId>77</ViewId>
               </__.0>
               <__.1>
                <DockType>Document</DockType>
@@ -894,7 +894,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>76</ViewId>
+               <ViewId>78</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -1049,6 +1049,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -1209,208 +1213,13 @@
      </WindowsInfo>
     </Environment>
     <Plugins>
-     <_293F74B2-4EFC-476C-98FD-151D034A8E6B>
+     <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>
-       <Configuration>
-        <CacheView>
-         <DirtyOnly>false</DirtyOnly>
-         <LockedOnly>false</LockedOnly>
-         <OrganizeAsTree>true</OrganizeAsTree>
-         <ShowData>false</ShowData>
-         <ValidOnly>false</ValidOnly>
-        </CacheView>
-        <MMUView>
-         <OrganizeAsTree>true</OrganizeAsTree>
-         <Verbose_._view>true</Verbose_._view>
-        </MMUView>
-        <MPUView>
-         <ValidOnly>true</ValidOnly>
-        </MPUView>
-        <PMUView>
-         <Enabled>false</Enabled>
-         <FreezeCountersOnEnabledConditionOrEvent>false</FreezeCountersOnEnabledConditionOrEvent>
-         <TimeBaseSelector_Gen1>TB63 (TBL31)</TimeBaseSelector_Gen1>
-         <TimeBaseTransitionEventEnable_Gen1>false</TimeBaseTransitionEventEnable_Gen1>
-         <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
-         <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
-         <Counters>
-          <__.0>
-           <ConditionEnable>false</ConditionEnable>
-           <Enabled>false</Enabled>
-           <Event></Event>
-           <ID>0</ID>
-           <ProcessorState>All</ProcessorState>
-           <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>459</ThresholdMultiple_Gen1>
-           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
-           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
-           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
-           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
-           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
-           <RatioOption>
-            <RatioCounterIndex>-1</RatioCounterIndex>
-           </RatioOption>
-           <TriggerOffSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOffSelect_Gen1>
-           <TriggerOffSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOffSelect_Gen2>
-           <TriggerOnSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOnSelect_Gen1>
-           <TriggerOnSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOnSelect_Gen2>
-          </__.0>
-          <__.1>
-           <ConditionEnable>false</ConditionEnable>
-           <Enabled>false</Enabled>
-           <Event></Event>
-           <ID>1</ID>
-           <ProcessorState>All</ProcessorState>
-           <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>459</ThresholdMultiple_Gen1>
-           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
-           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
-           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
-           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
-           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
-           <RatioOption>
-            <RatioCounterIndex>-1</RatioCounterIndex>
-           </RatioOption>
-           <TriggerOffSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOffSelect_Gen1>
-           <TriggerOffSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOffSelect_Gen2>
-           <TriggerOnSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOnSelect_Gen1>
-           <TriggerOnSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOnSelect_Gen2>
-          </__.1>
-          <__.2>
-           <ConditionEnable>false</ConditionEnable>
-           <Enabled>false</Enabled>
-           <Event></Event>
-           <ID>2</ID>
-           <ProcessorState>All</ProcessorState>
-           <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>459</ThresholdMultiple_Gen1>
-           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
-           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
-           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
-           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
-           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
-           <RatioOption>
-            <RatioCounterIndex>-1</RatioCounterIndex>
-           </RatioOption>
-           <TriggerOffSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOffSelect_Gen1>
-           <TriggerOffSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOffSelect_Gen2>
-           <TriggerOnSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOnSelect_Gen1>
-           <TriggerOnSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOnSelect_Gen2>
-          </__.2>
-          <__.3>
-           <ConditionEnable>false</ConditionEnable>
-           <Enabled>false</Enabled>
-           <Event></Event>
-           <ID>3</ID>
-           <ProcessorState>All</ProcessorState>
-           <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>459</ThresholdMultiple_Gen1>
-           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
-           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
-           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
-           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
-           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
-           <RatioOption>
-            <RatioCounterIndex>-1</RatioCounterIndex>
-           </RatioOption>
-           <TriggerOffSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOffSelect_Gen1>
-           <TriggerOffSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOffSelect_Gen2>
-           <TriggerOnSelect_Gen1>
-            <HardwareSignal>p_devnt_out0</HardwareSignal>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-            <ProcessorEvent>NextInterrupt</ProcessorEvent>
-            <Watchpoint00_15>IAC1</Watchpoint00_15>
-            <Watchpoint16_31>IRPT</Watchpoint16_31>
-           </TriggerOnSelect_Gen1>
-           <TriggerOnSelect_Gen2>
-            <Input>p_pmcn_qual</Input>
-            <PMCxOV>PMC0 overflow</PMCxOV>
-           </TriggerOnSelect_Gen2>
-          </__.3>
-         </Counters>
-         <TriggerOffSelect_Gen2>
-          <HardwareSignal>p_pmc0_qual</HardwareSignal>
-          <ProcessorEvent>NextInterrupt</ProcessorEvent>
-          <Watchpoint00_15>IAC1</Watchpoint00_15>
-          <Watchpoint16_31>IRPT</Watchpoint16_31>
-         </TriggerOffSelect_Gen2>
-         <TriggerOnSelect_Gen2>
-          <HardwareSignal>p_pmc0_qual</HardwareSignal>
-          <ProcessorEvent>NextInterrupt</ProcessorEvent>
-          <Watchpoint00_15>IAC1</Watchpoint00_15>
-          <Watchpoint16_31>IRPT</Watchpoint16_31>
-         </TriggerOnSelect_Gen2>
-        </PMUView>
-        <TLB1View>
-         <Verbose_._view>true</Verbose_._view>
-         <ViewProcess>true</ViewProcess>
-        </TLB1View>
-       </Configuration>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
       </Plugin>
-     </_293F74B2-4EFC-476C-98FD-151D034A8E6B>
+     </_108541C3-E380-41DE-AFA5-3D8517465B5E>
     </Plugins>
    </REG_ROOT>
   </winIDEA>

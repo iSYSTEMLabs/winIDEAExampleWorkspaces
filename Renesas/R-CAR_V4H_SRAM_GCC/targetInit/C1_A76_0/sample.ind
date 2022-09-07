@@ -1,0 +1,59 @@
+INPUT(&&)
+
+MEMORY
+{
+  RAM (rwx)       : ORIGIN = 0xE6330000, LENGTH = 64k   /* System RAM Area, limited defined size for A76 cores */
+}
+
+_estack = ORIGIN(RAM) + LENGTH(RAM) - 16;    /* end of RAM */
+
+ENTRY(reset)
+
+SECTIONS
+{  
+  .text_out :            /* Code goes into RAM */
+  {
+    _vectorTable = .;
+    KEEP(*(.isr_vector*)) /* Startup code */
+    KEEP(*(.text.resetHandler)) /* Startup code */
+    *(.text*)            /* .text* sections (code) */
+    _etext = .;          /* define a global symbols at end of code */
+  } >RAM
+
+  .rodata_out :          /* Constant data goes into RAM */
+  {
+    . = ALIGN(8);
+    *(.rodata*)          /* .rodata* sections (constants, strings, etc.) */
+    . = ALIGN(8);
+    _sidata = .;         /* Values for initialized data go here */
+  } >RAM
+
+  .data_out :            /* Initialized data sections goes into RAM */
+  {
+    _sdata = .;          /* Initialized data starts here */
+    *(.data*)            /* .data* sections */
+    . = ALIGN(8);
+    _edata = .;          /* Initialized data ends here */
+  } >RAM AT> RAM         /* Loaded in RAM */
+  
+  .bss_out :             /* Uninitialized data section follows in RAM */
+  {
+    . = ALIGN(8);
+    _sbss = .;           /* Uninitialized (zero initialized) data starts here */
+    *(.bss*)
+    *(COMMON)
+    . = ALIGN(8);
+    _ebss = .;           /* Uninitialized (zero initialized) data ends here */
+  } >RAM
+  
+  /* Remove information from the standard libraries */
+  /DISCARD/ :
+  {
+    *(.note.gnu.build-id*)
+    libc.a ( * )
+    libm.a ( * )
+    libgcc.a ( * )
+  }
+}
+
+

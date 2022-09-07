@@ -1,6 +1,8 @@
 #pragma section code_type ".text_vle"
 #pragma section sconst_type ".__bam_bootarea"
 
+#include "S32R372.h"
+
 typedef void (*resetfuncptr)(void);
 
 extern __asm void __start();
@@ -18,5 +20,8 @@ const unsigned long CPU1_Vector      = 0xFFFFFFFF;    //0x18
 void TimerInterruptHandlerC()
 {
   InterruptRoutine();
+  
+  // Clear interrupt flag
+  PIT0_TFLG0 = 1; 
+  
 }
-

@@ -61,10 +61,9 @@ IVOR3_handler_core_0:         # IVOR 3 interrupt handler (Instruction Storage)
    e_b	IVOR3_handler_core_0 
                               .align SIXTEEN_BYTES       
                               # IVOR 4 interrupt handler (External Interrupt)
-IVOR4_Handler_core_0:
-   wrteei 0
-   e_b  TimerInterruptHandler  
-#   e_b  IVOR3_handler_core_0   
+IVOR4_handler_core_0:
+#   se_nop
+   e_b	IVOR4_handler_core_0 
                               .align SIXTEEN_BYTES       
 IVOR5_handler_core_0:         # IVOR 5 interrupt handler (Alignment)
 #   se_nop
@@ -108,18 +107,20 @@ IVOR14_handler_core_0:        # IVOR 14 interrupt handler (Instr TLB Error)
                               .align SIXTEEN_BYTES       
 IVOR15_handler_core_0:         # IVOR 15 interrupt handler (Debug)
 #   se_nop
-   e_b	TimerInterruptHandler
-#   e_b	IVOR15_handler_core_0
+   e_b	IVOR15_handler_core_0
 
+.org 0x388
+.align 4
+IRQ226_Handler:
+  se_nop
+  e_b TimerInterruptHandler
 
-   
-    .section .text_vle 
-							
+.section .text_vle							
 .type IVPR_init_core_0,@function              
 IVPR_init_core_0:
-    e_lis r5, __core_0_IVPR@h  # Initialize core IVPR from symbol in link file
+    #IVPR = address base used with IVOR's
+    e_lis r5, __core_0_IVPR@h   
     e_or2i r5, __core_0_IVPR@l
-    mtIVPR r5 
+    mtIVPR r5
     se_blr
-
 

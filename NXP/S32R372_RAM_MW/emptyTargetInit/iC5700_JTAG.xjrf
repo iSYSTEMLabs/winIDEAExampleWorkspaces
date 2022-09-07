@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -181,6 +181,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>false</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -346,6 +347,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>false</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -438,6 +440,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -517,6 +520,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -758,7 +762,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.117</winIDEA>
+      <winIDEA>Build 9.21.118</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -873,7 +877,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5700_JTAG - Debug</DefaultTargetName>
@@ -888,7 +892,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -9458,8 +9462,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>117</V_BUILD>
-      <V_BUILD_SCC>139438</V_BUILD_SCC>
+      <V_BUILD>118</V_BUILD>
+      <V_BUILD_SCC>139849</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -9657,7 +9661,7 @@
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>114</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
-        <CycleDuration>1e-09</CycleDuration>
+        <CycleDuration>6.25e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>Cleanup</EndSession>
@@ -9681,7 +9685,7 @@
         <NexusTermination_MCKO>false</NexusTermination_MCKO>
         <NexusTermination_MDO_MSEO>false</NexusTermination_MDO_MSEO>
         <NumAuroraLanes>4</NumAuroraLanes>
-        <OCTInitAtStartup>false</OCTInitAtStartup>
+        <OCTInitAtStartup>true</OCTInitAtStartup>
         <PostResetDelay>0</PostResetDelay>
         <ReadMemoryOnMissingCode>true</ReadMemoryOnMissingCode>
         <ReadStatusInterval_ms>0</ReadStatusInterval_ms>
@@ -9708,7 +9712,7 @@
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>114</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
-        <CycleDuration type="D">0.0000000010000000</CycleDuration>
+        <CycleDuration type="D">0.0000000062500000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
@@ -9730,7 +9734,7 @@
         <NexusTermination_MCKO>0</NexusTermination_MCKO>
         <NexusTermination_MDO_MSEO>0</NexusTermination_MDO_MSEO>
         <NumAuroraLanes>4</NumAuroraLanes>
-        <OCTInitAtStart>0</OCTInitAtStart>
+        <OCTInitAtStart>1</OCTInitAtStart>
         <PostResetDelay>0</PostResetDelay>
         <ReadMemoryOnMissingCode>1</ReadMemoryOnMissingCode>
         <ReadStatusInterval_ms>0</ReadStatusInterval_ms>
@@ -9780,7 +9784,7 @@
        <JTAGPos>
         <DRPostfix>0</DRPostfix>
         <DRPrefix>0</DRPrefix>
-        <HWBurstClockkHz>1000</HWBurstClockkHz>
+        <HWBurstClockkHz>5000</HWBurstClockkHz>
         <IdleTCKCount>0</IdleTCKCount>
         <InhibitTRST>0</InhibitTRST>
         <InitScanClockkHz>500</InitScanClockkHz>
@@ -10240,7 +10244,7 @@
        </XCP>
       </HW>
       <Trace>
-       <Type>9</Type>
+       <Type>5</Type>
       </Trace>
      </HW>
     </HServerData>

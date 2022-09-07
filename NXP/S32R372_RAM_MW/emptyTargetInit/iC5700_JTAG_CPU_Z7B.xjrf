@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296523264</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <Environment>
      <Breakpoints>
       <DisplayBPMessage>0</DisplayBPMessage>
@@ -173,7 +173,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.117</winIDEA>
+      <winIDEA>Build 9.21.118</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -284,7 +284,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5700_JTAG_CPU_Z7B - Debug</DefaultTargetName>
@@ -299,7 +299,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296523264</RegVer>
     <HServerData>
      <Data>
       <BBSync>

@@ -49,7 +49,7 @@ __declspec(vle_on)
 asm extern void __start(void)
 {
 	nofralloc
-     li  r0,0
+  li  r0,0
   mr	r1, r0
   mr	r2, r0
   mr	r3, r0
