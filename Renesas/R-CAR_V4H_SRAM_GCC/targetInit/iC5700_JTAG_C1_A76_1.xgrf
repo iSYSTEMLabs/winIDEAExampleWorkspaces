@@ -488,7 +488,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>676</Width>
+          <Width>0</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -625,12 +625,6 @@
          <RootItem>
           <Name></Name>
           <Options>0</Options>
-          <ChildItems>
-           <__.0>
-            <Name>Files</Name>
-            <Options>4</Options>
-           </__.0>
-          </ChildItems>
          </RootItem>
          <SelectedItemPaths>
           <__.0>
@@ -687,12 +681,6 @@
          <RootItem>
           <Name></Name>
           <Options>0</Options>
-          <ChildItems>
-           <__.0>
-            <Name>Cortex-A76,R-Car V4H</Name>
-            <Options>4</Options>
-           </__.0>
-          </ChildItems>
          </RootItem>
         </TreeState>
        </__.0>
@@ -847,13 +835,13 @@
       <Frames>
        <__.0>
         <FocusedViewId>27</FocusedViewId>
-        <FrameState>3</FrameState>
+        <FrameState>6</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
-         <Top>100</Top>
+         <Bottom>870</Bottom>
+         <Left>2035</Left>
+         <Right>3059</Right>
+         <Top>102</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>

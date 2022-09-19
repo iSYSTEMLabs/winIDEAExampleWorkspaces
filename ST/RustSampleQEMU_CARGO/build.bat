@@ -1,0 +1,1 @@
+call X:\Rust\cargo\bin\cargo.exe build

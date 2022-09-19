@@ -536,7 +536,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>676</Width>
+          <Width>311</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -889,12 +889,12 @@
       <Frames>
        <__.0>
         <FocusedViewId>41</FocusedViewId>
-        <FrameState>3</FrameState>
+        <FrameState>9</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
+         <Left>2020</Left>
+         <Right>3044</Right>
          <Top>100</Top>
         </Bounds>
         <Dock>

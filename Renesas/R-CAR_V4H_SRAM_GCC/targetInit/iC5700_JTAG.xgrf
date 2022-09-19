@@ -205,43 +205,43 @@
         </__.3>
         <__.30>
          <BookmarkList></BookmarkList>
+         <CaretPos>531</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\readme.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.30>
+        <__.31>
+         <BookmarkList></BookmarkList>
          <CaretPos>525</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\rcar_v4h.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.30>
-        <__.31>
+        </__.31>
+        <__.32>
          <BookmarkList></BookmarkList>
-         <CaretPos>987</CaretPos>
+         <CaretPos>1125</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>18</ScrollPos>
-        </__.31>
-        <__.32>
+        </__.32>
+        <__.33>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.32>
-        <__.33>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
-         <CaretPos>1075</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.33>
-        <__.34>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1955</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_0\CPUFile.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>66</ScrollPos>
         </__.34>
         <__.4>
          <BookmarkList></BookmarkList>
@@ -527,7 +527,7 @@
         <RelativeFilePath>R52_0\startup.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>R52_0\CPUFile.c</RelativeFilePath>
+        <RelativeFilePath>readme.txt</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -551,52 +551,48 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>78</ViewId>
-        <ViewType>Memory</ViewType>
+        <ViewId>0</ViewId>
+        <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>76</ViewId>
-        <ViewType>SFR</ViewType>
+        <ViewId>78</ViewId>
+        <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>101</ViewId>
-        <ViewType>Output_Build</ViewType>
-       </__.10>
-       <__.11>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.11>
-       <__.2>
-        <ViewId>74</ViewId>
-        <ViewType>Disassembly</ViewType>
-       </__.2>
-       <__.3>
-        <ViewId>75</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.3>
-       <__.4>
-        <ViewId>19</ViewId>
-        <ViewType>Locals</ViewType>
-       </__.4>
-       <__.5>
-        <ViewId>77</ViewId>
-        <ViewType>This</ViewType>
-       </__.5>
-       <__.6>
-        <ViewId>59</ViewId>
-        <ViewType>CustomWatch</ViewType>
-       </__.6>
-       <__.7>
-        <ViewId>79</ViewId>
-        <ViewType>Document</ViewType>
-       </__.7>
-       <__.8>
         <ViewId>80</ViewId>
         <ViewType>Document</ViewType>
+       </__.10>
+       <__.2>
+        <ViewId>76</ViewId>
+        <ViewType>SFR</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>74</ViewId>
+        <ViewType>Disassembly</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>75</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>19</ViewId>
+        <ViewType>Locals</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>77</ViewId>
+        <ViewType>This</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>59</ViewId>
+        <ViewType>CustomWatch</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.8>
        <__.9>
-        <ViewId>100</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewId>79</ViewId>
+        <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -977,7 +973,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>100</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -985,7 +981,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>101</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -1003,7 +999,7 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>0</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
@@ -1294,17 +1290,17 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>140</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>82</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>80</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>746</Bottom>
-         <Left>2640</Left>
-         <Right>3294</Right>
-         <Top>361</Top>
+         <Bottom>574</Bottom>
+         <Left>3118</Left>
+         <Right>3772</Right>
+         <Top>189</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1327,88 +1323,66 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
+             <DockType>None</DockType>
              <Extent>0.2</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
+             <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>1</ViewId>
+             <TopTabViewId>1</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>0</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>1</ViewId>
+              </__.1>
+             </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
+             <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>80</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
-               <Extent>0.75</Extent>
-               <IsDocumentPane>true</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>80</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>79</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>80</ViewId>
-                </__.1>
-               </Children>
-              </__.0>
-              <__.1>
-               <DockType>None</DockType>
-               <Extent>0.25</Extent>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
+               <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>101</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>100</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>101</ViewId>
-                </__.1>
-               </Children>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>79</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>80</ViewId>
               </__.1>
              </Children>
             </__.1>

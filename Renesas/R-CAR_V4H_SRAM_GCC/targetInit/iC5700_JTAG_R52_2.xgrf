@@ -21,11 +21,11 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>70</CaretPos>
+         <CaretPos>8718</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_systemStub.c</FileName>
+         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\stm.h</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>270</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
@@ -37,27 +37,27 @@
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
-         <CaretPos>3488</CaretPos>
+         <CaretPos>153</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\rcar_v3u.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>57</ScrollPos>
-        </__.11>
-        <__.12>
-         <BookmarkList></BookmarkList>
-         <CaretPos>629</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\rcar_v3u.h</FileName>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\rcar_v3u.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.12>
-        <__.13>
+        </__.11>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>1655</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\rcar_v3u.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>47</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>629</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\rcar_v3u.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.13>
         <__.14>
          <BookmarkList></BookmarkList>
@@ -69,19 +69,19 @@
         </__.14>
         <__.15>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\gcc.ld</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.15>
-        <__.16>
-         <BookmarkList></BookmarkList>
          <CaretPos>1656</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\rcar_v4h.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>50</ScrollPos>
+        </__.15>
+        <__.16>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\gcc.ld</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.16>
         <__.17>
          <BookmarkList></BookmarkList>
@@ -109,9 +109,9 @@
         </__.19>
         <__.2>
          <BookmarkList></BookmarkList>
-         <CaretPos>72</CaretPos>
+         <CaretPos>70</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\main.c</FileName>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_systemStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.2>
@@ -125,235 +125,179 @@
         </__.20>
         <__.21>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_0\Sample.ld</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
-         <BookmarkList></BookmarkList>
          <CaretPos>17140</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>437</ScrollPos>
-        </__.22>
-        <__.23>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>139</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\projectDefs.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.23>
-        <__.24>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>3879</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\Sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>9</ScrollPos>
-        </__.24>
-        <__.25>
+        </__.23>
+        <__.24>
          <BookmarkList></BookmarkList>
          <CaretPos>697</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>11</ScrollPos>
-        </__.25>
-        <__.26>
+        </__.24>
+        <__.25>
          <BookmarkList></BookmarkList>
          <CaretPos>627</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
+        </__.25>
+        <__.26>
          <BookmarkList></BookmarkList>
          <CaretPos>1166</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\common\gcc\ARMv8\arm\debugA.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.27>
-        <__.28>
+        </__.26>
+        <__.27>
          <BookmarkList></BookmarkList>
          <CaretPos>2359</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM_GCC_Falcon\R52\rcar_v3u.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>77</ScrollPos>
-        </__.28>
-        <__.29>
+        </__.27>
+        <__.28>
          <BookmarkList></BookmarkList>
          <CaretPos>2090</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM_GCC_Falcon\R52\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>47</ScrollPos>
-        </__.29>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2517</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\asm_code.S</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>68</ScrollPos>
-        </__.3>
-        <__.30>
+        </__.28>
+        <__.29>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.30>
-        <__.31>
+        </__.29>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>72</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.3>
+        <__.30>
          <BookmarkList></BookmarkList>
          <CaretPos>321</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\customTests.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.31>
-        <__.32>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2543</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>81</ScrollPos>
-        </__.32>
-        <__.33>
+        </__.30>
+        <__.31>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.33>
-        <__.34>
+        </__.31>
+        <__.32>
          <BookmarkList></BookmarkList>
          <CaretPos>655</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\Sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.34>
-        <__.35>
+        </__.32>
+        <__.33>
          <BookmarkList></BookmarkList>
          <CaretPos>507</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\rcar_v4h.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.35>
-        <__.36>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
          <CaretPos>690</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_1\Sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.36>
-        <__.37>
+        </__.34>
+        <__.35>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>2821</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_2\Sample.ld</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.37>
-        <__.38>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_1\Sample.ld</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.38>
-        <__.39>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_1\rcar_v4h.c</FileName>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.39>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>8718</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\stm.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>270</ScrollPos>
-        </__.4>
-        <__.40>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_0\rcar_v4h.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.40>
-        <__.41>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_0\rcar_v4h.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.41>
-        <__.42>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\R52_0\startup.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.42>
-        <__.43>
+        </__.35>
+        <__.36>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.43>
-        <__.44>
+        </__.36>
+        <__.37>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.44>
-        <__.5>
+        </__.37>
+        <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>124</CaretPos>
+         <CaretPos>2517</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_1\rcar_v4h.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
-         <BookmarkList></BookmarkList>
-         <CaretPos>3195</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\asm_code.S</FileName>
+         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>68</ScrollPos>
-        </__.6>
-        <__.7>
+        </__.4>
+        <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>604</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\gcc.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>9</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>124</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_1\rcar_v4h.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3195</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\asm_code.S</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>68</ScrollPos>
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
@@ -365,11 +309,11 @@
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>153</CaretPos>
+         <CaretPos>3488</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V3U_SRAM\R52\rcar_v3u.h</FileName>
+         <FileName>D:\CloudStation\CloudStation\JJe\Samples\R-CarV3U\simple\R52\rcar_v3u.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>57</ScrollPos>
         </__.9>
        </EditorPersist>
       </EditorPersist>
@@ -601,13 +545,13 @@
         <RelativeFilePath>R52_0\rcar_v4h.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>R52_0\rcar_v4h.h</RelativeFilePath>
+        <RelativeFilePath>R52_1\rcar_v4h.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>R52_0\Sample.ld</RelativeFilePath>
+        <RelativeFilePath>R52_1\Sample.ld</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>R52_0\startup.c</RelativeFilePath>
+        <RelativeFilePath>R52_2\Sample.ld</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -635,23 +579,23 @@
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>77</ViewId>
+        <ViewId>67</ViewId>
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>79</ViewId>
+        <ViewId>69</ViewId>
         <ViewType>Document</ViewType>
        </__.10>
        <__.2>
-        <ViewId>76</ViewId>
+        <ViewId>66</ViewId>
         <ViewType>SFR</ViewType>
        </__.2>
        <__.3>
-        <ViewId>74</ViewId>
+        <ViewId>64</ViewId>
         <ViewType>Disassembly</ViewType>
        </__.3>
        <__.4>
-        <ViewId>75</ViewId>
+        <ViewId>65</ViewId>
         <ViewType>CoreRegisters</ViewType>
        </__.4>
        <__.5>
@@ -671,14 +615,14 @@
         <ViewType>Symbols</ViewType>
        </__.8>
        <__.9>
-        <ViewId>78</ViewId>
+        <ViewId>68</ViewId>
         <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>75</ViewId>
+        <ViewId>65</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -689,14 +633,14 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>676</Width>
+          <Width>0</Width>
          </__.1>
         </ColumnData>
        </__.0>
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>74</ViewId>
+        <ViewId>64</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -720,19 +664,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>78</ViewId>
+        <ViewId>68</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>79</ViewId>
+        <ViewId>69</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>77</ViewId>
+        <ViewId>67</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -748,7 +692,7 @@
           <MemArea>0</MemArea>
           <Info>
            <Address>0xE6170A00</Address>
-           <AddressOffset>0xE6170A00</AddressOffset>
+           <AddressOffset>0x0</AddressOffset>
            <AddressStr>0xE6170A00</AddressStr>
            <DisplayMode>2</DisplayMode>
            <IsFloatLowFirst>false</IsFloatLowFirst>
@@ -782,7 +726,7 @@
          </__.2>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0xE6170A00</Address>
+         <Address>0x0</Address>
          <Bits>8</Bits>
          <DisplayMode>2</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -1083,23 +1027,23 @@
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>Files [init - Debug]</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
-          <ChildItems>
-           <__.0>
-            <Name>Files</Name>
-            <Options>5</Options>
-            <ChildItems>
-             <__.0>
-              <Name>Info</Name>
-              <Options>4</Options>
-             </__.0>
-            </ChildItems>
-           </__.0>
-          </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Files [init - Debug]</Name>
+            </__.1>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -1108,7 +1052,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>76</ViewId>
+        <ViewId>66</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -1143,12 +1087,6 @@
          <RootItem>
           <Name></Name>
           <Options>0</Options>
-          <ChildItems>
-           <__.0>
-            <Name>Cortex-R52,R-Car V4H</Name>
-            <Options>4</Options>
-           </__.0>
-          </ChildItems>
          </RootItem>
         </TreeState>
        </__.0>
@@ -1364,16 +1302,16 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>30</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>23</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>79</FocusedViewId>
-        <FrameState>3</FrameState>
+        <FocusedViewId>69</FocusedViewId>
+        <FrameState>6</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>1080</Bottom>
-         <Left>361</Left>
-         <Right>1385</Right>
+         <Left>2281</Left>
+         <Right>3305</Right>
          <Top>312</Top>
         </Bounds>
         <Dock>
@@ -1435,7 +1373,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>79</TopTabViewId>
+             <TopTabViewId>69</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -1446,7 +1384,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>78</ViewId>
+               <ViewId>68</ViewId>
               </__.0>
               <__.1>
                <DockType>Document</DockType>
@@ -1456,7 +1394,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>79</ViewId>
+               <ViewId>69</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -1477,7 +1415,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>75</TopTabViewId>
+               <TopTabViewId>65</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -1488,7 +1426,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>74</ViewId>
+                 <ViewId>64</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -1498,7 +1436,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>75</ViewId>
+                 <ViewId>65</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -1520,7 +1458,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>76</ViewId>
+                 <ViewId>66</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -1590,7 +1528,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>77</ViewId>
+           <ViewId>67</ViewId>
           </__.1>
          </Children>
         </Dock>

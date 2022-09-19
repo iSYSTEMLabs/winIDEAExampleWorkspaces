@@ -560,7 +560,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>676</Width>
+          <Width>311</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -913,13 +913,13 @@
       <Frames>
        <__.0>
         <FocusedViewId>43</FocusedViewId>
-        <FrameState>3</FrameState>
+        <FrameState>9</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
-         <Top>100</Top>
+         <Bottom>912</Bottom>
+         <Left>521</Left>
+         <Right>1545</Right>
+         <Top>144</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>

@@ -205,52 +205,60 @@
         </__.3>
         <__.30>
          <BookmarkList></BookmarkList>
+         <CaretPos>531</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\readme.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.30>
+        <__.31>
+         <BookmarkList></BookmarkList>
          <CaretPos>525</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\R-CAR_V4H_SRAM_GCC\R52_0\rcar_v4h.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.30>
-        <__.31>
+        </__.31>
+        <__.32>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.31>
-        <__.32>
+        </__.32>
+        <__.33>
          <BookmarkList></BookmarkList>
-         <CaretPos>987</CaretPos>
+         <CaretPos>1125</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>18</ScrollPos>
-        </__.32>
-        <__.33>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.33>
-        <__.34>
+        </__.34>
+        <__.35>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.34>
-        <__.35>
+        </__.35>
+        <__.36>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\R-CAR_V4H_SRAM_GCC\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.35>
+        </__.36>
         <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>8718</CaretPos>
@@ -1313,10 +1321,10 @@
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>746</Bottom>
-         <Left>2640</Left>
-         <Right>3294</Right>
-         <Top>361</Top>
+         <Bottom>574</Bottom>
+         <Left>3118</Left>
+         <Right>3772</Right>
+         <Top>189</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>

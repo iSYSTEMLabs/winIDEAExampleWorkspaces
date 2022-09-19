@@ -5,8 +5,12 @@
 #define BOOT_ADDR_A76_C0_1 0xE6320000
 #define BOOT_ADDR_A76_C1_0 0xE6330000
 #define BOOT_ADDR_A76_C1_1 0xE6340000
-#define BOOT_ADDR_R52_1    0xE6350000
-#define BOOT_ADDR_R52_2    0xE6360000
+
+
+#define BOOT_ADDR_R52_1 0x00000000
+#define BOOT_ADDR_R52_2 0x00000000
+#define CODE_ADDR_R52_1 0xE0000000
+#define CODE_ADDR_R52_2 0xE2000000
 
 
 
@@ -14,7 +18,8 @@
 
 #define CR52CRx(r)      (*(unsigned volatile int*) (APMU_DOMAINn(0) + 0x300 + 0x40*r))
 #define CR52RSTCTRLx(r) (*(unsigned volatile int*) (APMU_DOMAINn(0) + 0x304 + 0x40*r))
-//#define CR52BARx(r)     (*(unsigned volatile int*) (APMU_DOMAINn(0) + 0x320 + 0x40*r))
+#define CR52RVBARx(r)     (*(unsigned volatile int*) (APMU_DOMAINn(0) + 0x330 + 0x40*r))
+#define CR52BARxP(r)     (*(unsigned volatile int*) (APMU_DOMAINn(0) + 0x33C + 0x40*r))
 #define CR52BARx(r)     (*(unsigned volatile int*) (APMU_DOMAINn(0) + 0x334+ 0x40*r))
 
 // hack for core 0-7 base addresses 800, 840, A00, A40
@@ -39,6 +44,7 @@
 #define CR52CRx__CFGTCMBOOT_mask    0x10000000
 #define CR52CRx__CFGRAMPROTEN_mask  0x20000000
 #define CR52RSTCTRLx__CR52RST_mask  0x00000001
+#define BAREN 4
 
 #define  PLATFORM_STM_AXI_ADDRESS    0xE9000000
 #define  PLATFORM_STM_APB_ADDRESS    0xF8010000
