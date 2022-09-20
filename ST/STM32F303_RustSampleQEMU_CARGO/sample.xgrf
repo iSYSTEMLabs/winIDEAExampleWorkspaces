@@ -39,7 +39,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\qemu_v2\QEMU\RustSampleQEMU\src\main.rs</FileName>
+         <FileName>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\ST\RustSampleQEMU_CARGO\README.md</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.3>
@@ -47,10 +47,18 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\NikolaBrkovic\qemu_v2\QEMU\RustSampleQEMU\README.md</FileName>
+         <FileName>E:\NikolaBrkovic\qemu_v2\QEMU\RustSampleQEMU\src\main.rs</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\NikolaBrkovic\qemu_v2\QEMU\RustSampleQEMU\README.md</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.5>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -376,7 +384,7 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>19</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>10240</FocusedViewId>
@@ -579,6 +587,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

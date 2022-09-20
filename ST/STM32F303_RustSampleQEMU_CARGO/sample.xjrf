@@ -219,7 +219,7 @@
        <__.0>
         <Enabled>true</Enabled>
         <ProbeURL></ProbeURL>
-        <SFRName>LM4F110B2</SFRName>
+        <SFRName>STM32F303K8</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
          <DefaultFile>0</DefaultFile>
