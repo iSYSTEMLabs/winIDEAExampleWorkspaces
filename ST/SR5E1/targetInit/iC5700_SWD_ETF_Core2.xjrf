@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296531456</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296531456</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296531456</RegVer>
     <Environment>
      <Breakpoints>
       <DisplayBPMessage>0</DisplayBPMessage>
@@ -115,6 +115,7 @@
          <MergeTypes>0</MergeTypes>
          <Override64bitVariableLocation>1</Override64bitVariableLocation>
          <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
@@ -173,6 +174,7 @@
          <MergeTypes>0</MergeTypes>
          <Override64bitVariableLocation>1</Override64bitVariableLocation>
          <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
@@ -231,6 +233,7 @@
          <MergeTypes>0</MergeTypes>
          <Override64bitVariableLocation>1</Override64bitVariableLocation>
          <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
@@ -289,6 +292,7 @@
          <MergeTypes>0</MergeTypes>
          <Override64bitVariableLocation>1</Override64bitVariableLocation>
          <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
@@ -405,7 +409,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.90</winIDEA>
+      <winIDEA>Build 9.21.120</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -463,6 +467,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -513,7 +520,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296531456</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>Debug</DefaultTargetName>
@@ -528,7 +535,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296531456</RegVer>
     <HServerData>
      <Data>
       <BBSync>

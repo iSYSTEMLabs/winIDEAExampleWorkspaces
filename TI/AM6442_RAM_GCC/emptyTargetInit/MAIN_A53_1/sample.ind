@@ -1,0 +1,53 @@
+INPUT(& &)
+
+INCLUDE ../common.ind
+
+_estack = (ORIGIN(RAM_MAIN_A53_1) + LENGTH(RAM_MAIN_A53_1) - 8) & 0xFFFFFFF0;
+
+
+SECTIONS
+{  
+  .text_out :            /* Code goes into RAM */
+  {
+    KEEP(*(.A53_1_boot_vectors*)) /* Startup code */
+    _vectorTable = .;
+    KEEP(*(.text.resetHandler)) /* Startup code */
+    *(.text*)            /* .text* sections (code) */
+    _etext = .;          /* define a global symbols at end of code */
+  } >RAM_MAIN_A53_1
+
+  .rodata_out :          /* Constant data goes into RAM */
+  {
+    . = ALIGN(8);
+    *(.rodata*)          /* .rodata* sections (constants, strings, etc.) */
+    . = ALIGN(8);
+    _sidata = .;         /* Values for initialized data go here */
+  } >RAM_MAIN_A53_1
+
+  .data_out :            /* Initialized data sections goes into RAM */
+  {
+    _sdata = .;          /* Initialized data starts here */
+    *(.data*)            /* .data* sections */
+    . = ALIGN(8);
+    _edata = .;          /* Initialized data ends here */
+  } >RAM_MAIN_A53_1 AT> RAM_MAIN_A53_1         /* Loaded in RAM */
+  
+  .bss_out :             /* Uninitialized data section follows in RAM */
+  {
+    . = ALIGN(8);
+    _sbss = .;           /* Uninitialized (zero initialized) data starts here */
+    *(.bss*)
+    *(COMMON)
+    . = ALIGN(8);
+    _ebss = .;           /* Uninitialized (zero initialized) data ends here */
+  } >RAM_MAIN_A53_1
+  
+  /* Remove information from the standard libraries */
+  /DISCARD/ :
+  {
+    *(.note.gnu.build-id*)
+    libc.a ( * )
+    libm.a ( * )
+    libgcc.a ( * )
+  }
+}

@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296437248</RegVer>
+      <RegVer>1296531456</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296437248</RegVer>
+      <RegVer>1296531456</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296437248</RegVer>
+    <RegVer>1296531456</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -181,6 +181,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>false</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -223,7 +224,7 @@
        <__.0>
         <Enabled>true</Enabled>
         <ProbeURL>System</ProbeURL>
-        <SFRName>CCFC2012BC50</SFRName>
+        <SFRName>CCFC2012BC50L5</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
          <DefaultFile>0</DefaultFile>
@@ -273,6 +274,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -484,7 +486,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.97</winIDEA>
+      <winIDEA>Build 9.21.120</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -542,6 +544,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -560,6 +565,9 @@
        <__.0>
         <URL>App/CORE</URL>
        </__.0>
+       <__.1>
+        <URL>App/0</URL>
+       </__.1>
       </Processes>
      </Debug>
     </Op_System>
@@ -596,7 +604,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296437248</RegVer>
+    <RegVer>1296531456</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5000_JTAG - Debug</DefaultTargetName>
@@ -611,7 +619,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296437248</RegVer>
+    <RegVer>1296531456</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -6662,11 +6670,255 @@
        </TriCore>
       </Trace>
       <UMI1>
+       <Devices>
+        <Devices>
+         <__.0>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>CCFC2012BC Code 1 MB</Device>
+          <DeviceAddress>0x0</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>C*Core</Manufacturer>
+          <Name>C*Core CCFC2012BC Code 1 MB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.0>
+         <__.1>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>CCFC2012BC Data 128 KB</Device>
+          <DeviceAddress>0x800000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>C*Core</Manufacturer>
+          <Name>C*Core CCFC2012BC Data 128 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.1>
+         <__.2>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>false</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>CCFC2012BC Code SHADOW 16 KB</Device>
+          <DeviceAddress>0x200000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>false</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>C*Core</Manufacturer>
+          <Name>C*Core CCFC2012BC Code SHADOW 16 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.2>
+         <__.3>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>false</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>CCFC2012BC Code TEST 16 KB</Device>
+          <DeviceAddress>0x400000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>false</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>C*Core</Manufacturer>
+          <Name>C*Core CCFC2012BC Code TEST 16 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>10</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.3>
+         <__.4>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>false</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>CCFC2012BC Data TEST 16 KB</Device>
+          <DeviceAddress>0xC00000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>false</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>C*Core</Manufacturer>
+          <Name>C*Core CCFC2012BC Data TEST 16 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>10</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.4>
+        </Devices>
+       </Devices>
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>97</V_BUILD>
-      <V_BUILD_SCC>135920</V_BUILD_SCC>
+      <V_BUILD>120</V_BUILD>
+      <V_BUILD_SCC>140471</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -6715,12 +6967,16 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
-        <CPU1>269</CPU1>
+        <CPU1>270</CPU1>
         <Family>11</Family>
         <POD>7</POD>
-        <SubCPU>CCFC2012BC50</SubCPU>
+        <SubCPU>CCFC2012BC50L5</SubCPU>
         <B_PPC>
          <_55xx_55xx_CustomInitRAMRange>0</_55xx_55xx_CustomInitRAMRange>
          <_55xx_AllowFLASHPgmOnlyDuringDL>0</_55xx_AllowFLASHPgmOnlyDuringDL>
@@ -6893,6 +7149,7 @@
         <ResetDuration>100</ResetDuration>
         <ResetMethod>Regular</ResetMethod>
         <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
@@ -6982,7 +7239,7 @@
        <JTAGPos>
         <DRPostfix>0</DRPostfix>
         <DRPrefix>0</DRPrefix>
-        <HWBurstClockkHz>10000</HWBurstClockkHz>
+        <HWBurstClockkHz>1000</HWBurstClockkHz>
         <IdleTCKCount>0</IdleTCKCount>
         <InhibitTRST>0</InhibitTRST>
         <InitScanClockkHz>500</InitScanClockkHz>
@@ -7054,6 +7311,7 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
@@ -7062,8 +7320,8 @@
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
-            <PresetPCAfterStoppedInInit>EntryPoint</PresetPCAfterStoppedInInit>
-            <Type>Catch</Type>
+            <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>
+            <Type>NonIntrusive</Type>
            </DebugEntry>
           </Common>
           <Cortex>

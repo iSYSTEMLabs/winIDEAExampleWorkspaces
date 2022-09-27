@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296531456</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -39,7 +39,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\startup.c</FileName>
+         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.100>
@@ -47,15 +47,15 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\test.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\sample.ind</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.101>
         <__.102>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\sample.ind</FileName>
+         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.102>
@@ -63,7 +63,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\sample.map</FileName>
+         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.103>
@@ -71,31 +71,31 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.104>
-        <__.105>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\Eve_init.cpp</FileName>
          <FileType>7</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.105>
-        <__.106>
+        </__.104>
+        <__.105>
          <BookmarkList></BookmarkList>
          <CaretPos>1750</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\Eve_init.cpp</FileName>
          <FileType>7</FileType>
          <ScrollPos>54</ScrollPos>
-        </__.106>
-        <__.107>
+        </__.105>
+        <__.106>
          <BookmarkList></BookmarkList>
          <CaretPos>139</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\CortexR52\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.106>
+        <__.107>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.107>
@@ -103,16 +103,16 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\readMe.txt</FileName>
+         <FileName>E:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.108>
         <__.109>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>111</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\sample.map</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\CortexR52\test.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.109>
         <__.11>
@@ -125,10 +125,10 @@
         </__.11>
         <__.110>
          <BookmarkList></BookmarkList>
-         <CaretPos>111</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\CortexR52\test.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\ST\SR5E1_FLASH_GCC\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.110>
         <__.111>
@@ -261,35 +261,35 @@
         </__.125>
         <__.126>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\ST\SR5E1_FLASH_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.126>
+        <__.127>
+         <BookmarkList></BookmarkList>
          <CaretPos>242</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\CortexR52\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.126>
-        <__.127>
+        </__.127>
+        <__.128>
          <BookmarkList></BookmarkList>
          <CaretPos>2840</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU1\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>87</ScrollPos>
-        </__.127>
-        <__.128>
+        </__.128>
+        <__.129>
          <BookmarkList></BookmarkList>
          <CaretPos>19</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\CortexR52\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.128>
-        <__.129>
-         <BookmarkList></BookmarkList>
-         <CaretPos>4075</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU0\startup.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>108</ScrollPos>
         </__.129>
         <__.13>
          <BookmarkList></BookmarkList>
@@ -301,73 +301,73 @@
         </__.13>
         <__.130>
          <BookmarkList></BookmarkList>
+         <CaretPos>4075</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU0\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>108</ScrollPos>
+        </__.130>
+        <__.131>
+         <BookmarkList></BookmarkList>
          <CaretPos>789</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU0\SR6P7G7.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>51</ScrollPos>
-        </__.130>
-        <__.131>
+        </__.131>
+        <__.132>
          <BookmarkList></BookmarkList>
          <CaretPos>68101</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU0\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>870</ScrollPos>
-        </__.131>
-        <__.132>
+        </__.132>
+        <__.133>
          <BookmarkList></BookmarkList>
          <CaretPos>1268</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU0\SR6P7G7.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.132>
-        <__.133>
+        </__.133>
+        <__.134>
          <BookmarkList></BookmarkList>
          <CaretPos>146</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_RAM_GCC\C0 CPU0\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.133>
-        <__.134>
+        </__.134>
+        <__.135>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\ST\SR5E1_FLASH_GCC\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.135>
+        <__.136>
          <BookmarkList></BookmarkList>
          <CaretPos>50</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\common\gcc\ARMv8\thumb\debugA.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.134>
-        <__.135>
+        </__.136>
+        <__.137>
          <BookmarkList></BookmarkList>
          <CaretPos>4796</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\SR6P7G7.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>141</ScrollPos>
-        </__.135>
-        <__.136>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\sample.map</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.136>
-        <__.137>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\SR6P7G7.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.137>
         <__.138>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\asm_code.S</FileName>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.138>
@@ -375,8 +375,8 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\CortexR52\asm_code.S</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\SR6P7G7.h</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.139>
         <__.14>
@@ -391,81 +391,81 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\sample.ind</FileName>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.140>
         <__.141>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\CortexR52\asm_code.S</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.141>
+        <__.142>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.142>
+        <__.143>
          <BookmarkList></BookmarkList>
          <CaretPos>2396</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>45</ScrollPos>
-        </__.141>
-        <__.142>
+        </__.143>
+        <__.144>
          <BookmarkList></BookmarkList>
          <CaretPos>4082</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR6P7G7_FLASH_GCC\C0 CPU0\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>110</ScrollPos>
-        </__.142>
-        <__.143>
+        </__.144>
+        <__.145>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexR-x\SR5E1_FLASH_GCC\C0 CPU0\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.143>
-        <__.144>
+        </__.145>
+        <__.146>
          <BookmarkList></BookmarkList>
          <CaretPos>194</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core2\Core2.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.144>
-        <__.145>
+        </__.146>
+        <__.147>
          <BookmarkList></BookmarkList>
          <CaretPos>54</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\coverageAStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.145>
-        <__.146>
+        </__.147>
+        <__.148>
          <BookmarkList></BookmarkList>
          <CaretPos>98</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.146>
-        <__.147>
+        </__.148>
+        <__.149>
          <BookmarkList></BookmarkList>
          <CaretPos>384</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core1\SR5E1.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>37</ScrollPos>
-        </__.147>
-        <__.148>
-         <BookmarkList></BookmarkList>
-         <CaretPos>370</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core2\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>3</ScrollPos>
-        </__.148>
-        <__.149>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1660</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\common\CoverageA.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>96</ScrollPos>
         </__.149>
         <__.15>
          <BookmarkList></BookmarkList>
@@ -477,34 +477,34 @@
         </__.15>
         <__.150>
          <BookmarkList></BookmarkList>
+         <CaretPos>370</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core2\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>3</ScrollPos>
+        </__.150>
+        <__.151>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1660</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\common\CoverageA.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>96</ScrollPos>
+        </__.151>
+        <__.152>
+         <BookmarkList></BookmarkList>
          <CaretPos>2402</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>88</ScrollPos>
-        </__.150>
-        <__.151>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\SR5E1_FLASH_GCC\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.151>
-        <__.152>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\SR5E1_FLASH_GCC\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.152>
         <__.153>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\SR5E1_FLASH_GCC\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\AlesErjavec\bbsamples\Distribution\winIDEA_public\ST\SR5E1_FLASH_GCC\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.153>
         <__.16>
@@ -1047,25 +1047,25 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\public\SR5E1_FLASH_GCC\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\MC.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.77>
         <__.78>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\MC.c</FileName>
+         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.78>
         <__.79>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>3065</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\startup.c</FileName>
+         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core2\startup.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>80</ScrollPos>
         </__.79>
         <__.8>
          <BookmarkList></BookmarkList>
@@ -1077,25 +1077,25 @@
         </__.8>
         <__.80>
          <BookmarkList></BookmarkList>
-         <CaretPos>3065</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core2\startup.c</FileName>
+         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\test.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>80</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.80>
         <__.81>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\test.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\sample.ind</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.81>
         <__.82>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\sample.ind</FileName>
+         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.82>
@@ -1103,57 +1103,57 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\sample.map</FileName>
+         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.83>
         <__.84>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\lukna\SR6P7C_ALL\CortexR52\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.84>
-        <__.85>
          <BookmarkList></BookmarkList>
          <CaretPos>4683</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>128</ScrollPos>
-        </__.85>
-        <__.86>
+        </__.84>
+        <__.85>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.86>
-        <__.87>
+        </__.85>
+        <__.86>
          <BookmarkList></BookmarkList>
          <CaretPos>3498</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\MC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>65</ScrollPos>
-        </__.87>
-        <__.88>
+        </__.86>
+        <__.87>
          <BookmarkList></BookmarkList>
          <CaretPos>209</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core1\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>18</ScrollPos>
-        </__.88>
-        <__.89>
+        </__.87>
+        <__.88>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.88>
+        <__.89>
+         <BookmarkList></BookmarkList>
+         <CaretPos>926</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>72</ScrollPos>
         </__.89>
         <__.9>
          <BookmarkList></BookmarkList>
@@ -1165,81 +1165,81 @@
         </__.9>
         <__.90>
          <BookmarkList></BookmarkList>
-         <CaretPos>926</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>72</ScrollPos>
-        </__.90>
-        <__.91>
-         <BookmarkList></BookmarkList>
          <CaretPos>138</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core1\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.91>
-        <__.92>
+        </__.90>
+        <__.91>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.92>
-        <__.93>
+        </__.91>
+        <__.92>
          <BookmarkList></BookmarkList>
          <CaretPos>4499</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\coverageC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>57</ScrollPos>
-        </__.93>
-        <__.94>
+        </__.92>
+        <__.93>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.94>
-        <__.95>
+        </__.93>
+        <__.94>
          <BookmarkList></BookmarkList>
          <CaretPos>68802</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\SR5E1_FLASH_GCC\Core1\sample.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>860</ScrollPos>
-        </__.95>
-        <__.96>
+        </__.94>
+        <__.95>
          <BookmarkList></BookmarkList>
          <CaretPos>1313</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\CortexR52\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.96>
-        <__.97>
+        </__.95>
+        <__.96>
          <BookmarkList></BookmarkList>
          <CaretPos>4398</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7C_Centauri\SR6P7C_ALL\Eve_init.cpp</FileName>
          <FileType>7</FileType>
          <ScrollPos>97</ScrollPos>
-        </__.97>
-        <__.98>
+        </__.96>
+        <__.97>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\asm_code.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.98>
-        <__.99>
+        </__.97>
+        <__.98>
          <BookmarkList></BookmarkList>
          <CaretPos>345</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\MC.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.98>
+        <__.99>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\EMULTEST\Cortex\SR6P7_G7_Stellar\SR6P7G7_ALL\CortexR52\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.99>
@@ -1256,7 +1256,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296531456</RegVer>
       <ANGUIData.0>
        <Filetime type="B">OPJCIEBGMHFOMPAB</Filetime>
        <GUID type="B">GIOBLGBLKEAINCEBKEFBHBGHEFDOJPMO</GUID>
@@ -2912,7 +2912,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296531456</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -2932,19 +2932,19 @@
      </FileHistory>
      <ToolbarData>
       <Toolbars.Debug>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.Debug>
       <Toolbars.FBM>
        <Opened>false</Opened>
       </Toolbars.FBM>
       <Toolbars.File>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.File>
       <Toolbars.Project>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.Project>
       <Toolbars.View>
-       <Opened>false</Opened>
+       <Opened>true</Opened>
       </Toolbars.View>
      </ToolbarData>
      <ViewData>
@@ -2958,17 +2958,9 @@
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>548</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.10>
-       <__.11>
-        <ViewId>557</ViewId>
-        <ViewType>Document</ViewType>
-       </__.11>
-       <__.12>
         <ViewId>558</ViewId>
         <ViewType>Document</ViewType>
-       </__.12>
+       </__.10>
        <__.2>
         <ViewId>553</ViewId>
         <ViewType>SFR</ViewType>
@@ -2994,12 +2986,12 @@
         <ViewType>CustomWatch</ViewType>
        </__.7>
        <__.8>
-        <ViewId>560</ViewId>
-        <ViewType>Output_Build</ViewType>
+        <ViewId>548</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.8>
        <__.9>
-        <ViewId>559</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewId>557</ViewId>
+        <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -3444,7 +3436,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>560</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -3457,7 +3449,7 @@
         </FindData>
        </__.2>
        <__.3>
-        <ViewId>559</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -3531,12 +3523,6 @@
          <RootItem>
           <Name></Name>
           <Options>0</Options>
-          <ChildItems>
-           <__.0>
-            <Name>Cortex-M7,SR5E1</Name>
-            <Options>4</Options>
-           </__.0>
-          </ChildItems>
          </RootItem>
         </TreeState>
        </__.0>
@@ -3752,17 +3738,17 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>44</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>41</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>560</FocusedViewId>
+        <FocusedViewId>558</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>943</Bottom>
-         <Left>-207</Left>
-         <Right>817</Right>
-         <Top>175</Top>
+         <Bottom>1032</Bottom>
+         <Left>367</Left>
+         <Right>1452</Right>
+         <Top>101</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -3819,76 +3805,32 @@
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
+             <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>558</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
-               <Extent>0.75</Extent>
-               <IsDocumentPane>true</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>558</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>557</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>558</ViewId>
-                </__.1>
-               </Children>
-              </__.0>
-              <__.1>
-               <DockType>None</DockType>
-               <Extent>0.25</Extent>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
+               <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>560</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>559</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>560</ViewId>
-                </__.1>
-               </Children>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>557</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>558</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -4185,7 +4127,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
@@ -4204,18 +4146,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>false</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
-       <FilterString></FilterString>
+       <FilterString>MC_ME_domain_0</FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>Value</SubSFRDisplay>
-       <TimeLimitFullUpdate>false</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>false</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4229,14 +4165,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
