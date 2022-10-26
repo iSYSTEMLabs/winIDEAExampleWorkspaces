@@ -1,0 +1,39 @@
+ENTRY(Reset)
+
+INPUT(& &)
+
+MEMORY
+{
+  SRAM (rxw)   : ORIGIN = 0x00001000, LENGTH = 1280K
+}
+
+_estack = (ORIGIN(SRAM) + LENGTH(SRAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+  .text :
+  {
+    . = ALIGN(4);
+    *(.text*)
+    *(.glue_7) *(.glue_7t)
+    *(.rodata*)
+    . = ALIGN(4);
+    _etext = .;
+  } >SRAM
+  
+  .data :
+  {
+    _data = .;
+    *(vtable)
+    *(.data*)
+    _edata = .;
+  } >SRAM
+  
+  .bss :
+  {
+    _bss = .;
+    *(COMMON)
+    *(.bss*)
+    _ebss = .;
+  } >SRAM
+}
