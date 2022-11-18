@@ -3347,7 +3347,7 @@
        </Synchronization>
       </BDM>
       <HW>
-       <HW>2</HW>
+       <HW>10</HW>
        <Communication>
         <IPAddr></IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>

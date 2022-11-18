@@ -3009,7 +3009,7 @@
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
         <InitRAM>Never</InitRAM>
-        <LatchRESET>true</LatchRESET>
+        <LatchRESET>false</LatchRESET>
         <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
@@ -3079,7 +3079,7 @@
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
         <InitRAM>0</InitRAM>
-        <LatchRESET>1</LatchRESET>
+        <LatchRESET>0</LatchRESET>
         <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
@@ -3347,7 +3347,7 @@
        </Synchronization>
       </BDM>
       <HW>
-       <HW>2</HW>
+       <HW>10</HW>
        <Communication>
         <IPAddr></IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>

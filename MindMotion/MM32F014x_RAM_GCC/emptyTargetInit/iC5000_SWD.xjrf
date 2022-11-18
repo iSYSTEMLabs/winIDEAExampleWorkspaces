@@ -2994,7 +2994,7 @@
         <AllowAccessToUnimplementedRegisters>false</AllowAccessToUnimplementedRegisters>
         <AuroraBaudrate>625M</AuroraBaudrate>
         <BootCore>0</BootCore>
-        <Breakpoints>HW</Breakpoints>
+        <Breakpoints>SW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
@@ -3008,8 +3008,8 @@
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
-        <InitRAM>Never</InitRAM>
-        <LatchRESET>true</LatchRESET>
+        <InitRAM>Auto</InitRAM>
+        <LatchRESET>false</LatchRESET>
         <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
@@ -3064,7 +3064,7 @@
         <AllowAccessToUnimplementedRegisters>0</AllowAccessToUnimplementedRegisters>
         <AuroraBaudrate>0</AuroraBaudrate>
         <BootCore>0</BootCore>
-        <Breakpoints>0</Breakpoints>
+        <Breakpoints>1</Breakpoints>
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
@@ -3078,8 +3078,8 @@
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
-        <InitRAM>0</InitRAM>
-        <LatchRESET>1</LatchRESET>
+        <InitRAM>2</InitRAM>
+        <LatchRESET>0</LatchRESET>
         <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
@@ -3221,7 +3221,7 @@
            <Endian>LE</Endian>
            <MCSync>true</MCSync>
            <StopCPUActivities>true</StopCPUActivities>
-           <UseSWBPs>false</UseSWBPs>
+           <UseSWBPs>true</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
             <PresetPCAfterStoppedInInit>EntryPoint</PresetPCAfterStoppedInInit>

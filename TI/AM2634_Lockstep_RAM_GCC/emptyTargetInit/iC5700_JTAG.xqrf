@@ -13,7 +13,7 @@
      <AInpExtensions>s</AInpExtensions>
      <AOutExtensions>o</AOutExtensions>
      <AsmAdditionalOutExt></AsmAdditionalOutExt>
-     <AssemblerRelPath>$(CMPDIR)arm-none-eabi-gcc.exe</AssemblerRelPath>
+     <AssemblerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</AssemblerRelPath>
      <BeepWhenDone>1</BeepWhenDone>
      <CaptureTranslatorsOutputAsm>1</CaptureTranslatorsOutputAsm>
      <CaptureTranslatorsOutputCmp>1</CaptureTranslatorsOutputCmp>
@@ -23,9 +23,9 @@
      <CmpAdditionalOutExt></CmpAdditionalOutExt>
      <CompCmdLineIncPrefix>-I</CompCmdLineIncPrefix>
      <CompCmdLinePostfix></CompCmdLinePostfix>
-     <CompCmdLinePrefix></CompCmdLinePrefix>
-     <CompilerDirectory>X:\GCC\gcc-arm-none-eabi-10.3-2021.07\bin\</CompilerDirectory>
-     <CompilerRelPath>$(CMPDIR)arm-none-eabi-gcc.exe</CompilerRelPath>
+     <CompCmdLinePrefix>-D</CompCmdLinePrefix>
+     <CompilerDirectory>X:\GCC\arm-8-2018-q4\</CompilerDirectory>
+     <CompilerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</CompilerRelPath>
      <CopyOutputFilesToTargetDir>1</CopyOutputFilesToTargetDir>
      <COutExtensions>o</COutExtensions>
      <DeleteTemporalyFiles>0</DeleteTemporalyFiles>
@@ -41,13 +41,13 @@
      <ExternalMake>0</ExternalMake>
      <ExternalMakeFile></ExternalMakeFile>
      <HeaderExtension>H</HeaderExtension>
-     <LinkerRelPath>$(CMPDIR)arm-none-eabi-gcc.exe</LinkerRelPath>
+     <LinkerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</LinkerRelPath>
      <LInpExtensions>o;a</LInpExtensions>
      <LnkAdditionalOutExt></LnkAdditionalOutExt>
      <ParallelBuild>1</ParallelBuild>
      <ParallelBuildNum>0</ParallelBuildNum>
      <PathSeparator>\</PathSeparator>
-     <RootDir></RootDir>
+     <RootDir>Cortex-R5_0_0\</RootDir>
      <RunAfterAsm></RunAfterAsm>
      <RunAfterAsmParam></RunAfterAsmParam>
      <RunAfterComp></RunAfterComp>
@@ -81,8 +81,8 @@
      </mbMake>
     </GlobalOptions>
     <Project.0>
-     <DefaultTargetName>iC5000_SWD - Debug</DefaultTargetName>
-     <FilterName>GCC</FilterName>
+     <DefaultTargetName>iC5700_JTAG - Debug</DefaultTargetName>
+     <FilterName>No filter</FilterName>
      <ProjectName></ProjectName>
      <AdvancedLinkerOptions>
       <AsmCustomFilterName></AsmCustomFilterName>
@@ -96,11 +96,13 @@
       <UseExternalFilter>False</UseExternalFilter>
      </AdvancedLinkerOptions>
      <Target.0>
-      <TargetName>iC5000_SWD - Debug</TargetName>
+      <TargetName>iC5700_JTAG - Debug</TargetName>
       <FileOptios>
-       <AssemblerOptions>-mthumb -mcpu=cortex-m0 -c -g -Wall -o $(NOEXT).o $(EDNAME) $(DEFINES)</AssemblerOptions>
+       <AssemblerOptions>-mlittle-endian -O0 -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(OUTPUTDIR)$(NOEXT).o  $(EDNAME) $(DEFINES)</AssemblerOptions>
        <AssemblerOptionsWR>True</AssemblerOptionsWR>
-       <CompilerOptions>-x c -c $(EDNAME) -mcpu=cortex-m0 -mthumb -nodefaultlibs -g3 -O0 --specs=nosys.specs $(INCLUDES) -o $(NOEXT).o</CompilerOptions>
+       <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+       <CompilerDefinesWR>True</CompilerDefinesWR>
+       <CompilerOptions>-mlittle-endian -O0 -x c -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(NOEXT).o $(EDNAME) $(DEFINES) $(INCLUDES) $(DEFINES)</CompilerOptions>
        <CompilerOptionsWR>True</CompilerOptionsWR>
       </FileOptios>
       <LinkGroup.0>
@@ -112,21 +114,24 @@
       <LinkGroup.1>
        <LinkGroupName>Source files</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)main.c</FileName>
+        <FileName>$(IRFDIR)..\main.c</FileName>
         <FileOptios>
-         <CompilerOptions>-x c -c $(EDNAME) -mcpu=cortex-m0 -mthumb -nodefaultlibs -g3 -O0 --specs=nosys.specs $(INCLUDES) -o $(NOEXT).o</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mlittle-endian -O0 -x c -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(NOEXT).o $(EDNAME) $(DEFINES) $(INCLUDES) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
        <File.1>
-        <FileName>$(IRFDIR)test.c</FileName>
+        <FileName>$(IRFDIR)..\test.c</FileName>
         <FileOptios>
-         <CompilerOptions>-x c -c $(EDNAME) -mcpu=cortex-m0 -mthumb -nodefaultlibs -g3 -O0 --specs=nosys.specs $(INCLUDES) -o $(NOEXT).o</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mlittle-endian -O0 -x c -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(NOEXT).o $(EDNAME) $(DEFINES) $(INCLUDES) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.1>
        <File.2>
         <FileName>$(IRFDIR)CPUFile.c</FileName>
         <FileOptios>
-         <CompilerOptions>-x c -c $(EDNAME) -mcpu=cortex-m0 -mthumb -nodefaultlibs -g3 -O0 --specs=nosys.specs $(INCLUDES) -o $(NOEXT).o</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mlittle-endian -O0 -x c -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(NOEXT).o $(EDNAME) $(DEFINES) $(INCLUDES) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.2>
       </LinkGroup.1>
@@ -135,14 +140,21 @@
        <File.0>
         <FileName>$(IRFDIR)startup.c</FileName>
         <FileOptios>
-         <CompilerOptions>-x c -c $(EDNAME) -mcpu=cortex-m0 -mthumb -nodefaultlibs -g3 -O0 --specs=nosys.specs $(INCLUDES) -o $(NOEXT).o</CompilerOptions>
+         <CompilerDefines>EMPTY_TARGET_INIT</CompilerDefines>
+         <CompilerOptions>-mlittle-endian -O0 -x c -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(NOEXT).o $(EDNAME) $(DEFINES) $(INCLUDES) $(DEFINES)</CompilerOptions>
         </FileOptios>
        </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)startup0RA.s</FileName>
+        <FileOptios>
+         <AssemblerOptions>-mlittle-endian -O0 -mfpu=vfpv3-d16 -mcpu=cortex-r5 -g3 -c -o $(OUTPUTDIR)$(NOEXT).o  $(EDNAME) $(DEFINES)</AssemblerOptions>
+        </FileOptios>
+       </File.1>
       </LinkGroup.2>
       <LinkGroup.3>
        <LinkGroupName>Info</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)readMe.txt</FileName>
+        <FileName>$(IRFDIR)..\readMe.txt</FileName>
        </File.0>
       </LinkGroup.3>
       <TargetOptios>
@@ -151,9 +163,9 @@
        <CompArgFile></CompArgFile>
        <CRLF>True</CRLF>
        <ExternalMakeFileParameters></ExternalMakeFileParameters>
-       <IndFileLocation>2</IndFileLocation>
+       <IndFileLocation>0</IndFileLocation>
        <IndirectionFile>$(IRFDIR)sample.ind</IndirectionFile>
-       <LinkerOptions>-mcpu=cortex-m0 -nostartfiles -mthumb -Xlinker --output=$(OUTPUTFILE) -Xlinker -Map=sample.map -Xlinker --script=$(INDPATH) -Xlinker -n -nostdlib -nodefaultlibs -lgcc -lc -lm -mfpu=vfp</LinkerOptions>
+       <LinkerOptions>-mlittle-endian -O0 -mfpu=vfpv3-d16 -nostartfiles -Xlinker --output=$(OUTPUTFILE) -Xlinker -Map=sample.map -Xlinker --script=$(INDPATH) -Xlinker -n -nostdlib -nodefaultlibs -fno-exceptions -lc -lgcc</LinkerOptions>
        <MakeOptions></MakeOptions>
        <RunAfterLinkParam></RunAfterLinkParam>
        <SkipObjectCheck>False</SkipObjectCheck>

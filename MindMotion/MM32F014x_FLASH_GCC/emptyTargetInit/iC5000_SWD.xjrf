@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296568320</RegVer>
+      <RegVer>1296584704</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296568320</RegVer>
+      <RegVer>1296584704</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296568320</RegVer>
+    <RegVer>1296584704</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -358,47 +358,6 @@
      <Breakpoints>
       <DisplayBPMessage>0</DisplayBPMessage>
       <DisplayHWBPMessage>0</DisplayHWBPMessage>
-      <Fetch>
-       <BP.0>
-        <__>
-         <ActionEnabled>False</ActionEnabled>
-         <ActionScript></ActionScript>
-         <ActionScriptParams></ActionScriptParams>
-         <ActionShow>False</ActionShow>
-         <Active>True</Active>
-         <Condition></Condition>
-         <Condition_Count>0</Condition_Count>
-         <ConditionEnabled>False</ConditionEnabled>
-         <Name>&quot;MM32F014x.c&quot;::107</Name>
-        </__>
-       </BP.0>
-       <BP.1>
-        <__>
-         <ActionEnabled>False</ActionEnabled>
-         <ActionScript></ActionScript>
-         <ActionScriptParams></ActionScriptParams>
-         <ActionShow>False</ActionShow>
-         <Active>True</Active>
-         <Condition></Condition>
-         <Condition_Count>0</Condition_Count>
-         <ConditionEnabled>False</ConditionEnabled>
-         <Name>&quot;MM32F014x.c&quot;::109</Name>
-        </__>
-       </BP.1>
-       <BP.2>
-        <__>
-         <ActionEnabled>False</ActionEnabled>
-         <ActionScript></ActionScript>
-         <ActionScriptParams></ActionScriptParams>
-         <ActionShow>False</ActionShow>
-         <Active>True</Active>
-         <Condition></Condition>
-         <Condition_Count>0</Condition_Count>
-         <ConditionEnabled>False</ConditionEnabled>
-         <Name>&quot;MM32F014x.c&quot;::56</Name>
-        </__>
-       </BP.2>
-      </Fetch>
      </Breakpoints>
      <Debug>
       <Debugging>
@@ -527,7 +486,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.129</winIDEA>
+      <winIDEA>Build 9.21.133</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -602,44 +561,6 @@
     </Mode>
     <Op_System>
      <Debug>
-      <BPs>
-       <__.0>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>true</Enabled>
-        <Expression></Expression>
-        <Location>&quot;MM32F014x.c&quot;::107</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.0>
-       <__.1>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>true</Enabled>
-        <Expression></Expression>
-        <Location>&quot;MM32F014x.c&quot;::109</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.1>
-       <__.2>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>true</Enabled>
-        <Expression></Expression>
-        <Location>&quot;MM32F014x.c&quot;::56</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.2>
-      </BPs>
       <Processes>
        <__.0>
         <URL>App/CORE0</URL>
@@ -680,7 +601,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296568320</RegVer>
+    <RegVer>1296584704</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5000_SWD - Debug</DefaultTargetName>
@@ -695,7 +616,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296568320</RegVer>
+    <RegVer>1296584704</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -2939,8 +2860,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>129</V_BUILD>
-      <V_BUILD_SCC>142377</V_BUILD_SCC>
+      <V_BUILD>133</V_BUILD>
+      <V_BUILD_SCC>143022</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3042,13 +2963,6 @@
           <Buffer_._Address>0x0</Buffer_._Address>
           <Buffer_._Size>0</Buffer_._Size>
          </MTB>
-         <PSoC6>
-          <TRACE_._CLOCK_._Port>PORT 7</TRACE_._CLOCK_._Port>
-          <TRACE_._DATA0_._Port>PORT 7</TRACE_._DATA0_._Port>
-          <TRACE_._DATA1_._Port>PORT 7</TRACE_._DATA1_._Port>
-          <TRACE_._DATA2_._Port>PORT 7</TRACE_._DATA2_._Port>
-          <TRACE_._DATA3_._Port>PORT 7</TRACE_._DATA3_._Port>
-         </PSoC6>
          <S32K>
           <TRACE_._CLOCK_._Port>None</TRACE_._CLOCK_._Port>
           <TRACE_._DATA0_._Port>None</TRACE_._DATA0_._Port>
@@ -3095,7 +3009,7 @@
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
         <InitRAM>Never</InitRAM>
-        <LatchRESET>true</LatchRESET>
+        <LatchRESET>false</LatchRESET>
         <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
@@ -3134,6 +3048,7 @@
           <DF1ComplementSensing>false</DF1ComplementSensing>
           <DisabledHWBootSelection>false</DisabledHWBootSelection>
           <DisabledLockstep>false</DisabledLockstep>
+          <ESR0>false</ESR0>
           <HSM_._enabled>Don&apos;t care</HSM_._enabled>
           <HSM_._pins>Don&apos;t care</HSM_._pins>
           <HSMExclusivePFLASHSectors>false</HSMExclusivePFLASHSectors>
@@ -3164,7 +3079,7 @@
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
         <InitRAM>0</InitRAM>
-        <LatchRESET>1</LatchRESET>
+        <LatchRESET>0</LatchRESET>
         <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
@@ -3304,6 +3219,7 @@
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>true</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
