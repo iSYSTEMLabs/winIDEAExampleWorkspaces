@@ -1,0 +1,45 @@
+MEMORY
+{
+  FLASH (rx)  : ORIGIN = 0x00000000, LENGTH = 512K
+  RAM   (rwx) : ORIGIN = 0x20000000, LENGTH = 36K
+}
+
+_estack = ORIGIN (RAM) + LENGTH(RAM);
+
+ENTRY(Reset_Handler)
+INPUT(& &)
+
+SECTIONS
+{
+  .vect_out :
+  {
+    KEEP(*(.isr_vector)) 
+  } >FLASH
+  
+  .text_out :
+  {
+    *startup.o(.text)
+    *(.text*)
+    *(.glue_7t) *(.glue_7)
+    *(.rodata*)
+    . = ALIGN(4);
+    _etext = .;
+  } >FLASH 
+  
+  .data_out :
+  {
+    _sdata = .; 
+    *(vtable)
+    *(.data*)
+    . = ALIGN(4); 
+    _edata = .;
+  } >RAM AT> FLASH
+  
+  .bss_out : 
+  {
+    _sbss = .;
+    *(COMMON)
+    *(.bss*)
+    _ebss = .;
+  } >RAM 
+}
