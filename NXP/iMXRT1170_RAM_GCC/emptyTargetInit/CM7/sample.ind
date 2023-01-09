@@ -1,0 +1,45 @@
+INPUT (& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  CODE_RAM (rx)  : ORIGIN = 0x00000000, LENGTH = 256K
+  DATA_RAM (rwx) : ORIGIN = 0x20000000, LENGTH = 256K
+}
+
+_estack = (ORIGIN(DATA_RAM) + LENGTH(DATA_RAM) - 4) & 0xFFFFFFFC;
+
+SECTIONS
+{
+  .vect :
+  {
+    KEEP(*(.isr_vector))
+  } >CODE_RAM
+  
+  .text :
+  {
+    . = ALIGN(4);
+    *(.text*)
+    *(.glue_7)
+    *(.glue_7t)
+    *(.rodata*)
+    . = ALIGN(4);
+    _etext = .;
+  } >CODE_RAM
+  
+  .data :
+  {
+    _sdata = .;
+    *(vtable)
+    *(.data*)
+    _edata = .;
+  } >DATA_RAM AT> CODE_RAM
+  
+  .bss :
+  {
+    _sbss = .;
+    *(COMMON)
+    *(.bss*)
+    _ebss = .;
+  } >DATA_RAM
+}
