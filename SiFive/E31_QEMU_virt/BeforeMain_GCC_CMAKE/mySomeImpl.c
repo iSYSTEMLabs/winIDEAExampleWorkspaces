@@ -1,0 +1,4 @@
+void some_call()
+{
+	
+}

@@ -1,0 +1,48 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)        : ORIGIN = 0x25020000, LENGTH = 1k  
+  RAM_CODE (rwx)    : ORIGIN = 0x25020400, LENGTH = 47K
+  RAM_DATA (rwx)    : ORIGIN = 0x2502C000, LENGTH = 16K
+}
+
+_estack =  (ORIGIN(RAM_DATA) + LENGTH(RAM_DATA) - 8) & 0xFFFFFFF8;
+_VTOR   =  ORIGIN(VECT);      /* Must be aligned to 64 bits */
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECT
+ 
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > RAM_CODE
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM_DATA
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > RAM_DATA
+}
+
+

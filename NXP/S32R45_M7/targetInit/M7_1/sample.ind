@@ -1,0 +1,54 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  VECT (rwx)        : ORIGIN = 0x34050000, LENGTH = 1k  
+	PROGRAM_RAM (rwx) : ORIGIN = 0x34050400, LENGTH = 255K
+  RAM (rwx)         : ORIGIN = 0x34090000, LENGTH = 64K
+  RAM_0_1_TCMA (rwx): ORIGIN = 0x20180000, LENGTH = 32K /* Cluster0_C2_TCM_A   */
+}
+
+_estack = (ORIGIN(RAM) + LENGTH(RAM) - 0x1000 - 8) & 0xFFFFFFF8;
+_VTOR   =  ORIGIN(VECT);      /* Must be aligned to 64 bits */
+
+SECTIONS
+{
+    .vect :
+    {
+        KEEP(*(.isr_vector))
+    } > VECT
+    
+    .Cluster0_Core1_TCMA  (NOLOAD):
+    {
+        
+    } > RAM_0_1_TCMA
+    
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > PROGRAM_RAM
+
+    .data : 
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > RAM AT> PROGRAM_RAM
+
+    .bss : AT (ADDR(.data) + SIZEOF(.data))
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > RAM
+}
+
+

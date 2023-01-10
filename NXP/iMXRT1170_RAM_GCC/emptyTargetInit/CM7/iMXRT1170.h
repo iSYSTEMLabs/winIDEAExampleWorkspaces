@@ -1,0 +1,3 @@
+
+#define CLOCK_ROOT0_CONTROL_REG (*(unsigned int*)0x40CC0000)
+#define CLOCK_ROOT0_CONTROL_REG_DIV 0
