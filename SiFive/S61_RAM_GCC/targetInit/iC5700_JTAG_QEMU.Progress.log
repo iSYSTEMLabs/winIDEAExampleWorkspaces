@@ -1,0 +1,32 @@
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Retrying to connect to GDB server.
+Emulation startup failed
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+	AREA: TileLinkB64
+	Verifying 0x10B8 locations from 0x6000'0000
+	ERROR reading 0x10B8 locations from 0x6000'0000
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes
+LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\Debug\sample.elf
+PROGRAMMING 	4280 bytes

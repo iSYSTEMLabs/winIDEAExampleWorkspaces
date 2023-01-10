@@ -1,0 +1,10 @@
+PDU: Using R0.P01
+CALIBRATING	
+Done.LOADING	C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\GigaDevice\GD32F103\targetInit\Debug\sample.elf
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Couldn't connect to SoC
+EMULATION	Asserting reset
+EMULATION	Couldn't connect to SoC
+Emulation start failed
+EMULATION	END - Without cleanup
