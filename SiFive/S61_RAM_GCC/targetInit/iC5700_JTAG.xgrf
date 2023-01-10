@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296588800</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -35,6 +35,22 @@
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.10>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>789</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>69</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.12>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>2662</CaretPos>
@@ -112,7 +128,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296519168</RegVer>
+      <RegVer>1296588800</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -124,21 +140,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296519168</RegVer>
+    <RegVer>1296588800</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>startup.c</RelativeFilePath>
+        <RelativeFilePath>startup.s</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>startup.s</RelativeFilePath>
+        <RelativeFilePath>S61.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>S61.c</RelativeFilePath>
+        <RelativeFilePath>sample.ind</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>sample.ind</RelativeFilePath>
+        <RelativeFilePath>readMe.txt</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -169,10 +185,6 @@
         <ViewId>9</ViewId>
         <ViewType>Memory</ViewType>
        </__.1>
-       <__.10>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.10>
        <__.2>
         <ViewId>8</ViewId>
         <ViewType>SFR</ViewType>
@@ -202,8 +214,8 @@
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>11</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -220,7 +232,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>676</Width>
+          <Width>666</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -254,11 +266,6 @@
         <ViewId>10</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
-       <__.1>
-        <RelativePath>readMe.txt</RelativePath>
-        <ViewId>11</ViewId>
-        <ViewType>Document</ViewType>
-       </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
@@ -278,8 +285,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x0</Address>
-           <AddressOffset>0x0</AddressOffset>
+           <Address>0xFFFFFFFFC400C2FF</Address>
+           <AddressOffset>0xFFFFFFFFC400C2C0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -289,7 +296,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x0</Address>
+         <Address>0xFFFFFFFFC400C2C0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFFFFFFFFFF</High>
@@ -345,7 +352,7 @@
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\CPUFile.c</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -356,12 +363,66 @@
             <ChildItems>
              <__.0>
               <Name>Info</Name>
-              <Options>4</Options>
+              <Options>5</Options>
+              <ChildItems>
+               <__.0>
+                <Name>readMe.txt</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
              </__.0>
+             <__.1>
+              <Name>Linker files</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>sample.ind</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.1>
+             <__.2>
+              <Name>Source files</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>CPUFile.c</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.2>
+             <__.3>
+              <Name>Startup files</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>startup.s</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.3>
             </ChildItems>
            </__.0>
           </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Files [iC5700_JTAG - Debug]</Name>
+            </__.1>
+            <__.2>
+             <Name>Source files</Name>
+            </__.2>
+            <__.3>
+             <Name>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\S61_RAM_GCC\targetInit\CPUFile.c</Name>
+            </__.3>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -561,17 +622,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>9</FocusedViewId>
-        <FrameState>3</FrameState>
+        <FocusedViewId>0</FocusedViewId>
+        <FrameState>9</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>771</Bottom>
-         <Left>-12</Left>
-         <Right>1012</Right>
-         <Top>2</Top>
+         <Bottom>1165</Bottom>
+         <Left>179</Left>
+         <Right>2092</Right>
+         <Top>95</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -600,7 +661,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>1</TopTabViewId>
+             <TopTabViewId>0</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -632,7 +693,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>11</TopTabViewId>
+             <TopTabViewId>10</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -645,16 +706,6 @@
                <TopTabViewId>-1</TopTabViewId>
                <ViewId>10</ViewId>
               </__.0>
-              <__.1>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>11</ViewId>
-              </__.1>
              </Children>
             </__.1>
             <__.2>
@@ -808,6 +859,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -947,6 +1002,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>
