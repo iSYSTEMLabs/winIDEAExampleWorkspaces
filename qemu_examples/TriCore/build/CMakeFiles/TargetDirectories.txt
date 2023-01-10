@@ -1,0 +1,6 @@
+C:/Users/rokj/Documents/GitHub/qemu-examples/TriCoreOld/build/CMakeFiles/sample.dir
+C:/Users/rokj/Documents/GitHub/qemu-examples/TriCoreOld/build/CMakeFiles/edit_cache.dir
+C:/Users/rokj/Documents/GitHub/qemu-examples/TriCoreOld/build/CMakeFiles/rebuild_cache.dir
+C:/Users/rokj/Documents/GitHub/qemu-examples/TriCoreOld/build/Common/CMakeFiles/Common.dir
+C:/Users/rokj/Documents/GitHub/qemu-examples/TriCoreOld/build/Common/CMakeFiles/edit_cache.dir
+C:/Users/rokj/Documents/GitHub/qemu-examples/TriCoreOld/build/Common/CMakeFiles/rebuild_cache.dir
