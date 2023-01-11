@@ -1,21 +1,21 @@
 # space <name> <id> <mau size>
-space	spe:tc:linear	1	8
-space	spe:tc:abs18	3	8
-space	spe:tc:abs24	2	8
-space	spe:tc:csa	4	8
 space	spe:tc:pcp_code	8	16
 space	spe:tc:pcp_data	9	32
+space	spe:tc:linear	1	8
+space	spe:tc:abs24	2	8
+space	spe:tc:csa	4	8
+space	spe:tc:abs18	3	8
 # chip <name> <id> <mau size> <size> <type>
 chip	spe:dflash	2	8	131072	nvram
-chip	spe:pflash	1	8	2097152	rom
-chip	spe:spram	7	8	49152	ram
-chip	spe:pram	8	8	65536	ram
-chip	spe:pcode	9	8	131072	ram
-chip	xram	0	8	1048576	ram
 chip	spe:brom	3	8	16384	rom
+chip	spe:pflash	1	8	2097152	rom
+chip	xram	0	8	1048576	ram
 chip	spe:sram	4	8	65536	ram
 chip	spe:dsram	5	8	57344	ram
 chip	spe:dpram	6	8	8192	ram
+chip	spe:spram	7	8	49152	ram
+chip	spe:pram	8	8	65536	ram
+chip	spe:pcode	9	8	131072	ram
 # map <space id> <start in space> <size in space> <chip id> <start on chip>
 map	1	2151677952	1048576	0	0
 map	1	2688548864	1048576	0	0
