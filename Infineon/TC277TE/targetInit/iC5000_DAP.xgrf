@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296633856</RegVer>
+      <RegVer>1296637952</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -127,7 +127,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\Infineon\TC277TE\targetInit\main.c</FileName>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC277TE\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.21>
@@ -135,55 +135,55 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC277TE\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.22>
-        <__.23>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC277TE\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.23>
-        <__.24>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>2128</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC277TE\targetInit\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>37</ScrollPos>
-        </__.24>
-        <__.25>
+        </__.23>
+        <__.24>
          <BookmarkList></BookmarkList>
          <CaretPos>376</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC277TE\targetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>34</ScrollPos>
-        </__.25>
-        <__.26>
+        </__.24>
+        <__.25>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC277TE\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
+        </__.25>
+        <__.26>
          <BookmarkList></BookmarkList>
          <CaretPos>982</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC277TE\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.26>
+        <__.27>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC277TE\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.27>
         <__.28>
          <BookmarkList></BookmarkList>
-         <CaretPos>1374</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\Infineon\TC277TE\targetInit\readMe.txt</FileName>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC277TE\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.28>
@@ -256,7 +256,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296633856</RegVer>
+      <RegVer>1296637952</RegVer>
       <ANGUIData.0>
        <Filetime type="B">MGODLNBKEMCBNBAB</Filetime>
        <GUID type="B">GIIFPDIKOJKIPLELKIODBIGBCPFPBIGO</GUID>
@@ -6556,7 +6556,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296633856</RegVer>
+    <RegVer>1296637952</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -6656,7 +6656,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>931</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -7225,17 +7225,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>402</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>12405</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1389</Bottom>
-         <Left>105</Left>
-         <Right>2306</Right>
-         <Top>156</Top>
+         <Bottom>1045</Bottom>
+         <Left>2270</Left>
+         <Right>3244</Right>
+         <Top>-8</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -7727,7 +7727,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>

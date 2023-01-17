@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296588800</RegVer>
+      <RegVer>1296519168</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296588800</RegVer>
+      <RegVer>1296519168</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296588800</RegVer>
+    <RegVer>1296519168</RegVer>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
@@ -57,8 +57,8 @@
         <Name>App</Name>
         <Directories>
          <AltPaths>false</AltPaths>
-         <ConvertFromTo>E:\NikolaBrkovic\bbsamples\Distribution\winIDEA_public\=C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\</ConvertFromTo>
-         <ConvertPath>true</ConvertPath>
+         <ConvertFromTo></ConvertFromTo>
+         <ConvertPath>false</ConvertPath>
          <FindPriority>DLFile</FindPriority>
          <FindSources>true</FindSources>
          <ProjectFilesDirs>
@@ -181,7 +181,6 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
-             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -274,7 +273,6 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
-             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -486,7 +484,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.134</winIDEA>
+      <winIDEA>Build 9.21.117</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -568,38 +566,6 @@
       </Processes>
      </Debug>
     </Op_System>
-    <PluginData>
-     <PluginInstance.0>
-      <InstanceData>
-       <Config>
-        <AutoStart>false</AutoStart>
-        <Port>5555</Port>
-        <TimestampUnit>100us</TimestampUnit>
-        <TraceToXCP>
-         <A2LPath></A2LPath>
-         <Enable>false</Enable>
-         <SendAlways>true</SendAlways>
-         <TrdPath></TrdPath>
-        </TraceToXCP>
-       </Config>
-      </InstanceData>
-      <InstanceInfo>
-       <Instance></Instance>
-       <Type>XCP</Type>
-      </InstanceInfo>
-     </PluginInstance.0>
-     <PluginInstance.1>
-      <InstanceData>
-       <Data>
-        <AutoRefresh>true</AutoRefresh>
-       </Data>
-      </InstanceData>
-      <InstanceInfo>
-       <Instance>{r:{BB:0,SoC:0,Core:0}}</Instance>
-       <Type>Measurement</Type>
-      </InstanceInfo>
-     </PluginInstance.1>
-    </PluginData>
     <Plugins>
      <_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
       <Plugin>
@@ -633,7 +599,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296588800</RegVer>
+    <RegVer>1296519168</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5700_JTAG - Debug</DefaultTargetName>
@@ -648,7 +614,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296588800</RegVer>
+    <RegVer>1296519168</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -3452,8 +3418,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>134</V_BUILD>
-      <V_BUILD_SCC>143247</V_BUILD_SCC>
+      <V_BUILD>117</V_BUILD>
+      <V_BUILD_SCC>139455</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3518,6 +3484,7 @@
          <PresetSP_Enable>false</PresetSP_Enable>
          <PresetSP_Value>0</PresetSP_Value>
          <StandaloneOperation>false</StandaloneOperation>
+         <StopCPUActivities>false</StopCPUActivities>
          <Supply5VtoTarget>false</Supply5VtoTarget>
          <UnlockIDCode_0>0x0</UnlockIDCode_0>
          <UnlockIDCode_1>0x0</UnlockIDCode_1>
@@ -3546,6 +3513,7 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>Cleanup</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
+        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
@@ -3578,28 +3546,7 @@
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
         <StopAfterReset>false</StopAfterReset>
-        <SuspendPeripheralsWhileStopped>false</SuspendPeripheralsWhileStopped>
         <TargetResetTimeout>100</TargetResetTimeout>
-        <MemorySecurity_CheckParameters>
-         <Entry>true</Entry>
-         <Aurix>
-          <ActiveDXCPL>false</ActiveDXCPL>
-          <BMHDPassword>false</BMHDPassword>
-          <DF0ComplementSensing>false</DF0ComplementSensing>
-          <DF1ComplementSensing>false</DF1ComplementSensing>
-          <DisabledHWBootSelection>false</DisabledHWBootSelection>
-          <DisabledLockstep>false</DisabledLockstep>
-          <ESR0>false</ESR0>
-          <HSM_._enabled>Don&apos;t care</HSM_._enabled>
-          <HSM_._pins>Don&apos;t care</HSM_._pins>
-          <HSMExclusivePFLASHSectors>false</HSMExclusivePFLASHSectors>
-          <OscillatorSettings>false</OscillatorSettings>
-          <OTP>false</OTP>
-          <RAMInitialization>false</RAMInitialization>
-          <RequirePFLASHReadProtectWithDebugLock>false</RequirePFLASHReadProtectWithDebugLock>
-          <SwapAltBanksHSMCode>false</SwapAltBanksHSMCode>
-         </Aurix>
-        </MemorySecurity_CheckParameters>
        </Debug>
        <Debugging>
         <AllowAccessToUnimplementedRegisters>0</AllowAccessToUnimplementedRegisters>
@@ -3616,6 +3563,7 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
+        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
@@ -3760,7 +3708,6 @@
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
-           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>

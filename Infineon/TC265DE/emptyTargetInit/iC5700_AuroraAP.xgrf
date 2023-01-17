@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296629760</RegVer>
+      <RegVer>1296637952</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -31,50 +31,66 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.10>
         <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>2845</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC265DE\emptyTargetInit\CPU0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>36</ScrollPos>
-        </__.11>
-        <__.12>
+        </__.12>
+        <__.13>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC265DE\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.12>
-        <__.13>
+        </__.13>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>1372</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Infineon\TC265DE\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>15</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC265DE\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC265DE\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.15>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC265DE\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.17>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>1320</CaretPos>
@@ -87,23 +103,23 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC265DE\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>366</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>366</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.5>
@@ -111,7 +127,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.6>
@@ -119,7 +135,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\targetInit\main.c</FileName>
+         <FileName>C:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
@@ -127,16 +143,16 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\targetInit\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\TC265DE\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
        </EditorPersist>
@@ -152,7 +168,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296629760</RegVer>
+      <RegVer>1296637952</RegVer>
       <ANGUIData.0>
        <Filetime type="B">OCPKFCGCJCFLMOAB</Filetime>
        <GUID type="B">HKLBMJMEOLMLDBEIJGIELLIAOADHJCIK</GUID>
@@ -3570,7 +3586,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296629760</RegVer>
+    <RegVer>1296637952</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -8649,17 +8665,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>30</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>249</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>9930</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1040</Bottom>
-         <Left>2560</Left>
-         <Right>4011</Right>
-         <Top>0</Top>
+         <Bottom>1045</Bottom>
+         <Left>2270</Left>
+         <Right>3244</Right>
+         <Top>-8</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>

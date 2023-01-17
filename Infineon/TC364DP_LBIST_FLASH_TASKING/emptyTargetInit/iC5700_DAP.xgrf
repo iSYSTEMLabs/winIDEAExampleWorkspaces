@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296195584</RegVer>
+      <RegVer>1296637952</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -173,20 +173,28 @@
         </__.26>
         <__.27>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC364DP_LBIST_FLASH_TASKING\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.27>
+        <__.28>
+         <BookmarkList></BookmarkList>
          <CaretPos>2875</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\public\TC364DP_LBIST_FLASH_TASKING\emptyTargetInit\Core0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>32</ScrollPos>
-        </__.27>
-        <__.28>
+        </__.28>
+        <__.29>
          <BookmarkList></BookmarkList>
          <CaretPos>185</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\public\TC364DP_LBIST_FLASH_TASKING\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.28>
+        </__.29>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>477</CaretPos>
@@ -195,6 +203,14 @@
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.3>
+        <__.30>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC364DP_LBIST_FLASH_TASKING\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.30>
         <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>8714</CaretPos>
@@ -256,7 +272,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296195584</RegVer>
+      <RegVer>1296637952</RegVer>
       <ANGUIData.0>
        <Filetime type="B">DPIALLFIJFJFNHAB</Filetime>
        <GUID type="B">FLIIIEKALFDOCJECIDEBAIFAOILCKAIN</GUID>
@@ -346,6 +362,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <TimelineViews>
          <__.0>
@@ -430,7 +447,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296195584</RegVer>
+    <RegVer>1296637952</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -947,11 +964,14 @@
       <WIPViews>
        <__.0>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>UCB</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[TC364DP] Aurix/UCB</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -995,11 +1015,14 @@
        </__.0>
        <__.1>
         <AutoRefresh>true</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>Counters</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[TC364DP.CPU0] TriCore/Counters</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -1048,11 +1071,14 @@
        </__.1>
        <__.2>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>Health</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>Health</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -1116,11 +1142,14 @@
        </__.2>
        <__.3>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>Measurement</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>Measurement</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -1164,11 +1193,14 @@
        </__.3>
        <__.4>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>CSAs</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[TC364DP.CPU0] TriCore/CSAs</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -1212,11 +1244,14 @@
        </__.4>
        <__.5>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>Clocks</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[TC364DP] Aurix/Clocks</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -1260,11 +1295,14 @@
        </__.5>
        <__.6>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>RCU</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[TC364DP] Aurix/RCU</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -1319,17 +1357,17 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>99</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>678</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>16982</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1034</Bottom>
-         <Left>838</Left>
-         <Right>1862</Right>
-         <Top>266</Top>
+         <Bottom>1045</Bottom>
+         <Left>350</Left>
+         <Right>1324</Right>
+         <Top>-8</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1647,10 +1685,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -1683,18 +1717,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>true</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -1708,14 +1736,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -1824,6 +1850,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

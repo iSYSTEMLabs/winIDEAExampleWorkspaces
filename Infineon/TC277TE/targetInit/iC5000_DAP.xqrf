@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296633856</RegVer>
+   <RegVer>1296195584</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -68,9 +68,11 @@
      </Env.0>
      <IncludePath.0>
       <Path>$(IRFDIR)</Path>
+      <SubDir>0</SubDir>
      </IncludePath.0>
      <IncludePath.1>
       <Path>$(CMPDIR)include</Path>
+      <SubDir>1</SubDir>
      </IncludePath.1>
      <mbBuild>
       <Mode>0</Mode>

@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296588800</RegVer>
+      <RegVer>1296490496</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -395,22 +395,6 @@
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.51>
-        <__.52>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\E61_RAM_GCC\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.52>
-        <__.53>
-         <BookmarkList></BookmarkList>
-         <CaretPos>743</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\SiFive\E61_RAM_GCC\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.53>
         <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>934</CaretPos>
@@ -456,7 +440,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296588800</RegVer>
+      <RegVer>1296490496</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GIMFIJNNGLJDNHAB</Filetime>
        <GUID type="B">CDMCICIACKADMAEAJDDHEHFLMJBAIGMC</GUID>
@@ -665,7 +649,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296588800</RegVer>
+    <RegVer>1296490496</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -773,7 +757,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>505</Width>
+          <Width>511</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -884,7 +868,7 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x8000227C</Address>
+           <Address>0x80002200</Address>
            <AddressOffset>0x80002200</AddressOffset>
            <AddressStr>0x80002200</AddressStr>
            <DisplayMode>2</DisplayMode>
@@ -1025,6 +1009,12 @@
          <RootItem>
           <Name></Name>
           <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>RV32I</Name>
+            <Options>4</Options>
+           </__.0>
+          </ChildItems>
          </RootItem>
         </TreeState>
        </__.0>
@@ -1187,17 +1177,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>88</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>642</FocusedViewId>
-        <FrameState>9</FrameState>
+        <FocusedViewId>639</FocusedViewId>
+        <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1210</Bottom>
-         <Left>486</Left>
-         <Right>2399</Right>
-         <Top>140</Top>
+         <Bottom>418</Bottom>
+         <Left>1095</Left>
+         <Right>1749</Right>
+         <Top>33</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1241,7 +1231,7 @@
              <Children>
               <__.0>
                <DockType>None</DockType>
-               <Extent>0.569282</Extent>
+               <Extent>0.75</Extent>
                <IsDocumentPane>true</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
@@ -1273,12 +1263,12 @@
               </__.0>
               <__.1>
                <DockType>None</DockType>
-               <Extent>0.430718</Extent>
+               <Extent>0.25</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>642</TopTabViewId>
+               <TopTabViewId>641</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -1557,7 +1547,7 @@
       </MemoryWindow>
       <ProjectWindow>
        <Symbols>
-        <ModuleFolders>AbsPath</ModuleFolders>
+        <ModuleFolders>RelPath</ModuleFolders>
        </Symbols>
       </ProjectWindow>
       <RTOSWindow>
@@ -1588,12 +1578,14 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
+        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
+        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -1676,19 +1668,6 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
-    <PluginData>
-     <PluginInstance.0>
-      <InstanceData>
-       <Data>
-        <DiscreteBkg>0x4040</DiscreteBkg>
-       </Data>
-      </InstanceData>
-      <InstanceInfo>
-       <Instance></Instance>
-       <Type>HILMonitor</Type>
-      </InstanceInfo>
-     </PluginInstance.0>
-    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>
