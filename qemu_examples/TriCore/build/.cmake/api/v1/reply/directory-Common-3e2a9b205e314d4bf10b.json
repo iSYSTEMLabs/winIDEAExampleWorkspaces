@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Common",
+		"source" : "C:/Users/rokj/Documents/GitHub/winIDEAExampleWorkspaces/qemu_examples/Common"
+	}
+}

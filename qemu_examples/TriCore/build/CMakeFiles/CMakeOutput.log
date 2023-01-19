@@ -1,0 +1,17 @@
+The target system is: Generic -  - TriCore
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: X:/TASKING/TriCore_v6.2rb1/ctc/bin/cctc.exe 
+Build flags: -O0;--core=tc1.6.2;-v;-g;--include-file=sfr/regtc27x.sfr;-co
+Id flags:  
+
+The output was:
+0
++ X:\TASKING\TriCore_v6.2rb1\ctc\bin\ctc -H sfr/regtc27x.sfr -D__CPU__=userdef162 -D__CPU_USERDEF162__ --core=tc1.6.2 --fp-model=+float -g2 -O0 -o cc15872a.src CMakeCCompilerId.c
++ X:\TASKING\TriCore_v6.2rb1\ctc\bin\astc -D__CPU__=userdef162 -D__CPU_USERDEF162__ --core=tc1.6.2 -gsl -o CMakeCCompilerId.o cc15872a.src
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Tasking, found in "C:/Users/rokj/Documents/GitHub/winIDEAExampleWorkspaces/qemu_examples/TriCore/build/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.o"
+
