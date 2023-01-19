@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296637952</RegVer>
+      <RegVer>1296642048</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -160,7 +160,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296637952</RegVer>
+      <RegVer>1296642048</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -172,7 +172,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296637952</RegVer>
+    <RegVer>1296642048</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -210,53 +210,37 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
-        <ViewType>Project</ViewType>
-       </__.0>
-       <__.1>
         <ViewId>11</ViewId>
         <ViewType>Disassembly</ViewType>
-       </__.1>
-       <__.10>
-        <ViewId>15</ViewId>
-        <ViewType>Document</ViewType>
-       </__.10>
-       <__.11>
-        <ViewId>16</ViewId>
-        <ViewType>Document</ViewType>
-       </__.11>
-       <__.2>
+       </__.0>
+       <__.1>
         <ViewId>12</ViewId>
         <ViewType>CoreRegisters</ViewType>
-       </__.2>
-       <__.3>
+       </__.1>
+       <__.2>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
-       </__.3>
-       <__.4>
+       </__.2>
+       <__.3>
         <ViewId>4</ViewId>
         <ViewType>CustomWatch</ViewType>
-       </__.4>
-       <__.5>
+       </__.3>
+       <__.4>
         <ViewId>2</ViewId>
         <ViewType>Output_Progress</ViewType>
-       </__.5>
-       <__.6>
+       </__.4>
+       <__.5>
         <ViewId>5</ViewId>
         <ViewType>Output_Tools</ViewType>
-       </__.6>
-       <__.7>
+       </__.5>
+       <__.6>
         <ViewId>6</ViewId>
         <ViewType>Output_Build</ViewType>
-       </__.7>
-       <__.8>
+       </__.6>
+       <__.7>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.8>
-       <__.9>
-        <ViewId>14</ViewId>
-        <ViewType>Document</ViewType>
-       </__.9>
+       </__.7>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
@@ -272,7 +256,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>131</Width>
+          <Width>74</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -300,23 +284,6 @@
         </ColumnData>
        </__.0>
       </DissasemblyViews>
-      <DocumentViews>
-       <__.0>
-        <RelativePath>..\..\..\qemu-examples\Common\main.c</RelativePath>
-        <ViewId>14</ViewId>
-        <ViewType>Document</ViewType>
-       </__.0>
-       <__.1>
-        <RelativePath>..\..\..\qemu-examples\riscv32\startup.c</RelativePath>
-        <ViewId>15</ViewId>
-        <ViewType>Document</ViewType>
-       </__.1>
-       <__.2>
-        <RelativePath>..\..\..\qemu-examples\riscv32\vector.s</RelativePath>
-        <ViewId>16</ViewId>
-        <ViewType>Document</ViewType>
-       </__.2>
-      </DocumentViews>
       <OtherViews>
        <__.0>
         <ViewId>1</ViewId>
@@ -351,7 +318,7 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
@@ -573,14 +540,14 @@
       <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>0</FocusedViewId>
+        <FocusedViewId>12</FocusedViewId>
         <FrameState>9</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1311</Bottom>
-         <Left>-8</Left>
-         <Right>2568</Right>
-         <Top>0</Top>
+         <Bottom>761</Bottom>
+         <Left>131</Left>
+         <Right>1960</Right>
+         <Top>134</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -613,36 +580,14 @@
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
+               <DockType>View</DockType>
                <Extent>0.265507</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
+               <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>0</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>0</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>1</ViewId>
-                </__.1>
-               </Children>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>1</ViewId>
               </__.0>
               <__.1>
                <DockType>None</DockType>
@@ -651,40 +596,8 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>14</TopTabViewId>
+               <TopTabViewId>-1</TopTabViewId>
                <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>14</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>15</ViewId>
-                </__.1>
-                <__.2>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16</ViewId>
-                </__.2>
-               </Children>
               </__.1>
              </Children>
             </__.0>
@@ -803,10 +716,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -820,7 +729,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>

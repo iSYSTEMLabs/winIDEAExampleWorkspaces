@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296637952</RegVer>
+      <RegVer>1296642048</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -21,25 +21,25 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>235</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\main.c</FileName>
+         <FileName>C:\bbsamples\Distribution\winIDEA_public\qemu_examples\Common\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>2579</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\main1.c</FileName>
+         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\test.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>164</ScrollPos>
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\main.c</FileName>
+         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\main1.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.11>
@@ -47,7 +47,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\test.c</FileName>
+         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
@@ -55,105 +55,121 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\main.h</FileName>
+         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.13>
         <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\main.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>1044</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\Common\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>36</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>271</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\Common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.15>
-        <__.16>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>251</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\qemu_examples\Common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
+        </__.17>
+        <__.18>
          <BookmarkList></BookmarkList>
          <CaretPos>988</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\winIDEAExampleWorkspaces\qemu_examples\Common\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>57</ScrollPos>
-        </__.17>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\bbsamples\Distribution\winIDEA_public\qemu_examples\Common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.19>
         <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>235</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>133</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\qemu\riscv32\riscvSample.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.3>
+        </__.3>
+        <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>7</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\build\CMakeFiles\sample.elf.dir\Debug\main1.c.o</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
+        </__.4>
+        <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>1545</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\qemu\TriCore\execution.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>6</ScrollPos>
-        </__.4>
-        <__.5>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>1403</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\execution.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
+        </__.6>
+        <__.7>
          <BookmarkList></BookmarkList>
          <CaretPos>648</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\build\CMakeFiles\sample.elf.dir\Debug\main1.c.o.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.7>
+        </__.7>
+        <__.8>
          <BookmarkList></BookmarkList>
          <CaretPos>125</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\main1.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.7>
-        <__.8>
+        </__.8>
+        <__.9>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCore\test.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.8>
-        <__.9>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2579</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\rokj\Documents\GitHub\qemu-examples\TriCoreOld\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>164</ScrollPos>
         </__.9>
        </EditorPersist>
       </EditorPersist>
@@ -168,7 +184,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296637952</RegVer>
+      <RegVer>1296642048</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -180,7 +196,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296637952</RegVer>
+    <RegVer>1296642048</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -218,52 +234,48 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
-        <ViewType>Project</ViewType>
-       </__.0>
-       <__.1>
         <ViewId>6</ViewId>
         <ViewType>Memory</ViewType>
-       </__.1>
-       <__.10>
-        <ViewId>46</ViewId>
-        <ViewType>Document</ViewType>
-       </__.10>
-       <__.11>
-        <ViewId>49</ViewId>
-        <ViewType>Document</ViewType>
-       </__.11>
-       <__.2>
+       </__.0>
+       <__.1>
         <ViewId>5</ViewId>
         <ViewType>Disassembly</ViewType>
-       </__.2>
-       <__.3>
-        <ViewId>26</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.3>
-       <__.4>
-        <ViewId>24</ViewId>
-        <ViewType>Locals</ViewType>
-       </__.4>
-       <__.5>
-        <ViewId>47</ViewId>
-        <ViewType>CustomWatch</ViewType>
-       </__.5>
-       <__.6>
-        <ViewId>2</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.6>
-       <__.7>
-        <ViewId>8</ViewId>
-        <ViewType>Output_Tools</ViewType>
-       </__.7>
-       <__.8>
-        <ViewId>9</ViewId>
-        <ViewType>Output_Build</ViewType>
-       </__.8>
-       <__.9>
+       </__.1>
+       <__.10>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
+       </__.10>
+       <__.2>
+        <ViewId>26</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>24</ViewId>
+        <ViewType>Locals</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>47</ViewId>
+        <ViewType>CustomWatch</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>46</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>49</ViewId>
+        <ViewType>Document</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>2</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>8</ViewId>
+        <ViewType>Output_Tools</ViewType>
+       </__.8>
+       <__.9>
+        <ViewId>9</ViewId>
+        <ViewType>Output_Build</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -280,7 +292,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>151</Width>
+          <Width>100</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -413,7 +425,7 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
@@ -600,17 +612,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>8</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>0</FocusedViewId>
+        <FocusedViewId>1</FocusedViewId>
         <FrameState>9</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1311</Bottom>
-         <Left>-8</Left>
-         <Right>2568</Right>
-         <Top>0</Top>
+         <Bottom>761</Bottom>
+         <Left>131</Left>
+         <Right>1960</Right>
+         <Top>134</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -643,36 +655,14 @@
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
+               <DockType>View</DockType>
                <Extent>0.4</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
+               <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>0</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>0</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>View</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>1</ViewId>
-                </__.1>
-               </Children>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>1</ViewId>
               </__.0>
               <__.1>
                <DockType>None</DockType>
@@ -893,7 +883,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
