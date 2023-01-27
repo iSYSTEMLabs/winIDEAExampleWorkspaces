@@ -1,6 +1,0 @@
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv64/build/CMakeFiles/sample.elf.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv64/build/CMakeFiles/edit_cache.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv64/build/CMakeFiles/rebuild_cache.dir
-/Common2/CMakeFiles/Common2.dir
-/Common2/CMakeFiles/edit_cache.dir
-/Common2/CMakeFiles/rebuild_cache.dir

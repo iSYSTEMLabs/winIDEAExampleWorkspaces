@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296637952</RegVer>
+   <RegVer>1296646144</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -47,7 +47,7 @@
      <ParallelBuild>1</ParallelBuild>
      <ParallelBuildNum>0</ParallelBuildNum>
      <PathSeparator>\</PathSeparator>
-     <RootDir>C:\Users\rokj\Documents\GitHub\qemu-examples\aarch64commonbuild\</RootDir>
+     <RootDir></RootDir>
      <RunAfterAsm></RunAfterAsm>
      <RunAfterAsmParam></RunAfterAsmParam>
      <RunAfterComp></RunAfterComp>
@@ -109,9 +109,6 @@
          <CompilerOptions>$(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.1>
-       <File.2>
-        <FileName>$(IRFDIR)..\aarch64\stacksetup.s</FileName>
-       </File.2>
       </LinkGroup.0>
       <LinkGroup.1>
        <LinkGroupName>Startup files</LinkGroupName>
@@ -127,13 +124,25 @@
          <CompilerOptions>$(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.1>
+       <File.2>
+        <FileName>$(IRFDIR)stacksetup.s</FileName>
+       </File.2>
       </LinkGroup.1>
       <LinkGroup.2>
        <LinkGroupName>Linker files</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)..\riscv32\link.ld</FileName>
+        <FileName>$(IRFDIR)aarch64.ld</FileName>
        </File.0>
       </LinkGroup.2>
+      <LinkGroup.3>
+       <LinkGroupName>Info</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)readMe.txt</FileName>
+       </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)LICENSE.txt</FileName>
+       </File.1>
+      </LinkGroup.3>
       <TargetOptios>
        <AsmArgFile></AsmArgFile>
        <BuildOptions></BuildOptions>
@@ -146,7 +155,7 @@
        <MakeOptions></MakeOptions>
        <RunAfterLinkParam></RunAfterLinkParam>
        <SkipObjectCheck>False</SkipObjectCheck>
-       <TargetDirectory>build</TargetDirectory>
+       <TargetDirectory>Debug</TargetDirectory>
        <TargetDirectory2></TargetDirectory2>
        <TranslateCharacter>38</TranslateCharacter>
        <UseTargetDirectory2>No</UseTargetDirectory2>

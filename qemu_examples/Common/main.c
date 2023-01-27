@@ -4,6 +4,8 @@ unsigned char byTestByte;
 unsigned short wTestWord;
 int iCounter=0;
 int iInterruptCounter=0;
+long longEnforcer=0;
+float floatEnforcer=0;
   
 int main(void)
 {       

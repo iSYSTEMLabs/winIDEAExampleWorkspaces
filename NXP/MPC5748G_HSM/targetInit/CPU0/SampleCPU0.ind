@@ -1,2 +1,0 @@
-& & -lcf sampleCPU0.lcf -main __start -map -w off -g
-

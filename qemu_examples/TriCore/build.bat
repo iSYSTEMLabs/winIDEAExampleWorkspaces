@@ -1,4 +1,3 @@
-mkdir build
-cd build
-cmake -S .. -B . -GNinja --fresh
-ninja -v
+mkdir Debug
+C:\ISYSTEM_APPS\cmake\bin\cmake -S . -B ./Debug -GNinja
+C:\ISYSTEM_APPS\cmake\bin\cmake --build ./Debug

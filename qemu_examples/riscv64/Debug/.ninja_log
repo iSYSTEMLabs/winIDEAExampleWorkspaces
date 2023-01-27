@@ -1,0 +1,9 @@
+# ninja log v5
+4	54	6961935976488160	CMakeFiles/sample.elf.dir/vector.s.obj	799d6f76a0a8af38
+118	225	6961935978181242	sample.elf	c4168fb03963c0b2
+11	94	6961924119748728	/Common/CMakeFiles/Common.dir/main.c.obj	35dc83e67980ae00
+10	102	6961935977022298	CMakeFiles/sample.elf.dir/startup.c.obj	333b1fa1f2e5929e
+17	129	6961924120061204	/Common/CMakeFiles/Common.dir/test.c.obj	aafffc5a105f623e
+0	39	6962564941945443	CMakeFiles/sample.elf.dir/vector.s.obj	799d6f76a0a8af38
+4	77	6962564942345448	CMakeFiles/sample.elf.dir/startup.c.obj	333b1fa1f2e5929e
+79	184	6962564943295446	sample.elf	c4168fb03963c0b2

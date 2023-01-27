@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296637952</RegVer>
+   <RegVer>1296646144</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -39,7 +39,7 @@
      <DisplayParameters>0</DisplayParameters>
      <ExecutableFileName>sample.elf</ExecutableFileName>
      <ExternalMake>1</ExternalMake>
-     <ExternalMakeFile>manual_build.bat</ExternalMakeFile>
+     <ExternalMakeFile>build.bat</ExternalMakeFile>
      <HeaderExtension>h</HeaderExtension>
      <LinkerRelPath>$(CMPDIR)bin\ltc.exe</LinkerRelPath>
      <LInpExtensions>o;lib</LInpExtensions>
@@ -125,6 +125,21 @@
         </FileOptios>
        </File.1>
       </LinkGroup.0>
+      <LinkGroup.1>
+       <LinkGroupName>Info</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)readMe.txt</FileName>
+       </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)LICENSE.txt</FileName>
+       </File.1>
+      </LinkGroup.1>
+      <LinkGroup.2>
+       <LinkGroupName>Linker</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)sample.lsl</FileName>
+       </File.0>
+      </LinkGroup.2>
       <TargetOptios>
        <AsmArgFile></AsmArgFile>
        <BuildOptions></BuildOptions>

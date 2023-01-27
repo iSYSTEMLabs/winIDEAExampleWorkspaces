@@ -1,0 +1,5 @@
+# ninja log v5
+1	5167	6962668079113180	Common/CMakeFiles/Common.dir/main.c.obj	c6a2270cd8d130c5
+159	5192	6962668079360979	Common/CMakeFiles/Common.dir/test.c.obj	b4de37afab1746cf
+5192	6397	6962668091351735	sample.elf	4a4c101c4d4f260b
+0	3270	6962670503095015	Common/CMakeFiles/Common.dir/test.c.obj	b4de37afab1746cf

@@ -5,10 +5,3 @@ This repo contains examples, which are built to run on QEMU, but are not part of
 
 Examples use same code for demonstration after every necessary platform specific thing is set up.
 _old folders contain examples not using common main() code.
-
-Status:
--------
-- AArch64:   DONE
-- RISC-V 32: DONE
-- RISC-V 64: DONE
-- TriCore:   DONE

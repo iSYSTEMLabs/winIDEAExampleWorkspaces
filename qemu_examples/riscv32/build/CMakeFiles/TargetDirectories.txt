@@ -1,6 +1,0 @@
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv32/build/CMakeFiles/sample.elf.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv32/build/CMakeFiles/edit_cache.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv32/build/CMakeFiles/rebuild_cache.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv32/build/Common/CMakeFiles/Common.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv32/build/Common/CMakeFiles/edit_cache.dir
-C:/Users/rokj/Documents/GitHub/qemu-examples/riscv32/build/Common/CMakeFiles/rebuild_cache.dir

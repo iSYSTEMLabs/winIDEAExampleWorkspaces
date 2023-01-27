@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296642048</RegVer>
+      <RegVer>1296646144</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296642048</RegVer>
+      <RegVer>1296646144</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HGDB</HServer>
-    <RegVer>1296642048</RegVer>
+    <RegVer>1296646144</RegVer>
     <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
@@ -136,7 +136,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>build\sample.elf</Path>
+           <Path>Debug\sample.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -170,9 +170,9 @@
              <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
-             <LoadSymbolTableItems>Global And Local</LoadSymbolTableItems>
+             <LoadSymbolTableItems>None</LoadSymbolTableItems>
              <LoadWeakFunctions>true</LoadWeakFunctions>
-             <LoadZeroSizedSegments>true</LoadZeroSizedSegments>
+             <LoadZeroSizedSegments>false</LoadZeroSizedSegments>
              <MergeTypes>false</MergeTypes>
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
@@ -225,7 +225,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>build\sample.elf</Path>
+           <Path>Debug\sample.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -306,7 +306,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>build\sample.elf</Path>
+           <Path>Debug\sample.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -547,7 +547,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.147</winIDEA>
+      <winIDEA>Build 9.21.148</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -786,7 +786,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296642048</RegVer>
+    <RegVer>1296646144</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>risc32stolen - Debug</DefaultTargetName>
@@ -801,7 +801,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296642048</RegVer>
+    <RegVer>1296646144</RegVer>
     <Data>
      <Attach>true</Attach>
      <Target_._IP>127.0.0.1</Target_._IP>

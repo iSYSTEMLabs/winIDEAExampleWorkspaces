@@ -1,0 +1,6 @@
+C:/bbsamples/winIDEA_public/qemu_examples/riscv64/Debug/CMakeFiles/sample.elf.dir
+C:/bbsamples/winIDEA_public/qemu_examples/riscv64/Debug/CMakeFiles/edit_cache.dir
+C:/bbsamples/winIDEA_public/qemu_examples/riscv64/Debug/CMakeFiles/rebuild_cache.dir
+/Common/CMakeFiles/Common.dir
+/Common/CMakeFiles/edit_cache.dir
+/Common/CMakeFiles/rebuild_cache.dir

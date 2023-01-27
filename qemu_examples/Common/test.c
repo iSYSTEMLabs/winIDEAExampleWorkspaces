@@ -46,15 +46,17 @@ void Type_Simple()
 	long l=0;
 	unsigned long ul=0;
 	int iCount=0;
+  enforcer = 0;
   
 	for (iCount=-2;iCount<=2;++iCount)
 		{
-		c=iCount;
-		uc=iCount;
-		i=iCount;
-		ui=iCount;
-		l=iCount;
-		ul=iCount;
+		c=(char)iCount;
+		uc=(unsigned char)iCount;
+		i=(int)iCount;
+		ui=(unsigned int)iCount;
+		l=(long)iCount;
+		ul=(unsigned long)iCount;
+    enforcer = c+uc+i+ui+l+ul;
 		}
   
 
@@ -62,7 +64,7 @@ void Type_Simple()
 	ui=0x1234;
 	l=0x12345679L;
 	ul=0x12345679UL;
-	
+	enforcer += i+ui+l+ul;
 	++iCounter;
 	byTestByte++; 
 	}
@@ -73,6 +75,7 @@ void Type_Float()
     float b = 2.9;
     for (int i=0; i<10; i++)
       b = a*b;
+    floatEnforcer = b;
   }
 
 void Type_Arrays()

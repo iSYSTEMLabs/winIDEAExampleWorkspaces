@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296637952</RegVer>
+   <RegVer>1296646144</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -47,7 +47,7 @@
      <ParallelBuild>1</ParallelBuild>
      <ParallelBuildNum>0</ParallelBuildNum>
      <PathSeparator>\</PathSeparator>
-     <RootDir>C:\Users\rokj\Documents\GitHub\qemu-examples\riscv64\</RootDir>
+     <RootDir></RootDir>
      <RunAfterAsm></RunAfterAsm>
      <RunAfterAsmParam></RunAfterAsmParam>
      <RunAfterComp></RunAfterComp>
@@ -98,13 +98,13 @@
       <LinkGroup.0>
        <LinkGroupName>Source files</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)..\Common\main.c</FileName>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\Common\main.c</FileName>
         <FileOptios>
          <CompilerOptions>$(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.0>
        <File.1>
-        <FileName>$(IRFDIR)..\Common\test.c</FileName>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\Common\test.c</FileName>
         <FileOptios>
          <CompilerOptions>$(EDNAME)</CompilerOptions>
         </FileOptios>
@@ -113,12 +113,30 @@
       <LinkGroup.1>
        <LinkGroupName>Startup files</LinkGroupName>
        <File.0>
-        <FileName>$(IRFDIR)startup.c</FileName>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\riscv64\startup.c</FileName>
         <FileOptios>
          <CompilerOptions>$(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.0>
+       <File.1>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\riscv64\vector.s</FileName>
+       </File.1>
       </LinkGroup.1>
+      <LinkGroup.2>
+       <LinkGroupName>Info</LinkGroupName>
+       <File.0>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\riscv64\LICENSE.txt</FileName>
+       </File.0>
+       <File.1>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\riscv64\readMe.txt</FileName>
+       </File.1>
+      </LinkGroup.2>
+      <LinkGroup.3>
+       <LinkGroupName>Linker files</LinkGroupName>
+       <File.0>
+        <FileName>\bbsamples\winIDEA_public\qemu_examples\riscv64\link.ld</FileName>
+       </File.0>
+      </LinkGroup.3>
       <TargetOptios>
        <AsmArgFile></AsmArgFile>
        <BuildOptions></BuildOptions>
@@ -131,7 +149,7 @@
        <MakeOptions></MakeOptions>
        <RunAfterLinkParam></RunAfterLinkParam>
        <SkipObjectCheck>False</SkipObjectCheck>
-       <TargetDirectory>build</TargetDirectory>
+       <TargetDirectory>Debug</TargetDirectory>
        <TargetDirectory2></TargetDirectory2>
        <TranslateCharacter>38</TranslateCharacter>
        <UseTargetDirectory2>No</UseTargetDirectory2>
