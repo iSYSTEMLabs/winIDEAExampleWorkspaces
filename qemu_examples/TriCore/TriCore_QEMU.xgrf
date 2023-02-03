@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296646144</RegVer>
+      <RegVer>1296658432</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -29,7 +29,7 @@
         </__.1>
         <__.2>
          <BookmarkList></BookmarkList>
-         <CaretPos>212</CaretPos>
+         <CaretPos>103</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\bbsamples\winIDEA_public\qemu_examples\Common\main.c</FileName>
          <FileType>1</FileType>
@@ -56,7 +56,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296646144</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -68,7 +68,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296646144</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -167,7 +167,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>761</Width>
+          <Width>778</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -533,6 +533,32 @@
          </PaneMiscData.3>
          <VariableData>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
+          <Variables>
+           <__.0>
+            <Name>iCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
+          </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
@@ -554,14 +580,14 @@
       <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>9</FocusedViewId>
+        <FocusedViewId>10</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1359</Bottom>
+         <Bottom>2019</Bottom>
          <Left>1</Left>
-         <Right>1215</Right>
-         <Top>50</Top>
+         <Right>2561</Right>
+         <Top>710</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -632,7 +658,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>9</TopTabViewId>
+               <TopTabViewId>10</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -674,7 +700,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>17</TopTabViewId>
+               <TopTabViewId>6</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>

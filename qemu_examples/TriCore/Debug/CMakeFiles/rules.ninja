@@ -15,7 +15,7 @@
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sample_
-  command = cmd.exe /C "$PRE_LINK && X:\TASKING\TriCore_v6.2rb1\ctc\bin\ltc.exe $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && X:\TASKING\TriCore_v6.3r1p6\ctc\bin\ltc.exe $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -34,7 +34,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__Common_
   depfile = $DEP_FILE
   deps = gcc
-  command = X:\TASKING\TriCore_v6.2rb1\ctc\bin\cctc.exe $DEFINES $INCLUDES -O0 --core=tc1.6.2 -v --include-file=sfr/regtc27x.sfr -co -g -o $out $in
+  command = X:\TASKING\TriCore_v6.3r1p6\ctc\bin\cctc.exe $DEFINES $INCLUDES -O0 --core=tc1.6.2 -v --include-file=sfr/regtc27x.sfr -co -g -o $out $in
   description = Building C object $out
 
 

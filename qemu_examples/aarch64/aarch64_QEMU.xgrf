@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296646144</RegVer>
+      <RegVer>1296658432</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -125,26 +125,26 @@
         </__.20>
         <__.21>
          <BookmarkList></BookmarkList>
+         <CaretPos>1143</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\bbsamples\winIDEA_public\qemu_examples\aarch64\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>27</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
          <CaretPos>251</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\bbsamples\winIDEA_public\qemu_examples\Common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>748</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\bbsamples\winIDEA_public\qemu_examples\Common\test.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.22>
-        <__.23>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1143</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\bbsamples\winIDEA_public\qemu_examples\aarch64\readMe.txt</FileName>
-         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.23>
         <__.3>
@@ -216,7 +216,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296646144</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -228,7 +228,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296646144</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -274,56 +274,56 @@
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>19</ViewId>
+        <ViewId>23</ViewId>
         <ViewType>Document</ViewType>
        </__.10>
        <__.11>
-        <ViewId>20</ViewId>
-        <ViewType>Document</ViewType>
-       </__.11>
-       <__.12>
-        <ViewId>21</ViewId>
-        <ViewType>Document</ViewType>
-       </__.12>
-       <__.13>
-        <ViewId>23</ViewId>
-        <ViewType>Document</ViewType>
-       </__.13>
-       <__.14>
-        <ViewId>24</ViewId>
-        <ViewType>SFR</ViewType>
-       </__.14>
-       <__.2>
-        <ViewId>7</ViewId>
-        <ViewType>Disassembly</ViewType>
-       </__.2>
-       <__.3>
-        <ViewId>9</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.3>
-       <__.4>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
-       </__.4>
-       <__.5>
-        <ViewId>4</ViewId>
-        <ViewType>CustomWatch</ViewType>
-       </__.5>
-       <__.6>
         <ViewId>2</ViewId>
         <ViewType>Output_Progress</ViewType>
-       </__.6>
-       <__.7>
+       </__.11>
+       <__.12>
         <ViewId>10</ViewId>
         <ViewType>Output_Tools</ViewType>
-       </__.7>
-       <__.8>
+       </__.12>
+       <__.13>
         <ViewId>11</ViewId>
         <ViewType>Output_Build</ViewType>
-       </__.8>
-       <__.9>
+       </__.13>
+       <__.14>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
+       </__.14>
+       <__.2>
+        <ViewId>24</ViewId>
+        <ViewType>SFR</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>7</ViewId>
+        <ViewType>Disassembly</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>9</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>4</ViewId>
+        <ViewType>CustomWatch</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>19</ViewId>
+        <ViewType>Document</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>20</ViewId>
+        <ViewType>Document</ViewType>
+       </__.8>
+       <__.9>
+        <ViewId>21</ViewId>
+        <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -340,7 +340,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>900</Width>
+          <Width>917</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -408,7 +408,7 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x40001CBF</Address>
+           <Address>0x40001B90</Address>
            <AddressOffset>0x40001B80</AddressOffset>
            <AddressStr>0x40001b90</AddressStr>
            <DisplayMode>0</DisplayMode>
@@ -690,17 +690,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>23</FocusedViewId>
+        <FocusedViewId>20</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1359</Bottom>
+         <Bottom>2019</Bottom>
          <Left>1</Left>
-         <Right>1215</Right>
-         <Top>50</Top>
+         <Right>2561</Right>
+         <Top>710</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -771,7 +771,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>23</TopTabViewId>
+               <TopTabViewId>20</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -989,6 +989,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

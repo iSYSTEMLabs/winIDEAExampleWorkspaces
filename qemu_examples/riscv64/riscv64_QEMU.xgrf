@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296646144</RegVer>
+      <RegVer>1296658432</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -64,7 +64,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296646144</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -76,7 +76,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296646144</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -105,44 +105,44 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>6</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>4</ViewId>
+        <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>16</ViewId>
-        <ViewType>Disassembly</ViewType>
+        <ViewId>15</ViewId>
+        <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
         <ViewId>13</ViewId>
         <ViewType>Document</ViewType>
        </__.10>
        <__.11>
-        <ViewId>14</ViewId>
-        <ViewType>SFR</ViewType>
+        <ViewId>6</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.11>
        <__.12>
-        <ViewId>15</ViewId>
-        <ViewType>Memory</ViewType>
-       </__.12>
-       <__.13>
         <ViewId>17</ViewId>
         <ViewType>Output_Tools</ViewType>
-       </__.13>
-       <__.14>
+       </__.12>
+       <__.13>
         <ViewId>18</ViewId>
         <ViewType>Output_Build</ViewType>
-       </__.14>
-       <__.2>
-        <ViewId>19</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.2>
-       <__.3>
-        <ViewId>4</ViewId>
-        <ViewType>Project</ViewType>
-       </__.3>
-       <__.4>
+       </__.13>
+       <__.14>
         <ViewId>5</ViewId>
         <ViewType>Symbols</ViewType>
+       </__.14>
+       <__.2>
+        <ViewId>14</ViewId>
+        <ViewType>SFR</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>16</ViewId>
+        <ViewType>Disassembly</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>19</ViewId>
+        <ViewType>CoreRegisters</ViewType>
        </__.4>
        <__.5>
         <ViewId>7</ViewId>
@@ -179,7 +179,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>784</Width>
+          <Width>801</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -574,17 +574,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>25</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>5</FocusedViewId>
+        <FocusedViewId>11</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1359</Bottom>
+         <Bottom>2019</Bottom>
          <Left>1</Left>
-         <Right>1215</Right>
-         <Top>50</Top>
+         <Right>2561</Right>
+         <Top>710</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -655,7 +655,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>10</TopTabViewId>
+               <TopTabViewId>11</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>

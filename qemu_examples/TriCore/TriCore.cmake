@@ -4,7 +4,7 @@ set(CMAKE_SYSTEM_PROCESSOR TriCore)
 set(CMAKE_CROSSCOMPILING 1)
 set(CMAKE_C_COMPILER_FORCED TRUE)
 
-set(tools X:/TASKING/TriCore_v6.2rb1/ctc/bin)
+set(tools X:/TASKING/TriCore_v6.3r1p6/ctc/bin)
 set(CMAKE_FIND_ROOT_PATH ${tools})
 set(CMAKE_C_COMPILER	${tools}/cctc.exe CACHE FILEPATH "")
 set(CMAKE_ASM_COMPILER	${tools}/astc.exe CACHE FILEPATH "")

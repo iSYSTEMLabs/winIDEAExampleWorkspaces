@@ -19,19 +19,19 @@ BUILD_SHARED_LIBS:BOOL=FALSE
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
-CMAKE_AR:FILEPATH=X:/TASKING/TriCore_v6.2rb1/ctc/bin/artc.exe
+CMAKE_AR:FILEPATH=X:/TASKING/TriCore_v6.3r1p6/ctc/bin/artc.exe
 
-CMAKE_ASM_COMPILER:FILEPATH=X:/TASKING/TriCore_v6.2rb1/ctc/bin/astc.exe
+CMAKE_ASM_COMPILER:FILEPATH=X:/TASKING/TriCore_v6.3r1p6/ctc/bin/astc.exe
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=
 
 //C compiler
-CMAKE_C_COMPILER:STRING=X:/TASKING/TriCore_v6.2rb1/ctc/bin/cctc.exe
+CMAKE_C_COMPILER:STRING=X:/TASKING/TriCore_v6.3r1p6/ctc/bin/cctc.exe
 
 //Tasking Archiver
-CMAKE_C_COMPILER_AR:FILEPATH=X:/TASKING/TriCore_v6.2rb1/ctc/bin/artc.exe
+CMAKE_C_COMPILER_AR:FILEPATH=X:/TASKING/TriCore_v6.3r1p6/ctc/bin/artc.exe
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -75,7 +75,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/bbsamples/winIDEA_public/qemu_example
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/TriCore
 
-CMAKE_LINKER:FILEPATH=X:/TASKING/TriCore_v6.2rb1/ctc/bin/ltc.exe
+CMAKE_LINKER:FILEPATH=X:/TASKING/TriCore_v6.3r1p6/ctc/bin/ltc.exe
 
 //Program used to build from build.ninja files.
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/ISYSTEM_APPS/ninja/ninja.exe
@@ -279,6 +279,8 @@ CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RANLIB
+CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //noop for ranlib
 CMAKE_RANLIB:INTERNAL=:
 //ADVANCED property for variable: CMAKE_READELF

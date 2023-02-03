@@ -1,7 +1,10 @@
 # ninja log v5
+4	171	6962659642140432	CMakeFiles/sample.elf.dir/startup.c.obj	be3748349a2c71f1
 7	56	6962659640990428	CMakeFiles/sample.elf.dir/stacksetup.s.obj	7d1ff14b0c3f97d0
 15	106	6962659641480457	/Common/CMakeFiles/Common.dir/main.c.obj	40728754565d60c9
 11	152	6962659641940433	/Common/CMakeFiles/Common.dir/test.c.obj	297568b60d3fe853
-4	171	6962659642140432	CMakeFiles/sample.elf.dir/startup.c.obj	be3748349a2c71f1
 1	339	6962659643820434	CMakeFiles/sample.elf.dir/syscalls.c.obj	ba68179ba28178a4
 340	434	6962659644660435	sample.elf	6c2fc92d6cffdc38
+2	239	6969676458798715	/Common/CMakeFiles/Common.dir/main.c.obj	40728754565d60c9
+10	249	6969676458954996	/Common/CMakeFiles/Common.dir/test.c.obj	297568b60d3fe853
+250	462	6969676460960836	sample.elf	6c2fc92d6cffdc38

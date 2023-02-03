@@ -1,5 +1,4 @@
 # ninja log v5
-1	5167	6962668079113180	Common/CMakeFiles/Common.dir/main.c.obj	c6a2270cd8d130c5
-159	5192	6962668079360979	Common/CMakeFiles/Common.dir/test.c.obj	b4de37afab1746cf
-5192	6397	6962668091351735	sample.elf	4a4c101c4d4f260b
-0	3270	6962670503095015	Common/CMakeFiles/Common.dir/test.c.obj	b4de37afab1746cf
+0	2488	6970307681806558	Common/CMakeFiles/Common.dir/main.c.obj	2f735b3f3cedbfcf
+11	2543	6970307682431681	Common/CMakeFiles/Common.dir/test.c.obj	61cba42d822ff7bd
+2544	3260	6970307689611702	sample.elf	6d3c2b0e5674aa20

@@ -1,16 +1,16 @@
 
 
-********************************************************************  Tool and Invocation  *********************************************************************
-+-----------------------------------------------------------------------------------------------------------------------+
-| tool          | TASKING VX-toolset for TriCore: object lin v6.2rb1 Build 18040336 SN 06190436                         |
-| path          | X:\TASKING\TriCore_v6.2rb1\ctc\bin\ltc                                                                |
-| arguments     | -f cc11120e                                                                                           |
-| file:cc11120e | -o nologo.elf --map-file cc11120c.o -lcs_fpu -lfp_fpu -lrt -LX:\TASKING\TriCore_v6.2rb1\ctc\lib/tc13  |
-| task          | task1                                                                                                 |
-+-----------------------------------------------------------------------------------------------------------------------+
+******************************************************************************  Tool and Invocation  *******************************************************************************
++----------------------------------------------------------------------------------------------------------------------+
+| tool         | TASKING VX-toolset for TriCore: object linker v6.3r1 Build 22081062 SN 99519283                       |
+| path         | X:\TASKING\TriCore_v6.3r1p6\ctc\bin\ltc                                                               |
+| arguments    | -f cc8468e                                                                                            |
+| file:cc8468e | -o nologo.elf --map-file cc8468c.o -lcs_fpu -lfp_fpu -lrt -LX:\TASKING\TriCore_v6.3r1p6\ctc\lib/tc13  |
+| task         | task1                                                                                                 |
++----------------------------------------------------------------------------------------------------------------------+
 
 
-***********************************************************************  Used Resources  ***********************************************************************
+*********************************************************************************  Used Resources  *********************************************************************************
 
 * Memory usage in bytes
 ========================
@@ -22,13 +22,13 @@
 | spe:dpram  |      0x0 |      0x0 | 0x002000 |      0x0 | 0x002000 |
 | spe:dsram  |      0x0 |      0x0 | 0x005400 | 0x008c00 | 0x00e000 |
 | spe:pcode  |      0x0 |      0x0 |      0x0 | 0x020000 | 0x020000 |
-| spe:pflash | 0x0003d8 | 0x000014 |      0x0 | 0x1ffc14 | 0x200000 |
+| spe:pflash | 0x0003e6 | 0x000014 |      0x0 | 0x1ffc06 | 0x200000 |
 | spe:pram   |      0x0 |      0x0 | 0x000004 | 0x00fffc | 0x010000 |
 | spe:spram  |      0x0 |      0x0 | 0x00c000 |      0x0 | 0x00c000 |
 | spe:sram   |      0x0 |      0x0 | 0x010000 |      0x0 | 0x010000 |
 | xram       |      0x0 |      0x0 |      0x0 | 0x100000 | 0x100000 |
 |-------------------------------------------------------------------|
-| Total      | 0x0003d8 | 0x000014 | 0x047404 | 0x338810 | 0x380000 |
+| Total      | 0x0003e6 | 0x000014 | 0x047404 | 0x338802 | 0x380000 |
 +-------------------------------------------------------------------+
 
 * Space usage in bytes
@@ -36,14 +36,14 @@
 +---------------------------------------------------------------------------------------------------------------------------------------------------+
 | Space           | Native used Rom | Native used Ram | Native used NVRam | Foreign used |  Reserved | Free Rom |  Free Ram | Free NVRam | Total    |
 |===================================================================================================================================================|
-| spe:tc:abs18    |             0x0 |             0x0 |               0x0 |     0x000356 |  0x008000 | 0x003caa |       0x0 |        0x0 | 0x00c000 |
-| spe:tc:abs24    |             0x0 |             0x0 |               0x0 |     0x0003ec |  0x017400 | 0x1ffc14 |  0x038c00 |        0x0 | 0x250000 |
+| spe:tc:abs18    |             0x0 |             0x0 |               0x0 |     0x000364 |  0x008000 | 0x003c9c |       0x0 |        0x0 | 0x00c000 |
+| spe:tc:abs24    |             0x0 |             0x0 |               0x0 |     0x0003fa |  0x017404 | 0x1ffc06 |  0x038bfc |        0x0 | 0x250000 |
 | spe:tc:csa      |             0x0 |             0x0 |               0x0 |          0x0 |  0x007400 |      0x0 |  0x008c00 |        0x0 | 0x010000 |
-| spe:tc:linear   |        0x0003ec |             0x0 |               0x0 |          0x0 |  0x047400 | 0x1ffc14 |  0x138c00 |        0x0 | 0x380000 |
+| spe:tc:linear   |        0x0003fa |             0x0 |               0x0 |          0x0 |  0x047404 | 0x1ffc06 |  0x138bfc |        0x0 | 0x380000 |
 | spe:tc:pcp_code |             0x0 |             0x0 |               0x0 |          0x0 |       0x0 |      0x0 |  0x020000 |        0x0 | 0x020000 |
 | spe:tc:pcp_data |             0x0 |             0x0 |               0x0 |          0x0 |  0x000004 |      0x0 |  0x00fffc |        0x0 | 0x010000 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|
-| Total           |        0x0003ec |             0x0 |               0x0 |            - |         - |        - |         - |          - |        - |
+| Total           |        0x0003fa |             0x0 |               0x0 |            - |         - |        - |         - |          - |        - |
 | Largest gap     |               - |               - |                 - |            - |         - | 0x10df0c |  0x100000 |        0x0 |        - |
 +---------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -55,21 +55,21 @@ other spaces is called "Foreign used" memory.
 
 * Estimated stack usage
 ========================
-+-------------------+
-| Stack Name | Used |
-|===================|
-| ustack     | 0x0  |
-|-------------------|
-| recursive  | no   |
-+-------------------+
++----------------------------------------------+
+| Stack Name | Used | Recursive | Entry points |
+|==============================================|
+| ustack     | 0x0  | no        | _START       |
+|----------------------------------------------|
+| istack     | 0x0  | no        |              |
++----------------------------------------------+
 
 
-**********************************************************************  Processed Files  ***********************************************************************
+********************************************************************************  Processed Files  *********************************************************************************
 +-----------------------------------------------------------+
 | File       | From archive | Symbol causing the extraction |
 |===========================================================|
 | _Exit.o    | libcs_fpu.a  | _Exit                         |
-| cc11120c.o |              |                               |
+| cc8468c.o  |              |                               |
 | cinit.o    | libcs_fpu.a  | _c_init                       |
 | cstart.o   | libcs_fpu.a  | _START                        |
 | trapass.o  | libcs_fpu.a  | _trapassertion                |
@@ -83,7 +83,7 @@ other spaces is called "Foreign used" memory.
 +-----------------------------------------------------------+
 
 
-************************************************************************  Link Result  *************************************************************************
+**********************************************************************************  Link Result  ***********************************************************************************
 +--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [in] File  | [in] Section                              | [in] Size (MAU) | [out] Offset | [out] Section                             | [out] Size (MAU) |
 |========================================================================================================================================================|
@@ -105,9 +105,9 @@ other spaces is called "Foreign used" memory.
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | cinit.o    | .text._ldmst_copy_byte.libcs_fpu (41)     | 0x00000044      | 0x0          | .text._ldmst_copy_byte.libcs_fpu (41)     | 0x00000044       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| cstart.o   | .text._start.libcs_fpu (6)                | 0x0000015c      | 0x0          | .text._start.libcs_fpu (6)                | 0x0000015c       |
+| cstart.o   | .text._start.libcs_fpu (6)                | 0x0000016a      | 0x0          | .text._start.libcs_fpu (6)                | 0x0000016a       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| cc11120c.o | .text.main.main (1)                       | 0x00000004      | 0x0          | .text.main.main (1)                       | 0x00000004       |
+| cc8468c.o  | .text.main.main (1)                       | 0x00000004      | 0x0          | .text.main.main (1)                       | 0x00000004       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | trapmmu.o  | .text.trapvec.000 (82)                    | 0x00000012      | 0x0          | .text.trapvec.000 (82)                    | 0x00000012       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -127,98 +127,95 @@ other spaces is called "Foreign used" memory.
 +--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-**********************************************************************  Cross References  **********************************************************************
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Definition file | Definition section           | Symbol           | Referenced in                                                                            |
-|==============================================================================================================================================================|
-| _Exit.o         | .text._Exit.libc (136)       | _Exit            | cstart.o, trapass.o, trapcont.o, trapmmu.o, trapprot.o, trapbus.o, trapinst.o,           |
-|                 |                              |                  | trapnmi.o, trapsys.o                                                                     |
-| _Exit.o         | .text._Exit.libc (136)       | exit             | cstart.o, trapass.o, trapcont.o, trapmmu.o, trapprot.o, trapbus.o, trapinst.o,           |
-|                 |                              |                  | trapnmi.o, trapsys.o                                                                     |
-| cc11120c.o      | .text.main.main (1)          | main             | cstart.o                                                                                 |
-| cinit.o         | .text._c_init.libcs_fpu (43) | _c_init          | cstart.o                                                                                 |
-| cstart.o        | .text._START.libc.reset (4)  | _START           |                                                                                          |
-| trapass.o       | .text.trapvec.005 (64)       | _trapassertion   | cstart.o                                                                                 |
-| trapbus.o       | .text.trapvec.004 (100)      | _trapbus         | cstart.o                                                                                 |
-| trapcont.o      | .text.trapvec.003 (73)       | _trapcontext     | cstart.o                                                                                 |
-| trapinst.o      | .text.trapvec.002 (109)      | _trapinstruction | cstart.o                                                                                 |
-| trapmmu.o       | .text.trapvec.000 (82)       | _trapmmu         | cstart.o                                                                                 |
-| trapnmi.o       | .text.trapvec.007 (118)      | _trapnmi         | cstart.o                                                                                 |
-| trapprot.o      | .text.trapvec.001 (91)       | _trapprotection  | cstart.o                                                                                 |
-| trapsys.o       | .text.trapvec.006 (127)      | _trapsystem      | cstart.o                                                                                 |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+********************************************************************************  Cross References  ********************************************************************************
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Definition file | Definition section           | Symbol           | Referenced in                                                                                       |
+|=========================================================================================================================================================================|
+| _Exit.o         | .text._Exit.libc (136)       | _Exit            | cstart.o, trapass.o, trapcont.o, trapmmu.o, trapprot.o, trapbus.o, trapinst.o, trapnmi.o, trapsys.o |
+| _Exit.o         | .text._Exit.libc (136)       | exit             | cstart.o, trapass.o, trapcont.o, trapmmu.o, trapprot.o, trapbus.o, trapinst.o, trapnmi.o, trapsys.o |
+| cc8468c.o       | .text.main.main (1)          | main             | cstart.o                                                                                            |
+| cinit.o         | .text._c_init.libcs_fpu (43) | _c_init          | cstart.o                                                                                            |
+| cstart.o        | .text._START.libc.reset (4)  | _START           |                                                                                                     |
+| trapass.o       | .text.trapvec.005 (64)       | _trapassertion   | cstart.o                                                                                            |
+| trapbus.o       | .text.trapvec.004 (100)      | _trapbus         | cstart.o                                                                                            |
+| trapcont.o      | .text.trapvec.003 (73)       | _trapcontext     | cstart.o                                                                                            |
+| trapinst.o      | .text.trapvec.002 (109)      | _trapinstruction | cstart.o                                                                                            |
+| trapmmu.o       | .text.trapvec.000 (82)       | _trapmmu         | cstart.o                                                                                            |
+| trapnmi.o       | .text.trapvec.007 (118)      | _trapnmi         | cstart.o                                                                                            |
+| trapprot.o      | .text.trapvec.001 (91)       | _trapprotection  | cstart.o                                                                                            |
+| trapsys.o       | .text.trapvec.006 (127)      | _trapsystem      | cstart.o                                                                                            |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-*************************************************************************  Call Graph  *************************************************************************
-_START [ustack:0,0]
+***********************************************************************************  Call Graph  ***********************************************************************************
+_START [0,0]
 |
-+-- cstart.src:__init_sp [ustack:0,0]
++-- cstart.src:__init_sp [0,0]
     |
-    +-- cstart.src:_start [ustack:0,0]
+    +-- cstart.src:_start [0,0]
         |
-        +-- main [ustack:0,0]
+        +-- main [0,0]
         |
-        +-- cstart.src:.cocofun_1 [ustack:0,0]
+        +-- cstart.src:.cocofun_1 [0,0]
         |
-        +-- _c_init [ustack:0,0]
+        +-- _c_init [0,0]
         |   |
-        |   +-- _c_init_entry [ustack:0,0]
+        |   +-- _c_init_entry [0,0]
         |       |
-        |       +-- cinit.src:_ldmst_copy_byte [ustack:0,0]
+        |       +-- cinit.src:_ldmst_copy_byte [0,0]
         |       |
-        |       +-- cinit.src:_ldmst_clear_byte [ustack:0,0]
+        |       +-- cinit.src:_ldmst_clear_byte [0,0]
         |
         +-- exit *
 
-* exit [ustack:0,0]
+* exit [0,0]
 
-_trapsystem [ustack:0,0]
+_trapsystem [0,0]
 |
 +-- exit *
 
-_trapnmi [ustack:0,0]
+_trapnmi [0,0]
 |
 +-- exit *
 
-_trapinstruction [ustack:0,0]
+_trapinstruction [0,0]
 |
 +-- exit *
 
-_trapbus [ustack:0,0]
+_trapbus [0,0]
 |
 +-- exit *
 
-_trapprotection [ustack:0,0]
+_trapprotection [0,0]
 |
 +-- exit *
 
-_trapmmu [ustack:0,0]
+_trapmmu [0,0]
 |
 +-- exit *
 
-_trapcontext [ustack:0,0]
+_trapcontext [0,0]
 |
 +-- exit *
 
-_trapassertion [ustack:0,0]
+_trapassertion [0,0]
 |
 +-- exit *
 
 
 Note:
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| *                      | The function has a separate tree since it has 2 or more callers.                                                                    |
-| R                      | This function is part of a recursive call chain. If both a leaf and the root of a tree are marked this way, all nodes in between    |
-|                        | are in a recursive chain.                                                                                                           |
-| [<stack>:<s>,<a>; ...] | For each stack the stack usage by the function itself (<s>) and the stack usage by the function and all its callees (<a>).          |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| *         | The function has a separate tree since it has 2 or more callers.                                                                                           |
+| R         | This function is part of a recursive call chain. If both a leaf and the root of a tree are marked this way, all nodes in between are in a recursive chain. |
+| [<s>,<a>] | The stack usage by the function itself (<s>) and the stack usage by the function and all its callees (<a>).                                                |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-**************************************************************************  Overlay  ***************************************************************************
+************************************************************************************  Overlay  *************************************************************************************
 
 
-***********************************************************************  Locate Result  ************************************************************************
+*********************************************************************************  Locate Result  **********************************************************************************
 
 * Task entry address
 =====================
@@ -244,17 +241,17 @@ Note:
 | spe:pflash |          | .text._c_init.libcs_fpu (43)              | 0x0000000c | 0x8000017c | 0x0000017c | 0x00000002 |
 | spe:pflash |          | .text._ldmst_clear_byte.libcs_fpu (40)    | 0x0000002e | 0x80000188 | 0x00000188 | 0x00000002 |
 | spe:pflash |          | .text._ldmst_copy_byte.libcs_fpu (41)     | 0x00000044 | 0x800001b6 | 0x000001b6 | 0x00000002 |
-| spe:pflash |          | .text._start.libcs_fpu (6)                | 0x0000015c | 0x800001fa | 0x000001fa | 0x00000002 |
+| spe:pflash |          | .text._start.libcs_fpu (6)                | 0x0000016a | 0x800001fa | 0x000001fa | 0x00000002 |
 | spe:pflash |          | .text._START.libc.reset (4)               | 0x00000004 | 0xa0000000 | 0x0        | 0x00000002 |
-| spe:pflash |          | .rodata._EBU_BOOTCFG.libc.ebu_bootcfg (8) | 0x00000004 | 0xa0000004 | 0x00000004 | 0x00000002 |
-| spe:pflash | trap_tab | .text.trapvec.000 (82)                    | 0x00000012 | 0xa00f2000 | 0x000f2000 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.001 (91)                    | 0x00000014 | 0xa00f2020 | 0x000f2020 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.002 (109)                   | 0x00000014 | 0xa00f2040 | 0x000f2040 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.003 (73)                    | 0x00000014 | 0xa00f2060 | 0x000f2060 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.004 (100)                   | 0x00000014 | 0xa00f2080 | 0x000f2080 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.005 (64)                    | 0x00000014 | 0xa00f20a0 | 0x000f20a0 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.006 (127)                   | 0x0000000c | 0xa00f20c0 | 0x000f20c0 | 0x00000001 |
-| spe:pflash | trap_tab | .text.trapvec.007 (118)                   | 0x00000014 | 0xa00f20e0 | 0x000f20e0 | 0x00000001 |
+| spe:pflash |          | .rodata._EBU_BOOTCFG.libc.ebu_bootcfg (8) | 0x00000004 | 0xa0000004 | 0x00000004 | 0x00000004 |
+| spe:pflash | trap_tab | .text.trapvec.000 (82)                    | 0x00000012 | 0xa00f2000 | 0x000f2000 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.001 (91)                    | 0x00000014 | 0xa00f2020 | 0x000f2020 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.002 (109)                   | 0x00000014 | 0xa00f2040 | 0x000f2040 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.003 (73)                    | 0x00000014 | 0xa00f2060 | 0x000f2060 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.004 (100)                   | 0x00000014 | 0xa00f2080 | 0x000f2080 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.005 (64)                    | 0x00000014 | 0xa00f20a0 | 0x000f20a0 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.006 (127)                   | 0x0000000c | 0xa00f20c0 | 0x000f20c0 | 0x00000002 |
+| spe:pflash | trap_tab | .text.trapvec.007 (118)                   | 0x00000014 | 0xa00f20e0 | 0x000f20e0 | 0x00000002 |
 | spe:dsram  |          | ustack (141)                              | 0x00004000 | 0xd0000000 | 0x0        | 0x00000008 |
 | spe:dsram  |          | istack (142)                              | 0x00000400 | 0xd0005000 | 0x00005000 | 0x00000008 |
 +-----------------------------------------------------------------------------------------------------------------------+
@@ -280,6 +277,8 @@ Note:
 +----------------------------------------------------+
 | Name                  | Space addr | Space         |
 |====================================================|
+| __stack_limit         | 0x0        | -             |
+|----------------------------------------------------|
 | _A8_DATA_             | 0x0        | spe:tc:linear |
 | _A9_DATA_             | 0x0        |               |
 | _EBU_BOOTCFG          | 0xa0000004 |               |
@@ -308,6 +307,7 @@ Note:
 | _lc_u_int_tab         | 0xa00f0000 |               |
 | _lc_u_trap_tab        | 0xa00f2000 |               |
 | _lc_ub_table          | 0x8000000c |               |
+| _lc_ub_ustack         | 0xd0000000 |               |
 | _lc_ue_istack         | 0xd0005400 |               |
 | _lc_ue_ustack         | 0xd0004000 |               |
 | _trapassertion        | 0xa00f20a0 |               |
@@ -330,6 +330,8 @@ Note:
 +----------------------------------------------------+
 | Space addr | Name                  | Space         |
 |====================================================|
+| 0x0        | __stack_limit         | -             |
+|----------------------------------------------------|
 | 0x0        | _A8_DATA_             | spe:tc:linear |
 | 0x0        | _A9_DATA_             |               |
 | 0x0        | _LITERAL_DATA_        |               |
@@ -368,6 +370,7 @@ Note:
 | 0xa00f20c0 | _trapsystem           |               |
 | 0xa00f20e0 | _trapnmi              |               |
 | 0xa00f20f4 | _lc_ge_trap_tab       |               |
+| 0xd0000000 | _lc_ub_ustack         |               |
 | 0xd0004000 | _lc_ue_ustack         |               |
 | 0xd0005400 | _lc_ue_istack         |               |
 |----------------------------------------------------|
@@ -376,33 +379,33 @@ Note:
 +----------------------------------------------------+
 
 
-************************************************************************  Locate Rules  ************************************************************************
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Address space   | Type         | Properties | Prio | Sections                                                                                                |
-|==============================================================================================================================================================|
-| spe:tc:csa      | absolute     | 0xd0004000 |    1 | csa.01 (146)                                                                                            |
-| spe:tc:pcp_data | absolute     | 0x00000000 |    1 | null_pointer_protection (148)                                                                           |
-| spe:tc:linear   | absolute     | 0xa00f2020 |    1 | .text.trapvec.001 (91)                                                                                  |
-| spe:tc:linear   | absolute     | 0xa00f2040 |    1 | .text.trapvec.002 (109)                                                                                 |
-| spe:tc:linear   | absolute     | 0xa00f2060 |    1 | .text.trapvec.003 (73)                                                                                  |
-| spe:tc:linear   | absolute     | 0xa00f2080 |    1 | .text.trapvec.004 (100)                                                                                 |
-| spe:tc:linear   | absolute     | 0xa00f20a0 |    1 | .text.trapvec.005 (64)                                                                                  |
-| spe:tc:linear   | absolute     | 0xa00f20e0 |    1 | .text.trapvec.007 (118)                                                                                 |
-| spe:tc:linear   | absolute     | 0xa00f2000 |    1 | .text.trapvec.000 (82)                                                                                  |
-| spe:tc:linear   | absolute     | 0xa00f20c0 |    1 | .text.trapvec.006 (127)                                                                                 |
-| spe:tc:linear   | absolute     | 0xa0000000 |    1 | .text._START.libc.reset (4)                                                                             |
-| spe:tc:linear   | absolute     | 0xa0000004 |    1 | .rodata._EBU_BOOTCFG.libc.ebu_bootcfg (8)                                                               |
-| spe:tc:linear   | ordered      |            |    1 | .text.trapvec.000 (82) < .text.trapvec.001 (91) < .text.trapvec.002 (109) < .text.trapvec.003 (73) <    |
-|                 |              |            |      | .text.trapvec.004 (100) < .text.trapvec.005 (64) < .text.trapvec.006 (127) < .text.trapvec.007 (118)    |
-| spe:tc:linear   | unrestricted |            |    1 | .text._c_init_entry.libcs_fpu (42) , .text._Exit.libc (136) , table (145) , .text..cocofun_1.libcs_fpu  |
-|                 |              |            |      | (7) , .text.__init_sp.libcs_fpu (5) , .text._c_init.libcs_fpu (43) , .text._ldmst_clear_byte.libcs_fpu  |
-|                 |              |            |      | (40) , .text._ldmst_copy_byte.libcs_fpu (41) , .text._start.libcs_fpu (6) , .text.main.main (1)         |
-| spe:tc:linear   | unrestricted |            |    1 | ustack (141)                                                                                            |
-| spe:tc:linear   | unrestricted |            |    1 | istack (142)                                                                                            |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+**********************************************************************************  Locate Rules  **********************************************************************************
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Address space   | Type         | Properties | Prio | Sections                                                                                                                    |
+|==================================================================================================================================================================================|
+| spe:tc:csa      | absolute     | 0xd0004000 |    1 | csa.01 (146)                                                                                                                |
+| spe:tc:pcp_data | absolute     | 0x00000000 |    1 | null_pointer_protection (148)                                                                                               |
+| spe:tc:linear   | absolute     | 0xa00f2020 |    1 | .text.trapvec.001 (91)                                                                                                      |
+| spe:tc:linear   | absolute     | 0xa00f2040 |    1 | .text.trapvec.002 (109)                                                                                                     |
+| spe:tc:linear   | absolute     | 0xa00f2060 |    1 | .text.trapvec.003 (73)                                                                                                      |
+| spe:tc:linear   | absolute     | 0xa00f2080 |    1 | .text.trapvec.004 (100)                                                                                                     |
+| spe:tc:linear   | absolute     | 0xa00f20a0 |    1 | .text.trapvec.005 (64)                                                                                                      |
+| spe:tc:linear   | absolute     | 0xa00f20e0 |    1 | .text.trapvec.007 (118)                                                                                                     |
+| spe:tc:linear   | absolute     | 0xa00f2000 |    1 | .text.trapvec.000 (82)                                                                                                      |
+| spe:tc:linear   | absolute     | 0xa00f20c0 |    1 | .text.trapvec.006 (127)                                                                                                     |
+| spe:tc:linear   | absolute     | 0xa0000000 |    1 | .text._START.libc.reset (4)                                                                                                 |
+| spe:tc:linear   | absolute     | 0xa0000004 |    1 | .rodata._EBU_BOOTCFG.libc.ebu_bootcfg (8)                                                                                   |
+| spe:tc:linear   | ordered      |            |    1 | .text.trapvec.000 (82) < .text.trapvec.001 (91) < .text.trapvec.002 (109) < .text.trapvec.003 (73) < .text.trapvec.004      |
+|                 |              |            |      | (100) < .text.trapvec.005 (64) < .text.trapvec.006 (127) < .text.trapvec.007 (118)                                          |
+| spe:tc:linear   | unrestricted |            |    1 | .text._c_init_entry.libcs_fpu (42) , .text._Exit.libc (136) , table (145) , .text..cocofun_1.libcs_fpu (7) ,                |
+|                 |              |            |      | .text.__init_sp.libcs_fpu (5) , .text._c_init.libcs_fpu (43) , .text._ldmst_clear_byte.libcs_fpu (40) ,                     |
+|                 |              |            |      | .text._ldmst_copy_byte.libcs_fpu (41) , .text._start.libcs_fpu (6) , .text.main.main (1)                                    |
+| spe:tc:linear   | unrestricted |            |    1 | ustack (141)                                                                                                                |
+| spe:tc:linear   | unrestricted |            |    1 | istack (142)                                                                                                                |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-**********************************************************************  Removed Sections  **********************************************************************
+********************************************************************************  Removed Sections  ********************************************************************************
 +---------------------------------------------------------------------------------------------+
 | Section                            | File     | Library     | Symbol         | Reason       |
 |=============================================================================================|

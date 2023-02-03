@@ -1,8 +1,3 @@
-Application: App
-Symbol file not found: C:\bbsamples\winIDEA_public\qemu_examples\riscv32\build\sample.elf
-
-LOADING	C:\bbsamples\winIDEA_public\qemu_examples\riscv32\Debug\sample.elf
-PROGRAMMING 	6444 bytes
 LOADING	C:\bbsamples\winIDEA_public\qemu_examples\riscv32\Debug\sample.elf
 PROGRAMMING 	6444 bytes
 LOADING	C:\bbsamples\winIDEA_public\qemu_examples\riscv32\Debug\sample.elf

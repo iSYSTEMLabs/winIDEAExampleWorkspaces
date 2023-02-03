@@ -40,23 +40,23 @@ enum enumA
 void Type_Simple()
 	{
 	char c=0;
-	unsigned char uc=0;
-	int i=0;
-	unsigned ui=0;
-	long l=0;
-	unsigned long ul=0;
-	int iCount=0;
-  enforcer = 0;
+	unsigned char uc=1;
+	int i=2;
+	unsigned ui=3;
+	long l=4;
+	unsigned long ul=5;
+	int iCount=6;
+  longEnforcer = 0;
   
 	for (iCount=-2;iCount<=2;++iCount)
 		{
 		c=(char)iCount;
-		uc=(unsigned char)iCount;
-		i=(int)iCount;
-		ui=(unsigned int)iCount;
-		l=(long)iCount;
-		ul=(unsigned long)iCount;
-    enforcer = c+uc+i+ui+l+ul;
+		uc=(unsigned char)iCount+1;
+		i=(int)iCount+c;
+		ui=(unsigned int)iCount+uc;
+		l=(long)iCount+4+i;
+		ul=(unsigned long)iCount+5+ui;
+    longEnforcer += c+uc+i+ui+l+ul;
 		}
   
 
@@ -64,7 +64,7 @@ void Type_Simple()
 	ui=0x1234;
 	l=0x12345679L;
 	ul=0x12345679UL;
-	enforcer += i+ui+l+ul;
+	longEnforcer += i+ui+l+ul;
 	++iCounter;
 	byTestByte++; 
 	}

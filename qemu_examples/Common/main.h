@@ -5,7 +5,7 @@ extern int iCounter;
 extern int iInterruptCounter;
 extern unsigned char byTestByte;
 extern unsigned short wTestWord;
-extern long enforcer;
+extern long longEnforcer;
 extern float floatEnforcer;
 
 //extern void disableWatchdog(void);
