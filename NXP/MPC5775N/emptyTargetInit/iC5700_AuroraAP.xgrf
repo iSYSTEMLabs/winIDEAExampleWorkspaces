@@ -8,167 +8,191 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296195584</RegVer>
+      <RegVer>1296658432</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
          <BookmarkList></BookmarkList>
-         <CaretPos>805</CaretPos>
+         <CaretPos>544</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\fitIDEA_9_17_100\samples\src\common\main.c</FileName>
+         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.0>
         <__.1>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2565</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5777M\targetInit\CPU2\__start.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.1>
-        <__.10>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>K:\samplesRecompile\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.10>
-        <__.11>
-         <BookmarkList></BookmarkList>
-         <CaretPos>13810</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>395</ScrollPos>
-        </__.11>
-        <__.12>
-         <BookmarkList></BookmarkList>
-         <CaretPos>5539</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\fitIDEA\samples\src\powerPC\MPC5777M\CPU2\mpc5777m.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>106</ScrollPos>
-        </__.12>
-        <__.13>
-         <BookmarkList></BookmarkList>
-         <CaretPos>764</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>6</ScrollPos>
-        </__.13>
-        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.1>
+        <__.10>
          <BookmarkList></BookmarkList>
-         <CaretPos>2565</CaretPos>
+         <CaretPos>1201</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5777M\CPU2\__start.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>56</ScrollPos>
-        </__.15>
-        <__.16>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N\intc_sw_handlers_unused.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>51</ScrollPos>
+        </__.10>
+        <__.11>
          <BookmarkList></BookmarkList>
-         <CaretPos>1651</CaretPos>
+         <CaretPos>1255</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N_RAM_MW\intc_sw_handlers.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>15</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1679</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N\__start.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>3</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1360</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2340</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5777M\targetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>200</ScrollPos>
-        </__.17>
-        <__.18>
-         <BookmarkList></BookmarkList>
-         <CaretPos>632</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5777M\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
+        </__.13>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5777M\targetInit\readMe.txt</FileName>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.15>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.15>
+        <__.16>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\emptyTargetInit\Vector_SW_VLE - Z4.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>869</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\emptyTargetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>43</ScrollPos>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1679</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\emptyTargetInit\__start.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.19>
         <__.2>
          <BookmarkList></BookmarkList>
-         <CaretPos>2596</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\MPC5777M\__start.c</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>78</ScrollPos>
+         <CaretPos>5244</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N\mpc5775n.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>117</ScrollPos>
         </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5775N\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\NXP\MPC5775N\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\NXP\MPC5775N\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.22>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\TinaPerko\winIDEA_public\NXP\MPC5777M\targetInit\CPU2\CPUFile.c</FileName>
+         <FileName>K:\samplesRecompile\common\main.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>3</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>1063</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\MPC5777M\sample.lcf</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>6</ScrollPos>
+         <CaretPos>16887</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>518</ScrollPos>
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>5215</CaretPos>
+         <CaretPos>531974</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\MPC5777M\mpc5777m.c</FileName>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N\mpc5777m.h</FileName>
          <FileType>1</FileType>
-         <ScrollPos>118</ScrollPos>
+         <ScrollPos>18912</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
-         <CaretPos>5982</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\MPC5777M\Vector_SW_VLE - Z4.s</FileName>
+         <CaretPos>1104</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N\intc_sw_handlers.s</FileName>
          <FileType>0</FileType>
-         <ScrollPos>134</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.6>
         <__.7>
          <BookmarkList></BookmarkList>
-         <CaretPos>1972</CaretPos>
+         <CaretPos>2060</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\common\profilerC.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>49</ScrollPos>
+         <ScrollPos>13</ScrollPos>
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
-         <CaretPos>173</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\powerPC\MPC5777M\compilerDirectives.h</FileName>
+         <CaretPos>2973</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\powerPC\MPC5775N\Vector_SW_VLE - Z4.s</FileName>
          <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>15</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>777</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
-         <FileType>0</FileType>
+         <CaretPos>1258</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\TinaPerko\BB\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
        </EditorPersist>
@@ -184,7 +208,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296195584</RegVer>
+      <RegVer>1296658432</RegVer>
       <ANGUIData.0>
        <Filetime type="B">BPIHECCFJLNBMPAB</Filetime>
        <GUID type="B">IPMIPPJOCHKLANEGJHPBJBKLLINLFLDJ</GUID>
@@ -259,6 +283,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -272,7 +297,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -447,7 +472,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -567,6 +592,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -580,7 +606,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -755,7 +781,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -880,6 +906,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -893,7 +920,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1068,7 +1095,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1188,6 +1215,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1201,7 +1229,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1376,7 +1404,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1491,6 +1519,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1504,7 +1533,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1679,7 +1708,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1804,6 +1833,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1817,7 +1847,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -1992,7 +2022,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -2122,6 +2152,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2135,7 +2166,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -2310,7 +2341,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -2440,6 +2471,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2453,7 +2485,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -2628,7 +2660,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -2758,6 +2790,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2771,7 +2804,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -2946,7 +2979,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3066,6 +3099,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3079,7 +3113,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3254,7 +3288,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3369,6 +3403,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3382,7 +3417,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3557,7 +3592,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3672,6 +3707,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3685,7 +3721,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3860,7 +3896,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -3963,6 +3999,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3976,7 +4013,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -4151,7 +4188,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -4269,6 +4306,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -4282,7 +4320,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Statistics</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -4457,7 +4495,7 @@
            <CurrentApplicationIndex>0</CurrentApplicationIndex>
            <CurrentContextIndex>65535</CurrentContextIndex>
            <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle></ViewTitle>
+           <ViewTitle>Profiler Timeline</ViewTitle>
            <Pane>
             <Areas.areaAux>
              <Height>0</Height>
@@ -4524,21 +4562,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296195584</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\..\common\main.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>CPU2\CPUFile.c</RelativeFilePath>
+        <RelativeFilePath>Vector_SW_VLE - Z4.s</RelativeFilePath>
        </__.1>
        <__.2>
         <RelativeFilePath>test.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>CPU2\__start.c</RelativeFilePath>
+        <RelativeFilePath>__start.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -4562,58 +4600,54 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>16966</ViewId>
-        <ViewType>Project</ViewType>
+        <ViewId>10137</ViewId>
+        <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>16960</ViewId>
-        <ViewType>Memory</ViewType>
+        <ViewId>10135</ViewId>
+        <ViewType>SFR</ViewType>
        </__.1>
        <__.10>
-        <ViewId>16961</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.10>
-       <__.11>
-        <ViewId>97</ViewId>
+        <ViewId>10129</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.11>
+       </__.10>
        <__.2>
-        <ViewId>16959</ViewId>
-        <ViewType>SFR</ViewType>
+        <ViewId>10133</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>16937</ViewId>
-        <ViewType>Disassembly</ViewType>
+        <ViewId>10134</ViewId>
+        <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
-        <ViewId>16938</ViewId>
-        <ViewType>CoreRegisters</ViewType>
+        <ViewId>10131</ViewId>
+        <ViewType>Locals</ViewType>
        </__.4>
        <__.5>
-        <ViewId>94</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>10132</ViewId>
+        <ViewType>This</ViewType>
        </__.5>
        <__.6>
-        <ViewId>9017</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>10136</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.6>
        <__.7>
-        <ViewId>16940</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>10140</ViewId>
+        <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>16942</ViewId>
+        <ViewId>10141</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>16943</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>12422</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>16938</ViewId>
+        <ViewId>10134</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -4624,30 +4658,30 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>659</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>16937</ViewId>
+        <ViewId>10133</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>158</Width>
+          <Width>100</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>158</Width>
+          <Width>80</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>325</Width>
+          <Width>400</Width>
          </__.2>
         </ColumnData>
        </__.0>
@@ -4655,19 +4689,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>16942</ViewId>
+        <ViewId>10140</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>16943</ViewId>
+        <ViewId>10141</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>16960</ViewId>
+        <ViewId>10137</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -4713,14 +4747,14 @@
       </MemoryViews>
       <OtherViews>
        <__.0>
-        <ViewId>97</ViewId>
+        <ViewId>10129</ViewId>
         <ViewType>Symbols</ViewType>
        </__.0>
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>16961</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>-1</ViewId>
+        <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
          <IsVisible>false</IsVisible>
@@ -4728,46 +4762,59 @@
        </__.0>
        <__.1>
         <ViewId>-1</ViewId>
-        <ViewType>Output_Build</ViewType>
+        <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
          <IsVisible>false</IsVisible>
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>-1</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewId>12422</ViewId>
+        <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
          <IsVisible>false</IsVisible>
         </FindData>
        </__.2>
-       <__.3>
-        <ViewId>-1</ViewId>
-        <ViewType>Output_FindInFiles</ViewType>
-        <FindData>
-         <IsInReplaceMode>false</IsInReplaceMode>
-         <IsVisible>false</IsVisible>
-        </FindData>
-       </__.3>
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>16966</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>Source files</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
             <Name>Files</Name>
-            <Options>4</Options>
+            <Options>5</Options>
+            <ChildItems>
+             <__.0>
+              <Name>Info</Name>
+              <Options>4</Options>
+             </__.0>
+            </ChildItems>
            </__.0>
           </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Files [sample - Debug]</Name>
+            </__.1>
+            <__.2>
+             <Name>Source files</Name>
+            </__.2>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -4775,14 +4822,14 @@
        <__.0>
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
-        <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>16959</ViewId>
+        <RealTimeUpdate>true</RealTimeUpdate>
+        <ViewId>10135</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>200</Width>
+          <Width>229</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
@@ -4807,26 +4854,14 @@
         </ColumnData>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>MC_ME</SelectedItems>
+         <SelectedItems>SIUL2</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
-            <Name>e200z425,MPC5777M ED</Name>
-            <Options>1</Options>
-            <ChildItems>
-             <__.0>
-              <Name>MC_ME</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>PCTL248 ADCSAR_7 Peripheral Control Register</Name>
-                <Options>4</Options>
-               </__.0>
-              </ChildItems>
-             </__.0>
-            </ChildItems>
+            <Name>e200z4201n3,MPC5775N</Name>
+            <Options>4</Options>
            </__.0>
           </ChildItems>
          </RootItem>
@@ -4837,10 +4872,10 @@
              <Name></Name>
             </__.0>
             <__.1>
-             <Name>e200z425,MPC5777M ED</Name>
+             <Name>e200z4201n3,MPC5775N</Name>
             </__.1>
             <__.2>
-             <Name>MC_ME</Name>
+             <Name>SIUL2</Name>
             </__.2>
            </Segments>
           </__.0>
@@ -4850,7 +4885,7 @@
       </SfrViews>
       <VariableViews>
        <__.0>
-        <ViewId>94</ViewId>
+        <ViewId>10131</ViewId>
         <ViewType>Locals</ViewType>
         <ColumnData>
          <__.0>
@@ -4881,7 +4916,7 @@
         </ColumnData>
        </__.0>
        <__.1>
-        <ViewId>9017</ViewId>
+        <ViewId>10132</ViewId>
         <ViewType>This</ViewType>
         <ColumnData>
          <__.0>
@@ -4915,7 +4950,7 @@
       <WatchViews>
        <__.0>
         <Name>Watch</Name>
-        <ViewId>16940</ViewId>
+        <ViewId>10136</ViewId>
         <ViewType>CustomWatch</ViewType>
         <ColumnData>
          <__.0>
@@ -5132,17 +5167,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>45</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>248</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>16943</FocusedViewId>
+        <FocusedViewId>10141</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1132</Bottom>
-         <Left>-36</Left>
-         <Right>910</Right>
-         <Top>19</Top>
+         <Bottom>1018</Bottom>
+         <Left>2618</Left>
+         <Right>4069</Right>
+         <Top>414</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -5165,36 +5200,14 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.2</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
+             <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>16966</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16966</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>97</ViewId>
-              </__.1>
-             </Children>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>10129</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>
@@ -5213,7 +5226,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>16943</TopTabViewId>
+               <TopTabViewId>10141</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -5224,7 +5237,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16942</ViewId>
+                 <ViewId>10140</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>Document</DockType>
@@ -5234,7 +5247,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16943</ViewId>
+                 <ViewId>10141</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -5246,7 +5259,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>16961</ViewId>
+               <ViewId>12422</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -5267,7 +5280,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>16938</TopTabViewId>
+               <TopTabViewId>10134</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -5278,7 +5291,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16937</ViewId>
+                 <ViewId>10133</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -5288,7 +5301,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16938</ViewId>
+                 <ViewId>10134</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -5310,7 +5323,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>16959</ViewId>
+                 <ViewId>10135</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -5330,7 +5343,7 @@
                    <IsTabbed>false</IsTabbed>
                    <Orientation>Vertical</Orientation>
                    <TopTabViewId>-1</TopTabViewId>
-                   <ViewId>16940</ViewId>
+                   <ViewId>10136</ViewId>
                   </__.0>
                   <__.1>
                    <DockType>None</DockType>
@@ -5339,7 +5352,7 @@
                    <IsPinned>false</IsPinned>
                    <IsTabbed>true</IsTabbed>
                    <Orientation>None</Orientation>
-                   <TopTabViewId>9017</TopTabViewId>
+                   <TopTabViewId>10132</TopTabViewId>
                    <ViewId>-1</ViewId>
                    <Children>
                     <__.0>
@@ -5350,7 +5363,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>94</ViewId>
+                     <ViewId>10131</ViewId>
                     </__.0>
                     <__.1>
                      <DockType>View</DockType>
@@ -5360,7 +5373,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>9017</ViewId>
+                     <ViewId>10132</ViewId>
                     </__.1>
                    </Children>
                   </__.1>
@@ -5380,7 +5393,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>16960</ViewId>
+           <ViewId>10137</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -5400,28 +5413,28 @@
        <WholeWords>false</WholeWords>
        <Find>
         <__.0>
-         <V>testStepHighSwitchStatement();</V>
+         <V>bam_resetvector</V>
         </__.0>
         <__.1>
-         <V>testStepHighSwitchStatement</V>
+         <V>bam_rchw</V>
         </__.1>
         <__.2>
-         <V>bam_resetvector</V>
+         <V>005a</V>
         </__.2>
         <__.3>
-         <V>bam_rchw</V>
+         <V>const</V>
         </__.3>
         <__.4>
-         <V>005a</V>
+         <V>PSR</V>
         </__.4>
         <__.5>
-         <V>const</V>
+         <V>5A</V>
         </__.5>
         <__.6>
-         <V>PSR</V>
+         <V>bam_</V>
         </__.6>
         <__.7>
-         <V>5A</V>
+         <V>memw</V>
         </__.7>
        </Find>
       </FindInFilesDialogData>
@@ -5442,28 +5455,28 @@
         <__.10>
          <Items>
           <__.0>
-           <V>0xfcdfb0</V>
+           <V>0xfc000</V>
           </__.0>
           <__.1>
-           <V>0xfc000</V>
+           <V>0xc000000</V>
           </__.1>
           <__.2>
-           <V>0xc000000</V>
+           <V>0xd000000</V>
           </__.2>
           <__.3>
-           <V>0xd000000</V>
+           <V>0xc800000</V>
           </__.3>
           <__.4>
-           <V>0xc800000</V>
+           <V>0x4000000</V>
           </__.4>
           <__.5>
-           <V>0x4000000</V>
+           <V>0x1750000</V>
           </__.5>
           <__.6>
-           <V>0x1750000</V>
+           <V>0x1740000</V>
           </__.6>
           <__.7>
-           <V>0x1740000</V>
+           <V>0x1400000</V>
           </__.7>
          </Items>
         </__.10>
@@ -5695,18 +5708,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -5720,14 +5727,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -5836,6 +5841,650 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Configuration>
+        <SMPU>
+         <ValidOnly>true</ValidOnly>
+        </SMPU>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0}}</Instance>
+       <Type>PowerPCSoC</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+     <PluginInstance.1>
+      <InstanceData>
+       <Configuration>
+        <CacheView>
+         <DirtyOnly>false</DirtyOnly>
+         <LockedOnly>false</LockedOnly>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <ShowData>false</ShowData>
+         <ValidOnly>false</ValidOnly>
+        </CacheView>
+        <MMUView>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <Verbose_._view>true</Verbose_._view>
+        </MMUView>
+        <MPUView>
+         <ValidOnly>true</ValidOnly>
+        </MPUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <FreezeCountersOnEnabledConditionOrEvent>false</FreezeCountersOnEnabledConditionOrEvent>
+         <TimeBaseSelector_Gen1>TB63 (TBL31)</TimeBaseSelector_Gen1>
+         <TimeBaseTransitionEventEnable_Gen1>false</TimeBaseTransitionEventEnable_Gen1>
+         <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+         <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+         <Counters>
+          <__.0>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.0>
+          <__.1>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.1>
+          <__.2>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.2>
+          <__.3>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.3>
+         </Counters>
+         <TriggerOffSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOffSelect_Gen2>
+         <TriggerOnSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOnSelect_Gen2>
+        </PMUView>
+        <TLB1View>
+         <Verbose_._view>true</Verbose_._view>
+         <ViewProcess>true</ViewProcess>
+        </TLB1View>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:0}}</Instance>
+       <Type>PowerPC</Type>
+      </InstanceInfo>
+     </PluginInstance.1>
+     <PluginInstance.2>
+      <InstanceData>
+       <Configuration>
+        <CacheView>
+         <DirtyOnly>false</DirtyOnly>
+         <LockedOnly>false</LockedOnly>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <ShowData>false</ShowData>
+         <ValidOnly>false</ValidOnly>
+        </CacheView>
+        <MMUView>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <Verbose_._view>true</Verbose_._view>
+        </MMUView>
+        <MPUView>
+         <ValidOnly>true</ValidOnly>
+        </MPUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <FreezeCountersOnEnabledConditionOrEvent>false</FreezeCountersOnEnabledConditionOrEvent>
+         <TimeBaseSelector_Gen1>TB63 (TBL31)</TimeBaseSelector_Gen1>
+         <TimeBaseTransitionEventEnable_Gen1>false</TimeBaseTransitionEventEnable_Gen1>
+         <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+         <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+         <Counters>
+          <__.0>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.0>
+          <__.1>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.1>
+          <__.2>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.2>
+          <__.3>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.3>
+         </Counters>
+         <TriggerOffSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOffSelect_Gen2>
+         <TriggerOnSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOnSelect_Gen2>
+        </PMUView>
+        <TLB1View>
+         <Verbose_._view>true</Verbose_._view>
+         <ViewProcess>true</ViewProcess>
+        </TLB1View>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:1}}</Instance>
+       <Type>PowerPC</Type>
+      </InstanceInfo>
+     </PluginInstance.2>
+     <PluginInstance.3>
+      <InstanceData>
+       <Configuration>
+        <CacheView>
+         <DirtyOnly>false</DirtyOnly>
+         <LockedOnly>false</LockedOnly>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <ShowData>false</ShowData>
+         <ValidOnly>false</ValidOnly>
+        </CacheView>
+        <MMUView>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <Verbose_._view>true</Verbose_._view>
+        </MMUView>
+        <MPUView>
+         <ValidOnly>true</ValidOnly>
+        </MPUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <FreezeCountersOnEnabledConditionOrEvent>false</FreezeCountersOnEnabledConditionOrEvent>
+         <TimeBaseSelector_Gen1>TB63 (TBL31)</TimeBaseSelector_Gen1>
+         <TimeBaseTransitionEventEnable_Gen1>false</TimeBaseTransitionEventEnable_Gen1>
+         <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+         <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+         <Counters>
+          <__.0>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.0>
+          <__.1>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.1>
+          <__.2>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.2>
+          <__.3>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.3>
+         </Counters>
+         <TriggerOffSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOffSelect_Gen2>
+         <TriggerOnSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOnSelect_Gen2>
+        </PMUView>
+        <TLB1View>
+         <Verbose_._view>true</Verbose_._view>
+         <ViewProcess>true</ViewProcess>
+        </TLB1View>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:2}}</Instance>
+       <Type>PowerPC</Type>
+      </InstanceInfo>
+     </PluginInstance.3>
+     <PluginInstance.4>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.4>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>
@@ -5876,7 +6525,7 @@
            <ID>0</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>693</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -5915,7 +6564,7 @@
            <ID>1</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>693</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -5954,7 +6603,7 @@
            <ID>2</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>693</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -5993,7 +6642,7 @@
            <ID>3</ID>
            <ProcessorState>All</ProcessorState>
            <Threshold_Gen1>0</Threshold_Gen1>
-           <ThresholdMultiple_Gen1>693</ThresholdMultiple_Gen1>
+           <ThresholdMultiple_Gen1>525</ThresholdMultiple_Gen1>
            <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
            <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
            <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
@@ -6046,6 +6695,410 @@
        </Configuration>
       </Plugin>
      </_293F74B2-4EFC-476C-98FD-151D034A8E6B>
+     <_293F74B2-4EFC-476C-98FD-151D034A8E6B1>
+      <Plugin>
+       <Configuration>
+        <CacheView>
+         <DirtyOnly>false</DirtyOnly>
+         <LockedOnly>false</LockedOnly>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <ShowData>false</ShowData>
+         <ValidOnly>false</ValidOnly>
+        </CacheView>
+        <MMUView>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <Verbose_._view>true</Verbose_._view>
+        </MMUView>
+        <MPUView>
+         <ValidOnly>true</ValidOnly>
+        </MPUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <FreezeCountersOnEnabledConditionOrEvent>false</FreezeCountersOnEnabledConditionOrEvent>
+         <TimeBaseSelector_Gen1>TB63 (TBL31)</TimeBaseSelector_Gen1>
+         <TimeBaseTransitionEventEnable_Gen1>false</TimeBaseTransitionEventEnable_Gen1>
+         <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+         <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+         <Counters>
+          <__.0>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.0>
+          <__.1>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.1>
+          <__.2>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.2>
+          <__.3>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.3>
+         </Counters>
+         <TriggerOffSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOffSelect_Gen2>
+         <TriggerOnSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOnSelect_Gen2>
+        </PMUView>
+        <TLB1View>
+         <Verbose_._view>true</Verbose_._view>
+         <ViewProcess>true</ViewProcess>
+        </TLB1View>
+       </Configuration>
+      </Plugin>
+     </_293F74B2-4EFC-476C-98FD-151D034A8E6B1>
+     <_293F74B2-4EFC-476C-98FD-151D034A8E6B2>
+      <Plugin>
+       <Configuration>
+        <CacheView>
+         <DirtyOnly>false</DirtyOnly>
+         <LockedOnly>false</LockedOnly>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <ShowData>false</ShowData>
+         <ValidOnly>false</ValidOnly>
+        </CacheView>
+        <MMUView>
+         <OrganizeAsTree>true</OrganizeAsTree>
+         <Verbose_._view>true</Verbose_._view>
+        </MMUView>
+        <MPUView>
+         <ValidOnly>true</ValidOnly>
+        </MPUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <FreezeCountersOnEnabledConditionOrEvent>false</FreezeCountersOnEnabledConditionOrEvent>
+         <TimeBaseSelector_Gen1>TB63 (TBL31)</TimeBaseSelector_Gen1>
+         <TimeBaseTransitionEventEnable_Gen1>false</TimeBaseTransitionEventEnable_Gen1>
+         <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+         <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+         <Counters>
+          <__.0>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.0>
+          <__.1>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.1>
+          <__.2>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.2>
+          <__.3>
+           <ConditionEnable>false</ConditionEnable>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <ProcessorState>All</ProcessorState>
+           <Threshold_Gen1>0</Threshold_Gen1>
+           <ThresholdMultiple_Gen1>571</ThresholdMultiple_Gen1>
+           <TriggerOffControl_Gen1>Disabled</TriggerOffControl_Gen1>
+           <TriggerOffControl_Gen2>Disabled</TriggerOffControl_Gen2>
+           <TriggerOnControl_Gen1>Disabled</TriggerOnControl_Gen1>
+           <TriggerOnControl_Gen2>Disabled</TriggerOnControl_Gen2>
+           <WatchpointPeriodicity>2_31</WatchpointPeriodicity>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+           <TriggerOffSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOffSelect_Gen1>
+           <TriggerOffSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOffSelect_Gen2>
+           <TriggerOnSelect_Gen1>
+            <HardwareSignal>p_devnt_out0</HardwareSignal>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+            <ProcessorEvent>NextInterrupt</ProcessorEvent>
+            <Watchpoint00_15>IAC1</Watchpoint00_15>
+            <Watchpoint16_31>IRPT</Watchpoint16_31>
+           </TriggerOnSelect_Gen1>
+           <TriggerOnSelect_Gen2>
+            <Input>p_pmcn_qual</Input>
+            <PMCxOV>PMC0 overflow</PMCxOV>
+           </TriggerOnSelect_Gen2>
+          </__.3>
+         </Counters>
+         <TriggerOffSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOffSelect_Gen2>
+         <TriggerOnSelect_Gen2>
+          <HardwareSignal>p_pmc0_qual</HardwareSignal>
+          <ProcessorEvent>NextInterrupt</ProcessorEvent>
+          <Watchpoint00_15>IAC1</Watchpoint00_15>
+          <Watchpoint16_31>IRPT</Watchpoint16_31>
+         </TriggerOnSelect_Gen2>
+        </PMUView>
+        <TLB1View>
+         <Verbose_._view>true</Verbose_._view>
+         <ViewProcess>true</ViewProcess>
+        </TLB1View>
+       </Configuration>
+      </Plugin>
+     </_293F74B2-4EFC-476C-98FD-151D034A8E6B2>
      <_6276EEB2-938B-4BAD-A0A1-5147D419DE31>
       <Plugin>
        <Configuration>

@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296248832</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,14 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296248832</RegVer>
+      <RegVer>1296658432</RegVer>
+      <WorkspaceOptions>
+       <SessionDumpFilter>
+        <Enabled>false</Enabled>
+        <SampleRangeBegin>0</SampleRangeBegin>
+        <SampleRangeEnd>0</SampleRangeEnd>
+       </SessionDumpFilter>
+      </WorkspaceOptions>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -33,7 +40,8 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296248832</RegVer>
+    <RegVer>1296658432</RegVer>
+    <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Environment>
      <Breakpoints>
       <DisplayBPMessage>0</DisplayBPMessage>
@@ -101,14 +109,6 @@
       <Parser>
        <ExpressionMemoryAccessOperator>58</ExpressionMemoryAccessOperator>
       </Parser>
-      <SFR>
-       <ExternalFormat>CMSIS-SVD</ExternalFormat>
-       <ExternalPath></ExternalPath>
-       <InternalCustom></InternalCustom>
-       <InternalSource>iOPEN</InternalSource>
-       <UseExternal>false</UseExternal>
-       <UseInternal>true</UseInternal>
-      </SFR>
       <StackUsage>
        <End></End>
        <Pattern>0xCC</Pattern>
@@ -169,7 +169,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.51</winIDEA>
+      <winIDEA>Build 9.21.151</winIDEA>
      </Info>
      <Options>
       <Search>
@@ -227,6 +227,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -251,6 +254,27 @@
       </Processes>
      </Debug>
     </Op_System>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Config>
+        <AutoStart>false</AutoStart>
+        <Port>5555</Port>
+        <TimestampUnit>100us</TimestampUnit>
+        <TraceToXCP>
+         <A2LPath></A2LPath>
+         <Enable>false</Enable>
+         <SendAlways>true</SendAlways>
+         <TrdPath></TrdPath>
+        </TraceToXCP>
+       </Config>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>XCP</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
       <Plugin>
@@ -277,10 +301,10 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296248832</RegVer>
+    <RegVer>1296658432</RegVer>
     <Project_Local>
      <Project.0>
-      <DefaultTargetName>iC6000_SPT - Debug</DefaultTargetName>
+      <DefaultTargetName>Sample_SPT - Debug</DefaultTargetName>
      </Project.0>
     </Project_Local>
    </REG_ROOT>
@@ -292,7 +316,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296248832</RegVer>
+    <RegVer>1296658432</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -1632,6 +1656,9 @@
         </Cfg>
        </FixedFNode.1>
       </FNet>
+      <Op>
+       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+      </Op>
       <Op_BPs>
        <BPs>
         <Core0>
@@ -8656,6 +8683,154 @@
        </TriCore>
       </Trace>
       <UMI1>
+       <Devices>
+        <Devices>
+         <__.0>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>RaceRunner Ultra Code 1952 KB</Device>
+          <DeviceAddress>0xF98000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>Freescale</Manufacturer>
+          <Name>Freescale RaceRunner Ultra Code 1952 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.0>
+         <__.1>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>RaceRunner Ultra Data 64 KB</Device>
+          <DeviceAddress>0x800000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>Freescale</Manufacturer>
+          <Name>Freescale RaceRunner Ultra Data 64 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.1>
+         <__.2>
+          <AllowDownloadOnly>true</AllowDownloadOnly>
+          <AllowErase>false</AllowErase>
+          <CoreIndex>4294967295</CoreIndex>
+          <Device>UTEST 16 KB</Device>
+          <DeviceAddress>0x400000</DeviceAddress>
+          <DeviceType>Parallel</DeviceType>
+          <Enabled>false</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>Freescale/ST</Manufacturer>
+          <Name>Freescale/ST UTEST 16 KB</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
+          <SafeMode>Auto</SafeMode>
+          <Timeout>60</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.2>
+        </Devices>
+       </Devices>
       </UMI1>
      </Data>
     </HServerData>

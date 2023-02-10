@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -32,7 +32,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296244736</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <ToolbarData>
       <Toolbars.Debug>
@@ -54,29 +54,25 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
-        <ViewType>Project</ViewType>
-       </__.0>
-       <__.1>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.1>
-       <__.2>
-        <ViewId>2</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.2>
-       <__.3>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
-       </__.3>
-       <__.4>
+       </__.0>
+       <__.1>
         <ViewId>4</ViewId>
         <ViewType>This</ViewType>
-       </__.4>
-       <__.5>
+       </__.1>
+       <__.2>
         <ViewId>5</ViewId>
         <ViewType>CustomWatch</ViewType>
-       </__.5>
+       </__.2>
+       <__.3>
+        <ViewId>2</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.4>
       </AllViewBaseData>
       <OtherViews>
        <__.0>
@@ -96,7 +92,7 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
@@ -246,17 +242,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>12</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>5</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1190</Bottom>
-         <Left>193</Left>
-         <Right>1217</Right>
-         <Top>422</Top>
+         <Bottom>868</Bottom>
+         <Left>100</Left>
+         <Right>1124</Right>
+         <Top>100</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -279,36 +275,14 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.25</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
+             <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>1</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>0</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>1</ViewId>
-              </__.1>
-             </Children>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>1</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>
@@ -405,10 +379,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -422,7 +392,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
@@ -441,18 +411,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>true</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -466,14 +430,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>

@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296244736</RegVer>
+   <RegVer>1296658432</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -75,7 +75,7 @@
      </mbMake>
     </GlobalOptions>
     <Project.0>
-     <DefaultTargetName>iC6000_SPT - Debug</DefaultTargetName>
+     <DefaultTargetName>Sample_SPT - Debug</DefaultTargetName>
      <FilterName>No filter</FilterName>
      <ProjectName></ProjectName>
      <AdvancedLinkerOptions>
@@ -90,7 +90,7 @@
       <UseExternalFilter>False</UseExternalFilter>
      </AdvancedLinkerOptions>
      <Target.0>
-      <TargetName>iC6000_SPT - Debug</TargetName>
+      <TargetName>Sample_SPT - Debug</TargetName>
       <FileOptios>
        <AssemblerOptions>$(EDNAME)</AssemblerOptions>
        <CompilerOptions>$(EDNAME)</CompilerOptions>

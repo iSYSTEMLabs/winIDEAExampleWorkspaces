@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296248832</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296248832</RegVer>
+      <RegVer>1296658432</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -32,7 +32,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296248832</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <ToolbarData>
       <Toolbars.Debug>
@@ -54,48 +54,52 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>12</ViewId>
+        <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>4</ViewId>
-        <ViewType>This</ViewType>
-       </__.1>
-       <__.10>
         <ViewId>11</ViewId>
         <ViewType>Memory</ViewType>
-       </__.10>
-       <__.2>
-        <ViewId>5</ViewId>
-        <ViewType>CustomWatch</ViewType>
-       </__.2>
-       <__.3>
-        <ViewId>2</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.3>
-       <__.4>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.4>
-       <__.5>
-        <ViewId>6</ViewId>
-        <ViewType>Output_Tools</ViewType>
-       </__.5>
-       <__.6>
+       </__.1>
+       <__.10>
         <ViewId>7</ViewId>
         <ViewType>Output_Build</ViewType>
-       </__.6>
-       <__.7>
-        <ViewId>8</ViewId>
-        <ViewType>Disassembly</ViewType>
-       </__.7>
-       <__.8>
-        <ViewId>9</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.8>
-       <__.9>
+       </__.10>
+       <__.11>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.11>
+       <__.2>
         <ViewId>10</ViewId>
         <ViewType>SFR</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>8</ViewId>
+        <ViewType>Disassembly</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>9</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>4</ViewId>
+        <ViewType>This</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>5</ViewId>
+        <ViewType>CustomWatch</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>2</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.8>
+       <__.9>
+        <ViewId>6</ViewId>
+        <ViewType>Output_Tools</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -112,7 +116,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>690</Width>
+          <Width>946</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -158,7 +162,7 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x50</Address>
+           <Address>0x0</Address>
            <AddressOffset>0x0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
@@ -221,24 +225,18 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>12</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>Files [iC6000_SPT - Debug]</SelectedItems>
+         <SelectedItems>Files [Sample_SPT - Debug]</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
           <ChildItems>
            <__.0>
             <Name>Files</Name>
-            <Options>5</Options>
-            <ChildItems>
-             <__.0>
-              <Name>Source files</Name>
-              <Options>4</Options>
-             </__.0>
-            </ChildItems>
+            <Options>4</Options>
            </__.0>
           </ChildItems>
          </RootItem>
@@ -249,7 +247,7 @@
              <Name></Name>
             </__.0>
             <__.1>
-             <Name>Files [iC6000_SPT - Debug]</Name>
+             <Name>Files [Sample_SPT - Debug]</Name>
             </__.1>
            </Segments>
           </__.0>
@@ -439,10 +437,10 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>64</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>-1</FocusedViewId>
+        <FocusedViewId>1</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -472,14 +470,36 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
+             <DockType>None</DockType>
              <Extent>0.2</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
+             <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>1</ViewId>
+             <TopTabViewId>1</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>1</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>12</ViewId>
+              </__.1>
+             </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
@@ -709,7 +729,7 @@
        <DocumentTabNumLines>1</DocumentTabNumLines>
        <iConnectLimitClients>false</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
@@ -728,18 +748,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>true</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -753,14 +767,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>

@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296125952</RegVer>
+      <RegVer>1296658432</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -115,6 +115,22 @@
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.2>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC399XE\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC399XE\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
@@ -184,7 +200,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296125952</RegVer>
+      <RegVer>1296658432</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -214,6 +230,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -475,6 +492,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -736,6 +754,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -997,6 +1016,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1258,6 +1278,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1519,6 +1540,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1780,6 +1802,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2041,6 +2064,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2302,6 +2326,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2563,6 +2588,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2824,6 +2850,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3085,6 +3112,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3346,6 +3374,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3589,7 +3618,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296125952</RegVer>
+    <RegVer>1296658432</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3634,10 +3663,6 @@
         <ViewId>10161</ViewId>
         <ViewType>SFR</ViewType>
        </__.1>
-       <__.10>
-        <ViewId>232</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.10>
        <__.2>
         <ViewId>10159</ViewId>
         <ViewType>Disassembly</ViewType>
@@ -3667,8 +3692,8 @@
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>228</ViewId>
-        <ViewType>Output</ViewType>
+        <ViewId>232</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -3803,14 +3828,6 @@
          <IsVisible>false</IsVisible>
         </FindData>
        </__.2>
-       <__.3>
-        <ViewId>228</ViewId>
-        <ViewType>Output</ViewType>
-        <FindData>
-         <IsInReplaceMode>false</IsInReplaceMode>
-         <IsVisible>false</IsVisible>
-        </FindData>
-       </__.3>
       </OutputViews>
       <ProjectViews>
        <__.0>
@@ -4193,17 +4210,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>42</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>150</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>10162</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>807</Bottom>
-         <Left>916</Left>
-         <Right>1940</Right>
-         <Top>83</Top>
+         <Bottom>1018</Bottom>
+         <Left>2618</Left>
+         <Right>4069</Right>
+         <Top>414</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4238,54 +4255,32 @@
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
+             <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>10167</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
-               <Extent>0.7</Extent>
-               <IsDocumentPane>true</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>10167</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10166</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10167</ViewId>
-                </__.1>
-               </Children>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>0.3</Extent>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>Vertical</Orientation>
+               <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>228</ViewId>
+               <ViewId>10166</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>10167</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -4689,18 +4684,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>false</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>false</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>false</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4714,14 +4703,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -4773,10 +4760,76 @@
        <RootItem>
         <Name></Name>
         <Options>0</Options>
+        <ChildItems>
+         <__.0>
+          <Name>e200z425, MPC5777M_ED</Name>
+          <Options>4</Options>
+         </__.0>
+        </ChildItems>
        </RootItem>
+       <SelectedItemPaths>
+        <__.0>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M0, Zephyr</Name>
+          </__.1>
+          <__.2>
+           <Name>SYSCTRLA System control</Name>
+          </__.2>
+          <__.3>
+           <Name>VRGL_GPB</Name>
+          </__.3>
+         </Segments>
+        </__.0>
+        <__.1>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M0, Zephyr</Name>
+          </__.1>
+          <__.2>
+           <Name>GPIO GPIO Registers</Name>
+          </__.2>
+         </Segments>
+        </__.1>
+        <__.2>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M0, Zephyr</Name>
+          </__.1>
+          <__.2>
+           <Name>GPIO GPIO Registers</Name>
+          </__.2>
+          <__.3>
+           <Name>GPENA</Name>
+          </__.3>
+         </Segments>
+        </__.2>
+       </SelectedItemPaths>
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>
