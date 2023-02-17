@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296420864</RegVer>
+      <RegVer>1296670720</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -101,11 +101,11 @@
         </__.18>
         <__.19>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>1194</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\main.c</FileName>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\MCU_0_R5\CPUFile.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>6</ScrollPos>
         </__.19>
         <__.2>
          <BookmarkList></BookmarkList>
@@ -117,12 +117,36 @@
         </__.2>
         <__.20>
          <BookmarkList></BookmarkList>
+         <CaretPos>2197</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>149</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>493</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\MCU_0_R5\startup0.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\bbsamples\Distribution\winIDEA_public\TI\TDA4VM_RAM_GCC\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.20>
+        </__.23>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>498</CaretPos>
@@ -192,7 +216,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296420864</RegVer>
+      <RegVer>1296670720</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -204,21 +228,21 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296420864</RegVer>
+    <RegVer>1296670720</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>MCU_0_R5\startup0.s</RelativeFilePath>
+        <RelativeFilePath>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\test.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>test.c</RelativeFilePath>
+        <RelativeFilePath>MCU_0_R5\CPUFile.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\MCU_0_R5\startup0.s</RelativeFilePath>
+        <RelativeFilePath>test.c</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>E:\Venus\BlueBox\fitIDEA\samples\public\TDA4VM_RAM_GCC\targetInit\test.c</RelativeFilePath>
+        <RelativeFilePath>MCU_0_R5\startup0.s</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -242,7 +266,7 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>53</ViewId>
+        <ViewId>61</ViewId>
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
@@ -475,7 +499,7 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>53</ViewId>
+        <ViewId>61</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
@@ -493,6 +517,65 @@
         </TreeState>
        </__.0>
       </ProjectViews>
+      <SessionExplorerViews>
+       <__.0>
+        <ViewId>-1</ViewId>
+        <ViewType>SessionExplorer</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>150</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>220</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>140</Width>
+         </__.2>
+        </ColumnData>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems>MCU</SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>Processes</Name>
+            <Options>4</Options>
+           </__.0>
+           <__.1>
+            <Name>MCU</Name>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>MCU_0_R5</Name>
+              <Options>4</Options>
+             </__.0>
+            </ChildItems>
+           </__.1>
+          </ChildItems>
+         </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>MCU</Name>
+            </__.1>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
+        </TreeState>
+       </__.0>
+      </SessionExplorerViews>
       <SfrViews>
        <__.0>
         <CustomSfrName></CustomSfrName>
@@ -689,17 +772,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>23</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>49</FocusedViewId>
+        <FocusedViewId>1</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1138</Bottom>
-         <Left>1930</Left>
-         <Right>3810</Right>
-         <Top>115</Top>
+         <Bottom>1083</Bottom>
+         <Left>65</Left>
+         <Right>1871</Right>
+         <Top>34</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -739,7 +822,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>53</ViewId>
+               <ViewId>61</ViewId>
               </__.0>
               <__.1>
                <DockType>View</DockType>
@@ -803,7 +886,7 @@
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
+             <Orientation>None</Orientation>
              <TopTabViewId>-1</TopTabViewId>
              <ViewId>49</ViewId>
             </__.0>
@@ -944,9 +1027,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
@@ -965,18 +1045,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>true</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -990,14 +1064,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -1053,6 +1125,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

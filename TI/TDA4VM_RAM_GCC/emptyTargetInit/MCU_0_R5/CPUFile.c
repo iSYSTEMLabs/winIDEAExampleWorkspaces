@@ -20,22 +20,26 @@ void execute_PD_change(unsigned int pd_go){
   while(PSC0_PTSTAT & (1 << pd_go));  // Wait for completion
 }
 
+void execute_WKUP_PD_change(unsigned int pd_go){
+  WKUP_PSC0_PTCMD |= (1 << pd_go);         // Set the GO register             
+  while(WKUP_PSC0_PTSTAT & (1 << pd_go));  // Wait for completion
+}
+
 void enable_MCU_1_R5_Core(void){
-  // By debug initialization this core is already up and currently in the debug halted state
+  // By debug initialization this core are already up and currently in the debug halted state
   // This function resets the core, applies new bootaddress and re-asserts the reset
   
   unsigned long long bootAddr = (unsigned int) &_bootAddrMCU_1_R5;
   CTRLMMR_MCUSEC_CLSTR0_CORE1_BOOTVECT_HI = bootAddr >> 32;
   CTRLMMR_MCUSEC_CLSTR0_CORE1_BOOTVECT_LO = bootAddr;
   
-  // Disable module and assert reset to start from the above mentioned boot addresses
-  WKUP_PSC0_MDCTL_LPSC_1_R5_1 = MODULE_NEXT_DISABLE; 
-  execute_PD_change(PD_MCU_R5_CORE1_GO);
+  // Assert reset to start from the above mentioned boot addresses
+  WKUP_PSC0_MDCTL_LPSC_1_R5_1 &= ~MODULE_LRSTZ; 
+  execute_WKUP_PD_change(PD_MCU_R5_CORE1_GO);
   
-  // Enable modules and bring cores out of reset from the correct boot addresses
+  // Enable modules and bring core out of reset from the correct boot addresses
   WKUP_PSC0_MDCTL_LPSC_1_R5_1 |= (MODULE_NEXT_ENABLE | MODULE_LRSTZ);  
-  execute_PD_change(PD_MCU_R5_CORE1_GO);
-  
+  execute_WKUP_PD_change(PD_MCU_R5_CORE1_GO);
   // Core is running now
 }
 
