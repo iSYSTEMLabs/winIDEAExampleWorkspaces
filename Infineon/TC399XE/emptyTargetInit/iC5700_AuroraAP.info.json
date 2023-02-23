@@ -1,0 +1,7 @@
+{
+  "Info":
+  {
+    "Description": "Basic winIDEA sample.\nWorkspace can be used with: iC5000, iC5700, iC5700+AP\nDAP protocol is used for debugging.",
+    "HW": "iC5000,iC5700,iC5700+AP"
+  }
+}
