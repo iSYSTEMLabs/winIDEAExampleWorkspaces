@@ -1,0 +1,6 @@
+{
+  "Info": {
+    "Description": "Basic winIDEA sample.\nWorkspace can be used with: iC5700+AP\nJTAG protocol is used for debugging.",
+    "HW": ""
+  }
+}

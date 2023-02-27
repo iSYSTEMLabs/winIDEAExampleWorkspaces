@@ -1,0 +1,6 @@
+{
+  "Info": {
+    "Description": "winIDEA multi-core sample with initialization of clock, timer and interrupt.\nWorkspace can be used with: iC5700\nDAP protocol is used for debugging.",
+    "HW": ""
+  }
+}
