@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296166912</RegVer>
+      <RegVer>1296683008</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,14 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296166912</RegVer>
+      <RegVer>1296683008</RegVer>
+      <WorkspaceOptions>
+       <SessionDumpFilter>
+        <Enabled>false</Enabled>
+        <SampleRangeBegin>0</SampleRangeBegin>
+        <SampleRangeEnd>0</SampleRangeEnd>
+       </SessionDumpFilter>
+      </WorkspaceOptions>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -33,15 +40,19 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296166912</RegVer>
+    <RegVer>1296683008</RegVer>
+    <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
       <Enterprise>EBA</Enterprise>
+      <Client>
+       <Type>Demo</Type>
+       <Demo>
+        <Timeout>0</Timeout>
+       </Demo>
+      </Client>
      </Floating>
-     <Sentinel>
-      <Address></Address>
-     </Sentinel>
     </Cfg_License>
     <Cfg_System>
      <Debug>
@@ -65,6 +76,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -108,6 +122,7 @@
          </rcX_Config>
          <uCConfig>
           <AutoRefresh>true</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
           <VersionOfuC>-858993460</VersionOfuC>
          </uCConfig>
          <Xen_Config>
@@ -160,6 +175,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -169,6 +185,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -187,10 +204,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -225,6 +238,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -268,6 +284,7 @@
          </rcX_Config>
          <uCConfig>
           <AutoRefresh>true</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
           <VersionOfuC>-858993460</VersionOfuC>
          </uCConfig>
          <Xen_Config>
@@ -320,6 +337,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -329,6 +347,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -347,10 +366,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -385,6 +400,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -428,6 +446,7 @@
          </rcX_Config>
          <uCConfig>
           <AutoRefresh>true</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
           <VersionOfuC>-858993460</VersionOfuC>
          </uCConfig>
          <Xen_Config>
@@ -480,6 +499,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -489,6 +509,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -507,10 +528,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -545,6 +562,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -588,6 +608,7 @@
          </rcX_Config>
          <uCConfig>
           <AutoRefresh>true</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
           <VersionOfuC>-858993460</VersionOfuC>
          </uCConfig>
          <Xen_Config>
@@ -640,6 +661,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -649,6 +671,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -667,10 +690,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -705,6 +724,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -748,6 +770,7 @@
          </rcX_Config>
          <uCConfig>
           <AutoRefresh>true</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
           <VersionOfuC>-858993460</VersionOfuC>
          </uCConfig>
          <Xen_Config>
@@ -800,6 +823,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -809,6 +833,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -827,10 +852,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -891,6 +912,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -900,6 +922,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -918,10 +941,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -969,6 +988,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -978,6 +998,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -996,10 +1017,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -1047,6 +1064,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -1056,6 +1074,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -1074,10 +1093,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -1125,6 +1140,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -1134,6 +1150,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -1152,10 +1169,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -1203,6 +1216,7 @@
              <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
              <InsertInlinedFunctions>false</InsertInlinedFunctions>
              <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
              <LoadDebugSections>true</LoadDebugSections>
              <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
              <LoadSymbolTableItems>None</LoadSymbolTableItems>
@@ -1212,6 +1226,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -1230,10 +1245,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -1364,8 +1375,6 @@
        <DisableIRQ_RunUntilReturn>true</DisableIRQ_RunUntilReturn>
        <DisableIRQ_Step>true</DisableIRQ_Step>
        <DisableIRQ_StepOver>true</DisableIRQ_StepOver>
-       <OnlyOneBPPerSourceLine>true</OnlyOneBPPerSourceLine>
-       <ReevaluateBPsAfterNewPartition>false</ReevaluateBPsAfterNewPartition>
        <ReserveBP>true</ReserveBP>
        <ResetConditionalBPCountWhenStop>false</ResetConditionalBPCountWhenStop>
       </Debugging>
@@ -1425,14 +1434,6 @@
       <Parser>
        <ExpressionMemoryAccessOperator>58</ExpressionMemoryAccessOperator>
       </Parser>
-      <SFR>
-       <ExternalFormat>CMSIS-SVD</ExternalFormat>
-       <ExternalPath></ExternalPath>
-       <InternalCustom></InternalCustom>
-       <InternalSource>iOPEN</InternalSource>
-       <UseExternal>false</UseExternal>
-       <UseInternal>true</UseInternal>
-      </SFR>
       <StackUsage>
        <End></End>
        <Pattern>0xCC</Pattern>
@@ -1493,8 +1494,18 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.31</winIDEA>
+      <winIDEA>Build 9.21.157</winIDEA>
      </Info>
+     <Options>
+      <Environment>
+       <iConnectLimitClients>false</iConnectLimitClients>
+       <iConnectLimitNum>1</iConnectLimitNum>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+      </Environment>
+      <Search>
+       <ExtFolderIgnoreFilter>*.elf,*.bin,*.o*</ExtFolderIgnoreFilter>
+      </Search>
+     </Options>
      <Test>
       <CatchUncaughtExceptions>false</CatchUncaughtExceptions>
       <CheckPointerAssignType>true</CheckPointerAssignType>
@@ -1546,6 +1557,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -1567,6 +1581,563 @@
       </Processes>
      </Debug>
     </Op_System>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:0}}</Instance>
+       <Type>CortexA</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+     <PluginInstance.1>
+      <InstanceData>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:1}}</Instance>
+       <Type>CortexA</Type>
+      </InstanceInfo>
+     </PluginInstance.1>
+     <PluginInstance.2>
+      <InstanceData>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:2}}</Instance>
+       <Type>CortexA</Type>
+      </InstanceInfo>
+     </PluginInstance.2>
+     <PluginInstance.3>
+      <InstanceData>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:3}}</Instance>
+       <Type>CortexA</Type>
+      </InstanceInfo>
+     </PluginInstance.3>
+     <PluginInstance.4>
+      <InstanceData>
+       <Config>
+        <AutoStart>false</AutoStart>
+        <Port>5555</Port>
+        <TimestampUnit>100us</TimestampUnit>
+        <TraceToXCP>
+         <A2LPath></A2LPath>
+         <Enable>false</Enable>
+         <SendAlways>true</SendAlways>
+         <TrdPath></TrdPath>
+        </TraceToXCP>
+       </Config>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>XCP</Type>
+      </InstanceInfo>
+     </PluginInstance.4>
+    </PluginData>
     <Plugins>
      <_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF>
       <Plugin>
@@ -1698,22 +2269,408 @@
        </Configuration>
       </Plugin>
      </_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF>
-     <_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
+     <_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF1>
       <Plugin>
-       <Data>
-        <AutoRefresh>true</AutoRefresh>
-       </Data>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
       </Plugin>
-     </_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
+     </_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF1>
+     <_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF2>
+      <Plugin>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
+      </Plugin>
+     </_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF2>
+     <_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF3>
+      <Plugin>
+       <Configuration>
+        <MMUView>
+         <FollowSystem>false</FollowSystem>
+         <TranslationType>NonSecureEL1AndEL0</TranslationType>
+        </MMUView>
+        <PMUView>
+         <Enabled>false</Enabled>
+         <CycleCounter>
+          <Enabled>false</Enabled>
+          <LongCycleCounterEnable>false</LongCycleCounterEnable>
+          <UseClockDivider>false</UseClockDivider>
+          <CounterFilter>
+           <DoNotCountInL0>false</DoNotCountInL0>
+           <DoNotCountInL0N>false</DoNotCountInL0N>
+           <DoNotCountInL1>false</DoNotCountInL1>
+           <DoNotCountInL1N>false</DoNotCountInL1N>
+           <DoNotCountInL2>false</DoNotCountInL2>
+           <DoNotCountInL3S>false</DoNotCountInL3S>
+          </CounterFilter>
+         </CycleCounter>
+         <EventCounters>
+          <__.0>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>0</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.0>
+          <__.1>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>1</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.1>
+          <__.2>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>2</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.2>
+          <__.3>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>3</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.3>
+          <__.4>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>4</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.4>
+          <__.5>
+           <CountEventsFromAnyPE>false</CountEventsFromAnyPE>
+           <Enabled>false</Enabled>
+           <Event></Event>
+           <ID>5</ID>
+           <CounterFilter>
+            <DoNotCountInL0>false</DoNotCountInL0>
+            <DoNotCountInL0N>false</DoNotCountInL0N>
+            <DoNotCountInL1>false</DoNotCountInL1>
+            <DoNotCountInL1N>false</DoNotCountInL1N>
+            <DoNotCountInL2>false</DoNotCountInL2>
+            <DoNotCountInL3S>false</DoNotCountInL3S>
+           </CounterFilter>
+           <RatioOption>
+            <RatioCounterIndex>-1</RatioCounterIndex>
+           </RatioOption>
+          </__.5>
+         </EventCounters>
+        </PMUView>
+       </Configuration>
+      </Plugin>
+     </_35548EDB-44CC-48BF-A7CF-ED5F2628B4EF3>
      <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
       <Plugin>
        <Config>
         <AutoStart>false</AutoStart>
         <Port>5555</Port>
-        <Protocol>TCP</Protocol>
         <TimestampUnit>100us</TimestampUnit>
-        <TraceToXCP>false</TraceToXCP>
-        <TrdPath></TrdPath>
+        <TraceToXCP>
+         <A2LPath></A2LPath>
+         <Enable>false</Enable>
+         <SendAlways>true</SendAlways>
+         <TrdPath></TrdPath>
+        </TraceToXCP>
        </Config>
       </Plugin>
      </B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
@@ -1727,7 +2684,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296166912</RegVer>
+    <RegVer>1296683008</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>Debug</DefaultTargetName>
@@ -1742,7 +2699,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296166912</RegVer>
+    <RegVer>1296683008</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -1805,6 +2762,7 @@
            <Enabled>false</Enabled>
            <BRP.0>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1816,6 +2774,7 @@
            </BRP.0>
            <BRP.1>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1827,6 +2786,7 @@
            </BRP.1>
            <BRP.10>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1838,6 +2798,7 @@
            </BRP.10>
            <BRP.11>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1849,6 +2810,7 @@
            </BRP.11>
            <BRP.12>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1860,6 +2822,7 @@
            </BRP.12>
            <BRP.13>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1871,6 +2834,7 @@
            </BRP.13>
            <BRP.14>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1882,6 +2846,7 @@
            </BRP.14>
            <BRP.15>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1893,6 +2858,7 @@
            </BRP.15>
            <BRP.2>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1904,6 +2870,7 @@
            </BRP.2>
            <BRP.3>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1915,6 +2882,7 @@
            </BRP.3>
            <BRP.4>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1926,6 +2894,7 @@
            </BRP.4>
            <BRP.5>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1937,6 +2906,7 @@
            </BRP.5>
            <BRP.6>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1948,6 +2918,7 @@
            </BRP.6>
            <BRP.7>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1959,6 +2930,7 @@
            </BRP.7>
            <BRP.8>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -1970,6 +2942,7 @@
            </BRP.8>
            <BRP.9>
             <Address>0</Address>
+            <AddressMask>0</AddressMask>
             <ContextID>0</ContextID>
             <ContextID2>0</ContextID2>
             <Enabled>false</Enabled>
@@ -2192,9 +3165,6 @@
         </ARMv8>
        </BPData>
       </Debug>
-      <Environment>
-       <ShowExtModified>true</ShowExtModified>
-      </Environment>
       <FNet>
        <FixedFNode.0>
         <Name>Root</Name>
@@ -3431,6 +4401,82 @@
            </IPQualifier>
           </Op>
          </I2C.3>
+         <STORE.0>
+          <Cfg>
+           <DTM_Partition>0</DTM_Partition>
+           <Group>0</Group>
+           <Name></Name>
+           <TC_Partition>0</TC_Partition>
+           <Partitions.0>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.0>
+           <Partitions.1>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.1>
+           <Partitions.2>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.2>
+           <Partitions.3>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.3>
+          </Cfg>
+          <Op>
+           <RecordTC>false</RecordTC>
+           <IPQualifier>
+            <Initial>false</Initial>
+            <Disable>
+             <TC>0</TC>
+            </Disable>
+            <Enable>
+             <TC>0</TC>
+            </Enable>
+           </IPQualifier>
+           <Partitions.0>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.0>
+           <Partitions.1>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.1>
+           <Partitions.2>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.2>
+           <Partitions.3>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.3>
+          </Op>
+         </STORE.0>
          <SYSTEM>
           <Cfg>
            <Group>0</Group>
@@ -3452,10 +4498,2295 @@
         </Cfg>
        </FixedFNode.1>
       </FNet>
+      <Op>
+       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+      </Op>
+      <Op_BPs>
+       <BPs>
+        <A53_0>
+         <BP>
+          <BRP.0>
+           <Address></Address>
+          </BRP.0>
+          <BRP.1>
+           <Address></Address>
+          </BRP.1>
+          <BRP.10>
+           <Address></Address>
+          </BRP.10>
+          <BRP.11>
+           <Address></Address>
+          </BRP.11>
+          <BRP.12>
+           <Address></Address>
+          </BRP.12>
+          <BRP.13>
+           <Address></Address>
+          </BRP.13>
+          <BRP.14>
+           <Address></Address>
+          </BRP.14>
+          <BRP.15>
+           <Address></Address>
+          </BRP.15>
+          <BRP.2>
+           <Address></Address>
+          </BRP.2>
+          <BRP.3>
+           <Address></Address>
+          </BRP.3>
+          <BRP.4>
+           <Address></Address>
+          </BRP.4>
+          <BRP.5>
+           <Address></Address>
+          </BRP.5>
+          <BRP.6>
+           <Address></Address>
+          </BRP.6>
+          <BRP.7>
+           <Address></Address>
+          </BRP.7>
+          <BRP.8>
+           <Address></Address>
+          </BRP.8>
+          <BRP.9>
+           <Address></Address>
+          </BRP.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <BRP.0>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.0>
+           <BRP.1>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.1>
+           <BRP.10>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.10>
+           <BRP.11>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.11>
+           <BRP.12>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.12>
+           <BRP.13>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.13>
+           <BRP.14>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.14>
+           <BRP.15>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.15>
+           <BRP.2>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.2>
+           <BRP.3>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.3>
+           <BRP.4>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.4>
+           <BRP.5>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.5>
+           <BRP.6>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.6>
+           <BRP.7>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.7>
+           <BRP.8>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.8>
+           <BRP.9>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.9>
+           <WRP.0>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.0>
+           <WRP.1>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.1>
+           <WRP.10>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.10>
+           <WRP.11>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.11>
+           <WRP.12>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.12>
+           <WRP.13>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.13>
+           <WRP.14>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.14>
+           <WRP.15>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.15>
+           <WRP.2>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.2>
+           <WRP.3>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.3>
+           <WRP.4>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.4>
+           <WRP.5>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.5>
+           <WRP.6>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.6>
+           <WRP.7>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.7>
+           <WRP.8>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.8>
+           <WRP.9>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.9>
+          </HW>
+          <WRP.0>
+           <Address></Address>
+          </WRP.0>
+          <WRP.1>
+           <Address></Address>
+          </WRP.1>
+          <WRP.10>
+           <Address></Address>
+          </WRP.10>
+          <WRP.11>
+           <Address></Address>
+          </WRP.11>
+          <WRP.12>
+           <Address></Address>
+          </WRP.12>
+          <WRP.13>
+           <Address></Address>
+          </WRP.13>
+          <WRP.14>
+           <Address></Address>
+          </WRP.14>
+          <WRP.15>
+           <Address></Address>
+          </WRP.15>
+          <WRP.2>
+           <Address></Address>
+          </WRP.2>
+          <WRP.3>
+           <Address></Address>
+          </WRP.3>
+          <WRP.4>
+           <Address></Address>
+          </WRP.4>
+          <WRP.5>
+           <Address></Address>
+          </WRP.5>
+          <WRP.6>
+           <Address></Address>
+          </WRP.6>
+          <WRP.7>
+           <Address></Address>
+          </WRP.7>
+          <WRP.8>
+           <Address></Address>
+          </WRP.8>
+          <WRP.9>
+           <Address></Address>
+          </WRP.9>
+         </BP>
+        </A53_0>
+        <A53_1>
+         <BP>
+          <BRP.0>
+           <Address></Address>
+          </BRP.0>
+          <BRP.1>
+           <Address></Address>
+          </BRP.1>
+          <BRP.10>
+           <Address></Address>
+          </BRP.10>
+          <BRP.11>
+           <Address></Address>
+          </BRP.11>
+          <BRP.12>
+           <Address></Address>
+          </BRP.12>
+          <BRP.13>
+           <Address></Address>
+          </BRP.13>
+          <BRP.14>
+           <Address></Address>
+          </BRP.14>
+          <BRP.15>
+           <Address></Address>
+          </BRP.15>
+          <BRP.2>
+           <Address></Address>
+          </BRP.2>
+          <BRP.3>
+           <Address></Address>
+          </BRP.3>
+          <BRP.4>
+           <Address></Address>
+          </BRP.4>
+          <BRP.5>
+           <Address></Address>
+          </BRP.5>
+          <BRP.6>
+           <Address></Address>
+          </BRP.6>
+          <BRP.7>
+           <Address></Address>
+          </BRP.7>
+          <BRP.8>
+           <Address></Address>
+          </BRP.8>
+          <BRP.9>
+           <Address></Address>
+          </BRP.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <BRP.0>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.0>
+           <BRP.1>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.1>
+           <BRP.10>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.10>
+           <BRP.11>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.11>
+           <BRP.12>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.12>
+           <BRP.13>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.13>
+           <BRP.14>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.14>
+           <BRP.15>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.15>
+           <BRP.2>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.2>
+           <BRP.3>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.3>
+           <BRP.4>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.4>
+           <BRP.5>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.5>
+           <BRP.6>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.6>
+           <BRP.7>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.7>
+           <BRP.8>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.8>
+           <BRP.9>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.9>
+           <WRP.0>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.0>
+           <WRP.1>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.1>
+           <WRP.10>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.10>
+           <WRP.11>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.11>
+           <WRP.12>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.12>
+           <WRP.13>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.13>
+           <WRP.14>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.14>
+           <WRP.15>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.15>
+           <WRP.2>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.2>
+           <WRP.3>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.3>
+           <WRP.4>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.4>
+           <WRP.5>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.5>
+           <WRP.6>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.6>
+           <WRP.7>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.7>
+           <WRP.8>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.8>
+           <WRP.9>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.9>
+          </HW>
+          <WRP.0>
+           <Address></Address>
+          </WRP.0>
+          <WRP.1>
+           <Address></Address>
+          </WRP.1>
+          <WRP.10>
+           <Address></Address>
+          </WRP.10>
+          <WRP.11>
+           <Address></Address>
+          </WRP.11>
+          <WRP.12>
+           <Address></Address>
+          </WRP.12>
+          <WRP.13>
+           <Address></Address>
+          </WRP.13>
+          <WRP.14>
+           <Address></Address>
+          </WRP.14>
+          <WRP.15>
+           <Address></Address>
+          </WRP.15>
+          <WRP.2>
+           <Address></Address>
+          </WRP.2>
+          <WRP.3>
+           <Address></Address>
+          </WRP.3>
+          <WRP.4>
+           <Address></Address>
+          </WRP.4>
+          <WRP.5>
+           <Address></Address>
+          </WRP.5>
+          <WRP.6>
+           <Address></Address>
+          </WRP.6>
+          <WRP.7>
+           <Address></Address>
+          </WRP.7>
+          <WRP.8>
+           <Address></Address>
+          </WRP.8>
+          <WRP.9>
+           <Address></Address>
+          </WRP.9>
+         </BP>
+        </A53_1>
+        <A53_2>
+         <BP>
+          <BRP.0>
+           <Address></Address>
+          </BRP.0>
+          <BRP.1>
+           <Address></Address>
+          </BRP.1>
+          <BRP.10>
+           <Address></Address>
+          </BRP.10>
+          <BRP.11>
+           <Address></Address>
+          </BRP.11>
+          <BRP.12>
+           <Address></Address>
+          </BRP.12>
+          <BRP.13>
+           <Address></Address>
+          </BRP.13>
+          <BRP.14>
+           <Address></Address>
+          </BRP.14>
+          <BRP.15>
+           <Address></Address>
+          </BRP.15>
+          <BRP.2>
+           <Address></Address>
+          </BRP.2>
+          <BRP.3>
+           <Address></Address>
+          </BRP.3>
+          <BRP.4>
+           <Address></Address>
+          </BRP.4>
+          <BRP.5>
+           <Address></Address>
+          </BRP.5>
+          <BRP.6>
+           <Address></Address>
+          </BRP.6>
+          <BRP.7>
+           <Address></Address>
+          </BRP.7>
+          <BRP.8>
+           <Address></Address>
+          </BRP.8>
+          <BRP.9>
+           <Address></Address>
+          </BRP.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <BRP.0>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.0>
+           <BRP.1>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.1>
+           <BRP.10>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.10>
+           <BRP.11>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.11>
+           <BRP.12>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.12>
+           <BRP.13>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.13>
+           <BRP.14>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.14>
+           <BRP.15>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.15>
+           <BRP.2>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.2>
+           <BRP.3>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.3>
+           <BRP.4>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.4>
+           <BRP.5>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.5>
+           <BRP.6>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.6>
+           <BRP.7>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.7>
+           <BRP.8>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.8>
+           <BRP.9>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.9>
+           <WRP.0>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.0>
+           <WRP.1>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.1>
+           <WRP.10>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.10>
+           <WRP.11>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.11>
+           <WRP.12>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.12>
+           <WRP.13>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.13>
+           <WRP.14>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.14>
+           <WRP.15>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.15>
+           <WRP.2>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.2>
+           <WRP.3>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.3>
+           <WRP.4>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.4>
+           <WRP.5>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.5>
+           <WRP.6>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.6>
+           <WRP.7>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.7>
+           <WRP.8>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.8>
+           <WRP.9>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.9>
+          </HW>
+          <WRP.0>
+           <Address></Address>
+          </WRP.0>
+          <WRP.1>
+           <Address></Address>
+          </WRP.1>
+          <WRP.10>
+           <Address></Address>
+          </WRP.10>
+          <WRP.11>
+           <Address></Address>
+          </WRP.11>
+          <WRP.12>
+           <Address></Address>
+          </WRP.12>
+          <WRP.13>
+           <Address></Address>
+          </WRP.13>
+          <WRP.14>
+           <Address></Address>
+          </WRP.14>
+          <WRP.15>
+           <Address></Address>
+          </WRP.15>
+          <WRP.2>
+           <Address></Address>
+          </WRP.2>
+          <WRP.3>
+           <Address></Address>
+          </WRP.3>
+          <WRP.4>
+           <Address></Address>
+          </WRP.4>
+          <WRP.5>
+           <Address></Address>
+          </WRP.5>
+          <WRP.6>
+           <Address></Address>
+          </WRP.6>
+          <WRP.7>
+           <Address></Address>
+          </WRP.7>
+          <WRP.8>
+           <Address></Address>
+          </WRP.8>
+          <WRP.9>
+           <Address></Address>
+          </WRP.9>
+         </BP>
+        </A53_2>
+        <A53_3>
+         <BP>
+          <BRP.0>
+           <Address></Address>
+          </BRP.0>
+          <BRP.1>
+           <Address></Address>
+          </BRP.1>
+          <BRP.10>
+           <Address></Address>
+          </BRP.10>
+          <BRP.11>
+           <Address></Address>
+          </BRP.11>
+          <BRP.12>
+           <Address></Address>
+          </BRP.12>
+          <BRP.13>
+           <Address></Address>
+          </BRP.13>
+          <BRP.14>
+           <Address></Address>
+          </BRP.14>
+          <BRP.15>
+           <Address></Address>
+          </BRP.15>
+          <BRP.2>
+           <Address></Address>
+          </BRP.2>
+          <BRP.3>
+           <Address></Address>
+          </BRP.3>
+          <BRP.4>
+           <Address></Address>
+          </BRP.4>
+          <BRP.5>
+           <Address></Address>
+          </BRP.5>
+          <BRP.6>
+           <Address></Address>
+          </BRP.6>
+          <BRP.7>
+           <Address></Address>
+          </BRP.7>
+          <BRP.8>
+           <Address></Address>
+          </BRP.8>
+          <BRP.9>
+           <Address></Address>
+          </BRP.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <BRP.0>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.0>
+           <BRP.1>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.1>
+           <BRP.10>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.10>
+           <BRP.11>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.11>
+           <BRP.12>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.12>
+           <BRP.13>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.13>
+           <BRP.14>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.14>
+           <BRP.15>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.15>
+           <BRP.2>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.2>
+           <BRP.3>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.3>
+           <BRP.4>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.4>
+           <BRP.5>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.5>
+           <BRP.6>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.6>
+           <BRP.7>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.7>
+           <BRP.8>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.8>
+           <BRP.9>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ContextID>0</ContextID>
+            <ContextID2>0</ContextID2>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+            <Type>AddressMatch</Type>
+            <VMID>0</VMID>
+           </BRP.9>
+           <WRP.0>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.0>
+           <WRP.1>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.1>
+           <WRP.10>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.10>
+           <WRP.11>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.11>
+           <WRP.12>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.12>
+           <WRP.13>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.13>
+           <WRP.14>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.14>
+           <WRP.15>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.15>
+           <WRP.2>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.2>
+           <WRP.3>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.3>
+           <WRP.4>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.4>
+           <WRP.5>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.5>
+           <WRP.6>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.6>
+           <WRP.7>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.7>
+           <WRP.8>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.8>
+           <WRP.9>
+            <Access>Store</Access>
+            <Address>0</Address>
+            <AddressMask>0</AddressMask>
+            <ByteAddressSelect>255</ByteAddressSelect>
+            <Enabled>false</Enabled>
+            <Linked>false</Linked>
+            <LinkedIndex>0</LinkedIndex>
+            <Mode>SecureAndNormalEL3AndEL2AndEL1AndEL0</Mode>
+           </WRP.9>
+          </HW>
+          <WRP.0>
+           <Address></Address>
+          </WRP.0>
+          <WRP.1>
+           <Address></Address>
+          </WRP.1>
+          <WRP.10>
+           <Address></Address>
+          </WRP.10>
+          <WRP.11>
+           <Address></Address>
+          </WRP.11>
+          <WRP.12>
+           <Address></Address>
+          </WRP.12>
+          <WRP.13>
+           <Address></Address>
+          </WRP.13>
+          <WRP.14>
+           <Address></Address>
+          </WRP.14>
+          <WRP.15>
+           <Address></Address>
+          </WRP.15>
+          <WRP.2>
+           <Address></Address>
+          </WRP.2>
+          <WRP.3>
+           <Address></Address>
+          </WRP.3>
+          <WRP.4>
+           <Address></Address>
+          </WRP.4>
+          <WRP.5>
+           <Address></Address>
+          </WRP.5>
+          <WRP.6>
+           <Address></Address>
+          </WRP.6>
+          <WRP.7>
+           <Address></Address>
+          </WRP.7>
+          <WRP.8>
+           <Address></Address>
+          </WRP.8>
+          <WRP.9>
+           <Address></Address>
+          </WRP.9>
+         </BP>
+        </A53_3>
+        <M7_0>
+         <BP>
+          <Comparator.0>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.0>
+          <Comparator.1>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.1>
+          <Comparator.10>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.10>
+          <Comparator.11>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.11>
+          <Comparator.12>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.12>
+          <Comparator.13>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.13>
+          <Comparator.14>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.14>
+          <Comparator.15>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.15>
+          <Comparator.2>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.2>
+          <Comparator.3>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.3>
+          <Comparator.4>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.4>
+          <Comparator.5>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.5>
+          <Comparator.6>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.6>
+          <Comparator.7>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.7>
+          <Comparator.8>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.8>
+          <Comparator.9>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <EnableExceptionTrace>false</EnableExceptionTrace>
+           <Comparator.0>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.0>
+           <Comparator.1>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.1>
+           <Comparator.10>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.10>
+           <Comparator.11>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.11>
+           <Comparator.12>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.12>
+           <Comparator.13>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.13>
+           <Comparator.14>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.14>
+           <Comparator.15>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.15>
+           <Comparator.2>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.2>
+           <Comparator.3>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.3>
+           <Comparator.4>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.4>
+           <Comparator.5>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.5>
+           <Comparator.6>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.6>
+           <Comparator.7>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.7>
+           <Comparator.8>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.8>
+           <Comparator.9>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.9>
+           <CycleCounter>
+            <Enabled>false</Enabled>
+            <ITMSyncPacket>false</ITMSyncPacket>
+            <ITMSyncPacketPeriod>16M</ITMSyncPacketPeriod>
+            <Periodic>false</Periodic>
+            <PeriodicCycles>p64</PeriodicCycles>
+            <PeriodicGenerate>CycleCounterEvent</PeriodicGenerate>
+            <RestartCounter>false</RestartCounter>
+           </CycleCounter>
+           <ProfileCounterEvents>
+            <CPICounter>false</CPICounter>
+            <ExceptionOverheadCounter>false</ExceptionOverheadCounter>
+            <FoldedInstructionCounter>false</FoldedInstructionCounter>
+            <LoadStoreUnitCounter>false</LoadStoreUnitCounter>
+            <SleepOverheadCounter>false</SleepOverheadCounter>
+           </ProfileCounterEvents>
+          </HW>
+         </BP>
+        </M7_0>
+       </BPs>
+      </Op_BPs>
       <Tools>
        <CoreSightDetection>
         <ActiveResetDuringDetection>0</ActiveResetDuringDetection>
+        <ActiveTRSTDuringDetection>1</ActiveTRSTDuringDetection>
         <APVersion>0</APVersion>
+        <DeactivateResetDuringDetection>1</DeactivateResetDuringDetection>
         <DebugBaseAddress>0</DebugBaseAddress>
         <DRPostfix>0</DRPostfix>
         <DRPrefix>0</DRPrefix>
@@ -3494,19 +6825,6 @@
         <SharedMem>
          <DebugConn>1</DebugConn>
          <DebugConnAddress>#g_TConn</DebugConnAddress>
-         <DefaultBuff>1</DefaultBuff>
-         <Buffer.0>
-          <TBuffer>#g_TWBuffer</TBuffer>
-          <TDefault>1</TDefault>
-          <TSize>0</TSize>
-          <TSizeA type="B">AAAAAAAAAAAAAAAA</TSizeA>
-         </Buffer.0>
-         <Buffer.1>
-          <TBuffer>#g_TRBuffer</TBuffer>
-          <TDefault>1</TDefault>
-          <TSize>0</TSize>
-          <TSizeA type="B">AAAAAAAAAAAAAAAA</TSizeA>
-         </Buffer.1>
         </SharedMem>
         <UART>
          <BaudRate>9600</BaudRate>
@@ -3526,7 +6844,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>31</V_BUILD>
+      <V_BUILD>157</V_BUILD>
+      <V_BUILD_SCC>147462</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3555,6 +6874,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Debug_InitSoC>
+        <Detach_CleanupSoC>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Detach_CleanupSoC>
         <Program_ConnectToSoC>
          <Execute>Default</Execute>
          <Scripts></Scripts>
@@ -3563,10 +6886,18 @@
          <Execute>Custom</Execute>
          <Scripts>initialize.ini</Scripts>
         </Program_InitSoC>
+        <Trace_Done>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Done>
         <Trace_Init>
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
         <CPU1>67</CPU1>
@@ -3616,13 +6947,6 @@
           <Buffer_._Address>0x0</Buffer_._Address>
           <Buffer_._Size>0</Buffer_._Size>
          </MTB>
-         <PSoC6>
-          <TRACE_._CLOCK_._Port>PORT 7</TRACE_._CLOCK_._Port>
-          <TRACE_._DATA0_._Port>PORT 7</TRACE_._DATA0_._Port>
-          <TRACE_._DATA1_._Port>PORT 7</TRACE_._DATA1_._Port>
-          <TRACE_._DATA2_._Port>PORT 7</TRACE_._DATA2_._Port>
-          <TRACE_._DATA3_._Port>PORT 7</TRACE_._DATA3_._Port>
-         </PSoC6>
          <S32K>
           <TRACE_._CLOCK_._Port>None</TRACE_._CLOCK_._Port>
           <TRACE_._DATA0_._Port>None</TRACE_._DATA0_._Port>
@@ -3650,6 +6974,77 @@
          </ZynqUSp>
         </OCD_ARM>
        </CPU>
+       <Debug>
+        <AllowAccessToUnimplementedRegisters>false</AllowAccessToUnimplementedRegisters>
+        <AuroraBaudrate>625M</AuroraBaudrate>
+        <BootCore>0</BootCore>
+        <Breakpoints>HW</Breakpoints>
+        <CacheSWBPs>false</CacheSWBPs>
+        <CalibrateClockVref>32</CalibrateClockVref>
+        <CalibratePhase>13</CalibratePhase>
+        <CalibrateVref>116</CalibrateVref>
+        <ClockkHz>1000</ClockkHz>
+        <CycleDuration>1e-09</CycleDuration>
+        <DebugChannel>JTAG</DebugChannel>
+        <DebugClockkHz>4000</DebugClockkHz>
+        <EndSession>Cleanup</EndSession>
+        <ExtOscillatorClk>1000</ExtOscillatorClk>
+        <GenerateAuroraClock>false</GenerateAuroraClock>
+        <GenerateAuroraCRC>false</GenerateAuroraCRC>
+        <IgnoreAccessErrors>false</IgnoreAccessErrors>
+        <InitRAM>Never</InitRAM>
+        <LatchRESET>true</LatchRESET>
+        <MemorySecurity_CheckEntryPoint>false</MemorySecurity_CheckEntryPoint>
+        <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
+        <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
+        <MemorySecurityND_Policy>Reject</MemorySecurityND_Policy>
+        <MultiCoreSync>false</MultiCoreSync>
+        <NexusClockDivider>1</NexusClockDivider>
+        <NexusDataRate>Single</NexusDataRate>
+        <NexusForcePeriodicSYNC>false</NexusForcePeriodicSYNC>
+        <NexusMDOWidth>18</NexusMDOWidth>
+        <NexusMSEOWidth>1</NexusMSEOWidth>
+        <NexusTermination_MCKO>false</NexusTermination_MCKO>
+        <NexusTermination_MDO_MSEO>false</NexusTermination_MDO_MSEO>
+        <NumAuroraLanes>0</NumAuroraLanes>
+        <OCTInitAtStartup>true</OCTInitAtStartup>
+        <PostResetDelay>100</PostResetDelay>
+        <ReadMemoryOnMissingCode>true</ReadMemoryOnMissingCode>
+        <ReadStatusInterval_ms>0</ReadStatusInterval_ms>
+        <RequireDeviceIDMatch>false</RequireDeviceIDMatch>
+        <RESETDriveWhenDetached>no</RESETDriveWhenDetached>
+        <ResetDuration>100</ResetDuration>
+        <ResetMethod>SoC</ResetMethod>
+        <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
+        <ResetPresetAddress>0x0</ResetPresetAddress>
+        <ReversedAuroraLanes>false</ReversedAuroraLanes>
+        <SamplingEdge>Pos</SamplingEdge>
+        <StopAfterReset>false</StopAfterReset>
+        <SuspendPeripheralsWhileStopped>false</SuspendPeripheralsWhileStopped>
+        <TargetResetTimeout>100</TargetResetTimeout>
+        <MemorySecurity_CheckParameters>
+         <Entry>false</Entry>
+         <Aurix>
+          <ActiveDXCPL>false</ActiveDXCPL>
+          <Always_._check_._BMHDs>true</Always_._check_._BMHDs>
+          <BMHDPassword>false</BMHDPassword>
+          <DF0ComplementSensing>false</DF0ComplementSensing>
+          <DF1ComplementSensing>false</DF1ComplementSensing>
+          <DisabledHWBootSelection>false</DisabledHWBootSelection>
+          <DisabledLockstep>false</DisabledLockstep>
+          <ESR0>false</ESR0>
+          <HSM_._enabled>Don&apos;t care</HSM_._enabled>
+          <HSM_._pins>Don&apos;t care</HSM_._pins>
+          <HSMExclusivePFLASHSectors>false</HSMExclusivePFLASHSectors>
+          <OscillatorSettings>false</OscillatorSettings>
+          <OTP>false</OTP>
+          <RAMInitialization>false</RAMInitialization>
+          <RequirePFLASHReadProtectWithDebugLock>false</RequirePFLASHReadProtectWithDebugLock>
+          <SwapAltBanksHSMCode>false</SwapAltBanksHSMCode>
+         </Aurix>
+        </MemorySecurity_CheckParameters>
+       </Debug>
        <Debugging>
         <AllowAccessToUnimplementedRegisters>0</AllowAccessToUnimplementedRegisters>
         <AuroraBaudrate>0</AuroraBaudrate>
@@ -3660,17 +7055,17 @@
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>116</CalibrateVref>
-        <CalibrationPerformed>0</CalibrationPerformed>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
+        <EndSession>0</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
         <InitRAM>0</InitRAM>
         <LatchRESET>1</LatchRESET>
+        <MemorySecurity_CheckEntryPoint>0</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
         <MemorySecurityND_Policy>0</MemorySecurityND_Policy>
@@ -3686,9 +7081,11 @@
         <PostResetDelay>100</PostResetDelay>
         <ReadMemoryOnMissingCode>1</ReadMemoryOnMissingCode>
         <ReadStatusInterval_ms>0</ReadStatusInterval_ms>
+        <RequireDeviceIDMatch>0</RequireDeviceIDMatch>
         <ResetDelay>100</ResetDelay>
         <RESETDriveWhenDetached>0</RESETDriveWhenDetached>
         <ResetMethod>2</ResetMethod>
+        <RESETMode>0</RESETMode>
         <ReversedAuroraLanes>0</ReversedAuroraLanes>
         <StopAfterReset>0</StopAfterReset>
         <TargetResetTimeout>100</TargetResetTimeout>
@@ -3700,7 +7097,6 @@
          <DataExit>0</DataExit>
          <DataMask>0</DataMask>
          <Enable>0</Enable>
-         <MemArea>0</MemArea>
          <MinTime>0</MinTime>
          <Size>0</Size>
         </DebugEntryExit>
@@ -3712,7 +7108,6 @@
          <Item.0>
           <Address>0</Address>
           <Data>0</Data>
-          <MemArea>0</MemArea>
           <Size>0</Size>
          </Item.0>
         </PeriodicService>
@@ -3804,8 +7199,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -3915,8 +7314,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4026,8 +7429,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4137,8 +7544,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4248,8 +7659,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4377,7 +7792,7 @@
        </Synchronization>
       </BDM>
       <HW>
-       <HW>2</HW>
+       <HW>10</HW>
        <Communication>
         <IPAddr></IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
@@ -4385,6 +7800,11 @@
         <TCPPortNumber>5313</TCPPortNumber>
         <USBDeviceName></USBDeviceName>
        </Communication>
+       <IFX_DAS>
+        <Config>
+         <Str></Str>
+        </Config>
+       </IFX_DAS>
        <XCP>
         <Transport>TCPIP</Transport>
         <Common>
@@ -4401,9 +7821,6 @@
       </HW>
       <Trace>
        <Type>0</Type>
-       <StateAnalyzer>
-        <Sampling>Rising Edge</Sampling>
-       </StateAnalyzer>
       </Trace>
      </HW>
     </HServerData>

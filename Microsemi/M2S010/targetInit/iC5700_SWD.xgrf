@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296220160</RegVer>
+      <RegVer>1296683008</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -47,34 +47,50 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\M2S010\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\Distribution\winIDEA_public\Microsemi\M2S010\targetInit\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
         <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Microsemi\M2S010\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\M2S010\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>225</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Microsemi\M2S010\targetInit\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>536</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Microsemi\M2S010\targetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>19</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\Microsemi\M2S010\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.15>
+        </__.17>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
@@ -152,7 +168,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296220160</RegVer>
+      <RegVer>1296683008</RegVer>
       <ANGUIData.0>
        <Filetime type="B">JGJBHIPANNCINAAB</Filetime>
        <GUID type="B">AADKPFJMMDMDHPEILEGHHJNMNOKDFNCI</GUID>
@@ -2048,7 +2064,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296220160</RegVer>
+    <RegVer>1296683008</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -2148,7 +2164,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>291</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -2206,8 +2222,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0xD7D0A0C</Address>
-           <AddressOffset>0xD7D0A00</AddressOffset>
+           <Address>0x0</Address>
+           <AddressOffset>0x0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -2217,7 +2233,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0xD7D0A00</Address>
+         <Address>0x0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -2483,17 +2499,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>725</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>29</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>9911</FocusedViewId>
-        <FrameState>9</FrameState>
+        <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>889</Bottom>
-         <Left>814</Left>
-         <Right>1838</Right>
-         <Top>94</Top>
+         <Bottom>1167</Bottom>
+         <Left>-8</Left>
+         <Right>1925</Right>
+         <Top>73</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -2779,9 +2795,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
@@ -2800,18 +2813,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -2825,14 +2832,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -2941,6 +2946,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

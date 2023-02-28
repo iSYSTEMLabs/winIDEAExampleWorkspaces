@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296683008</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -23,127 +23,127 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_pointer.c</FileName>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>10663</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>294</ScrollPos>
+        </__.10>
+        <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>6539</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_basic.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>210</ScrollPos>
-        </__.10>
-        <__.11>
+        </__.11>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>26</ScrollPos>
-        </__.11>
-        <__.12>
+        </__.12>
+        <__.13>
          <BookmarkList></BookmarkList>
          <CaretPos>7102</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_SimpleTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>251</ScrollPos>
-        </__.12>
-        <__.13>
+        </__.13>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>1752</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\trace.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>74</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>21</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_float.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>1833</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\cstart.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>15</ScrollPos>
-        </__.15>
-        <__.16>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\production.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
+        </__.17>
+        <__.18>
          <BookmarkList></BookmarkList>
          <CaretPos>314</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\TriCore.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.17>
-        <__.18>
+        </__.18>
+        <__.19>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\customTests.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_pointer.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.20>
          <BookmarkList></BookmarkList>
          <CaretPos>4947</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_struct.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>238</ScrollPos>
-        </__.19>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>360</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.20>
+        </__.20>
+        <__.21>
          <BookmarkList></BookmarkList>
          <CaretPos>4</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\projectDefs.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.21>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>604</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\Debug_tasking.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TT\CoverageA.s</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.22>
-        <__.23>
-         <BookmarkList></BookmarkList>
-         <CaretPos>735</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\tc_arch.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.23>
@@ -151,119 +151,135 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\sample.ind</FileName>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.24>
         <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>735</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\tc_arch.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.26>
+        <__.27>
          <BookmarkList></BookmarkList>
          <CaretPos>965</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\TriCore.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>12</ScrollPos>
-        </__.25>
-        <__.26>
+        </__.27>
+        <__.28>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\compilerDirectives.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
+        </__.28>
+        <__.29>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.27>
-        <__.28>
+        </__.29>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>360</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.3>
+        <__.30>
          <BookmarkList></BookmarkList>
          <CaretPos>1068</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.28>
-        <__.29>
+        </__.30>
+        <__.31>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_small.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.29>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1087</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_system.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>12</ScrollPos>
-        </__.3>
-        <__.30>
+        </__.31>
+        <__.32>
          <BookmarkList></BookmarkList>
          <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\TriCore\TC357TA_FLASH\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>40</ScrollPos>
-        </__.30>
-        <__.31>
+        </__.32>
+        <__.33>
          <BookmarkList></BookmarkList>
          <CaretPos>1770</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>40</ScrollPos>
-        </__.31>
-        <__.32>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.32>
-        <__.33>
+        </__.34>
+        <__.35>
          <BookmarkList></BookmarkList>
          <CaretPos>1799</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>160</ScrollPos>
-        </__.33>
-        <__.34>
+        </__.35>
+        <__.36>
          <BookmarkList></BookmarkList>
          <CaretPos>1264</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.34>
+        </__.36>
         <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1087</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_system.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.4>
+        <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\Distribution\winIDEA_public\Infineon\TC357TA_FLASH\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.4>
-        <__.5>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\iTest\test_testing_smallStruct.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
-         <BookmarkList></BookmarkList>
-         <CaretPos>82</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\trace.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.6>
@@ -277,19 +293,19 @@
         </__.7>
         <__.8>
          <BookmarkList></BookmarkList>
-         <CaretPos>98</CaretPos>
+         <CaretPos>82</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\trace.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>10663</CaretPos>
+         <CaretPos>98</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\debug.c</FileName>
+         <FileName>E:\BlagicaBlazeva\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>294</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.9>
        </EditorPersist>
       </EditorPersist>
@@ -304,7 +320,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296683008</RegVer>
       <ANGUIData.0>
        <Filetime type="B">PMFOFDPAHNFJNIAB</Filetime>
        <GUID type="B">HCOOMCNGPBIFDGEDIPJLIIMEEOHFMAEE</GUID>
@@ -543,7 +559,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296683008</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -647,7 +663,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>659</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -705,8 +721,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x6AFF6AFE</Address>
-           <AddressOffset>0x6AFF6AC0</AddressOffset>
+           <Address>0x0</Address>
+           <AddressOffset>0x0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -716,7 +732,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x6AFF6AC0</Address>
+         <Address>0x0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -1000,17 +1016,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>88</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1124</Bottom>
-         <Left>174</Left>
-         <Right>1406</Right>
-         <Top>117</Top>
+         <Bottom>1185</Bottom>
+         <Left>2025</Left>
+         <Right>3958</Right>
+         <Top>91</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1279,10 +1295,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
@@ -1294,9 +1306,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
@@ -1315,18 +1324,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>true</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -1340,14 +1343,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -1403,6 +1404,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

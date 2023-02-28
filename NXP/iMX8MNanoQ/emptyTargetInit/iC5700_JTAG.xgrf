@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296166912</RegVer>
+      <RegVer>1296683008</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -203,6 +203,22 @@
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.3>
+        <__.30>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\NXP\iMX8MNanoQ\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.30>
+        <__.31>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\NXP\iMX8MNanoQ\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.31>
         <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>25</CaretPos>
@@ -264,7 +280,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296166912</RegVer>
+      <RegVer>1296683008</RegVer>
       <ANGUIData.0>
        <Filetime type="B">OCPKFCGCJCFLMOAB</Filetime>
        <GUID type="B">HKLBMJMEOLMLDBEIJGIELLIAOADHJCIK</GUID>
@@ -294,6 +310,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -555,6 +572,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -816,6 +834,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1077,6 +1096,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1338,6 +1358,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1599,6 +1620,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -1860,6 +1882,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2121,6 +2144,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2382,6 +2406,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2643,6 +2668,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -2904,6 +2930,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3165,6 +3192,7 @@
          <MaxNumberOfStates>128</MaxNumberOfStates>
          <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
          <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
         </PRSettings>
         <StatisticsViews>
          <__.0>
@@ -3408,7 +3436,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296166912</RegVer>
+    <RegVer>1296683008</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3508,7 +3536,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>659</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -3957,11 +3985,14 @@
       <WIPViews>
        <__.0>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>MMU</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[MIMX8MN6.A53_0] Cortex-A/MMU</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -4070,11 +4101,14 @@
        </__.0>
        <__.1>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName></PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle>Memory Map</ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>[MIMX8MN6.A53_0] Cortex-A/Memory Map</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -4144,17 +4178,17 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>47</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>9963</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1378</Bottom>
-         <Left>-14</Left>
-         <Right>1426</Right>
-         <Top>248</Top>
+         <Bottom>1167</Bottom>
+         <Left>1912</Left>
+         <Right>3845</Right>
+         <Top>73</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4482,9 +4516,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
@@ -4503,18 +4534,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4528,14 +4553,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -4796,6 +4819,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

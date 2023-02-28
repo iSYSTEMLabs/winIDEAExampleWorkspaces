@@ -8,336 +8,352 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296384000</RegVer>
+      <RegVer>1296683008</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.0>
+        <__.1>
          <BookmarkList></BookmarkList>
          <CaretPos>1174</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.0>
-        <__.1>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>K:\samplesRecompile\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>755</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.10>
+        <__.11>
          <BookmarkList></BookmarkList>
          <CaretPos>1527</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.10>
-        <__.11>
+        </__.11>
+        <__.12>
          <BookmarkList></BookmarkList>
          <CaretPos>599</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.11>
-        <__.12>
+        </__.12>
+        <__.13>
          <BookmarkList></BookmarkList>
          <CaretPos>48</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\AC7811Q.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.12>
-        <__.13>
+        </__.13>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>135</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>691</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\TriCore\TC399XE\C0\TriCore.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>17</ScrollPos>
-        </__.15>
-        <__.16>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>407</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\TriCore\TC399XE\README_DXCPL.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
+        </__.17>
+        <__.18>
          <BookmarkList></BookmarkList>
          <CaretPos>1257</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\TriCore\TC399XE\Debug_tasking.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>4</ScrollPos>
-        </__.17>
-        <__.18>
+        </__.18>
+        <__.19>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\AmadejPapez\venus\BlueBox\fitIDEA\samples\src\TriCore\TC399XE\README_DXCPL.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>K:\samplesRecompile\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.20>
          <BookmarkList></BookmarkList>
          <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\AmadejPapez\venus\BlueBox\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>9</ScrollPos>
-        </__.19>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\AC7811Q.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.20>
+        </__.20>
+        <__.21>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\AC7811Q_FLASH\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.21>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>1705</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\CPUFile.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>40</ScrollPos>
-        </__.21>
-        <__.22>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>1941</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\AmadejPapez\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>78</ScrollPos>
-        </__.22>
-        <__.23>
+        </__.23>
+        <__.24>
          <BookmarkList></BookmarkList>
          <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>20</ScrollPos>
-        </__.23>
-        <__.24>
+        </__.24>
+        <__.25>
          <BookmarkList></BookmarkList>
          <CaretPos>242</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\hotAttach.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.24>
-        <__.25>
+        </__.25>
+        <__.26>
          <BookmarkList></BookmarkList>
          <CaretPos>240</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.25>
-        <__.26>
+        </__.26>
+        <__.27>
          <BookmarkList></BookmarkList>
          <CaretPos>356</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
+        </__.27>
+        <__.28>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.28>
+        <__.29>
          <BookmarkList></BookmarkList>
          <CaretPos>428</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC78013_FLASH\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.27>
-        <__.28>
+        </__.29>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\AC7811Q.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.3>
+        <__.30>
          <BookmarkList></BookmarkList>
          <CaretPos>515</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC78013_FLASH\sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.28>
-        <__.29>
+        </__.30>
+        <__.31>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC78013_FLASH\AC78013.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.29>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.30>
+        </__.31>
+        <__.32>
          <BookmarkList></BookmarkList>
          <CaretPos>1870</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>65</ScrollPos>
-        </__.30>
-        <__.31>
+        </__.32>
+        <__.33>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.31>
-        <__.32>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
          <CaretPos>1954</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>141</ScrollPos>
-        </__.32>
-        <__.33>
+        </__.34>
+        <__.35>
          <BookmarkList></BookmarkList>
          <CaretPos>81</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\Venus\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.33>
-        <__.34>
+        </__.35>
+        <__.36>
          <BookmarkList></BookmarkList>
          <CaretPos>132</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\flash.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.34>
-        <__.35>
+        </__.36>
+        <__.37>
          <BookmarkList></BookmarkList>
          <CaretPos>139</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.35>
-        <__.36>
+        </__.37>
+        <__.38>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\sample.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.36>
-        <__.37>
+        </__.38>
+        <__.39>
          <BookmarkList></BookmarkList>
          <CaretPos>866</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\AC7811Q.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.37>
-        <__.38>
+        </__.39>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.4>
+        <__.40>
          <BookmarkList></BookmarkList>
          <CaretPos>109</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\profilerStub.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.38>
-        <__.39>
+        </__.40>
+        <__.41>
          <BookmarkList></BookmarkList>
          <CaretPos>192</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\CortexM-x\AC7811Q_FLASH\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.39>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2723</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>55</ScrollPos>
-        </__.4>
-        <__.40>
+        </__.41>
+        <__.42>
          <BookmarkList></BookmarkList>
          <CaretPos>1671</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\VenusTrunk1\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>5</ScrollPos>
-        </__.40>
-        <__.41>
+        </__.42>
+        <__.43>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\AC7811Q_FLASH\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.41>
-        <__.42>
+        </__.43>
+        <__.44>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\AC7811Q_FLASH\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.42>
-        <__.43>
+        </__.44>
+        <__.45>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\AC7811Q_FLASH\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.43>
-        <__.44>
+        </__.45>
+        <__.46>
          <BookmarkList></BookmarkList>
          <CaretPos>192</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\emptyTargetInit\startup.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.44>
+        </__.46>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>844</CaretPos>
+         <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
+         <ScrollPos>55</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
@@ -349,9 +365,9 @@
         </__.6>
         <__.7>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>C:\SVN\fitIDEA\samples\src\common\main.c</FileName>
+         <CaretPos>844</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
@@ -365,9 +381,9 @@
         </__.8>
         <__.9>
          <BookmarkList></BookmarkList>
-         <CaretPos>755</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>C:\SVN\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
@@ -384,7 +400,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296384000</RegVer>
+      <RegVer>1296683008</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -3802,7 +3818,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296384000</RegVer>
+    <RegVer>1296683008</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3902,7 +3918,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>687</Width>
+          <Width>704</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -4342,10 +4358,10 @@
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1092</Bottom>
-         <Left>943</Left>
-         <Right>1918</Right>
-         <Top>39</Top>
+         <Bottom>1167</Bottom>
+         <Left>1912</Left>
+         <Right>3845</Right>
+         <Top>73</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4677,9 +4693,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
@@ -4698,18 +4711,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4723,14 +4730,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -4826,6 +4831,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

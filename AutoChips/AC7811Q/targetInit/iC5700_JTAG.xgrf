@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296384000</RegVer>
+      <RegVer>1296683008</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -301,12 +301,28 @@
         </__.40>
         <__.41>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.41>
+        <__.42>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1351</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.42>
+        <__.43>
+         <BookmarkList></BookmarkList>
          <CaretPos>1297</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GasperLevacic\bbsamples\Distribution\winIDEA_public\AutoChips\AC7811Q\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.41>
+        </__.43>
         <__.5>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
@@ -360,7 +376,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296384000</RegVer>
+      <RegVer>1296683008</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -3778,7 +3794,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296384000</RegVer>
+    <RegVer>1296683008</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3824,12 +3840,12 @@
         <ViewType>Memory</ViewType>
        </__.1>
        <__.10>
-        <ViewId>16690</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>16712</ViewId>
+        <ViewType>Output_Build</ViewType>
        </__.10>
        <__.11>
-        <ViewId>16785</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>16690</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.11>
        <__.2>
         <ViewId>16707</ViewId>
@@ -3856,12 +3872,12 @@
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>16711</ViewId>
-        <ViewType>Output_Tools</ViewType>
+        <ViewId>16785</ViewId>
+        <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>16712</ViewId>
-        <ViewType>Output_Build</ViewType>
+        <ViewId>16711</ViewId>
+        <ViewType>Output_Tools</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -4311,17 +4327,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>79</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>28</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>16785</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1092</Bottom>
-         <Left>943</Left>
-         <Right>1918</Right>
-         <Top>39</Top>
+         <Bottom>1167</Bottom>
+         <Left>1912</Left>
+         <Right>3845</Right>
+         <Top>73</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4665,9 +4681,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
@@ -4686,18 +4699,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4711,14 +4718,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -4814,6 +4819,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

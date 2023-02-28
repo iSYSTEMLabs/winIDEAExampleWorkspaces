@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296683008</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296408576</RegVer>
+      <RegVer>1296683008</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,15 +40,19 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296683008</RegVer>
+    <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
       <Enterprise>EBA</Enterprise>
+      <Client>
+       <Type>Demo</Type>
+       <Demo>
+        <Timeout>0</Timeout>
+       </Demo>
+      </Client>
      </Floating>
-     <Sentinel>
-      <Address></Address>
-     </Sentinel>
     </Cfg_License>
     <Cfg_System>
      <Debug>
@@ -181,6 +185,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -199,10 +204,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -346,6 +347,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -364,10 +366,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -511,6 +509,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -529,10 +528,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -603,6 +598,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -621,10 +617,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -682,6 +674,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -700,10 +693,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -761,6 +750,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -779,10 +769,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -1032,9 +1018,14 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.90</winIDEA>
+      <winIDEA>Build 9.21.157</winIDEA>
      </Info>
      <Options>
+      <Environment>
+       <iConnectLimitClients>false</iConnectLimitClients>
+       <iConnectLimitNum>1</iConnectLimitNum>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+      </Environment>
       <Search>
        <ExtFolderIgnoreFilter>*.elf,*.bin,*.o*</ExtFolderIgnoreFilter>
       </Search>
@@ -1090,6 +1081,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -1111,6 +1105,87 @@
       </Processes>
      </Debug>
     </Op_System>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:0}}</Instance>
+       <Type>TriCore</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+     <PluginInstance.1>
+      <InstanceData>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:1}}</Instance>
+       <Type>TriCore</Type>
+      </InstanceInfo>
+     </PluginInstance.1>
+     <PluginInstance.2>
+      <InstanceData>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:2}}</Instance>
+       <Type>TriCore</Type>
+      </InstanceInfo>
+     </PluginInstance.2>
+     <PluginInstance.3>
+      <InstanceData>
+       <Config>
+        <AutoStart>false</AutoStart>
+        <Port>5555</Port>
+        <TimestampUnit>100us</TimestampUnit>
+        <TraceToXCP>
+         <A2LPath></A2LPath>
+         <Enable>false</Enable>
+         <SendAlways>true</SendAlways>
+         <TrdPath></TrdPath>
+        </TraceToXCP>
+       </Config>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>XCP</Type>
+      </InstanceInfo>
+     </PluginInstance.3>
+    </PluginData>
     <Plugins>
      <_3BB2B9D2-577A-4597-90CE-7032BE77BD1F>
       <Plugin>
@@ -1160,13 +1235,6 @@
        </Configuration>
       </Plugin>
      </_3BB2B9D2-577A-4597-90CE-7032BE77BD1F2>
-     <_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
-      <Plugin>
-       <Data>
-        <AutoRefresh>true</AutoRefresh>
-       </Data>
-      </Plugin>
-     </_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
      <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
       <Plugin>
        <Config>
@@ -1192,7 +1260,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296683008</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>iC5000_DAP - Debug</DefaultTargetName>
@@ -1207,7 +1275,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296408576</RegVer>
+    <RegVer>1296683008</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -3728,6 +3796,7 @@
           <DeviceAddress>0x80000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -3776,6 +3845,7 @@
           <DeviceAddress>0xAF000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -3824,6 +3894,7 @@
           <DeviceAddress>0xAF400000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>false</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -3872,6 +3943,7 @@
           <DeviceAddress>0xAFC00000</DeviceAddress>
           <DeviceType>Parallel</DeviceType>
           <Enabled>false</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -3917,8 +3989,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>90</V_BUILD>
-      <V_BUILD_SCC>134678</V_BUILD_SCC>
+      <V_BUILD>157</V_BUILD>
+      <V_BUILD_SCC>147462</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3967,6 +4039,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
         <CPU1>106</CPU1>
@@ -3974,6 +4050,7 @@
         <POD>0</POD>
         <SubCPU>TC357TA</SubCPU>
         <Aurix>
+         <AllowCacheMonExec>false</AllowCacheMonExec>
          <BRKIN>HIGH</BRKIN>
          <ClearICRIEWhenStopped>false</ClearICRIEWhenStopped>
          <DAPClock>10000</DAPClock>
@@ -4132,6 +4209,7 @@
          </TriggerEvent1p8>
         </Aurix>
         <TriCore>
+         <AllowCacheMonitorExecution>0</AllowCacheMonitorExecution>
          <BRKIN>1</BRKIN>
          <ClearICRIEWhenStopped>0</ClearICRIEWhenStopped>
          <DAPClockkHz>10000</DAPClockkHz>
@@ -4217,7 +4295,6 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>Cleanup</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
@@ -4245,11 +4322,34 @@
         <ResetDuration>20</ResetDuration>
         <ResetMethod>Regular</ResetMethod>
         <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
         <StopAfterReset>false</StopAfterReset>
+        <SuspendPeripheralsWhileStopped>false</SuspendPeripheralsWhileStopped>
         <TargetResetTimeout>100</TargetResetTimeout>
+        <MemorySecurity_CheckParameters>
+         <Entry>true</Entry>
+         <Aurix>
+          <ActiveDXCPL>false</ActiveDXCPL>
+          <Always_._check_._BMHDs>true</Always_._check_._BMHDs>
+          <BMHDPassword>false</BMHDPassword>
+          <DF0ComplementSensing>false</DF0ComplementSensing>
+          <DF1ComplementSensing>false</DF1ComplementSensing>
+          <DisabledHWBootSelection>false</DisabledHWBootSelection>
+          <DisabledLockstep>false</DisabledLockstep>
+          <ESR0>false</ESR0>
+          <HSM_._enabled>Don&apos;t care</HSM_._enabled>
+          <HSM_._pins>Don&apos;t care</HSM_._pins>
+          <HSMExclusivePFLASHSectors>false</HSMExclusivePFLASHSectors>
+          <OscillatorSettings>false</OscillatorSettings>
+          <OTP>false</OTP>
+          <RAMInitialization>false</RAMInitialization>
+          <RequirePFLASHReadProtectWithDebugLock>false</RequirePFLASHReadProtectWithDebugLock>
+          <SwapAltBanksHSMCode>false</SwapAltBanksHSMCode>
+         </Aurix>
+        </MemorySecurity_CheckParameters>
        </Debug>
        <Debugging>
         <AllowAccessToUnimplementedRegisters>0</AllowAccessToUnimplementedRegisters>
@@ -4266,7 +4366,6 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
@@ -4406,10 +4505,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4519,10 +4620,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4632,10 +4735,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4745,10 +4850,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>BE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4858,10 +4965,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>false</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -4943,6 +5052,114 @@
           </__.1>
          </Authenticator>
         </ChallengeResponse>
+        <PeripheralsSuspendInStop>
+         <SuspendItems>
+          <__.0>
+           <Enabled>true</Enabled>
+           <Name>STM0</Name>
+          </__.0>
+          <__.1>
+           <Enabled>true</Enabled>
+           <Name>STM1</Name>
+          </__.1>
+          <__.10>
+           <Enabled>false</Enabled>
+           <Name>ASCLIN2</Name>
+          </__.10>
+          <__.11>
+           <Enabled>false</Enabled>
+           <Name>ASCLIN3</Name>
+          </__.11>
+          <__.12>
+           <Enabled>false</Enabled>
+           <Name>MSC0</Name>
+          </__.12>
+          <__.13>
+           <Enabled>false</Enabled>
+           <Name>CAN0</Name>
+          </__.13>
+          <__.14>
+           <Enabled>false</Enabled>
+           <Name>CAN1</Name>
+          </__.14>
+          <__.15>
+           <Enabled>false</Enabled>
+           <Name>ERAY0</Name>
+          </__.15>
+          <__.16>
+           <Enabled>false</Enabled>
+           <Name>CCU0</Name>
+          </__.16>
+          <__.17>
+           <Enabled>false</Enabled>
+           <Name>CCU1</Name>
+          </__.17>
+          <__.18>
+           <Enabled>false</Enabled>
+           <Name>GPT</Name>
+          </__.18>
+          <__.19>
+           <Enabled>false</Enabled>
+           <Name>VADC</Name>
+          </__.19>
+          <__.2>
+           <Enabled>true</Enabled>
+           <Name>STM2</Name>
+          </__.2>
+          <__.20>
+           <Enabled>false</Enabled>
+           <Name>DSADC</Name>
+          </__.20>
+          <__.21>
+           <Enabled>false</Enabled>
+           <Name>RIF0</Name>
+          </__.21>
+          <__.22>
+           <Enabled>false</Enabled>
+           <Name>RIF1</Name>
+          </__.22>
+          <__.23>
+           <Enabled>false</Enabled>
+           <Name>SPU0</Name>
+          </__.23>
+          <__.24>
+           <Enabled>false</Enabled>
+           <Name>SPU1</Name>
+          </__.24>
+          <__.25>
+           <Enabled>false</Enabled>
+           <Name>CONVCTRL</Name>
+          </__.25>
+          <__.3>
+           <Enabled>false</Enabled>
+           <Name>QSPI0</Name>
+          </__.3>
+          <__.4>
+           <Enabled>false</Enabled>
+           <Name>QSPI1</Name>
+          </__.4>
+          <__.5>
+           <Enabled>false</Enabled>
+           <Name>QSPI2</Name>
+          </__.5>
+          <__.6>
+           <Enabled>false</Enabled>
+           <Name>QSPI3</Name>
+          </__.6>
+          <__.7>
+           <Enabled>false</Enabled>
+           <Name>SMU</Name>
+          </__.7>
+          <__.8>
+           <Enabled>false</Enabled>
+           <Name>ASCLIN0</Name>
+          </__.8>
+          <__.9>
+           <Enabled>false</Enabled>
+           <Name>ASCLIN1</Name>
+          </__.9>
+         </SuspendItems>
+        </PeripheralsSuspendInStop>
        </SetupData>
        <Synchronization>
         <Enabled>0</Enabled>
@@ -4989,7 +5206,7 @@
        </Synchronization>
       </BDM>
       <HW>
-       <HW>10</HW>
+       <HW>2</HW>
        <Communication>
         <IPAddr></IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>

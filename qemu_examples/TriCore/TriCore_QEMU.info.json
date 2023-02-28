@@ -1,0 +1,11 @@
+{
+    "Info":
+    {
+      "Description": "TriCore QEMU emulation example",
+      "HW": "QEMU emulated",
+      "Packages":
+      [
+        { "Type" : "Simulator", "ID" : "QEMU.TriCore" , "Version" : "7.2.0" }
+      ]
+    }
+}

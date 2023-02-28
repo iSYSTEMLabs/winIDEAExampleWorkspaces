@@ -1,0 +1,12 @@
+{
+    "Info":
+    {
+      "Description": "aarch64 QEMU emulation example",
+      "HW": "QEMU emulated",
+      "Packages":
+      [
+        { "Type" : "Compiler" , "ID" : "gcc.ARM"  , "Version" : "12.0" },
+        { "Type" : "Simulator", "ID" : "QEMU.ARM" , "Version" : "7.2.0" }
+      ]
+    }
+}

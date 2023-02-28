@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296384000</RegVer>
+      <RegVer>1296683008</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296384000</RegVer>
+      <RegVer>1296683008</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,15 +40,19 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296384000</RegVer>
+    <RegVer>1296683008</RegVer>
+    <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
       <Enterprise>EBA</Enterprise>
+      <Client>
+       <Type>Demo</Type>
+       <Demo>
+        <Timeout>0</Timeout>
+       </Demo>
+      </Client>
      </Floating>
-     <Sentinel>
-      <Address></Address>
-     </Sentinel>
     </Cfg_License>
     <Cfg_System>
      <Debug>
@@ -181,6 +185,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -199,10 +204,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -273,6 +274,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -291,10 +293,6 @@
              <Generator>Cosmic</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -484,9 +482,14 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.84</winIDEA>
+      <winIDEA>Build 9.21.157</winIDEA>
      </Info>
      <Options>
+      <Environment>
+       <iConnectLimitClients>false</iConnectLimitClients>
+       <iConnectLimitNum>1</iConnectLimitNum>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+      </Environment>
       <Search>
        <ExtFolderIgnoreFilter>*.elf,*.bin,*.o*</ExtFolderIgnoreFilter>
       </Search>
@@ -542,6 +545,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -563,14 +569,28 @@
       </Processes>
      </Debug>
     </Op_System>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Config>
+        <AutoStart>false</AutoStart>
+        <Port>5555</Port>
+        <TimestampUnit>100us</TimestampUnit>
+        <TraceToXCP>
+         <A2LPath></A2LPath>
+         <Enable>false</Enable>
+         <SendAlways>true</SendAlways>
+         <TrdPath></TrdPath>
+        </TraceToXCP>
+       </Config>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>XCP</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
-     <_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
-      <Plugin>
-       <Data>
-        <AutoRefresh>true</AutoRefresh>
-       </Data>
-      </Plugin>
-     </_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
      <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
       <Plugin>
        <Config>
@@ -596,7 +616,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296384000</RegVer>
+    <RegVer>1296683008</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>Debug</DefaultTargetName>
@@ -611,7 +631,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296384000</RegVer>
+    <RegVer>1296683008</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -2810,6 +2830,7 @@
           <DeviceAddress>0x0</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -2855,8 +2876,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>84</V_BUILD>
-      <V_BUILD_SCC>133789</V_BUILD_SCC>
+      <V_BUILD>157</V_BUILD>
+      <V_BUILD_SCC>147462</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -2905,6 +2926,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
         <CPU1>67</CPU1>
@@ -2930,11 +2955,11 @@
          </CTM>
         </CortexData>
         <OCD_ARM>
-         <CortexDebugProtocol>SWD</CortexDebugProtocol>
+         <CortexDebugProtocol>JTAG</CortexDebugProtocol>
          <CortexSWDClock>6000</CortexSWDClock>
          <CortexSwoClkPrescaler>0</CortexSwoClkPrescaler>
          <CortexSWOClock>0</CortexSWOClock>
-         <CortexTraceProtocol>SWO</CortexTraceProtocol>
+         <CortexTraceProtocol>Parallel</CortexTraceProtocol>
          <CortexTRACEWidth>4-bit</CortexTRACEWidth>
          <UseCTMCh0and1ForSyncedRunStop>false</UseCTMCh0and1ForSyncedRunStop>
          <UseCTMCh2and3ForTrace>false</UseCTMCh2and3ForTrace>
@@ -2954,13 +2979,6 @@
           <Buffer_._Address>0x0</Buffer_._Address>
           <Buffer_._Size>0</Buffer_._Size>
          </MTB>
-         <PSoC6>
-          <TRACE_._CLOCK_._Port>PORT 7</TRACE_._CLOCK_._Port>
-          <TRACE_._DATA0_._Port>PORT 7</TRACE_._DATA0_._Port>
-          <TRACE_._DATA1_._Port>PORT 7</TRACE_._DATA1_._Port>
-          <TRACE_._DATA2_._Port>PORT 7</TRACE_._DATA2_._Port>
-          <TRACE_._DATA3_._Port>PORT 7</TRACE_._DATA3_._Port>
-         </PSoC6>
          <S32K>
           <TRACE_._CLOCK_._Port>None</TRACE_._CLOCK_._Port>
           <TRACE_._DATA0_._Port>None</TRACE_._DATA0_._Port>
@@ -3003,7 +3021,6 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>Cleanup</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
@@ -3031,11 +3048,34 @@
         <ResetDuration>100</ResetDuration>
         <ResetMethod>SoC</ResetMethod>
         <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
         <StopAfterReset>false</StopAfterReset>
+        <SuspendPeripheralsWhileStopped>false</SuspendPeripheralsWhileStopped>
         <TargetResetTimeout>100</TargetResetTimeout>
+        <MemorySecurity_CheckParameters>
+         <Entry>true</Entry>
+         <Aurix>
+          <ActiveDXCPL>false</ActiveDXCPL>
+          <Always_._check_._BMHDs>true</Always_._check_._BMHDs>
+          <BMHDPassword>false</BMHDPassword>
+          <DF0ComplementSensing>false</DF0ComplementSensing>
+          <DF1ComplementSensing>false</DF1ComplementSensing>
+          <DisabledHWBootSelection>false</DisabledHWBootSelection>
+          <DisabledLockstep>false</DisabledLockstep>
+          <ESR0>false</ESR0>
+          <HSM_._enabled>Don&apos;t care</HSM_._enabled>
+          <HSM_._pins>Don&apos;t care</HSM_._pins>
+          <HSMExclusivePFLASHSectors>false</HSMExclusivePFLASHSectors>
+          <OscillatorSettings>false</OscillatorSettings>
+          <OTP>false</OTP>
+          <RAMInitialization>false</RAMInitialization>
+          <RequirePFLASHReadProtectWithDebugLock>false</RequirePFLASHReadProtectWithDebugLock>
+          <SwapAltBanksHSMCode>false</SwapAltBanksHSMCode>
+         </Aurix>
+        </MemorySecurity_CheckParameters>
        </Debug>
        <Debugging>
         <AllowAccessToUnimplementedRegisters>0</AllowAccessToUnimplementedRegisters>
@@ -3052,7 +3092,6 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
         <ExtOscillatorClk>1000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
@@ -3192,10 +3231,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
