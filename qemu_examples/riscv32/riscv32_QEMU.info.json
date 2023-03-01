@@ -2,7 +2,7 @@
     "Info":
     {
       "Description": "riscv32 QEMU emulation example",
-      "HW": "QEMU emulated",
+      "HW": "",
       "Packages":
       [
         { "Type" : "Compiler" , "ID" : "gcc.riscv"  , "Version" : "12.0"  },
