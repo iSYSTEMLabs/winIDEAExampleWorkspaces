@@ -1,0 +1,12 @@
+{
+    "Info":
+    {
+      "Description": "STM32F303 QEMU C sample",
+      "HW": "",
+      "Packages":
+      [
+        { "Type" : "Compiler" , "ID" : "gcc.ARM"  , "Version" : "12.0" },
+        { "Type" : "Simulator", "ID" : "QEMU.ARM" , "Version" : "7.2.0" }
+      ]
+    }
+}

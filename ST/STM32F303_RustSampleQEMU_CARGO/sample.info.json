@@ -1,0 +1,11 @@
+{
+    "Info":
+    {
+      "Description": "STM32F303 QEMU Rust sample",
+      "HW": "",
+      "Packages":
+      [
+        { "Type" : "Simulator", "ID" : "QEMU.ARM" , "Version" : "7.2.0" }
+      ]
+    }
+}
