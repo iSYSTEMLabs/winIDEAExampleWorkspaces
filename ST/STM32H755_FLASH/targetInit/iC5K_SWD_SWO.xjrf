@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296220160</RegVer>
+      <RegVer>1296695296</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,14 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296220160</RegVer>
+      <RegVer>1296695296</RegVer>
+      <WorkspaceOptions>
+       <SessionDumpFilter>
+        <Enabled>false</Enabled>
+        <SampleRangeBegin>0</SampleRangeBegin>
+        <SampleRangeEnd>0</SampleRangeEnd>
+       </SessionDumpFilter>
+      </WorkspaceOptions>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -33,15 +40,19 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296220160</RegVer>
+    <RegVer>1296695296</RegVer>
+    <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
       <Enterprise>EBA</Enterprise>
+      <Client>
+       <Type>Demo</Type>
+       <Demo>
+        <Timeout>0</Timeout>
+       </Demo>
+      </Client>
      </Floating>
-     <Sentinel>
-      <Address></Address>
-     </Sentinel>
     </Cfg_License>
     <Cfg_System>
      <Debug>
@@ -65,6 +76,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -171,6 +185,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -189,10 +204,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -227,6 +238,9 @@
         </MemProp_ISA>
         <OS>
          <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
          <L4Re_Config>
           <FileName></FileName>
           <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
@@ -333,6 +347,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -351,10 +366,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -425,6 +436,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -443,10 +455,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -504,6 +512,7 @@
              <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
              <Override64bitVariableLocation>true</Override64bitVariableLocation>
              <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
              <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
              <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
              <Cosmic>
@@ -522,10 +531,6 @@
              <Generator>Avocet</Generator>
              <ReadPublicSection>false</ReadPublicSection>
             </IEEE>
-            <OMF51>
-             <ConvertPLMLines>true</ConvertPLMLines>
-             <Generator>Keil</Generator>
-            </OMF51>
             <UBROF>
              <ConvertBankAddresses>false</ConvertBankAddresses>
              <Generator>IAR</Generator>
@@ -611,10 +616,9 @@
        <DisableIRQ_RunUntilReturn>true</DisableIRQ_RunUntilReturn>
        <DisableIRQ_Step>true</DisableIRQ_Step>
        <DisableIRQ_StepOver>true</DisableIRQ_StepOver>
-       <OnlyOneBPPerSourceLine>true</OnlyOneBPPerSourceLine>
-       <ReevaluateBPsAfterNewPartition>false</ReevaluateBPsAfterNewPartition>
        <ReserveBP>true</ReserveBP>
        <ResetConditionalBPCountWhenStop>false</ResetConditionalBPCountWhenStop>
+       <RunUntilReturn>RunUntilReturn</RunUntilReturn>
       </Debugging>
       <Directories1>
        <AltPaths>true</AltPaths>
@@ -635,6 +639,8 @@
         <Flags>0</Flags>
         <Load>1</Load>
         <LoadArea></LoadArea>
+        <LoadCode>0</LoadCode>
+        <LoadSymbols>0</LoadSymbols>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
         <OptimizeTypeByName>0</OptimizeTypeByName>
@@ -672,6 +678,7 @@
          <MergeTypes>0</MergeTypes>
          <Override64bitVariableLocation>1</Override64bitVariableLocation>
          <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
@@ -691,6 +698,8 @@
         <Flags>0</Flags>
         <Load>1</Load>
         <LoadArea></LoadArea>
+        <LoadCode>0</LoadCode>
+        <LoadSymbols>0</LoadSymbols>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
         <OptimizeTypeByName>0</OptimizeTypeByName>
@@ -728,6 +737,7 @@
          <MergeTypes>0</MergeTypes>
          <Override64bitVariableLocation>1</Override64bitVariableLocation>
          <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
@@ -784,14 +794,6 @@
       <Parser>
        <ExpressionMemoryAccessOperator>58</ExpressionMemoryAccessOperator>
       </Parser>
-      <SFR>
-       <ExternalFormat>CMSIS-SVD</ExternalFormat>
-       <ExternalPath></ExternalPath>
-       <InternalCustom></InternalCustom>
-       <InternalSource>iOPEN</InternalSource>
-       <UseExternal>false</UseExternal>
-       <UseInternal>true</UseInternal>
-      </SFR>
       <StackUsage>
        <End></End>
        <Pattern>0xCC</Pattern>
@@ -852,9 +854,14 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.44</winIDEA>
+      <winIDEA>Build 9.21.160</winIDEA>
      </Info>
      <Options>
+      <Environment>
+       <iConnectLimitClients>false</iConnectLimitClients>
+       <iConnectLimitNum>1</iConnectLimitNum>
+       <IsBuildManagerEnabled>true</IsBuildManagerEnabled>
+      </Environment>
       <Search>
        <ExtFolderIgnoreFilter>*.elf,*.bin,*.o*</ExtFolderIgnoreFilter>
       </Search>
@@ -910,6 +917,9 @@
       <RISCV64>
        <ABI>2</ABI>
       </RISCV64>
+      <RL78>
+       <Calling_._Convention>V2</Calling_._Convention>
+      </RL78>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -931,14 +941,28 @@
       </Processes>
      </Debug>
     </Op_System>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Config>
+        <AutoStart>false</AutoStart>
+        <Port>5555</Port>
+        <TimestampUnit>100us</TimestampUnit>
+        <TraceToXCP>
+         <A2LPath></A2LPath>
+         <Enable>false</Enable>
+         <SendAlways>true</SendAlways>
+         <TrdPath></TrdPath>
+        </TraceToXCP>
+       </Config>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>XCP</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
-     <_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
-      <Plugin>
-       <Data>
-        <AutoRefresh>true</AutoRefresh>
-       </Data>
-      </Plugin>
-     </_4EF16EE0-E59F-44FF-AF75-2461D90EDF96>
      <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
       <Plugin>
        <Config>
@@ -964,7 +988,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296220160</RegVer>
+    <RegVer>1296695296</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>CM7_Debug_FLASH</DefaultTargetName>
@@ -979,7 +1003,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296220160</RegVer>
+    <RegVer>1296695296</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -2645,6 +2669,925 @@
         </Cfg>
        </FixedFNode.1>
       </FNet>
+      <Op>
+       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+      </Op>
+      <Op_BPs>
+       <BPs>
+        <CORE_CM4>
+         <BP>
+          <Comparator.0>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.0>
+          <Comparator.1>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.1>
+          <Comparator.10>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.10>
+          <Comparator.11>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.11>
+          <Comparator.12>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.12>
+          <Comparator.13>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.13>
+          <Comparator.14>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.14>
+          <Comparator.15>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.15>
+          <Comparator.2>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.2>
+          <Comparator.3>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.3>
+          <Comparator.4>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.4>
+          <Comparator.5>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.5>
+          <Comparator.6>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.6>
+          <Comparator.7>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.7>
+          <Comparator.8>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.8>
+          <Comparator.9>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <EnableExceptionTrace>false</EnableExceptionTrace>
+           <Comparator.0>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.0>
+           <Comparator.1>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.1>
+           <Comparator.10>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.10>
+           <Comparator.11>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.11>
+           <Comparator.12>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.12>
+           <Comparator.13>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.13>
+           <Comparator.14>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.14>
+           <Comparator.15>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.15>
+           <Comparator.2>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.2>
+           <Comparator.3>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.3>
+           <Comparator.4>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.4>
+           <Comparator.5>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.5>
+           <Comparator.6>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.6>
+           <Comparator.7>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.7>
+           <Comparator.8>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.8>
+           <Comparator.9>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.9>
+           <CycleCounter>
+            <Enabled>false</Enabled>
+            <ITMSyncPacket>false</ITMSyncPacket>
+            <ITMSyncPacketPeriod>16M</ITMSyncPacketPeriod>
+            <Periodic>false</Periodic>
+            <PeriodicCycles>p64</PeriodicCycles>
+            <PeriodicGenerate>CycleCounterEvent</PeriodicGenerate>
+            <RestartCounter>false</RestartCounter>
+           </CycleCounter>
+           <ProfileCounterEvents>
+            <CPICounter>false</CPICounter>
+            <ExceptionOverheadCounter>false</ExceptionOverheadCounter>
+            <FoldedInstructionCounter>false</FoldedInstructionCounter>
+            <LoadStoreUnitCounter>false</LoadStoreUnitCounter>
+            <SleepOverheadCounter>false</SleepOverheadCounter>
+           </ProfileCounterEvents>
+          </HW>
+         </BP>
+        </CORE_CM4>
+        <CORE_CM7>
+         <BP>
+          <Comparator.0>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.0>
+          <Comparator.1>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.1>
+          <Comparator.10>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.10>
+          <Comparator.11>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.11>
+          <Comparator.12>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.12>
+          <Comparator.13>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.13>
+          <Comparator.14>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.14>
+          <Comparator.15>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.15>
+          <Comparator.2>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.2>
+          <Comparator.3>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.3>
+          <Comparator.4>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.4>
+          <Comparator.5>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.5>
+          <Comparator.6>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.6>
+          <Comparator.7>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.7>
+          <Comparator.8>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.8>
+          <Comparator.9>
+           <Address.0>
+            <Address></Address>
+           </Address.0>
+           <Address.1>
+            <Address></Address>
+           </Address.1>
+          </Comparator.9>
+          <HW>
+           <Enabled>false</Enabled>
+           <EnableExceptionTrace>false</EnableExceptionTrace>
+           <Comparator.0>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.0>
+           <Comparator.1>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.1>
+           <Comparator.10>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.10>
+           <Comparator.11>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.11>
+           <Comparator.12>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.12>
+           <Comparator.13>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.13>
+           <Comparator.14>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.14>
+           <Comparator.15>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.15>
+           <Comparator.2>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.2>
+           <Comparator.3>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.3>
+           <Comparator.4>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.4>
+           <Comparator.5>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.5>
+           <Comparator.6>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.6>
+           <Comparator.7>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.7>
+           <Comparator.8>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.8>
+           <Comparator.9>
+            <Action>StopCPU</Action>
+            <CycleCount>0x0</CycleCount>
+            <Data>false</Data>
+            <DataSize>8-bit</DataSize>
+            <DataValue>0x0</DataValue>
+            <Enabled>false</Enabled>
+            <Function>Disabled/LinkAddress</Function>
+            <Address.0>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.0>
+            <Address.1>
+             <Enabled>false</Enabled>
+             <IgnoreLSBBits>0</IgnoreLSBBits>
+             <LinkedComparatorIndex>0</LinkedComparatorIndex>
+            </Address.1>
+           </Comparator.9>
+           <CycleCounter>
+            <Enabled>false</Enabled>
+            <ITMSyncPacket>false</ITMSyncPacket>
+            <ITMSyncPacketPeriod>16M</ITMSyncPacketPeriod>
+            <Periodic>false</Periodic>
+            <PeriodicCycles>p64</PeriodicCycles>
+            <PeriodicGenerate>CycleCounterEvent</PeriodicGenerate>
+            <RestartCounter>false</RestartCounter>
+           </CycleCounter>
+           <ProfileCounterEvents>
+            <CPICounter>false</CPICounter>
+            <ExceptionOverheadCounter>false</ExceptionOverheadCounter>
+            <FoldedInstructionCounter>false</FoldedInstructionCounter>
+            <LoadStoreUnitCounter>false</LoadStoreUnitCounter>
+            <SleepOverheadCounter>false</SleepOverheadCounter>
+           </ProfileCounterEvents>
+          </HW>
+         </BP>
+        </CORE_CM7>
+       </BPs>
+      </Op_BPs>
       <Tools>
        <CoreSightDetection>
         <ActiveResetDuringDetection>0</ActiveResetDuringDetection>
@@ -2689,19 +3632,6 @@
         <SharedMem>
          <DebugConn>1</DebugConn>
          <DebugConnAddress>#g_TConn</DebugConnAddress>
-         <DefaultBuff>1</DefaultBuff>
-         <Buffer.0>
-          <TBuffer>#g_TWBuffer</TBuffer>
-          <TDefault>1</TDefault>
-          <TSize>0</TSize>
-          <TSizeA type="B">AAAAAAAAAAAAAAAA</TSizeA>
-         </Buffer.0>
-         <Buffer.1>
-          <TBuffer>#g_TRBuffer</TBuffer>
-          <TDefault>1</TDefault>
-          <TSize>0</TSize>
-          <TSizeA type="B">AAAAAAAAAAAAAAAA</TSizeA>
-         </Buffer.1>
         </SharedMem>
         <UART>
          <BaudRate>9600</BaudRate>
@@ -2728,6 +3658,7 @@
           <DeviceAddress>0x8000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -2744,6 +3675,7 @@
           <ParallelNum>1</ParallelNum>
           <ProgramAtDownload>false</ProgramAtDownload>
           <ProgramEmpty>true</ProgramEmpty>
+          <RDOnly>false</RDOnly>
           <SafeMode>Auto</SafeMode>
           <Timeout>20</Timeout>
           <UseBufferCompress>true</UseBufferCompress>
@@ -2772,7 +3704,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>44</V_BUILD>
+      <V_BUILD>160</V_BUILD>
+      <V_BUILD_SCC>147912</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -2801,6 +3734,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Debug_InitSoC>
+        <Detach_CleanupSoC>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Detach_CleanupSoC>
         <Program_ConnectToSoC>
          <Execute>Default</Execute>
          <Scripts></Scripts>
@@ -2817,6 +3754,10 @@
          <Execute>Default</Execute>
          <Scripts></Scripts>
         </Trace_Init>
+        <Trace_Init_BeforeRun>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
+        </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
         <CPU1>44</CPU1>
@@ -2940,13 +3881,6 @@
           <Buffer_._Address>0x0</Buffer_._Address>
           <Buffer_._Size>0</Buffer_._Size>
          </MTB>
-         <PSoC6>
-          <TRACE_._CLOCK_._Port>PORT 7</TRACE_._CLOCK_._Port>
-          <TRACE_._DATA0_._Port>PORT 7</TRACE_._DATA0_._Port>
-          <TRACE_._DATA1_._Port>PORT 7</TRACE_._DATA1_._Port>
-          <TRACE_._DATA2_._Port>PORT 7</TRACE_._DATA2_._Port>
-          <TRACE_._DATA3_._Port>PORT 7</TRACE_._DATA3_._Port>
-         </PSoC6>
          <S32K>
           <TRACE_._CLOCK_._Port>None</TRACE_._CLOCK_._Port>
           <TRACE_._DATA0_._Port>None</TRACE_._DATA0_._Port>
@@ -2989,7 +3923,6 @@
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>Cleanup</EndSession>
         <ExtOscillatorClk>12000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>false</GenerateAuroraClock>
         <GenerateAuroraCRC>false</GenerateAuroraCRC>
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
@@ -2999,7 +3932,7 @@
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
         <MemorySecurityND_Policy>Modify</MemorySecurityND_Policy>
-        <MultiCoreSync>true</MultiCoreSync>
+        <MultiCoreSync>false</MultiCoreSync>
         <NexusClockDivider>1</NexusClockDivider>
         <NexusDataRate>Single</NexusDataRate>
         <NexusForcePeriodicSYNC>false</NexusForcePeriodicSYNC>
@@ -3016,11 +3949,35 @@
         <RESETDriveWhenDetached>no</RESETDriveWhenDetached>
         <ResetDuration>100</ResetDuration>
         <ResetMethod>Regular</ResetMethod>
+        <RESETMode>OD</RESETMode>
+        <ResetPinConnected>true</ResetPinConnected>
         <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
         <StopAfterReset>true</StopAfterReset>
+        <SuspendPeripheralsWhileStopped>true</SuspendPeripheralsWhileStopped>
         <TargetResetTimeout>100</TargetResetTimeout>
+        <MemorySecurity_CheckParameters>
+         <Entry>true</Entry>
+         <Aurix>
+          <ActiveDXCPL>false</ActiveDXCPL>
+          <Always_._check_._BMHDs>true</Always_._check_._BMHDs>
+          <BMHDPassword>false</BMHDPassword>
+          <DF0ComplementSensing>false</DF0ComplementSensing>
+          <DF1ComplementSensing>false</DF1ComplementSensing>
+          <DisabledHWBootSelection>false</DisabledHWBootSelection>
+          <DisabledLockstep>false</DisabledLockstep>
+          <ESR0>false</ESR0>
+          <HSM_._enabled>Don&apos;t care</HSM_._enabled>
+          <HSM_._pins>Don&apos;t care</HSM_._pins>
+          <HSMExclusivePFLASHSectors>false</HSMExclusivePFLASHSectors>
+          <OscillatorSettings>false</OscillatorSettings>
+          <OTP>false</OTP>
+          <RAMInitialization>false</RAMInitialization>
+          <RequirePFLASHReadProtectWithDebugLock>false</RequirePFLASHReadProtectWithDebugLock>
+          <SwapAltBanksHSMCode>false</SwapAltBanksHSMCode>
+         </Aurix>
+        </MemorySecurity_CheckParameters>
        </Debug>
        <Debugging>
         <AllowAccessToUnimplementedRegisters>0</AllowAccessToUnimplementedRegisters>
@@ -3032,13 +3989,11 @@
         <CalibrateClockVref>0</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>116</CalibrateVref>
-        <CalibrationPerformed>0</CalibrationPerformed>
         <ClockkHz>16000</ClockkHz>
         <CycleDuration type="D">0.0000000200000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
         <ExtOscillatorClk>12000</ExtOscillatorClk>
-        <FLASHIncremental>0</FLASHIncremental>
         <GenerateAuroraClock>0</GenerateAuroraClock>
         <GenerateAuroraCRC>0</GenerateAuroraCRC>
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
@@ -3064,6 +4019,7 @@
         <ResetDelay>100</ResetDelay>
         <RESETDriveWhenDetached>0</RESETDriveWhenDetached>
         <ResetMethod>0</ResetMethod>
+        <RESETMode>0</RESETMode>
         <ReversedAuroraLanes>0</ReversedAuroraLanes>
         <StopAfterReset>1</StopAfterReset>
         <TargetResetTimeout>100</TargetResetTimeout>
@@ -3075,7 +4031,6 @@
          <DataExit>0</DataExit>
          <DataMask>0</DataMask>
          <Enable>0</Enable>
-         <MemArea>0</MemArea>
          <MinTime>0</MinTime>
          <Size>0</Size>
         </DebugEntryExit>
@@ -3087,7 +4042,6 @@
          <Item.0>
           <Address>0</Address>
           <Data>0</Data>
-          <MemArea>0</MemArea>
           <Size>0</Size>
          </Item.0>
         </PeriodicService>
@@ -3179,8 +4133,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>true</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -3290,8 +4248,12 @@
            </CatchEvents>
           </ARMv8>
           <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
            <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
+           <MCSync>true</MCSync>
            <StopCPUActivities>false</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
@@ -3429,7 +4391,7 @@
        </Communication>
        <IFX_DAS>
         <Config>
-         <Reserved>0</Reserved>
+         <Str></Str>
         </Config>
        </IFX_DAS>
        <XCP>

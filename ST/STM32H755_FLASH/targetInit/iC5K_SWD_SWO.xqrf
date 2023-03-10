@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296220160</RegVer>
+   <RegVer>1296695296</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -24,7 +24,7 @@
      <CompCmdLineIncPrefix>-I</CompCmdLineIncPrefix>
      <CompCmdLinePostfix></CompCmdLinePostfix>
      <CompCmdLinePrefix>-D</CompCmdLinePrefix>
-     <CompilerDirectory>X:\GCC\gcc-arm-none-eabi-9-2019-q4\</CompilerDirectory>
+     <CompilerDirectory>%ISYSTEM_PACKAGES%GCC\arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi\</CompilerDirectory>
      <CompilerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</CompilerRelPath>
      <CopyOutputFilesToTargetDir>1</CopyOutputFilesToTargetDir>
      <COutExtensions>o</COutExtensions>
@@ -68,23 +68,18 @@
      </Env.0>
      <IncludePath.0>
       <Path>$(IRFDIR)..\CMSIS\Include</Path>
-      <SubDir>1</SubDir>
      </IncludePath.0>
      <IncludePath.1>
       <Path>$(IRFDIR)..\CMSIS\Device\ST\STM32H7xx\Include</Path>
-      <SubDir>1</SubDir>
      </IncludePath.1>
      <IncludePath.2>
       <Path>$(CMPDIR)\arm-eabi\include</Path>
-      <SubDir>1</SubDir>
      </IncludePath.2>
      <IncludePath.3>
       <Path>$(CMPDIR)</Path>
-      <SubDir>1</SubDir>
      </IncludePath.3>
      <IncludePath.4>
       <Path>$(IRFDIR)</Path>
-      <SubDir>0</SubDir>
      </IncludePath.4>
      <mbBuild>
       <Mode>0</Mode>

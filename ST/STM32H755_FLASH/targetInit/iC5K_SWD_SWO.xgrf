@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296220160</RegVer>
+      <RegVer>1296695296</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -173,34 +173,34 @@
         </__.115>
         <__.116>
          <BookmarkList></BookmarkList>
+         <CaretPos>526</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>T:\SamplesDistribution\winIDEA_public\ST\STM32H755_FLASH\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.116>
+        <__.117>
+         <BookmarkList></BookmarkList>
          <CaretPos>137145</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CMSIS\Include\core_cm7.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>2387</ScrollPos>
-        </__.116>
-        <__.117>
+        </__.117>
+        <__.118>
          <BookmarkList></BookmarkList>
          <CaretPos>1769</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\src\swo.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>17</ScrollPos>
-        </__.117>
-        <__.118>
+        </__.118>
+        <__.119>
          <BookmarkList></BookmarkList>
          <CaretPos>88</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\src\main.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.118>
-        <__.119>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\matjazs\iSYSTEM\winIDEA\Templates\Workspace\STM32H755\CMSIS\Device\ST\STM32H7xx\Source\Templates\gcc\startup_stm32h755xx.s</FileName>
-         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.119>
         <__.12>
@@ -213,83 +213,83 @@
         </__.12>
         <__.120>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\matjazs\iSYSTEM\winIDEA\Templates\Workspace\STM32H755\CMSIS\Device\ST\STM32H7xx\Source\Templates\gcc\startup_stm32h755xx.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.120>
+        <__.121>
+         <BookmarkList></BookmarkList>
          <CaretPos>2346</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CMSIS\Device\ST\STM32H7xx\Source\Templates\gcc\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>743</ScrollPos>
-        </__.120>
-        <__.121>
+        </__.121>
+        <__.122>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\matjazs\iSYSTEM\winIDEA\Templates\Workspace\STM32H755\CMSIS\Device\ST\STM32H7xx\Source\Templates\system_stm32h7xx_dualcore_boot_cm4_cm7.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.121>
-        <__.122>
+        </__.122>
+        <__.123>
          <BookmarkList></BookmarkList>
          <CaretPos>1407</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CM7_Debug_FLASH\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.122>
-        <__.123>
+        </__.123>
+        <__.124>
          <BookmarkList></BookmarkList>
          <CaretPos>439</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CM7_Debug_FLASH\CPUTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.123>
-        <__.124>
+        </__.124>
+        <__.125>
          <BookmarkList></BookmarkList>
          <CaretPos>2732</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CMSIS\Include\cmsis_gcc.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>9</ScrollPos>
-        </__.124>
-        <__.125>
+        </__.125>
+        <__.126>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\production.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.125>
-        <__.126>
+        </__.126>
+        <__.127>
          <BookmarkList></BookmarkList>
          <CaretPos>247</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CM7_Debug_FLASH\stm32h755.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>12</ScrollPos>
-        </__.126>
-        <__.127>
+        </__.127>
+        <__.128>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CM7_Debug_FLASH\stm32h755xx_flash_CM7.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>45</ScrollPos>
-        </__.127>
-        <__.128>
+        </__.128>
+        <__.129>
          <BookmarkList></BookmarkList>
          <CaretPos>3416</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>90</ScrollPos>
-        </__.128>
-        <__.129>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1044</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>12</ScrollPos>
         </__.129>
         <__.13>
          <BookmarkList></BookmarkList>
@@ -301,81 +301,81 @@
         </__.13>
         <__.130>
          <BookmarkList></BookmarkList>
+         <CaretPos>1044</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.130>
+        <__.131>
+         <BookmarkList></BookmarkList>
          <CaretPos>709</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CM7_Debug_FLASH\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>51</ScrollPos>
-        </__.130>
-        <__.131>
+        </__.131>
+        <__.132>
          <BookmarkList></BookmarkList>
          <CaretPos>353</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\sampleSelfTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.131>
-        <__.132>
+        </__.132>
+        <__.133>
          <BookmarkList></BookmarkList>
          <CaretPos>135</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\iTest\test_testing_float.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.132>
-        <__.133>
+        </__.133>
+        <__.134>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\stm32h755.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.133>
-        <__.134>
+        </__.134>
+        <__.135>
          <BookmarkList></BookmarkList>
          <CaretPos>2267</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\fitIDEA\samples\src\common\iTest\test_SimpleTest.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>43</ScrollPos>
-        </__.134>
-        <__.135>
+        </__.135>
+        <__.136>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.135>
-        <__.136>
+        </__.136>
+        <__.137>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755\CM7_Debug_FLASH\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.136>
-        <__.137>
+        </__.137>
+        <__.138>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\iTest\test_testing_float.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.137>
-        <__.138>
+        </__.138>
+        <__.139>
          <BookmarkList></BookmarkList>
          <CaretPos>206</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.138>
-        <__.139>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\ALEKSANDARZ\Documents\common\coverageC.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.139>
@@ -389,81 +389,81 @@
         </__.14>
         <__.140>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\common\coverageC.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.140>
+        <__.141>
+         <BookmarkList></BookmarkList>
          <CaretPos>3201</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\winIDEA\STM32H755_FLASH\CORE_CM7\stm32h755xx_flash_CM7.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>21</ScrollPos>
-        </__.140>
-        <__.141>
+        </__.141>
+        <__.142>
          <BookmarkList></BookmarkList>
          <CaretPos>2346</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\winIDEA\STM32H755_FLASH\CORE_CM7\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>23</ScrollPos>
-        </__.141>
-        <__.142>
+        </__.142>
+        <__.143>
          <BookmarkList></BookmarkList>
          <CaretPos>238</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\winIDEA\STM32H755_FLASH\CORE_CM7\ProjectDefs.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.142>
-        <__.143>
+        </__.143>
+        <__.144>
          <BookmarkList></BookmarkList>
          <CaretPos>12099</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\winIDEA\STM32H755_FLASH\CORE_CM7\system_stm32h7xx_dualcore_boot_cm4_cm7.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>323</ScrollPos>
-        </__.143>
-        <__.144>
+        </__.144>
+        <__.145>
          <BookmarkList></BookmarkList>
          <CaretPos>3304</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.144>
-        <__.145>
+        </__.145>
+        <__.146>
          <BookmarkList></BookmarkList>
          <CaretPos>4759</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\winIDEA\STM32H755_FLASH\CORE_CM7\stm32h755.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>96</ScrollPos>
-        </__.145>
-        <__.146>
+        </__.146>
+        <__.147>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\stm32h755xx_flash_CM7.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.146>
-        <__.147>
+        </__.147>
+        <__.148>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CMSIS\Include\core_cm4.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.147>
-        <__.148>
+        </__.148>
+        <__.149>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\ProjectDefs.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.148>
-        <__.149>
-         <BookmarkList></BookmarkList>
-         <CaretPos>387</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.149>
@@ -477,83 +477,83 @@
         </__.15>
         <__.150>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>387</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\startup_stm32h755xx.s</FileName>
-         <FileType>0</FileType>
+         <FileName>C:\VenusTrunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.150>
         <__.151>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\system_stm32h7xx_dualcore_boot_cm4_cm7.c</FileName>
-         <FileType>1</FileType>
+         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\startup_stm32h755xx.s</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.151>
         <__.152>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\readMe.txt</FileName>
-         <FileType>0</FileType>
+         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\system_stm32h7xx_dualcore_boot_cm4_cm7.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.152>
         <__.153>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\readMe.txt</FileName>
+         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.153>
         <__.154>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.154>
+        <__.155>
          <BookmarkList></BookmarkList>
          <CaretPos>2346</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>23</ScrollPos>
-        </__.154>
-        <__.155>
+        </__.155>
+        <__.156>
          <BookmarkList></BookmarkList>
          <CaretPos>3026</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\stm32h755.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>70</ScrollPos>
-        </__.155>
-        <__.156>
+        </__.156>
+        <__.157>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.156>
-        <__.157>
+        </__.157>
+        <__.158>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\trunk\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.157>
-        <__.158>
+        </__.158>
+        <__.159>
          <BookmarkList></BookmarkList>
          <CaretPos>2028</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\VenusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>21</ScrollPos>
-        </__.158>
-        <__.159>
-         <BookmarkList></BookmarkList>
-         <CaretPos>237</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.159>
         <__.16>
          <BookmarkList></BookmarkList>
@@ -565,81 +565,81 @@
         </__.16>
         <__.160>
          <BookmarkList></BookmarkList>
+         <CaretPos>237</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.160>
+        <__.161>
+         <BookmarkList></BookmarkList>
          <CaretPos>4425</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>68</ScrollPos>
-        </__.160>
-        <__.161>
+        </__.161>
+        <__.162>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\customTests.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.161>
-        <__.162>
+        </__.162>
+        <__.163>
          <BookmarkList></BookmarkList>
          <CaretPos>762</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.162>
-        <__.163>
+        </__.163>
+        <__.164>
          <BookmarkList></BookmarkList>
          <CaretPos>1207991</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CMSIS\Device\ST\STM32H7xx\Include\stm32h755xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>14997</ScrollPos>
-        </__.163>
-        <__.164>
+        </__.164>
+        <__.165>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\cortexM7.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>27</ScrollPos>
-        </__.164>
-        <__.165>
+        </__.165>
+        <__.166>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.165>
-        <__.166>
+        </__.166>
+        <__.167>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.166>
-        <__.167>
+        </__.167>
+        <__.168>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\stm32h755xx_flash_CM7.ld</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.167>
-        <__.168>
+        </__.168>
+        <__.169>
          <BookmarkList></BookmarkList>
          <CaretPos>741</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\src\CortexM-x\STM32H755_FLASH\CORE_CM7\ProjectDefs.h</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.168>
-        <__.169>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\ProjectDefs.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.169>
@@ -653,41 +653,41 @@
         </__.17>
         <__.170>
          <BookmarkList></BookmarkList>
-         <CaretPos>47</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\winIDEA_public\ST\STM32H755_FLASH\targetInit\CORE_CM7\CPUFile.c</FileName>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\ProjectDefs.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.170>
         <__.171>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>47</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\stm32h755xx_flash_CM7.ld</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\JakaJemec\winIDEA_public\ST\STM32H755_FLASH\targetInit\CORE_CM7\CPUFile.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.171>
         <__.172>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\system_stm32h7xx_dualcore_boot_cm4_cm7.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\stm32h755xx_flash_CM7.ld</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.172>
         <__.173>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\startup_stm32h755xx.s</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\system_stm32h7xx_dualcore_boot_cm4_cm7.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.173>
         <__.174>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\cortexM7.s</FileName>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.174>
@@ -695,15 +695,15 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CMSIS\Device\ST\STM32H7xx\Include\stm32h755xx.h</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\cortexM7.s</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.175>
         <__.176>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\stm32h755.c</FileName>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CMSIS\Device\ST\STM32H7xx\Include\stm32h755xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.176>
@@ -711,25 +711,25 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\main.c</FileName>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\CORE_CM7\stm32h755.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.177>
         <__.178>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaJemec\BlueBox\BlueBox\fitIDEA\samples\public\STM32H755_FLASH\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.178>
+        <__.179>
          <BookmarkList></BookmarkList>
          <CaretPos>2346</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaJemec\winIDEA_public\ST\STM32H755_FLASH\targetInit\CORE_CM7\startup_stm32h755xx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>32</ScrollPos>
-        </__.178>
-        <__.179>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JakaJemec\winIDEA_public\ST\STM32H755_FLASH\targetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.179>
         <__.18>
          <BookmarkList></BookmarkList>
@@ -739,6 +739,38 @@
          <FileType>1</FileType>
          <ScrollPos>241</ScrollPos>
         </__.18>
+        <__.180>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JakaJemec\winIDEA_public\ST\STM32H755_FLASH\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.180>
+        <__.181>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2230</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>T:\SamplesDistribution\winIDEA_public\ST\STM32H755_FLASH\targetInit\CORE_CM7\startup_stm32h755xx.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>35</ScrollPos>
+        </__.181>
+        <__.182>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1424</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>T:\SamplesDistribution\winIDEA_public\ST\STM32H755_FLASH\targetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>126</ScrollPos>
+        </__.182>
+        <__.183>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>T:\SamplesDistribution\winIDEA_public\ST\STM32H755_FLASH\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.183>
         <__.19>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
@@ -1464,7 +1496,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296220160</RegVer>
+      <RegVer>1296695296</RegVer>
       <ANGUIData.0>
        <Filetime type="B">JODOKLOPDFEONDAB</Filetime>
        <GUID type="B">FJGDADPIMIBKCIEOIDFEFDBAJEPIEPCN</GUID>
@@ -3932,7 +3964,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296220160</RegVer>
+    <RegVer>1296695296</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3986,9 +4018,17 @@
         <ViewType>Output_Progress</ViewType>
        </__.11>
        <__.12>
+        <ViewId>12567</ViewId>
+        <ViewType>Output_Tools</ViewType>
+       </__.12>
+       <__.13>
+        <ViewId>12568</ViewId>
+        <ViewType>Output_Build</ViewType>
+       </__.13>
+       <__.14>
         <ViewId>12258</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.12>
+       </__.14>
        <__.2>
         <ViewId>12557</ViewId>
         <ViewType>Memory</ViewType>
@@ -4036,7 +4076,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>716</Width>
+          <Width>570</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -4334,7 +4374,7 @@
         </FindData>
        </__.0>
        <__.1>
-        <ViewId>-1</ViewId>
+        <ViewId>12567</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -4342,7 +4382,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>-1</ViewId>
+        <ViewId>12568</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -4501,12 +4541,12 @@
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>180</Width>
+          <Width>110</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>80</Width>
+          <Width>102</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
@@ -4665,11 +4705,14 @@
       <WIPViews>
        <__.0>
         <AutoRefresh>false</AutoRefresh>
-        <PluginName>Cortex Status</PluginName>
         <ViewId>-1</ViewId>
         <ViewOriginalTitle></ViewOriginalTitle>
         <ViewType>WIP</ViewType>
         <WindowTitle>Cortex Status</WindowTitle>
+        <InstanceInfo>
+         <Instance></Instance>
+         <Type>Unknown</Type>
+        </InstanceInfo>
         <InstanceTag>
          <Instance>0</Instance>
          <Name></Name>
@@ -4729,17 +4772,17 @@
       </WIPViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>42</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>85</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>12554</FocusedViewId>
-        <FrameState>3</FrameState>
+        <FocusedViewId>12559</FocusedViewId>
+        <FrameState>9</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>833</Bottom>
-         <Left>904</Left>
-         <Right>1928</Right>
-         <Top>79</Top>
+         <Bottom>1168</Bottom>
+         <Left>2277</Left>
+         <Right>3848</Right>
+         <Top>1</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4763,7 +4806,7 @@
            <Children>
             <__.0>
              <DockType>None</DockType>
-             <Extent>0.2</Extent>
+             <Extent>0.0808647</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
@@ -4795,7 +4838,7 @@
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.4</Extent>
+             <Extent>0.519135</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
@@ -4836,14 +4879,46 @@
                </Children>
               </__.0>
               <__.1>
-               <DockType>View</DockType>
+               <DockType>None</DockType>
                <Extent>0.3</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>Vertical</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>12563</ViewId>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>12563</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>12563</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>12567</ViewId>
+                </__.1>
+                <__.2>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>12568</ViewId>
+                </__.2>
+               </Children>
               </__.1>
              </Children>
             </__.1>
@@ -5249,9 +5324,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
@@ -5270,18 +5342,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>true</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>true</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>true</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -5295,14 +5361,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -5411,6 +5475,19 @@
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>
