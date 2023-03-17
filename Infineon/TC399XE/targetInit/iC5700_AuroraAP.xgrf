@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296658432</RegVer>
+      <RegVer>1296699392</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -37,52 +37,68 @@
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
+         <CaretPos>934</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC399XE\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
          <CaretPos>1525</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>29</ScrollPos>
-        </__.11>
-        <__.12>
+        </__.12>
+        <__.13>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.12>
-        <__.13>
+        </__.13>
+        <__.14>
          <BookmarkList></BookmarkList>
          <CaretPos>1166</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.13>
-        <__.14>
+        </__.14>
+        <__.15>
          <BookmarkList></BookmarkList>
          <CaretPos>1230</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\samples\winIDEA_public\Infineon\TC399XE\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.15>
+        </__.15>
+        <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC399XE\targetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.15>
-        <__.16>
+        </__.16>
+        <__.17>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC399XE\targetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.16>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC399XE\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.18>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
@@ -160,7 +176,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296658432</RegVer>
+      <RegVer>1296699392</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -3578,7 +3594,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296658432</RegVer>
+    <RegVer>1296699392</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3728,8 +3744,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0xFFFFFFFF</Address>
-           <AddressOffset>0xFFFFFC00</AddressOffset>
+           <Address>0xF0000FF</Address>
+           <AddressOffset>0xF0000C0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -3739,7 +3755,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0xFFFFFC00</Address>
+         <Address>0xF0000C0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -4149,17 +4165,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>169</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>10164</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1018</Bottom>
-         <Left>2618</Left>
-         <Right>4069</Right>
-         <Top>414</Top>
+         <Bottom>768</Bottom>
+         <Left>94</Left>
+         <Right>1118</Right>
+         <Top>0</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4602,9 +4618,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>

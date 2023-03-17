@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296658432</RegVer>
+      <RegVer>1296699392</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296658432</RegVer>
+      <RegVer>1296699392</RegVer>
       <WorkspaceOptions>
        <SessionDumpFilter>
         <Enabled>false</Enabled>
@@ -40,7 +40,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296658432</RegVer>
+    <RegVer>1296699392</RegVer>
     <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
@@ -1630,6 +1630,7 @@
        <DisableIRQ_StepOver>true</DisableIRQ_StepOver>
        <ReserveBP>true</ReserveBP>
        <ResetConditionalBPCountWhenStop>false</ResetConditionalBPCountWhenStop>
+       <RunUntilReturn>RunUntilReturn</RunUntilReturn>
       </Debugging>
       <Directories1>
        <AltPaths>true</AltPaths>
@@ -2101,9 +2102,14 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.151</winIDEA>
+      <winIDEA>Build 9.21.161</winIDEA>
      </Info>
      <Options>
+      <Environment>
+       <iConnectLimitClients>false</iConnectLimitClients>
+       <iConnectLimitNum>1</iConnectLimitNum>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+      </Environment>
       <Search>
        <ExtFolderIgnoreFilter>*.elf,*.bin,*.o*</ExtFolderIgnoreFilter>
       </Search>
@@ -2446,7 +2452,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296658432</RegVer>
+    <RegVer>1296699392</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>sample - Debug</DefaultTargetName>
@@ -2461,7 +2467,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296658432</RegVer>
+    <RegVer>1296699392</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -3862,9 +3868,9 @@
            <Name></Name>
            <TC_Partition>0</TC_Partition>
            <Partitions.0>
-            <Enabled>false</Enabled>
+            <Enabled>true</Enabled>
             <Offset>0</Offset>
-            <Size>0</Size>
+            <Size>1024</Size>
            </Partitions.0>
            <Partitions.1>
             <Enabled>false</Enabled>
@@ -5459,6 +5465,7 @@
           <DeviceAddress>0x80000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -5507,6 +5514,7 @@
           <DeviceAddress>0xAF000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -5555,6 +5563,7 @@
           <DeviceAddress>0xAF400000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>false</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -5603,6 +5612,7 @@
           <DeviceAddress>0xAFC00000</DeviceAddress>
           <DeviceType>Parallel</DeviceType>
           <Enabled>false</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -5648,8 +5658,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>151</V_BUILD>
-      <V_BUILD_SCC>146550</V_BUILD_SCC>
+      <V_BUILD>161</V_BUILD>
+      <V_BUILD_SCC>148346</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -5736,7 +5746,7 @@
          <TimeSource_Profiler>tsu_rel</TimeSource_Profiler>
          <TraceBufferMode>ONCHIP_TBUF_TFIF</TraceBufferMode>
          <TraceLMUAuto>true</TraceLMUAuto>
-         <TraceMemoryRegion>TCM</TraceMemoryRegion>
+         <TraceMemoryRegion>XTM</TraceMemoryRegion>
          <UseAllEmMemForTrace>true</UseAllEmMemForTrace>
          <UsePassword>false</UsePassword>
          <Event.CREVT>
@@ -5894,7 +5904,7 @@
          <SingleStepMode>0</SingleStepMode>
          <TimeSource_Profiler>1</TimeSource_Profiler>
          <TraceBufferMode>1</TraceBufferMode>
-         <TraceMemoryRegion>0</TraceMemoryRegion>
+         <TraceMemoryRegion>1</TraceMemoryRegion>
          <UseAllEmMemForTrace>1</UseAllEmMemForTrace>
          <UsePassword>0</UsePassword>
          <Event.0>
@@ -7414,7 +7424,7 @@
        </XCP>
       </HW>
       <Trace>
-       <Type>0</Type>
+       <Type>5</Type>
       </Trace>
      </HW>
     </HServerData>

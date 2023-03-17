@@ -8,174 +8,198 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296658432</RegVer>
+      <RegVer>1296699392</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2723</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>55</ScrollPos>
-        </__.0>
-        <__.1>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.1>
-        <__.10>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.10>
-        <__.11>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2723</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\C0\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>28</ScrollPos>
-        </__.11>
-        <__.12>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2723</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>54</ScrollPos>
-        </__.12>
-        <__.13>
-         <BookmarkList></BookmarkList>
-         <CaretPos>5876</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\CPUFile.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>159</ScrollPos>
-        </__.13>
-        <__.14>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\sample.lsl</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>6</ScrollPos>
-        </__.14>
-        <__.15>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\tc_arch.lsl</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.15>
-        <__.16>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.16>
-        <__.17>
-         <BookmarkList></BookmarkList>
-         <CaretPos>3307</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>266</ScrollPos>
-        </__.17>
-        <__.18>
-         <BookmarkList></BookmarkList>
-         <CaretPos>392</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
-         <BookmarkList></BookmarkList>
-         <CaretPos>379</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.19>
-        <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>K:\samplesRecompile\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.0>
+        <__.1>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2723</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>55</ScrollPos>
+        </__.1>
+        <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>401</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC399XE\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.10>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2723</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\C0\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>28</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2723</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>54</ScrollPos>
+        </__.14>
+        <__.15>
+         <BookmarkList></BookmarkList>
+         <CaretPos>5876</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\CPUFile.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>159</ScrollPos>
+        </__.15>
+        <__.16>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\sample.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>6</ScrollPos>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\tc_arch.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\C0\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3307</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>266</ScrollPos>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.2>
         <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>392</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>379</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC399XE\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.21>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC399XE\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.3>
+        </__.23>
+        <__.24>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>C:\SVN\fitIDEA\samples\src\common\main.c</FileName>
+         <CaretPos>869</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC399XE\emptyTargetInit\test.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
+         <ScrollPos>45</ScrollPos>
+        </__.24>
+        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>844</CaretPos>
          <Encoding>1</Encoding>
          <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.3>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC399XE\emptyTargetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.4>
         <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>C:\SVN\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>755</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
+        </__.6>
+        <__.7>
          <BookmarkList></BookmarkList>
          <CaretPos>1527</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\TriCore\TC399XE\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.7>
+        </__.7>
+        <__.8>
          <BookmarkList></BookmarkList>
          <CaretPos>599</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.7>
-        <__.8>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
@@ -183,7 +207,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\JanZ\VenusTrunk1\BlueBox\fitIDEA\samples\public\TC399XE\targetInit\main.c</FileName>
+         <FileName>D:\venus\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.9>
@@ -200,7 +224,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296658432</RegVer>
+      <RegVer>1296699392</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -3618,7 +3642,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296658432</RegVer>
+    <RegVer>1296699392</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3663,6 +3687,10 @@
         <ViewId>10161</ViewId>
         <ViewType>SFR</ViewType>
        </__.1>
+       <__.10>
+        <ViewId>232</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.10>
        <__.2>
         <ViewId>10159</ViewId>
         <ViewType>Disassembly</ViewType>
@@ -3692,8 +3720,8 @@
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>232</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>10168</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -3710,7 +3738,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>716</Width>
+          <Width>699</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -3768,8 +3796,8 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x0</Address>
-           <AddressOffset>0x0</AddressOffset>
+           <Address>0xF0000FF</Address>
+           <AddressOffset>0xF0000C0</AddressOffset>
            <AddressStr></AddressStr>
            <DisplayMode>0</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
@@ -3779,7 +3807,7 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x0</Address>
+         <Address>0xF0000C0</Address>
          <Bits>8</Bits>
          <DisplayMode>0</DisplayMode>
          <High>0xFFFFFFFF</High>
@@ -3805,7 +3833,7 @@
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>10168</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -4210,17 +4238,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>150</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>10162</FocusedViewId>
+        <FocusedViewId>10167</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1018</Bottom>
-         <Left>2618</Left>
-         <Right>4069</Right>
-         <Top>414</Top>
+         <Bottom>768</Bottom>
+         <Left>94</Left>
+         <Right>1118</Right>
+         <Top>0</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4255,32 +4283,54 @@
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>true</IsDocumentPane>
+             <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>10167</TopTabViewId>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
+               <DockType>None</DockType>
+               <Extent>0.75</Extent>
+               <IsDocumentPane>true</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>10166</ViewId>
+               <TopTabViewId>10167</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>10166</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>10167</ViewId>
+                </__.1>
+               </Children>
               </__.0>
               <__.1>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>View</DockType>
+               <Extent>0.25</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
+               <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>10167</ViewId>
+               <ViewId>10168</ViewId>
               </__.1>
              </Children>
             </__.1>
@@ -4663,9 +4713,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
