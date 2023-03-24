@@ -1,0 +1,45 @@
+ENTRY(reset)                     
+INPUT(& &)
+
+MEMORY
+{
+  VECT (rx)  : ORIGIN = 0x00400000, LENGTH = 1k
+  RAM_CODE (rwx)  : ORIGIN = 0x00400400, LENGTH = 255k
+  RAM_DATA (rwx)  : ORIGIN = 0x00440000, LENGTH = 256k
+}
+
+_estack = ORIGIN (RAM_DATA) + LENGTH(RAM_DATA);
+
+SECTIONS 
+{
+  .vect_out :
+  {
+    KEEP(*(.vector)) 
+  } >VECT
+  
+  .text_out :
+  {
+    *(.text*)
+    . = ALIGN(4);
+    *(.rodata*)
+    . = ALIGN(4);
+    _etext = .;
+  } >RAM_CODE
+  
+  .data_out :
+  {
+    _sdata = .;
+    *(.data*)
+    . = ALIGN(4);
+    _edata = .;
+  } >RAM_DATA AT> RAM_CODE
+    
+  .bss_out :
+  {
+    _sbss = .;
+    *(.bss*)
+    *(COMMON)
+    _ebss = .;
+  } >RAM_DATA
+}
+

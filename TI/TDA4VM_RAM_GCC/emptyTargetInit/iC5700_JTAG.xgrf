@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296670720</RegVer>
+      <RegVer>1296683008</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -240,7 +240,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296670720</RegVer>
+      <RegVer>1296683008</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -252,7 +252,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296670720</RegVer>
+    <RegVer>1296683008</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -796,17 +796,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>29</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
         <FocusedViewId>50</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1083</Bottom>
-         <Left>65</Left>
-         <Right>1871</Right>
-         <Top>34</Top>
+         <Bottom>1111</Bottom>
+         <Left>159</Left>
+         <Right>1806</Right>
+         <Top>67</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -1036,10 +1036,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
