@@ -1,0 +1,6 @@
+{
+  "Info": {
+    "Description": "Basic winIDEA sample.\nWorkspace can be used with: iC5000.\nSWD protocol is used for debugging.",
+    "HW": "iC5000"
+  }
+}

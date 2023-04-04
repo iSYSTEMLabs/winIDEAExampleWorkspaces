@@ -1,0 +1,7 @@
+{
+  "Info":
+  {
+    "Description": "winIDEA multi-core example with 6 cores running in an SMP configuration. Includes initialization of clock and timer.\nWorkspace can be used with: iC5700+AP\nDAP protocol is used for debugging.",
+    "HW": ""
+  }
+}

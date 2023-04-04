@@ -7,6 +7,7 @@ extern unsigned long _data;
 extern unsigned long _edata;
 extern unsigned long _bss;
 extern unsigned long _ebss;
+extern void InterruptRoutine();
 
 
 void Reset(void) __attribute__((naked));
@@ -36,6 +37,10 @@ void IntDefaultHandler(void)
   while(1);
 }
 
+void TimerInterruptHandler(void)
+{
+  InterruptRoutine();
+}
 
 __attribute__ ((section(".isr_vector")))
 void (* const g_pfnVectors[])(void) =
@@ -55,5 +60,5 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // Debug monitor handler
     0,                                      // Reserved
     IntDefaultHandler,                      // PendSV handler
-    IntDefaultHandler                       // SysTick handler
+    TimerInterruptHandler                   // SysTick handler
 };
