@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296719872</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -51,6 +51,22 @@
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC397XA\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC397XA\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>4846</CaretPos>
@@ -128,7 +144,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296244736</RegVer>
+      <RegVer>1296719872</RegVer>
       <ANGUIData.0>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -3546,7 +3562,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296244736</RegVer>
+    <RegVer>1296719872</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -3646,7 +3662,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>659</Width>
+          <Width>676</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -3996,14 +4012,14 @@
       <PrimaryDocumentPaneId>69</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>10125</FocusedViewId>
+        <FocusedViewId>10122</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1099</Bottom>
-         <Left>129</Left>
-         <Right>1153</Right>
-         <Top>361</Top>
+         <Bottom>868</Bottom>
+         <Left>100</Left>
+         <Right>1124</Right>
+         <Top>100</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -4490,9 +4506,6 @@
       <Environment>
        <CheckProjectUpToDate>false</CheckProjectUpToDate>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <iConnectLimitClients>false</iConnectLimitClients>
-       <iConnectLimitNum>1</iConnectLimitNum>
-       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
       </Environment>
       <MemoryWindow>
        <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
@@ -4511,18 +4524,12 @@
        </PropertyDialogRect>
       </RTOSWindow>
       <SFRWindow>
-       <AbortGroupUpdateOnAccessError>false</AbortGroupUpdateOnAccessError>
        <Display>Descr</Display>
        <FilterString></FilterString>
        <RadixPfx>true</RadixPfx>
        <ShortNames>false</ShortNames>
        <ShowFilter>true</ShowFilter>
        <SubSFRDisplay>NameValue</SubSFRDisplay>
-       <TimeLimitFullUpdate>false</TimeLimitFullUpdate>
-       <TimeLimitFullUpdateSec>5</TimeLimitFullUpdateSec>
-       <TimeLimitGroupUpdate>false</TimeLimitGroupUpdate>
-       <TimeLimitGroupUpdateSec>1</TimeLimitGroupUpdateSec>
-       <Update>Visible</Update>
       </SFRWindow>
       <TerminalWindow>
        <CurrentDownloadFile>-1</CurrentDownloadFile>
@@ -4536,14 +4543,12 @@
         <Columns>80</Columns>
         <DataBits>8</DataBits>
         <DTR_DSR>false</DTR_DSR>
-        <HistoryBuffer>500</HistoryBuffer>
         <LocalEcho>false</LocalEcho>
         <Parity>0</Parity>
         <Rows>24</Rows>
         <RTS_CTS>false</RTS_CTS>
         <Screen_0>24</Screen_0>
         <Screen_1>80</Screen_1>
-        <Screen_2>500</Screen_2>
         <StopBits>0</StopBits>
         <TerminalEmulation>VT100</TerminalEmulation>
         <XON_XOFF>false</XON_XOFF>
@@ -4595,10 +4600,50 @@
        <RootItem>
         <Name></Name>
         <Options>0</Options>
+        <ChildItems>
+         <__.0>
+          <Name>e200z425, e200z425, MPC5777M_ED</Name>
+          <Options>4</Options>
+         </__.0>
+        </ChildItems>
        </RootItem>
+       <SelectedItemPaths>
+        <__.0>
+         <Segments>
+          <__.0>
+           <Name></Name>
+          </__.0>
+          <__.1>
+           <Name>Cortex-M4, S32K144</Name>
+          </__.1>
+          <__.2>
+           <Name>WDOG</Name>
+          </__.2>
+          <__.3>
+           <Name>WDOG_CS</Name>
+          </__.3>
+          <__.4>
+           <Name>RCS</Name>
+          </__.4>
+         </Segments>
+        </__.0>
+       </SelectedItemPaths>
       </SFR_Tree>
      </WindowsInfo>
     </Environment>
+    <PluginData>
+     <PluginInstance.0>
+      <InstanceData>
+       <Data>
+        <DiscreteBkg>0x4040</DiscreteBkg>
+       </Data>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance></Instance>
+       <Type>HILMonitor</Type>
+      </InstanceInfo>
+     </PluginInstance.0>
+    </PluginData>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
       <Plugin>

@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296699392</RegVer>
+      <RegVer>1296719872</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -155,6 +155,22 @@
          <FileType>1</FileType>
          <ScrollPos>145</ScrollPos>
         </__.24>
+        <__.25>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC389QP\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.25>
+        <__.26>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC389QP\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.26>
         <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
@@ -224,7 +240,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296699392</RegVer>
+      <RegVer>1296719872</RegVer>
       <ANGUIData.0>
        <Filetime type="B">KMPDOGIBPMEDNDAB</Filetime>
        <GUID type="B">KAGHAIDDBPPEMAEFLFDDJIFBIMAALPAP</GUID>
@@ -4690,7 +4706,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296699392</RegVer>
+    <RegVer>1296719872</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -4786,7 +4802,7 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>699</Width>
+          <Width>716</Width>
          </__.1>
         </ColumnData>
        </__.0>
@@ -5181,10 +5197,10 @@
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>788</Bottom>
-         <Left>631</Left>
-         <Right>1655</Right>
-         <Top>20</Top>
+         <Bottom>868</Bottom>
+         <Left>100</Left>
+         <Right>1124</Right>
+         <Top>100</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>

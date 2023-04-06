@@ -712,7 +712,7 @@
       <SoCs>
        <__.0>
         <Enabled>true</Enabled>
-        <ProbeURL>Active Probe</ProbeURL>
+        <ProbeURL>System</ProbeURL>
         <SFRName>TC389QP</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
@@ -3175,9 +3175,9 @@
            <Name></Name>
            <TC_Partition>0</TC_Partition>
            <Partitions.0>
-            <Enabled>true</Enabled>
+            <Enabled>false</Enabled>
             <Offset>0</Offset>
-            <Size>1024</Size>
+            <Size>0</Size>
            </Partitions.0>
            <Partitions.1>
             <Enabled>false</Enabled>
@@ -4364,20 +4364,20 @@
         </HSM>
         <SCR>
          <BP.0>
-          <CoverEntireObject>false</CoverEntireObject>
-          <Enabled>false</Enabled>
+          <CoverEntireObject>true</CoverEntireObject>
+          <Enabled>true</Enabled>
           <End></End>
           <Start></Start>
          </BP.0>
          <BP.1>
-          <CoverEntireObject>false</CoverEntireObject>
-          <Enabled>false</Enabled>
+          <CoverEntireObject>true</CoverEntireObject>
+          <Enabled>true</Enabled>
           <End></End>
           <Start></Start>
          </BP.1>
          <BP.2>
-          <CoverEntireObject>false</CoverEntireObject>
-          <Enabled>false</Enabled>
+          <CoverEntireObject>true</CoverEntireObject>
+          <Enabled>true</Enabled>
           <End></End>
           <Start></Start>
          </BP.2>
@@ -5804,7 +5804,7 @@
        </Module>
        <Probe>
         <APName></APName>
-        <Type>AP</Type>
+        <Type>DTM</Type>
        </Probe>
        <SetupData>
         <ChallengeResponse>
@@ -6125,7 +6125,7 @@
       <HW>
        <HW>10</HW>
        <Communication>
-        <IPAddr>HW:5k7/DTM/TT0092 (Infineon TriCore TC389QP + iC5700 DAP2)</IPAddr>
+        <IPAddr></IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
         <Mode>3</Mode>
         <TCPPortNumber>5313</TCPPortNumber>

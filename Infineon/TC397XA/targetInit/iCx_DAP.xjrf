@@ -155,7 +155,7 @@
             <bVMID>false</bVMID>
             <Level>Sys</Level>
             <Secure>false</Secure>
-            <Use>true</Use>
+            <Use>false</Use>
             <VM>0x0</VM>
            </MSID>
            <Options>
@@ -708,12 +708,336 @@
          </File>
         </SymbolFiles>
        </__.3>
+       <__.4>
+        <Name>App_CPU4</Name>
+        <Directories>
+         <AltPaths>true</AltPaths>
+         <ConvertFromTo></ConvertFromTo>
+         <ConvertPath>false</ConvertPath>
+         <FindPriority>Project</FindPriority>
+         <FindSources>true</FindSources>
+         <ProjectFilesDirs>
+          <__.0>
+           <Dir></Dir>
+          </__.0>
+         </ProjectFilesDirs>
+        </Directories>
+        <MemProp_ISA>
+         <IgnoreDLInfo>false</IgnoreDLInfo>
+        </MemProp_ISA>
+        <OS>
+         <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
+         <L4Re_Config>
+          <FileName></FileName>
+          <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
+          <Thread_._block_._size>8192</Thread_._block_._size>
+         </L4Re_Config>
+         <Linux_Config>
+          <KernelStart>0x48080000</KernelStart>
+          <PikeOSParentKernelTaskName></PikeOSParentKernelTaskName>
+          <PikeOSParentPluginName></PikeOSParentPluginName>
+         </Linux_Config>
+         <OpTee_Config>
+          <OP-TEE_._Version>3.8.0</OP-TEE_._Version>
+         </OpTee_Config>
+         <OSEK_Data>
+          <Config>
+           <FileName></FileName>
+           <FileType>ORTI</FileType>
+          </Config>
+          <ConfigRTOS>
+           <UseiTCHi>false</UseiTCHi>
+          </ConfigRTOS>
+          <Export>
+           <FileName></FileName>
+           <Type>CSV</Type>
+          </Export>
+         </OSEK_Data>
+         <PikeOS_Config>
+          <FileNameExport>PikeOSExport.json</FileNameExport>
+          <FileNameTasks></FileNameTasks>
+          <FileNameThreads></FileNameThreads>
+          <Host_._PikeOS_._SP>0x0</Host_._PikeOS_._SP>
+          <OSLinuxChildPluginName></OSLinuxChildPluginName>
+          <PikeOS_._Version>PikeOS 3.4</PikeOS_._Version>
+          <PosixPartition></PosixPartition>
+         </PikeOS_Config>
+         <QNX_Config>
+          <QNX_._Version>QNX 7.1</QNX_._Version>
+         </QNX_Config>
+         <rcX_Config>
+          <rcX_._version>rcX 2.0.x.x</rcX_._version>
+         </rcX_Config>
+         <uCConfig>
+          <AutoRefresh>false</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
+          <VersionOfuC>uC/OS-II</VersionOfuC>
+         </uCConfig>
+         <Xen_Config>
+          <Xen_._Version>Xen 4.8</Xen_._Version>
+         </Xen_Config>
+        </OS>
+        <StackUsage>
+         <End></End>
+         <Pattern>0xCC</Pattern>
+         <Position>End</Position>
+         <Size></Size>
+         <Start></Start>
+         <Use>false</Use>
+        </StackUsage>
+        <SymbolFiles>
+         <DefaultFile>0</DefaultFile>
+         <File>
+          <__.0>
+           <Area></Area>
+           <Load>true</Load>
+           <OverrideMemArea>false</OverrideMemArea>
+           <Path>C4\Debug\sample.elf</Path>
+           <UseDefaultMSID>true</UseDefaultMSID>
+           <MSID>
+            <App>0x0</App>
+            <bAppID>false</bAppID>
+            <bVMID>false</bVMID>
+            <Level>Sys</Level>
+            <Secure>false</Secure>
+            <Use>false</Use>
+            <VM>0x0</VM>
+           </MSID>
+           <Options>
+            <AnalyzeBeyondCOFInFunc>false</AnalyzeBeyondCOFInFunc>
+            <AnalyzeCodeOutsideFunctions>true</AnalyzeCodeOutsideFunctions>
+            <CodeOffset>0x0</CodeOffset>
+            <InTargetDir>false</InTargetDir>
+            <LoadCode>false</LoadCode>
+            <LoadSymbols>true</LoadSymbols>
+            <MemPropOnLoadedCodeOnly>false</MemPropOnLoadedCodeOnly>
+            <MergeLines>true</MergeLines>
+            <OptimizeTypeName>false</OptimizeTypeName>
+            <SymbolOffset>0x0</SymbolOffset>
+            <TrustLineSymbolsToStartOnInstruction>true</TrustLineSymbolsToStartOnInstruction>
+            <Type>ELF</Type>
+            <Elf>
+             <BitfieldsOverrideTypeFromByteSize>false</BitfieldsOverrideTypeFromByteSize>
+             <CallStackGeneration>Automatic</CallStackGeneration>
+             <DumpELFHeaders>false</DumpELFHeaders>
+             <GCCARMDoubleFormat>Swapped (FPA)</GCCARMDoubleFormat>
+             <InsertInlinedFunctions>false</InsertInlinedFunctions>
+             <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
+             <LoadDebugSections>true</LoadDebugSections>
+             <LoadOnlyBeginningOfTheStatementLines>false</LoadOnlyBeginningOfTheStatementLines>
+             <LoadSymbolTableItems>Global</LoadSymbolTableItems>
+             <LoadWeakFunctions>false</LoadWeakFunctions>
+             <LoadZeroSizedSegments>false</LoadZeroSizedSegments>
+             <MergeTypes>true</MergeTypes>
+             <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
+             <Override64bitVariableLocation>true</Override64bitVariableLocation>
+             <RemoveOptimizedLines>false</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
+             <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
+             <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
+             <Cosmic>
+              <nowidden>false</nowidden>
+              <sprec>false</sprec>
+             </Cosmic>
+             <IAR>
+              <LegacyLocationLists>true</LegacyLocationLists>
+             </IAR>
+            </Elf>
+            <Hex>
+             <IgnoreChecksum>false</IgnoreChecksum>
+            </Hex>
+            <IEEE>
+             <EnumSize>16-bit</EnumSize>
+             <Generator>Avocet</Generator>
+             <ReadPublicSection>false</ReadPublicSection>
+            </IEEE>
+            <UBROF>
+             <ConvertBankAddresses>false</ConvertBankAddresses>
+             <Generator>IAR</Generator>
+            </UBROF>
+           </Options>
+           <PreProcessor>
+            <Analyze>none</Analyze>
+            <CommandLine></CommandLine>
+            <UseProjectDefines>false</UseProjectDefines>
+            <UseProjectIncludePaths>false</UseProjectIncludePaths>
+           </PreProcessor>
+          </__.0>
+         </File>
+        </SymbolFiles>
+       </__.4>
+       <__.5>
+        <Name>App_CPU5</Name>
+        <Directories>
+         <AltPaths>true</AltPaths>
+         <ConvertFromTo></ConvertFromTo>
+         <ConvertPath>false</ConvertPath>
+         <FindPriority>Project</FindPriority>
+         <FindSources>true</FindSources>
+         <ProjectFilesDirs>
+          <__.0>
+           <Dir></Dir>
+          </__.0>
+         </ProjectFilesDirs>
+        </Directories>
+        <MemProp_ISA>
+         <IgnoreDLInfo>false</IgnoreDLInfo>
+        </MemProp_ISA>
+        <OS>
+         <Type>None</Type>
+         <FreeRTOS>
+          <ProfilerXMLPath></ProfilerXMLPath>
+         </FreeRTOS>
+         <L4Re_Config>
+          <FileName></FileName>
+          <L4Re_._Plugin_._Version>Version 1.1</L4Re_._Plugin_._Version>
+          <Thread_._block_._size>8192</Thread_._block_._size>
+         </L4Re_Config>
+         <Linux_Config>
+          <KernelStart>0x48080000</KernelStart>
+          <PikeOSParentKernelTaskName></PikeOSParentKernelTaskName>
+          <PikeOSParentPluginName></PikeOSParentPluginName>
+         </Linux_Config>
+         <OpTee_Config>
+          <OP-TEE_._Version>3.8.0</OP-TEE_._Version>
+         </OpTee_Config>
+         <OSEK_Data>
+          <Config>
+           <FileName></FileName>
+           <FileType>ORTI</FileType>
+          </Config>
+          <ConfigRTOS>
+           <UseiTCHi>false</UseiTCHi>
+          </ConfigRTOS>
+          <Export>
+           <FileName></FileName>
+           <Type>CSV</Type>
+          </Export>
+         </OSEK_Data>
+         <PikeOS_Config>
+          <FileNameExport>PikeOSExport.json</FileNameExport>
+          <FileNameTasks></FileNameTasks>
+          <FileNameThreads></FileNameThreads>
+          <Host_._PikeOS_._SP>0x0</Host_._PikeOS_._SP>
+          <OSLinuxChildPluginName></OSLinuxChildPluginName>
+          <PikeOS_._Version>PikeOS 3.4</PikeOS_._Version>
+          <PosixPartition></PosixPartition>
+         </PikeOS_Config>
+         <QNX_Config>
+          <QNX_._Version>QNX 7.1</QNX_._Version>
+         </QNX_Config>
+         <rcX_Config>
+          <rcX_._version>rcX 2.0.x.x</rcX_._version>
+         </rcX_Config>
+         <uCConfig>
+          <AutoRefresh>false</AutoRefresh>
+          <FloatingPoint>false</FloatingPoint>
+          <VersionOfuC>uC/OS-II</VersionOfuC>
+         </uCConfig>
+         <Xen_Config>
+          <Xen_._Version>Xen 4.8</Xen_._Version>
+         </Xen_Config>
+        </OS>
+        <StackUsage>
+         <End></End>
+         <Pattern>0xCC</Pattern>
+         <Position>End</Position>
+         <Size></Size>
+         <Start></Start>
+         <Use>false</Use>
+        </StackUsage>
+        <SymbolFiles>
+         <DefaultFile>0</DefaultFile>
+         <File>
+          <__.0>
+           <Area></Area>
+           <Load>true</Load>
+           <OverrideMemArea>false</OverrideMemArea>
+           <Path>C5\Debug\sample.elf</Path>
+           <UseDefaultMSID>true</UseDefaultMSID>
+           <MSID>
+            <App>0x0</App>
+            <bAppID>false</bAppID>
+            <bVMID>false</bVMID>
+            <Level>Sys</Level>
+            <Secure>false</Secure>
+            <Use>false</Use>
+            <VM>0x0</VM>
+           </MSID>
+           <Options>
+            <AnalyzeBeyondCOFInFunc>false</AnalyzeBeyondCOFInFunc>
+            <AnalyzeCodeOutsideFunctions>true</AnalyzeCodeOutsideFunctions>
+            <CodeOffset>0x0</CodeOffset>
+            <InTargetDir>false</InTargetDir>
+            <LoadCode>false</LoadCode>
+            <LoadSymbols>true</LoadSymbols>
+            <MemPropOnLoadedCodeOnly>false</MemPropOnLoadedCodeOnly>
+            <MergeLines>true</MergeLines>
+            <OptimizeTypeName>false</OptimizeTypeName>
+            <SymbolOffset>0x0</SymbolOffset>
+            <TrustLineSymbolsToStartOnInstruction>true</TrustLineSymbolsToStartOnInstruction>
+            <Type>ELF</Type>
+            <Elf>
+             <BitfieldsOverrideTypeFromByteSize>false</BitfieldsOverrideTypeFromByteSize>
+             <CallStackGeneration>Automatic</CallStackGeneration>
+             <DumpELFHeaders>false</DumpELFHeaders>
+             <GCCARMDoubleFormat>Swapped (FPA)</GCCARMDoubleFormat>
+             <InsertInlinedFunctions>false</InsertInlinedFunctions>
+             <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
+             <LoadDebugSections>true</LoadDebugSections>
+             <LoadOnlyBeginningOfTheStatementLines>false</LoadOnlyBeginningOfTheStatementLines>
+             <LoadSymbolTableItems>Global</LoadSymbolTableItems>
+             <LoadWeakFunctions>false</LoadWeakFunctions>
+             <LoadZeroSizedSegments>false</LoadZeroSizedSegments>
+             <MergeTypes>true</MergeTypes>
+             <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
+             <Override64bitVariableLocation>true</Override64bitVariableLocation>
+             <RemoveOptimizedLines>false</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
+             <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
+             <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
+             <Cosmic>
+              <nowidden>false</nowidden>
+              <sprec>false</sprec>
+             </Cosmic>
+             <IAR>
+              <LegacyLocationLists>true</LegacyLocationLists>
+             </IAR>
+            </Elf>
+            <Hex>
+             <IgnoreChecksum>false</IgnoreChecksum>
+            </Hex>
+            <IEEE>
+             <EnumSize>16-bit</EnumSize>
+             <Generator>Avocet</Generator>
+             <ReadPublicSection>false</ReadPublicSection>
+            </IEEE>
+            <UBROF>
+             <ConvertBankAddresses>false</ConvertBankAddresses>
+             <Generator>IAR</Generator>
+            </UBROF>
+           </Options>
+           <PreProcessor>
+            <Analyze>none</Analyze>
+            <CommandLine></CommandLine>
+            <UseProjectDefines>false</UseProjectDefines>
+            <UseProjectIncludePaths>false</UseProjectIncludePaths>
+           </PreProcessor>
+          </__.0>
+         </File>
+        </SymbolFiles>
+       </__.5>
       </Applications>
       <SoCs>
        <__.0>
         <Enabled>true</Enabled>
-        <ProbeURL>Active Probe</ProbeURL>
-        <SFRName>TC389QP</SFRName>
+        <ProbeURL>System</ProbeURL>
+        <SFRName>TC397XA</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
          <DefaultFile>-1</DefaultFile>
@@ -730,7 +1054,7 @@
             <bVMID>false</bVMID>
             <Level>Sys</Level>
             <Secure>false</Secure>
-            <Use>true</Use>
+            <Use>false</Use>
             <VM>0x0</VM>
            </MSID>
            <Options>
@@ -806,7 +1130,7 @@
             <bVMID>false</bVMID>
             <Level>Sys</Level>
             <Secure>false</Secure>
-            <Use>true</Use>
+            <Use>false</Use>
             <VM>0x0</VM>
            </MSID>
            <Options>
@@ -882,7 +1206,7 @@
             <bVMID>false</bVMID>
             <Level>Sys</Level>
             <Secure>false</Secure>
-            <Use>true</Use>
+            <Use>false</Use>
             <VM>0x0</VM>
            </MSID>
            <Options>
@@ -958,7 +1282,7 @@
             <bVMID>false</bVMID>
             <Level>Sys</Level>
             <Secure>false</Secure>
-            <Use>true</Use>
+            <Use>false</Use>
             <VM>0x0</VM>
            </MSID>
            <Options>
@@ -1022,6 +1346,158 @@
             <UseProjectIncludePaths>false</UseProjectIncludePaths>
            </PreProcessor>
           </__.3>
+          <__.4>
+           <Area></Area>
+           <Load>true</Load>
+           <OverrideMemArea>false</OverrideMemArea>
+           <Path>C4\debug\sample.elf</Path>
+           <UseDefaultMSID>true</UseDefaultMSID>
+           <MSID>
+            <App>0x0</App>
+            <bAppID>false</bAppID>
+            <bVMID>false</bVMID>
+            <Level>Sys</Level>
+            <Secure>false</Secure>
+            <Use>false</Use>
+            <VM>0x0</VM>
+           </MSID>
+           <Options>
+            <AnalyzeBeyondCOFInFunc>false</AnalyzeBeyondCOFInFunc>
+            <AnalyzeCodeOutsideFunctions>true</AnalyzeCodeOutsideFunctions>
+            <CodeOffset>0x0</CodeOffset>
+            <InTargetDir>false</InTargetDir>
+            <LoadCode>true</LoadCode>
+            <LoadSymbols>false</LoadSymbols>
+            <MemPropOnLoadedCodeOnly>false</MemPropOnLoadedCodeOnly>
+            <MergeLines>true</MergeLines>
+            <OptimizeTypeName>false</OptimizeTypeName>
+            <SymbolOffset>0x0</SymbolOffset>
+            <TrustLineSymbolsToStartOnInstruction>true</TrustLineSymbolsToStartOnInstruction>
+            <Type>ELF</Type>
+            <Elf>
+             <BitfieldsOverrideTypeFromByteSize>false</BitfieldsOverrideTypeFromByteSize>
+             <CallStackGeneration>Automatic</CallStackGeneration>
+             <DumpELFHeaders>false</DumpELFHeaders>
+             <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
+             <InsertInlinedFunctions>false</InsertInlinedFunctions>
+             <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
+             <LoadDebugSections>true</LoadDebugSections>
+             <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
+             <LoadSymbolTableItems>None</LoadSymbolTableItems>
+             <LoadWeakFunctions>true</LoadWeakFunctions>
+             <LoadZeroSizedSegments>false</LoadZeroSizedSegments>
+             <MergeTypes>false</MergeTypes>
+             <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
+             <Override64bitVariableLocation>true</Override64bitVariableLocation>
+             <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
+             <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
+             <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
+             <Cosmic>
+              <nowidden>false</nowidden>
+              <sprec>false</sprec>
+             </Cosmic>
+             <IAR>
+              <LegacyLocationLists>true</LegacyLocationLists>
+             </IAR>
+            </Elf>
+            <Hex>
+             <IgnoreChecksum>false</IgnoreChecksum>
+            </Hex>
+            <IEEE>
+             <EnumSize>16-bit</EnumSize>
+             <Generator>Avocet</Generator>
+             <ReadPublicSection>false</ReadPublicSection>
+            </IEEE>
+            <UBROF>
+             <ConvertBankAddresses>false</ConvertBankAddresses>
+             <Generator>IAR</Generator>
+            </UBROF>
+           </Options>
+           <PreProcessor>
+            <Analyze>none</Analyze>
+            <CommandLine></CommandLine>
+            <UseProjectDefines>false</UseProjectDefines>
+            <UseProjectIncludePaths>false</UseProjectIncludePaths>
+           </PreProcessor>
+          </__.4>
+          <__.5>
+           <Area></Area>
+           <Load>true</Load>
+           <OverrideMemArea>false</OverrideMemArea>
+           <Path>C5\debug\sample.elf</Path>
+           <UseDefaultMSID>true</UseDefaultMSID>
+           <MSID>
+            <App>0x0</App>
+            <bAppID>false</bAppID>
+            <bVMID>false</bVMID>
+            <Level>Sys</Level>
+            <Secure>false</Secure>
+            <Use>false</Use>
+            <VM>0x0</VM>
+           </MSID>
+           <Options>
+            <AnalyzeBeyondCOFInFunc>false</AnalyzeBeyondCOFInFunc>
+            <AnalyzeCodeOutsideFunctions>true</AnalyzeCodeOutsideFunctions>
+            <CodeOffset>0x0</CodeOffset>
+            <InTargetDir>false</InTargetDir>
+            <LoadCode>true</LoadCode>
+            <LoadSymbols>false</LoadSymbols>
+            <MemPropOnLoadedCodeOnly>false</MemPropOnLoadedCodeOnly>
+            <MergeLines>true</MergeLines>
+            <OptimizeTypeName>false</OptimizeTypeName>
+            <SymbolOffset>0x0</SymbolOffset>
+            <TrustLineSymbolsToStartOnInstruction>true</TrustLineSymbolsToStartOnInstruction>
+            <Type>ELF</Type>
+            <Elf>
+             <BitfieldsOverrideTypeFromByteSize>false</BitfieldsOverrideTypeFromByteSize>
+             <CallStackGeneration>Automatic</CallStackGeneration>
+             <DumpELFHeaders>false</DumpELFHeaders>
+             <GCCARMDoubleFormat>Straight (VFP)</GCCARMDoubleFormat>
+             <InsertInlinedFunctions>false</InsertInlinedFunctions>
+             <LoadCodeFrom>Program Headers - Physical</LoadCodeFrom>
+             <LoadCodeFromExecutableSections>true</LoadCodeFromExecutableSections>
+             <LoadDebugSections>true</LoadDebugSections>
+             <LoadOnlyBeginningOfTheStatementLines>true</LoadOnlyBeginningOfTheStatementLines>
+             <LoadSymbolTableItems>None</LoadSymbolTableItems>
+             <LoadWeakFunctions>true</LoadWeakFunctions>
+             <LoadZeroSizedSegments>false</LoadZeroSizedSegments>
+             <MergeTypes>false</MergeTypes>
+             <OffsetFRAMEAdditionaly>0</OffsetFRAMEAdditionaly>
+             <Override64bitVariableLocation>true</Override64bitVariableLocation>
+             <RemoveOptimizedLines>true</RemoveOptimizedLines>
+             <RemoveOptimizedLinesForCU>true</RemoveOptimizedLinesForCU>
+             <ReverseBitFieldsOrder>false</ReverseBitFieldsOrder>
+             <UseSymbolTableForVariablesWithNoLocation>true</UseSymbolTableForVariablesWithNoLocation>
+             <Cosmic>
+              <nowidden>false</nowidden>
+              <sprec>false</sprec>
+             </Cosmic>
+             <IAR>
+              <LegacyLocationLists>true</LegacyLocationLists>
+             </IAR>
+            </Elf>
+            <Hex>
+             <IgnoreChecksum>false</IgnoreChecksum>
+            </Hex>
+            <IEEE>
+             <EnumSize>16-bit</EnumSize>
+             <Generator>Avocet</Generator>
+             <ReadPublicSection>false</ReadPublicSection>
+            </IEEE>
+            <UBROF>
+             <ConvertBankAddresses>false</ConvertBankAddresses>
+             <Generator>IAR</Generator>
+            </UBROF>
+           </Options>
+           <PreProcessor>
+            <Analyze>none</Analyze>
+            <CommandLine></CommandLine>
+            <UseProjectDefines>false</UseProjectDefines>
+            <UseProjectIncludePaths>false</UseProjectIncludePaths>
+           </PreProcessor>
+          </__.5>
          </File>
         </DLFs_Program>
         <DLFs_Target>
@@ -1088,6 +1564,36 @@
            <VM>0x0</VM>
           </MSID>
          </__.3>
+         <__.4>
+          <Application>App_CPU4</Application>
+          <Cores>CPU4</Cores>
+          <Enabled>true</Enabled>
+          <UserName>CPU4</UserName>
+          <MSID>
+           <App>0x0</App>
+           <bAppID>false</bAppID>
+           <bVMID>false</bVMID>
+           <Level>Sys</Level>
+           <Secure>false</Secure>
+           <Use>false</Use>
+           <VM>0x0</VM>
+          </MSID>
+         </__.4>
+         <__.5>
+          <Application>App_CPU5</Application>
+          <Cores>CPU5</Cores>
+          <Enabled>true</Enabled>
+          <UserName>CPU5</UserName>
+          <MSID>
+           <App>0x0</App>
+           <bAppID>false</bAppID>
+           <bVMID>false</bVMID>
+           <Level>Sys</Level>
+           <Secure>false</Secure>
+           <Use>false</Use>
+           <VM>0x0</VM>
+          </MSID>
+         </__.5>
         </MemorySpaces>
         <Startup>
          <AfterDL1>true</AfterDL1>
@@ -1099,7 +1605,7 @@
          <DisplayLoadMap>true</DisplayLoadMap>
          <PostDLActionAlsoAfterReset>true</PostDLActionAlsoAfterReset>
          <TargetDownload>None</TargetDownload>
-         <VerifyDownload>true</VerifyDownload>
+         <VerifyDownload>false</VerifyDownload>
          <LoadReport>
           <FileName>$Download.xml</FileName>
           <Format>none</Format>
@@ -1148,8 +1654,8 @@
         <Flags>0</Flags>
         <Load>1</Load>
         <LoadArea>Virtual</LoadArea>
-        <LoadCode>0</LoadCode>
-        <LoadSymbols>0</LoadSymbols>
+        <LoadCode>1</LoadCode>
+        <LoadSymbols>1</LoadSymbols>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
         <OptimizeTypeByName>0</OptimizeTypeByName>
@@ -1167,7 +1673,7 @@
          <bVMID>false</bVMID>
          <Level>Sys</Level>
          <Secure>false</Secure>
-         <Use>true</Use>
+         <Use>false</Use>
          <VM>0x0</VM>
         </MSID>
         <Options>
@@ -1207,7 +1713,7 @@
         <Flags>0</Flags>
         <Load>1</Load>
         <LoadArea>Virtual</LoadArea>
-        <LoadCode>0</LoadCode>
+        <LoadCode>1</LoadCode>
         <LoadSymbols>0</LoadSymbols>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
@@ -1226,7 +1732,7 @@
          <bVMID>false</bVMID>
          <Level>Sys</Level>
          <Secure>false</Secure>
-         <Use>true</Use>
+         <Use>false</Use>
          <VM>0x0</VM>
         </MSID>
         <Options>
@@ -1266,7 +1772,7 @@
         <Flags>0</Flags>
         <Load>1</Load>
         <LoadArea>Virtual</LoadArea>
-        <LoadCode>0</LoadCode>
+        <LoadCode>1</LoadCode>
         <LoadSymbols>0</LoadSymbols>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
@@ -1285,7 +1791,7 @@
          <bVMID>false</bVMID>
          <Level>Sys</Level>
          <Secure>false</Secure>
-         <Use>true</Use>
+         <Use>false</Use>
          <VM>0x0</VM>
         </MSID>
         <Options>
@@ -1325,7 +1831,7 @@
         <Flags>0</Flags>
         <Load>1</Load>
         <LoadArea>Virtual</LoadArea>
-        <LoadCode>0</LoadCode>
+        <LoadCode>1</LoadCode>
         <LoadSymbols>0</LoadSymbols>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
@@ -1344,7 +1850,7 @@
          <bVMID>false</bVMID>
          <Level>Sys</Level>
          <Secure>false</Secure>
-         <Use>true</Use>
+         <Use>false</Use>
          <VM>0x0</VM>
         </MSID>
         <Options>
@@ -1379,19 +1885,137 @@
          <UseProjectIncludePaths>false</UseProjectIncludePaths>
         </PreProc>
        </File.3>
+       <File.4>
+        <AnalyzeCodeOutsideFunctions>1</AnalyzeCodeOutsideFunctions>
+        <Flags>0</Flags>
+        <Load>1</Load>
+        <LoadArea>Virtual</LoadArea>
+        <LoadCode>1</LoadCode>
+        <LoadSymbols>0</LoadSymbols>
+        <Offset>0</Offset>
+        <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
+        <OptimizeTypeByName>0</OptimizeTypeByName>
+        <OverrideMemoryArea>0</OverrideMemoryArea>
+        <Path>C4\debug\sample.elf</Path>
+        <SOffset>0</SOffset>
+        <SOffsetA type="B">AAAAAAAAAAAAAAAA</SOffsetA>
+        <TargetRelative>False</TargetRelative>
+        <TrustLineSymbolsToStartOnInstruction>1</TrustLineSymbolsToStartOnInstruction>
+        <Type>28</Type>
+        <UseDefaultMSID>1</UseDefaultMSID>
+        <MSID>
+         <App>0x0</App>
+         <bAppID>false</bAppID>
+         <bVMID>false</bVMID>
+         <Level>Sys</Level>
+         <Secure>false</Secure>
+         <Use>false</Use>
+         <VM>0x0</VM>
+        </MSID>
+        <Options>
+         <BitfieldsOverrideTypeFromByteSize>0</BitfieldsOverrideTypeFromByteSize>
+         <CallStack>0</CallStack>
+         <DumpELFHeaders>0</DumpELFHeaders>
+         <GCC_ARM_double_Format>1</GCC_ARM_double_Format>
+         <IgnoreChecksum>0</IgnoreChecksum>
+         <IgnoreNonStatementLines>1</IgnoreNonStatementLines>
+         <InsertInlinedFunctions>0</InsertInlinedFunctions>
+         <LoadCode>0</LoadCode>
+         <LoadCodeFromExecutableSections>1</LoadCodeFromExecutableSections>
+         <LoadDwarfSection>1</LoadDwarfSection>
+         <LoadSymbols>0</LoadSymbols>
+         <LoadWeakFunctions>1</LoadWeakFunctions>
+         <LoadZeros>0</LoadZeros>
+         <MergeTypes>0</MergeTypes>
+         <Override64bitVariableLocation>1</Override64bitVariableLocation>
+         <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
+         <ReverseBitFields>0</ReverseBitFields>
+         <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
+         <Cosmic>
+          <nowidden>false</nowidden>
+          <sprec>false</sprec>
+         </Cosmic>
+        </Options>
+        <PreProc>
+         <Analyze>none</Analyze>
+         <CommandLine></CommandLine>
+         <UseProjectDefines>false</UseProjectDefines>
+         <UseProjectIncludePaths>false</UseProjectIncludePaths>
+        </PreProc>
+       </File.4>
+       <File.5>
+        <AnalyzeCodeOutsideFunctions>1</AnalyzeCodeOutsideFunctions>
+        <Flags>0</Flags>
+        <Load>1</Load>
+        <LoadArea>Virtual</LoadArea>
+        <LoadCode>1</LoadCode>
+        <LoadSymbols>0</LoadSymbols>
+        <Offset>0</Offset>
+        <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
+        <OptimizeTypeByName>0</OptimizeTypeByName>
+        <OverrideMemoryArea>0</OverrideMemoryArea>
+        <Path>C5\debug\sample.elf</Path>
+        <SOffset>0</SOffset>
+        <SOffsetA type="B">AAAAAAAAAAAAAAAA</SOffsetA>
+        <TargetRelative>False</TargetRelative>
+        <TrustLineSymbolsToStartOnInstruction>1</TrustLineSymbolsToStartOnInstruction>
+        <Type>28</Type>
+        <UseDefaultMSID>1</UseDefaultMSID>
+        <MSID>
+         <App>0x0</App>
+         <bAppID>false</bAppID>
+         <bVMID>false</bVMID>
+         <Level>Sys</Level>
+         <Secure>false</Secure>
+         <Use>false</Use>
+         <VM>0x0</VM>
+        </MSID>
+        <Options>
+         <BitfieldsOverrideTypeFromByteSize>0</BitfieldsOverrideTypeFromByteSize>
+         <CallStack>0</CallStack>
+         <DumpELFHeaders>0</DumpELFHeaders>
+         <GCC_ARM_double_Format>1</GCC_ARM_double_Format>
+         <IgnoreChecksum>0</IgnoreChecksum>
+         <IgnoreNonStatementLines>1</IgnoreNonStatementLines>
+         <InsertInlinedFunctions>0</InsertInlinedFunctions>
+         <LoadCode>0</LoadCode>
+         <LoadCodeFromExecutableSections>1</LoadCodeFromExecutableSections>
+         <LoadDwarfSection>1</LoadDwarfSection>
+         <LoadSymbols>0</LoadSymbols>
+         <LoadWeakFunctions>1</LoadWeakFunctions>
+         <LoadZeros>0</LoadZeros>
+         <MergeTypes>0</MergeTypes>
+         <Override64bitVariableLocation>1</Override64bitVariableLocation>
+         <RemoveOptimizedLines>1</RemoveOptimizedLines>
+         <RemoveOptimizedLinesForCU>1</RemoveOptimizedLinesForCU>
+         <ReverseBitFields>0</ReverseBitFields>
+         <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
+         <Cosmic>
+          <nowidden>false</nowidden>
+          <sprec>false</sprec>
+         </Cosmic>
+        </Options>
+        <PreProc>
+         <Analyze>none</Analyze>
+         <CommandLine></CommandLine>
+         <UseProjectDefines>false</UseProjectDefines>
+         <UseProjectIncludePaths>false</UseProjectIncludePaths>
+        </PreProc>
+       </File.5>
       </Download>
       <DownloadOptionsData>
        <AfterDL1>0</AfterDL1>
        <AfterDL2>1</AfterDL2>
        <AfterDownloadGoto>0xA0000020</AfterDownloadGoto>
        <AfterDownloadRunUntil>main</AfterDownloadRunUntil>
-       <bAfterDL1>0</bAfterDL1>
+       <bAfterDL1>1</bAfterDL1>
        <bAfterDL2>0</bAfterDL2>
        <BeforeDownload>1</BeforeDownload>
        <DisplayLoadMap>True</DisplayLoadMap>
        <PostDLActionAlsoAfterReset>1</PostDLActionAlsoAfterReset>
        <TargetDownload>0</TargetDownload>
-       <VerifyDownload>True</VerifyDownload>
+       <VerifyDownload>False</VerifyDownload>
        <Download>
         <DefaultFile>-1</DefaultFile>
        </Download>
@@ -1651,6 +2275,46 @@
      </PluginInstance.3>
      <PluginInstance.4>
       <InstanceData>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:4}}</Instance>
+       <Type>TriCore</Type>
+      </InstanceInfo>
+     </PluginInstance.4>
+     <PluginInstance.5>
+      <InstanceData>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </InstanceData>
+      <InstanceInfo>
+       <Instance>{r:{BB:0,SoC:0,Core:5}}</Instance>
+       <Type>TriCore</Type>
+      </InstanceInfo>
+     </PluginInstance.5>
+     <PluginInstance.6>
+      <InstanceData>
        <Config>
         <AutoStart>false</AutoStart>
         <Port>5555</Port>
@@ -1667,7 +2331,7 @@
        <Instance></Instance>
        <Type>XCP</Type>
       </InstanceInfo>
-     </PluginInstance.4>
+     </PluginInstance.6>
     </PluginData>
     <Plugins>
      <_3BB2B9D2-577A-4597-90CE-7032BE77BD1F>
@@ -1734,6 +2398,38 @@
        </Configuration>
       </Plugin>
      </_3BB2B9D2-577A-4597-90CE-7032BE77BD1F3>
+     <_3BB2B9D2-577A-4597-90CE-7032BE77BD1F4>
+      <Plugin>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </Plugin>
+     </_3BB2B9D2-577A-4597-90CE-7032BE77BD1F4>
+     <_3BB2B9D2-577A-4597-90CE-7032BE77BD1F5>
+      <Plugin>
+       <Configuration>
+        <CCTRLOnReset>
+         <AutoOnReset>true</AutoOnReset>
+         <InitialConfig>
+          <CountEnable>Enable</CountEnable>
+          <CounterMode>Task</CounterMode>
+          <M1CNT>IP_DISPATCH_STALL</M1CNT>
+          <M2CNT>LS_DISPATCH_STALL</M2CNT>
+          <M3CNT>LP_DISPATCH_STALL</M3CNT>
+         </InitialConfig>
+        </CCTRLOnReset>
+       </Configuration>
+      </Plugin>
+     </_3BB2B9D2-577A-4597-90CE-7032BE77BD1F5>
      <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
       <Plugin>
        <Config>
@@ -1778,7 +2474,7 @@
     <HServerData>
      <Data>
       <BBSync>
-       <Sync>Slave</Sync>
+       <Sync>Disabled</Sync>
        <SyncTime>false</SyncTime>
       </BBSync>
       <Debug>
@@ -3906,6 +4602,324 @@
           </HW>
          </BP>
         </CPU3>
+        <CPU4>
+         <BP>
+          <BP.0>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.0>
+          <BP.1>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.1>
+          <BP.2>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.2>
+          <BP.3>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.3>
+          <BP.4>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.4>
+          <BP.5>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.5>
+          <BP.6>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.6>
+          <BP.7>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.7>
+          <HW>
+           <Enabled>false</Enabled>
+           <BP.0>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.0>
+           <BP.1>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.1>
+           <BP.2>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.2>
+           <BP.3>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.3>
+           <BP.4>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.4>
+           <BP.5>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.5>
+           <BP.6>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.6>
+           <BP.7>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.7>
+          </HW>
+         </BP>
+        </CPU4>
+        <CPU5>
+         <BP>
+          <BP.0>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.0>
+          <BP.1>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.1>
+          <BP.2>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.2>
+          <BP.3>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.3>
+          <BP.4>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.4>
+          <BP.5>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.5>
+          <BP.6>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.6>
+          <BP.7>
+           <Address></Address>
+           <EntireObject>false</EntireObject>
+          </BP.7>
+          <HW>
+           <Enabled>false</Enabled>
+           <BP.0>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.0>
+           <BP.1>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.1>
+           <BP.2>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.2>
+           <BP.3>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.3>
+           <BP.4>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.4>
+           <BP.5>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.5>
+           <BP.6>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.6>
+           <BP.7>
+            <Access>RD</Access>
+            <Enabled>false</Enabled>
+            <Range>false</Range>
+            <Event>
+             <BBM>false</BBM>
+             <BOD>false</BOD>
+             <CNT>NoChange</CNT>
+             <CSP>false</CSP>
+             <CST>false</CST>
+             <Enable>false</Enable>
+             <EVTA>Disabled</EVTA>
+             <SUSP>false</SUSP>
+            </Event>
+           </BP.7>
+          </HW>
+         </BP>
+        </CPU5>
         <HSM>
          <BP>
           <Comparator.0>
@@ -4376,7 +5390,7 @@
           <Start></Start>
          </BP.1>
          <BP.2>
-          <CoverEntireObject>false</CoverEntireObject>
+          <CoverEntireObject>true</CoverEntireObject>
           <Enabled>false</Enabled>
           <End></End>
           <Start></Start>
@@ -4396,7 +5410,7 @@
         <EVEScriptPath></EVEScriptPath>
         <ForceDebugBaseAddress>0</ForceDebugBaseAddress>
         <ForceScanAllDPv1APs>false</ForceScanAllDPv1APs>
-        <ForceScanEntireRomtables>1</ForceScanEntireRomtables>
+        <ForceScanEntireRomtables>0</ForceScanEntireRomtables>
         <IDSingleComponentOnly>0</IDSingleComponentOnly>
         <IRLength>4</IRLength>
         <IRPostfix>0</IRPostfix>
@@ -4450,7 +5464,7 @@
           <AllowDownloadOnly>false</AllowDownloadOnly>
           <AllowErase>false</AllowErase>
           <CoreIndex>4294967295</CoreIndex>
-          <Device>TC38x_PFLASH_10MB</Device>
+          <Device>TC39x_PFLASH_16MB</Device>
           <DeviceAddress>0x80000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
@@ -4465,7 +5479,7 @@
           <Flags_2>0</Flags_2>
           <Flags_3>0</Flags_3>
           <Manufacturer>Infineon</Manufacturer>
-          <Name>Infineon TC38x_PFLASH_10MB</Name>
+          <Name>Infineon TC39x_PFLASH_16MB</Name>
           <OnChip>true</OnChip>
           <OverrideTimeout>0</OverrideTimeout>
           <ParallelNum>1</ParallelNum>
@@ -4499,7 +5513,7 @@
           <AllowDownloadOnly>false</AllowDownloadOnly>
           <AllowErase>false</AllowErase>
           <CoreIndex>4294967295</CoreIndex>
-          <Device>TC38x_DFLASH_640kB</Device>
+          <Device>TC39x_DFLASH_1152kB</Device>
           <DeviceAddress>0xAF000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
@@ -4514,7 +5528,7 @@
           <Flags_2>0</Flags_2>
           <Flags_3>0</Flags_3>
           <Manufacturer>Infineon</Manufacturer>
-          <Name>Infineon TC38x_DFLASH_640kB</Name>
+          <Name>Infineon TC39x_DFLASH_1152kB</Name>
           <OnChip>true</OnChip>
           <OverrideTimeout>0</OverrideTimeout>
           <ParallelNum>1</ParallelNum>
@@ -4568,7 +5582,7 @@
           <OverrideTimeout>0</OverrideTimeout>
           <ParallelNum>1</ParallelNum>
           <ProgramAtDownload>false</ProgramAtDownload>
-          <ProgramEmpty>false</ProgramEmpty>
+          <ProgramEmpty>true</ProgramEmpty>
           <RDOnly>false</RDOnly>
           <SafeMode>Auto</SafeMode>
           <Timeout>100</Timeout>
@@ -4660,7 +5674,7 @@
         <Debug_ConnectToSoC_Same>false</Debug_ConnectToSoC_Same>
         <Debug_InitSoC_Same>false</Debug_InitSoC_Same>
         <Program_ResetAfterProgram>false</Program_ResetAfterProgram>
-        <WDTDisable>true</WDTDisable>
+        <WDTDisable>false</WDTDisable>
         <Attach_ConnectToSoC>
          <Execute>Default</Execute>
          <Scripts></Scripts>
@@ -4703,10 +5717,10 @@
         </Trace_Init_BeforeRun>
        </CallPoint>
        <CPU>
-        <CPU1>101</CPU1>
+        <CPU1>102</CPU1>
         <Family>36</Family>
         <POD>0</POD>
-        <SubCPU>TC389QP</SubCPU>
+        <SubCPU>TC397XA</SubCPU>
         <Aurix>
          <AllowCacheMonExec>false</AllowCacheMonExec>
          <BRKIN>HIGH</BRKIN>
@@ -4718,7 +5732,7 @@
          <DebugMode>DAP2</DebugMode>
          <FirstTraceTile>0</FirstTraceTile>
          <FlushTraceOnAGBTStop>false</FlushTraceOnAGBTStop>
-         <NumTraceTiles>1</NumTraceTiles>
+         <NumTraceTiles>8</NumTraceTiles>
          <OnChipRAM_Size>0</OnChipRAM_Size>
          <OnChipRAM_Start>0</OnChipRAM_Start>
          <Password_0>0</Password_0>
@@ -4733,7 +5747,7 @@
          <SingleStepMode>Run until next instruction</SingleStepMode>
          <SoC_Debug_SetOnReset>false</SoC_Debug_SetOnReset>
          <TimeSource_Profiler>tsu_rel</TimeSource_Profiler>
-         <TraceBufferMode>ONCHIP_TBUF_TFIF</TraceBufferMode>
+         <TraceBufferMode>ONCHIP_TBUF_TPB</TraceBufferMode>
          <TraceLMUAuto>true</TraceLMUAuto>
          <TraceMemoryRegion>TCM</TraceMemoryRegion>
          <UseAllEmMemForTrace>true</UseAllEmMemForTrace>
@@ -4877,7 +5891,7 @@
          <DebugMode>2</DebugMode>
          <FirstTraceTile>0</FirstTraceTile>
          <FlushTraceOnAGBTStop>0</FlushTraceOnAGBTStop>
-         <NumTraceTiles>1</NumTraceTiles>
+         <NumTraceTiles>8</NumTraceTiles>
          <OnChipRamSize>0</OnChipRamSize>
          <OnChipRamStart>0</OnChipRamStart>
          <Password.0>0</Password.0>
@@ -4892,7 +5906,7 @@
          <ReserveBPPair type="B">AA</ReserveBPPair>
          <SingleStepMode>0</SingleStepMode>
          <TimeSource_Profiler>1</TimeSource_Profiler>
-         <TraceBufferMode>1</TraceBufferMode>
+         <TraceBufferMode>0</TraceBufferMode>
          <TraceMemoryRegion>0</TraceMemoryRegion>
          <UseAllEmMemForTrace>1</UseAllEmMemForTrace>
          <UsePassword>0</UsePassword>
@@ -4944,12 +5958,12 @@
         <BootCore>0</BootCore>
         <Breakpoints>HW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
-        <CalibrateClockVref>32</CalibrateClockVref>
+        <CalibrateClockVref>0</CalibrateClockVref>
         <CalibratePhase>0</CalibratePhase>
-        <CalibrateVref>64</CalibrateVref>
+        <CalibrateVref>80</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration>6.667e-09</CycleDuration>
-        <DebugChannel>JTAG</DebugChannel>
+        <DebugChannel>DAP</DebugChannel>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>Cleanup</EndSession>
         <ExtOscillatorClk>0</ExtOscillatorClk>
@@ -4958,7 +5972,7 @@
         <IgnoreAccessErrors>false</IgnoreAccessErrors>
         <InitRAM>Never</InitRAM>
         <LatchRESET>true</LatchRESET>
-        <MemorySecurity_CheckEntryPoint>false</MemorySecurity_CheckEntryPoint>
+        <MemorySecurity_CheckEntryPoint>true</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>Reject</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
         <MemorySecurityND_Policy>Reject</MemorySecurityND_Policy>
@@ -4988,7 +6002,7 @@
         <SuspendPeripheralsWhileStopped>true</SuspendPeripheralsWhileStopped>
         <TargetResetTimeout>100</TargetResetTimeout>
         <MemorySecurity_CheckParameters>
-         <Entry>false</Entry>
+         <Entry>true</Entry>
          <Aurix>
           <ActiveDXCPL>false</ActiveDXCPL>
           <Always_._check_._BMHDs>true</Always_._check_._BMHDs>
@@ -5016,9 +6030,9 @@
         <Breakpoints>0</Breakpoints>
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
-        <CalibrateClockVref>32</CalibrateClockVref>
+        <CalibrateClockVref>0</CalibrateClockVref>
         <CalibratePhase>0</CalibratePhase>
-        <CalibrateVref>64</CalibrateVref>
+        <CalibrateVref>80</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000066670000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -5029,7 +6043,7 @@
         <IgnoreAccessErrors>0</IgnoreAccessErrors>
         <InitRAM>0</InitRAM>
         <LatchRESET>1</LatchRESET>
-        <MemorySecurity_CheckEntryPoint>0</MemorySecurity_CheckEntryPoint>
+        <MemorySecurity_CheckEntryPoint>1</MemorySecurity_CheckEntryPoint>
         <MemorySecurity_Policy>0</MemorySecurity_Policy>
         <MemorySecurity_Policy_Preset></MemorySecurity_Policy_Preset>
         <MemorySecurityND_Policy>0</MemorySecurityND_Policy>
@@ -5399,7 +6413,7 @@
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
            <MCSync>true</MCSync>
-           <StopCPUActivities>false</StopCPUActivities>
+           <StopCPUActivities>true</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
@@ -5627,9 +6641,9 @@
            <ConnectDebug>true</ConnectDebug>
            <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
-           <Endian>BE</Endian>
+           <Endian>LE</Endian>
            <MCSync>true</MCSync>
-           <StopCPUActivities>false</StopCPUActivities>
+           <StopCPUActivities>true</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
@@ -5744,7 +6758,122 @@
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
            <MCSync>true</MCSync>
-           <StopCPUActivities>false</StopCPUActivities>
+           <StopCPUActivities>true</StopCPUActivities>
+           <UseSWBPs>false</UseSWBPs>
+           <DebugEntry>
+            <PresetAddr></PresetAddr>
+            <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>
+            <Type>NonIntrusive</Type>
+           </DebugEntry>
+          </Common>
+          <Cortex>
+           <Exceptions>
+            <BUSERR>false</BUSERR>
+            <CHKERR>false</CHKERR>
+            <CORERESET>false</CORERESET>
+            <HARDERR>false</HARDERR>
+            <INTERR>false</INTERR>
+            <MMERR>false</MMERR>
+            <NOCPERR>false</NOCPERR>
+            <STATERR>false</STATERR>
+           </Exceptions>
+          </Cortex>
+          <e200>
+           <DebugSelect>0x180</DebugSelect>
+           <EVTOOnlyOnBP>false</EVTOOnlyOnBP>
+           <NPIDRistransmittedwithinOTM>false</NPIDRistransmittedwithinOTM>
+           <StopTimerDuringStep>false</StopTimerDuringStep>
+           <StopWhenReleasedFromReset>false</StopWhenReleasedFromReset>
+           <UseBDMMemAccessWhenStopped>false</UseBDMMemAccessWhenStopped>
+           <UseTrapForSWBPsinPowerPCMode>false</UseTrapForSWBPsinPowerPCMode>
+          </e200>
+          <eTPU>
+           <CLKS>false</CLKS>
+           <HaltOnPrimaryCoreBP>false</HaltOnPrimaryCoreBP>
+           <HTWN>false</HTWN>
+           <PINS>false</PINS>
+           <RegAccessHelperLocation>0x0</RegAccessHelperLocation>
+          </eTPU>
+          <Tricore>
+           <ReserveBPPair_0>false</ReserveBPPair_0>
+           <ReserveBPPair_1>false</ReserveBPPair_1>
+           <ReserveBPPair_2>false</ReserveBPPair_2>
+           <ReserveBPPair_3>false</ReserveBPPair_3>
+          </Tricore>
+          <V850>
+           <MaskHOLD>false</MaskHOLD>
+           <MaskNMI0>false</MaskNMI0>
+           <MaskNMI1>false</MaskNMI1>
+           <MaskRESET>false</MaskRESET>
+           <MaskWAIT>false</MaskWAIT>
+          </V850>
+         </__.5>
+         <__.6>
+          <ARMv7>
+           <Exceptions>
+            <MD>Leave</MD>
+            <MF>Leave</MF>
+            <MI>Leave</MI>
+            <MP>Leave</MP>
+            <MS>Leave</MS>
+            <NSD>Leave</NSD>
+            <NSF>Leave</NSF>
+            <NSHC>Leave</NSHC>
+            <NSHD>Leave</NSHD>
+            <NSHE>Leave</NSHE>
+            <NSHF>Leave</NSHF>
+            <NSHI>Leave</NSHI>
+            <NSHP>Leave</NSHP>
+            <NSHU>Leave</NSHU>
+            <NSI>Leave</NSI>
+            <NSP>Leave</NSP>
+            <NSS>Leave</NSS>
+            <NSU>Leave</NSU>
+            <R>Leave</R>
+            <SD>Leave</SD>
+            <SF>Leave</SF>
+            <SI>Leave</SI>
+            <SP>Leave</SP>
+            <SS>Leave</SS>
+            <SU>Leave</SU>
+           </Exceptions>
+          </ARMv7>
+          <ARMv8>
+           <CatchEvents>
+            <MD>false</MD>
+            <MF>false</MF>
+            <MI>false</MI>
+            <MP>false</MP>
+            <MS>false</MS>
+            <NSD>false</NSD>
+            <NSE1>false</NSE1>
+            <NSE2>false</NSE2>
+            <NSF>false</NSF>
+            <NSI>false</NSI>
+            <NSP>false</NSP>
+            <NSS>false</NSS>
+            <NSU>false</NSU>
+            <OSUCE>false</OSUCE>
+            <RCE>false</RCE>
+            <SD>false</SD>
+            <SE1>false</SE1>
+            <SE3>false</SE3>
+            <SF>false</SF>
+            <SI>false</SI>
+            <SP>false</SP>
+            <SS>false</SS>
+            <SU>false</SU>
+            <TDA>false</TDA>
+           </CatchEvents>
+          </ARMv8>
+          <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
+           <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
+           <Endian>LE</Endian>
+           <MCSync>true</MCSync>
+           <StopCPUActivities>true</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
@@ -5793,7 +6922,122 @@
            <MaskRESET>false</MaskRESET>
            <MaskWAIT>false</MaskWAIT>
           </V850>
-         </__.5>
+         </__.6>
+         <__.7>
+          <ARMv7>
+           <Exceptions>
+            <MD>Leave</MD>
+            <MF>Leave</MF>
+            <MI>Leave</MI>
+            <MP>Leave</MP>
+            <MS>Leave</MS>
+            <NSD>Leave</NSD>
+            <NSF>Leave</NSF>
+            <NSHC>Leave</NSHC>
+            <NSHD>Leave</NSHD>
+            <NSHE>Leave</NSHE>
+            <NSHF>Leave</NSHF>
+            <NSHI>Leave</NSHI>
+            <NSHP>Leave</NSHP>
+            <NSHU>Leave</NSHU>
+            <NSI>Leave</NSI>
+            <NSP>Leave</NSP>
+            <NSS>Leave</NSS>
+            <NSU>Leave</NSU>
+            <R>Leave</R>
+            <SD>Leave</SD>
+            <SF>Leave</SF>
+            <SI>Leave</SI>
+            <SP>Leave</SP>
+            <SS>Leave</SS>
+            <SU>Leave</SU>
+           </Exceptions>
+          </ARMv7>
+          <ARMv8>
+           <CatchEvents>
+            <MD>false</MD>
+            <MF>false</MF>
+            <MI>false</MI>
+            <MP>false</MP>
+            <MS>false</MS>
+            <NSD>false</NSD>
+            <NSE1>false</NSE1>
+            <NSE2>false</NSE2>
+            <NSF>false</NSF>
+            <NSI>false</NSI>
+            <NSP>false</NSP>
+            <NSS>false</NSS>
+            <NSU>false</NSU>
+            <OSUCE>false</OSUCE>
+            <RCE>false</RCE>
+            <SD>false</SD>
+            <SE1>false</SE1>
+            <SE3>false</SE3>
+            <SF>false</SF>
+            <SI>false</SI>
+            <SP>false</SP>
+            <SS>false</SS>
+            <SU>false</SU>
+            <TDA>false</TDA>
+           </CatchEvents>
+          </ARMv8>
+          <Common>
+           <Cache_EnableDebugAccess>false</Cache_EnableDebugAccess>
+           <ConnectDebug>true</ConnectDebug>
+           <DCache_EnableWriteThrough>false</DCache_EnableWriteThrough>
+           <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
+           <Endian>BE</Endian>
+           <MCSync>true</MCSync>
+           <StopCPUActivities>true</StopCPUActivities>
+           <UseSWBPs>false</UseSWBPs>
+           <DebugEntry>
+            <PresetAddr></PresetAddr>
+            <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>
+            <Type>NonIntrusive</Type>
+           </DebugEntry>
+          </Common>
+          <Cortex>
+           <Exceptions>
+            <BUSERR>false</BUSERR>
+            <CHKERR>false</CHKERR>
+            <CORERESET>false</CORERESET>
+            <HARDERR>false</HARDERR>
+            <INTERR>false</INTERR>
+            <MMERR>false</MMERR>
+            <NOCPERR>false</NOCPERR>
+            <STATERR>false</STATERR>
+           </Exceptions>
+          </Cortex>
+          <e200>
+           <DebugSelect>0x180</DebugSelect>
+           <EVTOOnlyOnBP>false</EVTOOnlyOnBP>
+           <NPIDRistransmittedwithinOTM>false</NPIDRistransmittedwithinOTM>
+           <StopTimerDuringStep>false</StopTimerDuringStep>
+           <StopWhenReleasedFromReset>false</StopWhenReleasedFromReset>
+           <UseBDMMemAccessWhenStopped>false</UseBDMMemAccessWhenStopped>
+           <UseTrapForSWBPsinPowerPCMode>false</UseTrapForSWBPsinPowerPCMode>
+          </e200>
+          <eTPU>
+           <CLKS>false</CLKS>
+           <HaltOnPrimaryCoreBP>false</HaltOnPrimaryCoreBP>
+           <HTWN>false</HTWN>
+           <PINS>false</PINS>
+           <RegAccessHelperLocation>0x0</RegAccessHelperLocation>
+          </eTPU>
+          <Tricore>
+           <ReserveBPPair_0>false</ReserveBPPair_0>
+           <ReserveBPPair_1>false</ReserveBPPair_1>
+           <ReserveBPPair_2>false</ReserveBPPair_2>
+           <ReserveBPPair_3>false</ReserveBPPair_3>
+          </Tricore>
+          <V850>
+           <MaskHOLD>false</MaskHOLD>
+           <MaskNMI0>false</MaskNMI0>
+           <MaskNMI1>false</MaskNMI1>
+           <MaskRESET>false</MaskRESET>
+           <MaskWAIT>false</MaskWAIT>
+          </V850>
+         </__.7>
         </Cores>
        </MC>
        <Module>
@@ -5804,7 +7048,7 @@
        </Module>
        <Probe>
         <APName></APName>
-        <Type>AP</Type>
+        <Type>DTM</Type>
        </Probe>
        <SetupData>
         <ChallengeResponse>
@@ -5837,43 +7081,43 @@
           </__.1>
           <__.10>
            <Enabled>true</Enabled>
-           <Name>ASCLIN0</Name>
+           <Name>QSPI4</Name>
           </__.10>
           <__.11>
            <Enabled>true</Enabled>
-           <Name>ASCLIN1</Name>
+           <Name>QSPI5</Name>
           </__.11>
           <__.12>
            <Enabled>true</Enabled>
-           <Name>ASCLIN2</Name>
+           <Name>SMU</Name>
           </__.12>
           <__.13>
            <Enabled>true</Enabled>
-           <Name>ASCLIN3</Name>
+           <Name>ASCLIN0</Name>
           </__.13>
           <__.14>
            <Enabled>true</Enabled>
-           <Name>ASCLIN4</Name>
+           <Name>ASCLIN1</Name>
           </__.14>
           <__.15>
            <Enabled>true</Enabled>
-           <Name>ASCLIN5</Name>
+           <Name>ASCLIN2</Name>
           </__.15>
           <__.16>
            <Enabled>true</Enabled>
-           <Name>ASCLIN6</Name>
+           <Name>ASCLIN3</Name>
           </__.16>
           <__.17>
            <Enabled>true</Enabled>
-           <Name>ASCLIN7</Name>
+           <Name>ASCLIN4</Name>
           </__.17>
           <__.18>
            <Enabled>true</Enabled>
-           <Name>HSCT0</Name>
+           <Name>ASCLIN5</Name>
           </__.18>
           <__.19>
            <Enabled>true</Enabled>
-           <Name>MSC0</Name>
+           <Name>ASCLIN6</Name>
           </__.19>
           <__.2>
            <Enabled>true</Enabled>
@@ -5881,43 +7125,43 @@
           </__.2>
           <__.20>
            <Enabled>true</Enabled>
-           <Name>MSC1</Name>
+           <Name>ASCLIN7</Name>
           </__.20>
           <__.21>
            <Enabled>true</Enabled>
-           <Name>MSC2</Name>
+           <Name>HSCT0</Name>
           </__.21>
           <__.22>
            <Enabled>true</Enabled>
-           <Name>CAN0</Name>
+           <Name>MSC0</Name>
           </__.22>
           <__.23>
            <Enabled>true</Enabled>
-           <Name>CAN1</Name>
+           <Name>MSC1</Name>
           </__.23>
           <__.24>
            <Enabled>true</Enabled>
-           <Name>CAN2</Name>
+           <Name>MSC2</Name>
           </__.24>
           <__.25>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR0</Name>
+           <Name>MSC3</Name>
           </__.25>
           <__.26>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR1</Name>
+           <Name>CAN0</Name>
           </__.26>
           <__.27>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR2</Name>
+           <Name>CAN1</Name>
           </__.27>
           <__.28>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR3</Name>
+           <Name>CAN2</Name>
           </__.28>
           <__.29>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR4</Name>
+           <Name>SENT_RCR0</Name>
           </__.29>
           <__.3>
            <Enabled>true</Enabled>
@@ -5925,155 +7169,187 @@
           </__.3>
           <__.30>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR5</Name>
+           <Name>SENT_RCR1</Name>
           </__.30>
           <__.31>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR6</Name>
+           <Name>SENT_RCR2</Name>
           </__.31>
           <__.32>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR7</Name>
+           <Name>SENT_RCR3</Name>
           </__.32>
           <__.33>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR8</Name>
+           <Name>SENT_RCR4</Name>
           </__.33>
           <__.34>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR9</Name>
+           <Name>SENT_RCR5</Name>
           </__.34>
           <__.35>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR10</Name>
+           <Name>SENT_RCR6</Name>
           </__.35>
           <__.36>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR11</Name>
+           <Name>SENT_RCR7</Name>
           </__.36>
           <__.37>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR12</Name>
+           <Name>SENT_RCR8</Name>
           </__.37>
           <__.38>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR13</Name>
+           <Name>SENT_RCR9</Name>
           </__.38>
           <__.39>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR14</Name>
+           <Name>SENT_RCR10</Name>
           </__.39>
           <__.4>
            <Enabled>true</Enabled>
-           <Name>QSPI0</Name>
+           <Name>STM4</Name>
           </__.4>
           <__.40>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR15</Name>
+           <Name>SENT_RCR11</Name>
           </__.40>
           <__.41>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR16</Name>
+           <Name>SENT_RCR12</Name>
           </__.41>
           <__.42>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR17</Name>
+           <Name>SENT_RCR13</Name>
           </__.42>
           <__.43>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR18</Name>
+           <Name>SENT_RCR14</Name>
           </__.43>
           <__.44>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR19</Name>
+           <Name>SENT_RCR15</Name>
           </__.44>
           <__.45>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR20</Name>
+           <Name>SENT_RCR16</Name>
           </__.45>
           <__.46>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR21</Name>
+           <Name>SENT_RCR17</Name>
           </__.46>
           <__.47>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR22</Name>
+           <Name>SENT_RCR18</Name>
           </__.47>
           <__.48>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR23</Name>
+           <Name>SENT_RCR19</Name>
           </__.48>
           <__.49>
            <Enabled>true</Enabled>
-           <Name>SENT_RCR24</Name>
+           <Name>SENT_RCR20</Name>
           </__.49>
           <__.5>
            <Enabled>true</Enabled>
-           <Name>QSPI1</Name>
+           <Name>STM5</Name>
           </__.5>
           <__.50>
            <Enabled>true</Enabled>
-           <Name>ERAY0</Name>
+           <Name>SENT_RCR21</Name>
           </__.50>
           <__.51>
            <Enabled>true</Enabled>
-           <Name>ERAY1</Name>
+           <Name>SENT_RCR22</Name>
           </__.51>
           <__.52>
            <Enabled>true</Enabled>
-           <Name>GTM</Name>
+           <Name>SENT_RCR23</Name>
           </__.52>
           <__.53>
            <Enabled>true</Enabled>
-           <Name>CCU0</Name>
+           <Name>SENT_RCR24</Name>
           </__.53>
           <__.54>
            <Enabled>true</Enabled>
-           <Name>CCU1</Name>
+           <Name>ERAY0</Name>
           </__.54>
           <__.55>
            <Enabled>true</Enabled>
-           <Name>GPT</Name>
+           <Name>ERAY1</Name>
           </__.55>
           <__.56>
            <Enabled>true</Enabled>
-           <Name>VADC</Name>
+           <Name>GTM</Name>
           </__.56>
           <__.57>
            <Enabled>true</Enabled>
-           <Name>DSADC</Name>
+           <Name>CCU0</Name>
           </__.57>
           <__.58>
            <Enabled>true</Enabled>
-           <Name>PSI5</Name>
+           <Name>CCU1</Name>
           </__.58>
           <__.59>
            <Enabled>true</Enabled>
-           <Name>PSI5S</Name>
+           <Name>GPT</Name>
           </__.59>
           <__.6>
            <Enabled>true</Enabled>
-           <Name>QSPI2</Name>
+           <Name>QSPI0</Name>
           </__.6>
           <__.60>
            <Enabled>true</Enabled>
-           <Name>HSSL0</Name>
+           <Name>VADC</Name>
           </__.60>
           <__.61>
            <Enabled>true</Enabled>
-           <Name>CONVCTRL</Name>
+           <Name>DSADC</Name>
           </__.61>
+          <__.62>
+           <Enabled>true</Enabled>
+           <Name>PSI5</Name>
+          </__.62>
+          <__.63>
+           <Enabled>true</Enabled>
+           <Name>PSI5S</Name>
+          </__.63>
+          <__.64>
+           <Enabled>true</Enabled>
+           <Name>RIF0</Name>
+          </__.64>
+          <__.65>
+           <Enabled>true</Enabled>
+           <Name>RIF1</Name>
+          </__.65>
+          <__.66>
+           <Enabled>true</Enabled>
+           <Name>SPU0</Name>
+          </__.66>
+          <__.67>
+           <Enabled>true</Enabled>
+           <Name>SPU1</Name>
+          </__.67>
+          <__.68>
+           <Enabled>true</Enabled>
+           <Name>HSSL0</Name>
+          </__.68>
+          <__.69>
+           <Enabled>true</Enabled>
+           <Name>CONVCTRL</Name>
+          </__.69>
           <__.7>
            <Enabled>true</Enabled>
-           <Name>QSPI3</Name>
+           <Name>QSPI1</Name>
           </__.7>
           <__.8>
            <Enabled>true</Enabled>
-           <Name>QSPI4</Name>
+           <Name>QSPI2</Name>
           </__.8>
           <__.9>
            <Enabled>true</Enabled>
-           <Name>SMU</Name>
+           <Name>QSPI3</Name>
           </__.9>
          </SuspendItems>
         </PeripheralsSuspendInStop>
@@ -6123,9 +7399,9 @@
        </Synchronization>
       </BDM>
       <HW>
-       <HW>10</HW>
+       <HW>2</HW>
        <Communication>
-        <IPAddr>HW:5k7/DTM/TT0092 (Infineon TriCore TC389QP + iC5700 DAP2)</IPAddr>
+        <IPAddr></IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
         <Mode>3</Mode>
         <TCPPortNumber>5313</TCPPortNumber>

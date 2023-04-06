@@ -13,18 +13,18 @@
        <EditorPersist>
         <__.0>
          <BookmarkList></BookmarkList>
+         <CaretPos>2723</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\BlueBox\fitIDEA\samples\src\TriCore\TC389QP\C0\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>58</ScrollPos>
+        </__.0>
+        <__.1>
+         <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.0>
-        <__.1>
-         <BookmarkList></BookmarkList>
-         <CaretPos>780</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Bluebox\trunk\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.1>
         <__.10>
@@ -37,17 +37,17 @@
         </__.10>
         <__.11>
          <BookmarkList></BookmarkList>
-         <CaretPos>783</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.11>
         <__.12>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>783</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\test.c</FileName>
+         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
@@ -93,65 +93,65 @@
         </__.17>
         <__.18>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
-         <BookmarkList></BookmarkList>
          <CaretPos>253</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>9</ScrollPos>
-        </__.19>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2723</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\fitIDEA\samples\src\TriCore\TC389QP\C0\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>58</ScrollPos>
-        </__.2>
-        <__.20>
+        </__.18>
+        <__.19>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC389QP\emptyTargetInit\readMe.txt</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.20>
-        <__.21>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>780</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Bluebox\trunk\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.2>
+        <__.20>
          <BookmarkList></BookmarkList>
          <CaretPos>1832</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\test.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
+        </__.20>
+        <__.21>
          <BookmarkList></BookmarkList>
          <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>54</ScrollPos>
-        </__.22>
-        <__.23>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>3400</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\JakaSter\public_samples\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\C0\CPUFile.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>95</ScrollPos>
+        </__.22>
+        <__.23>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\C0\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.23>
         <__.24>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\C0\cstart.c</FileName>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.24>
@@ -159,79 +159,55 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.25>
         <__.26>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1499</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\test.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>130</ScrollPos>
-        </__.27>
-        <__.28>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\KlemenKlopcic\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.28>
-        <__.29>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
          <FileName>C:\Users\ALEKSANDARZ\Documents\Distributable\winIDEA_public\Infineon\TC389QP\emptyTargetInit\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.29>
+        </__.26>
         <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\C0\CPUFile.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.3>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>K:\samplesRecompile\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.4>
-        <__.5>
-         <BookmarkList></BookmarkList>
-         <CaretPos>784</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>2723</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Bluebox\trunk\fitIDEA\samples\src\TriCore\TC389QP\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>9</ScrollPos>
+        </__.3>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>784</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Distribution\winIDEA_public\Infineon\TC389QP\emptyTargetInit\C0\CPUFile.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>K:\samplesRecompile\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
         </__.6>
         <__.7>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
+         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\TriCore\TC389QP\C0\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
@@ -239,7 +215,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>E:\BlueBox\trunk\fitIDEA\samples\src\TriCore\TC389QP\C0\cstart.c</FileName>
+         <FileName>D:\fitIDEA\samples\src\common\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
@@ -2623,203 +2599,6 @@
         </TimelineViews>
        </ProfilerData>
       </ANGUIData.16>
-      <ANGUIData.17>
-       <Filetime type="B">IINOBOLLDFFHNJAB</Filetime>
-       <GUID type="B">IEABJFHMNGAFGBEAINJOPIJDIKBIOGEL</GUID>
-       <CVData>
-        <Columns>
-         <SortBy>0</SortBy>
-         <SortSmallLast>false</SortSmallLast>
-         <Columns>
-          <__.0>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>300</Width>
-          </__.0>
-          <__.1>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>200</Width>
-          </__.1>
-          <__.2>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>200</Width>
-          </__.2>
-          <__.3>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>200</Width>
-          </__.3>
-          <__.4>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>150</Width>
-          </__.4>
-          <__.5>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>200</Width>
-          </__.5>
-          <__.6>
-           <Pos>0</Pos>
-           <Visible>true</Visible>
-           <Width>100</Width>
-          </__.6>
-         </Columns>
-         <Sort>
-          <Column>0</Column>
-          <Direction>Ascending</Direction>
-         </Sort>
-        </Columns>
-        <Search>
-         <MatchCase>false</MatchCase>
-         <Text></Text>
-         <Up>false</Up>
-        </Search>
-       </CVData>
-       <ProfilerData>
-        <InitialLayoutProcessed>true</InitialLayoutProcessed>
-        <Docking>
-         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
-         <Frames>
-          <__.0>
-           <FocusedViewId>1</FocusedViewId>
-           <FrameState>9</FrameState>
-           <IsPrimary>true</IsPrimary>
-           <Bounds>
-            <Bottom>277</Bottom>
-            <Left>0</Left>
-            <Right>973</Right>
-            <Top>0</Top>
-           </Bounds>
-           <Dock>
-            <DockType>None</DockType>
-            <Extent>1</Extent>
-            <IsDocumentPane>false</IsDocumentPane>
-            <IsPinned>false</IsPinned>
-            <IsTabbed>false</IsTabbed>
-            <Orientation>Vertical</Orientation>
-            <TopTabViewId>-1</TopTabViewId>
-            <ViewId>-1</ViewId>
-            <Children>
-             <__.0>
-              <DockType>View</DockType>
-              <Extent>0.5</Extent>
-              <IsDocumentPane>false</IsDocumentPane>
-              <IsPinned>false</IsPinned>
-              <IsTabbed>false</IsTabbed>
-              <Orientation>Vertical</Orientation>
-              <TopTabViewId>-1</TopTabViewId>
-              <ViewId>0</ViewId>
-             </__.0>
-             <__.1>
-              <DockType>View</DockType>
-              <Extent>0.5</Extent>
-              <IsDocumentPane>false</IsDocumentPane>
-              <IsPinned>false</IsPinned>
-              <IsTabbed>false</IsTabbed>
-              <Orientation>Horizontal</Orientation>
-              <TopTabViewId>-1</TopTabViewId>
-              <ViewId>1</ViewId>
-             </__.1>
-            </Children>
-           </Dock>
-          </__.0>
-         </Frames>
-        </Docking>
-        <PRSettings>
-         <DisplayDownloadFile>false</DisplayDownloadFile>
-         <DisplayInspectorGroup>false</DisplayInspectorGroup>
-         <MaxNumberOfStates>128</MaxNumberOfStates>
-         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
-         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
-         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
-        </PRSettings>
-        <TimelineViews>
-         <__.0>
-          <ScrollPosition>0</ScrollPosition>
-          <SnapOnFindEvent>true</SnapOnFindEvent>
-          <TimeLeft>9223372036854775807</TimeLeft>
-          <TimeRight>0</TimeRight>
-          <ZoomLevel>1</ZoomLevel>
-          <ViewData>
-           <CurrentApplicationIndex>65535</CurrentApplicationIndex>
-           <CurrentContextIndex>65535</CurrentContextIndex>
-           <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
-           <ViewTitle>Profiler Timeline</ViewTitle>
-           <Pane>
-            <Areas.areaAux>
-             <Height>0</Height>
-             <Filter>
-              <ShowChildItems>false</ShowChildItems>
-              <Text></Text>
-              <Visible>false</Visible>
-             </Filter>
-             <Sort>
-              <Column>0</Column>
-              <Direction>Ascending</Direction>
-             </Sort>
-            </Areas.areaAux>
-            <Areas.areaCode>
-             <Height>100</Height>
-             <Filter>
-              <ShowChildItems>false</ShowChildItems>
-              <Text></Text>
-              <Visible>false</Visible>
-             </Filter>
-             <Sort>
-              <Column>0</Column>
-              <Direction>Ascending</Direction>
-             </Sort>
-            </Areas.areaCode>
-            <Areas.areaData>
-             <Height>0</Height>
-             <Filter>
-              <ShowChildItems>false</ShowChildItems>
-              <Text></Text>
-              <Visible>false</Visible>
-             </Filter>
-             <Sort>
-              <Column>0</Column>
-              <Direction>Ascending</Direction>
-             </Sort>
-            </Areas.areaData>
-            <ColumnWidths>
-             <__.0>
-              <Pos>0</Pos>
-              <Visible>true</Visible>
-              <Width>150</Width>
-             </__.0>
-             <__.1>
-              <Pos>0</Pos>
-              <Visible>true</Visible>
-              <Width>40</Width>
-             </__.1>
-             <__.2>
-              <Pos>0</Pos>
-              <Visible>true</Visible>
-              <Width>800</Width>
-             </__.2>
-            </ColumnWidths>
-           </Pane>
-          </ViewData>
-         </__.0>
-        </TimelineViews>
-        <ViewData>
-         <__.0>
-          <DataIndex>0</DataIndex>
-          <ViewId>0</ViewId>
-          <ViewType>Timeline</ViewType>
-         </__.0>
-         <__.1>
-          <DataIndex>-1</DataIndex>
-          <ViewId>1</ViewId>
-          <ViewType>CoverageStatistics</ViewType>
-         </__.1>
-        </ViewData>
-       </ProfilerData>
-      </ANGUIData.17>
       <ANGUIData.2>
        <Filetime type="B">GLDAAANICMNINBAB</Filetime>
        <GUID type="B">KBNEPJEPEOCIIIEAJPNPFPNMEMLCIDOA</GUID>
@@ -4932,13 +4711,13 @@
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>C0\CPUFile.c</RelativeFilePath>
+        <RelativeFilePath>..\targetInit\main.c</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>C0\cstart.c</RelativeFilePath>
+        <RelativeFilePath>C0\CPUFile.c</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>C5700_DAP_AP.trd</RelativeFilePath>
+        <RelativeFilePath>C0\cstart.c</RelativeFilePath>
        </__.2>
        <__.3>
         <RelativeFilePath>test.c</RelativeFilePath>
@@ -4972,10 +4751,6 @@
         <ViewId>498</ViewId>
         <ViewType>SFR</ViewType>
        </__.1>
-       <__.10>
-        <ViewId>494</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.10>
        <__.2>
         <ViewId>496</ViewId>
         <ViewType>Disassembly</ViewType>
@@ -5005,8 +4780,8 @@
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>504</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>494</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -5118,7 +4893,7 @@
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>504</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -5394,10 +5169,10 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>24</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>494</FocusedViewId>
+        <FocusedViewId>503</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -5439,54 +5214,32 @@
             <__.1>
              <DockType>None</DockType>
              <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
+             <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>503</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>None</DockType>
-               <Extent>0.75</Extent>
-               <IsDocumentPane>true</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>true</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>503</TopTabViewId>
-               <ViewId>-1</ViewId>
-               <Children>
-                <__.0>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>502</ViewId>
-                </__.0>
-                <__.1>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>503</ViewId>
-                </__.1>
-               </Children>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>0.25</Extent>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>Vertical</Orientation>
+               <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>504</ViewId>
+               <ViewId>502</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>503</ViewId>
               </__.1>
              </Children>
             </__.1>

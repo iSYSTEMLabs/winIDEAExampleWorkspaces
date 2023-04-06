@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296637952</RegVer>
+      <RegVer>1296719872</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,13 +20,16 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296637952</RegVer>
+      <RegVer>1296719872</RegVer>
       <WorkspaceOptions>
-       <SessionDumpFilter>
+       <Debug_Breakpoints>
+        <ProfilerAnalysisSample>18446744073709551615</ProfilerAnalysisSample>
+       </Debug_Breakpoints>
+       <Debug_SessionDumpFilter>
         <Enabled>false</Enabled>
         <SampleRangeBegin>0</SampleRangeBegin>
         <SampleRangeEnd>0</SampleRangeEnd>
-       </SessionDumpFilter>
+       </Debug_SessionDumpFilter>
       </WorkspaceOptions>
      </REG_ROOT>
     </LAOptions>
@@ -40,16 +43,19 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296637952</RegVer>
+    <RegVer>1296719872</RegVer>
     <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
      <Floating>
       <Enterprise>EBA</Enterprise>
+      <Client>
+       <Type>Demo</Type>
+       <Demo>
+        <Timeout>0</Timeout>
+       </Demo>
+      </Client>
      </Floating>
-     <Sentinel>
-      <Address></Address>
-     </Sentinel>
     </Cfg_License>
     <Cfg_System>
      <Debug>
@@ -1121,6 +1127,7 @@
        <DisableIRQ_StepOver>true</DisableIRQ_StepOver>
        <ReserveBP>true</ReserveBP>
        <ResetConditionalBPCountWhenStop>false</ResetConditionalBPCountWhenStop>
+       <RunUntilReturn>RunUntilReturn</RunUntilReturn>
       </Debugging>
       <Directories1>
        <AltPaths>true</AltPaths>
@@ -1474,9 +1481,14 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.146</winIDEA>
+      <winIDEA>Build 9.21.166</winIDEA>
      </Info>
      <Options>
+      <Environment>
+       <iConnectLimitClients>false</iConnectLimitClients>
+       <iConnectLimitNum>1</iConnectLimitNum>
+       <IsBuildManagerEnabled>false</IsBuildManagerEnabled>
+      </Environment>
       <Search>
        <ExtFolderIgnoreFilter>*.elf,*.bin,*.o*</ExtFolderIgnoreFilter>
       </Search>
@@ -1747,7 +1759,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296637952</RegVer>
+    <RegVer>1296719872</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>sample - Debug</DefaultTargetName>
@@ -1762,7 +1774,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296637952</RegVer>
+    <RegVer>1296719872</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -4353,19 +4365,19 @@
         <SCR>
          <BP.0>
           <CoverEntireObject>true</CoverEntireObject>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <End></End>
           <Start></Start>
          </BP.0>
          <BP.1>
-          <CoverEntireObject>true</CoverEntireObject>
-          <Enabled>true</Enabled>
+          <CoverEntireObject>false</CoverEntireObject>
+          <Enabled>false</Enabled>
           <End></End>
           <Start></Start>
          </BP.1>
          <BP.2>
           <CoverEntireObject>true</CoverEntireObject>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <End></End>
           <Start></Start>
          </BP.2>
@@ -4442,6 +4454,7 @@
           <DeviceAddress>0x80000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -4490,6 +4503,7 @@
           <DeviceAddress>0xAF000000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>true</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -4538,6 +4552,7 @@
           <DeviceAddress>0xAF400000</DeviceAddress>
           <DeviceType>Unknown</DeviceType>
           <Enabled>false</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -4586,6 +4601,7 @@
           <DeviceAddress>0xAFC00000</DeviceAddress>
           <DeviceType>Parallel</DeviceType>
           <Enabled>false</Enabled>
+          <EnableECC>1</EnableECC>
           <EraseBeforeDownload>false</EraseBeforeDownload>
           <FillDevice>true</FillDevice>
           <FillFirst>0x0</FillFirst>
@@ -4631,8 +4647,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>146</V_BUILD>
-      <V_BUILD_SCC>145660</V_BUILD_SCC>
+      <V_BUILD>166</V_BUILD>
+      <V_BUILD_SCC>149311</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -4670,8 +4686,8 @@
          <Scripts></Scripts>
         </Program_ConnectToSoC>
         <Program_InitSoC>
-         <Execute>Custom</Execute>
-         <Scripts>TC_38x_OCDS_Initialization.ini</Scripts>
+         <Execute>Default</Execute>
+         <Scripts></Scripts>
         </Program_InitSoC>
         <Trace_Done>
          <Execute>Default</Execute>
@@ -4969,7 +4985,7 @@
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
         <StopAfterReset>true</StopAfterReset>
-        <SuspendPeripheralsWhileStopped>false</SuspendPeripheralsWhileStopped>
+        <SuspendPeripheralsWhileStopped>true</SuspendPeripheralsWhileStopped>
         <TargetResetTimeout>100</TargetResetTimeout>
         <MemorySecurity_CheckParameters>
          <Entry>false</Entry>
@@ -5061,10 +5077,10 @@
         </PeriodicService>
        </ExtWDT>
        <InitSequence>
-        <File>TC_38x_OCDS_Initialization.ini</File>
+        <File></File>
         <InitAfterReset>0</InitAfterReset>
         <ResetCPUAfterDownload>0</ResetCPUAfterDownload>
-        <Use>1</Use>
+        <Use>0</Use>
        </InitSequence>
        <InitSequence2nd>
         <File></File>
@@ -5153,7 +5169,7 @@
            <DCache_FlushWhenStopped>false</DCache_FlushWhenStopped>
            <Endian>LE</Endian>
            <MCSync>true</MCSync>
-           <StopCPUActivities>false</StopCPUActivities>
+           <StopCPUActivities>true</StopCPUActivities>
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
@@ -5820,43 +5836,43 @@
            <Name>STM1</Name>
           </__.1>
           <__.10>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN0</Name>
           </__.10>
           <__.11>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN1</Name>
           </__.11>
           <__.12>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN2</Name>
           </__.12>
           <__.13>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN3</Name>
           </__.13>
           <__.14>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN4</Name>
           </__.14>
           <__.15>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN5</Name>
           </__.15>
           <__.16>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN6</Name>
           </__.16>
           <__.17>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ASCLIN7</Name>
           </__.17>
           <__.18>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>HSCT0</Name>
           </__.18>
           <__.19>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>MSC0</Name>
           </__.19>
           <__.2>
@@ -5864,43 +5880,43 @@
            <Name>STM2</Name>
           </__.2>
           <__.20>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>MSC1</Name>
           </__.20>
           <__.21>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>MSC2</Name>
           </__.21>
           <__.22>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>CAN0</Name>
           </__.22>
           <__.23>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>CAN1</Name>
           </__.23>
           <__.24>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>CAN2</Name>
           </__.24>
           <__.25>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR0</Name>
           </__.25>
           <__.26>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR1</Name>
           </__.26>
           <__.27>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR2</Name>
           </__.27>
           <__.28>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR3</Name>
           </__.28>
           <__.29>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR4</Name>
           </__.29>
           <__.3>
@@ -5908,155 +5924,155 @@
            <Name>STM3</Name>
           </__.3>
           <__.30>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR5</Name>
           </__.30>
           <__.31>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR6</Name>
           </__.31>
           <__.32>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR7</Name>
           </__.32>
           <__.33>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR8</Name>
           </__.33>
           <__.34>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR9</Name>
           </__.34>
           <__.35>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR10</Name>
           </__.35>
           <__.36>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR11</Name>
           </__.36>
           <__.37>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR12</Name>
           </__.37>
           <__.38>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR13</Name>
           </__.38>
           <__.39>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR14</Name>
           </__.39>
           <__.4>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>QSPI0</Name>
           </__.4>
           <__.40>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR15</Name>
           </__.40>
           <__.41>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR16</Name>
           </__.41>
           <__.42>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR17</Name>
           </__.42>
           <__.43>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR18</Name>
           </__.43>
           <__.44>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR19</Name>
           </__.44>
           <__.45>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR20</Name>
           </__.45>
           <__.46>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR21</Name>
           </__.46>
           <__.47>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR22</Name>
           </__.47>
           <__.48>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR23</Name>
           </__.48>
           <__.49>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SENT_RCR24</Name>
           </__.49>
           <__.5>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>QSPI1</Name>
           </__.5>
           <__.50>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ERAY0</Name>
           </__.50>
           <__.51>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>ERAY1</Name>
           </__.51>
           <__.52>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>GTM</Name>
           </__.52>
           <__.53>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>CCU0</Name>
           </__.53>
           <__.54>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>CCU1</Name>
           </__.54>
           <__.55>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>GPT</Name>
           </__.55>
           <__.56>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>VADC</Name>
           </__.56>
           <__.57>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>DSADC</Name>
           </__.57>
           <__.58>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>PSI5</Name>
           </__.58>
           <__.59>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>PSI5S</Name>
           </__.59>
           <__.6>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>QSPI2</Name>
           </__.6>
           <__.60>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>HSSL0</Name>
           </__.60>
           <__.61>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>CONVCTRL</Name>
           </__.61>
           <__.7>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>QSPI3</Name>
           </__.7>
           <__.8>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>QSPI4</Name>
           </__.8>
           <__.9>
-           <Enabled>false</Enabled>
+           <Enabled>true</Enabled>
            <Name>SMU</Name>
           </__.9>
          </SuspendItems>
@@ -6109,7 +6125,7 @@
       <HW>
        <HW>10</HW>
        <Communication>
-        <IPAddr></IPAddr>
+        <IPAddr>HW:5k7/DTM/TT0092 (Infineon TriCore TC389QP + iC5700 DAP2)</IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
         <Mode>3</Mode>
         <TCPPortNumber>5313</TCPPortNumber>
