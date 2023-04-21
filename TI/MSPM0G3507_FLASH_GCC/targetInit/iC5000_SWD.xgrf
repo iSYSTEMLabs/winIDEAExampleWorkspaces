@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296683008</RegVer>
+      <RegVer>1296740352</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -21,25 +21,25 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\tc_arch.lsl</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>12</ScrollPos>
+         <CaretPos>5463</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\Distribution\winIDEA_public\TI\MSPM0G3507_FLASH_GCC\targetInit\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>98</ScrollPos>
         </__.1>
         <__.10>
          <BookmarkList></BookmarkList>
-         <CaretPos>4207</CaretPos>
+         <CaretPos>429</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\cstart.c</FileName>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\main.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>92</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.10>
         <__.100>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_DEVICE_NAME.h</FileName>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_DEVICE_NAME.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.100>
@@ -47,97 +47,97 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_Template.h</FileName>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_DEVICE_NAME.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.101>
         <__.102>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_Template.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.102>
+        <__.103>
          <BookmarkList></BookmarkList>
          <CaretPos>2634</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0L130x\MSPM0L130x.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>21</ScrollPos>
-        </__.102>
-        <__.103>
+        </__.103>
+        <__.104>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.103>
-        <__.104>
+        </__.104>
+        <__.105>
          <BookmarkList></BookmarkList>
          <CaretPos>82</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_Template.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.104>
-        <__.105>
+        </__.105>
+        <__.106>
          <BookmarkList></BookmarkList>
          <CaretPos>1078</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>62</ScrollPos>
-        </__.105>
-        <__.106>
+        </__.106>
+        <__.107>
          <BookmarkList></BookmarkList>
          <CaretPos>627</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_PortTemplate\DeviceOperations_Template.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.106>
-        <__.107>
+        </__.107>
+        <__.108>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_PortTemplate\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.107>
-        <__.108>
+        </__.108>
+        <__.109>
          <BookmarkList></BookmarkList>
          <CaretPos>302</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.108>
-        <__.109>
+        </__.109>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>4207</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>92</ScrollPos>
+        </__.11>
+        <__.110>
          <BookmarkList></BookmarkList>
          <CaretPos>11071</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\DeviceOperations_Kinetis_E.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>365</ScrollPos>
-        </__.109>
-        <__.11>
-         <BookmarkList></BookmarkList>
-         <CaretPos>1392</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\TriCore.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.11>
-        <__.110>
+        </__.110>
+        <__.111>
          <BookmarkList></BookmarkList>
          <CaretPos>799</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\LinkCfgKinetisM0.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>27</ScrollPos>
-        </__.110>
-        <__.111>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\TI\MSPM0G3507_FLASH_GCC\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.111>
         <__.112>
          <BookmarkList></BookmarkList>
@@ -205,9 +205,9 @@
         </__.119>
         <__.12>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>1392</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>..\..\..\Venus\KR\MurmurHash2.c</FileName>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\TriCore.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.12>
@@ -293,9 +293,9 @@
         </__.129>
         <__.13>
          <BookmarkList></BookmarkList>
-         <CaretPos>270</CaretPos>
+         <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\MonitorFeatures.h</FileName>
+         <FileName>..\..\..\Venus\KR\MurmurHash2.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.13>
@@ -357,171 +357,171 @@
         </__.136>
         <__.137>
          <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\ISYSTEM_TRUNK\BlueBox\fitIDEA\samples\src\CortexM-x\MSPM0G3507_FLASH_GCC\sample.ind</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.137>
+        <__.138>
+         <BookmarkList></BookmarkList>
          <CaretPos>1102</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0L130x\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>6</ScrollPos>
-        </__.137>
-        <__.138>
+        </__.138>
+        <__.139>
          <BookmarkList></BookmarkList>
          <CaretPos>237</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0L130x\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.138>
-        <__.139>
+        </__.139>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>270</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\MonitorFeatures.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.14>
+        <__.140>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0G3xxx_UMI3\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.139>
-        <__.14>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\BB\BlueBox\FlashMonitors\UMI\Kinetis_E_UMI3\Entry.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.14>
-        <__.140>
+        </__.140>
+        <__.141>
          <BookmarkList></BookmarkList>
          <CaretPos>198</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0G3xxx_UMI3\Entry.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.140>
-        <__.141>
+        </__.141>
+        <__.142>
          <BookmarkList></BookmarkList>
          <CaretPos>98</CaretPos>
          <Encoding>2</Encoding>
          <FileName>C:\venusTrunk\BlueBox\fitIDEA\samples\src\common\custom.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.141>
-        <__.142>
+        </__.142>
+        <__.143>
          <BookmarkList></BookmarkList>
          <CaretPos>16699</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\UMI3\UMI3_Engine.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>527</ScrollPos>
-        </__.142>
-        <__.143>
+        </__.143>
+        <__.144>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\UMI3\Types.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.143>
-        <__.144>
+        </__.144>
+        <__.145>
          <BookmarkList></BookmarkList>
          <CaretPos>13772</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\UMI3\SFDP_Debug.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>362</ScrollPos>
-        </__.144>
-        <__.145>
+        </__.145>
+        <__.146>
          <BookmarkList></BookmarkList>
          <CaretPos>991</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0G3xxx_UMI3\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.145>
-        <__.146>
+        </__.146>
+        <__.147>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0G3xxx_UMI3\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.146>
-        <__.147>
+        </__.147>
+        <__.148>
          <BookmarkList></BookmarkList>
          <CaretPos>1120</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\Venus\ResGenCPU\SFR\ARM\MSPM0L130x_ConnectToSoC.cpp</FileName>
          <FileType>7</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.147>
-        <__.148>
+        </__.148>
+        <__.149>
          <BookmarkList></BookmarkList>
          <CaretPos>843</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\UMI3\Monitor_Utils.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.148>
-        <__.149>
+        </__.149>
+        <__.15>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\BB\BlueBox\FlashMonitors\UMI\Kinetis_E_UMI3\Entry.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.15>
+        <__.150>
          <BookmarkList></BookmarkList>
          <CaretPos>3512</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Checkouts\trunk\BlueBox\FlashMonitors\UMI\MSPM0G3xxx_UMI3\DeviceOperations_MSPM0G3xxx.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>124</ScrollPos>
-        </__.149>
-        <__.15>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Bluebox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\LinkCfgKinetisM0.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.15>
-        <__.150>
+        </__.150>
+        <__.151>
          <BookmarkList></BookmarkList>
          <CaretPos>1124</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\JakaJsamples\MSPM0G3xxx\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>41</ScrollPos>
-        </__.150>
-        <__.151>
+        </__.151>
+        <__.152>
          <BookmarkList></BookmarkList>
          <CaretPos>44</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\JakaJsamples\MSPM0G3xxx\MSPM0G3xxx.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.151>
-        <__.152>
+        </__.152>
+        <__.153>
          <BookmarkList></BookmarkList>
          <CaretPos>249</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\JakaJsamples\MSPM0G3xxx\Entry.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.152>
-        <__.153>
+        </__.153>
+        <__.154>
          <BookmarkList></BookmarkList>
          <CaretPos>269</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\JakaJsamples\MSPM0G3xxx\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.153>
-        <__.154>
+        </__.154>
+        <__.155>
          <BookmarkList></BookmarkList>
          <CaretPos>1923</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\JakaJsamples\MSPM0G3xxx\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>33</ScrollPos>
-        </__.154>
-        <__.155>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>2</Encoding>
-         <FileName>C:\venusTrunk\BlueBox\fitIDEA\samples\public\MSPM0G3507_FLASH_GCC\targetInit\readMe.txt</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.155>
         <__.156>
          <BookmarkList></BookmarkList>
@@ -558,9 +558,9 @@
         <__.16>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_SoCFunc.c</FileName>
-         <FileType>1</FileType>
+         <Encoding>1</Encoding>
+         <FileName>D:\Bluebox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\LinkCfgKinetisM0.ind</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.16>
         <__.160>
@@ -606,8 +606,8 @@
         <__.165>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
-         <Encoding>2</Encoding>
-         <FileName>C:\venusTrunk\BlueBox\fitIDEA\samples\public\MSPM0G3507_FLASH_GCC\targetInit\main.c</FileName>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\ISYSTEM_TRUNK\BlueBox\fitIDEA\samples\src\common\main.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.165>
@@ -615,343 +615,391 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\Distribution\winIDEA_public\TI\MSPM0G3507_FLASH_GCC\targetInit\main.c</FileName>
+         <FileName>D:\LukaPantar\ISYSTEM_TRUNK\BlueBox\fitIDEA\samples\src\CortexM-x\MSPM0G3507_FLASH_GCC\MSPM0G3507.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>3</ScrollPos>
+        </__.166>
+        <__.167>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\ISYSTEM_TRUNK\BlueBox\fitIDEA\samples\src\CortexM-x\MSPM0G3507_FLASH_GCC\MSPM0G3507.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>51</ScrollPos>
+        </__.167>
+        <__.168>
+         <BookmarkList></BookmarkList>
+         <CaretPos>5414</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\ISYSTEM_TRUNK\BlueBox\fitIDEA\samples\src\CortexM-x\MSPM0G3507_FLASH_GCC\startup.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>88</ScrollPos>
+        </__.168>
+        <__.169>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3427</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\ISYSTEM_TRUNK\BlueBox\fitIDEA\samples\src\common\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>117</ScrollPos>
+        </__.169>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_SoCFunc.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.166>
-        <__.17>
+        </__.17>
+        <__.170>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\Distribution\winIDEA_public\TI\MSPM0G3507_FLASH_GCC\targetInit\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.170>
+        <__.171>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\Distribution\winIDEA_public\TI\MSPM0G3507_FLASH_GCC\targetInit\readMe.txt</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.171>
+        <__.172>
+         <BookmarkList></BookmarkList>
+         <CaretPos>869</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\LukaPantar\Distribution\winIDEA_public\TI\MSPM0G3507_FLASH_GCC\targetInit\test.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>44</ScrollPos>
+        </__.172>
+        <__.18>
          <BookmarkList></BookmarkList>
          <CaretPos>2718</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>55</ScrollPos>
-        </__.17>
-        <__.18>
+        </__.18>
+        <__.19>
          <BookmarkList></BookmarkList>
          <CaretPos>440</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\UMI3\Monitor_Utils.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.18>
-        <__.19>
+        </__.19>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\tc_arch.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>12</ScrollPos>
+        </__.2>
+        <__.20>
          <BookmarkList></BookmarkList>
          <CaretPos>248</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_Engine.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.19>
-        <__.2>
-         <BookmarkList></BookmarkList>
-         <CaretPos>2141</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\Core1\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.20>
+        </__.20>
+        <__.21>
          <BookmarkList></BookmarkList>
          <CaretPos>2141</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>33</ScrollPos>
-        </__.20>
-        <__.21>
+        </__.21>
+        <__.22>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\Venus\WCommon\UMI_Header.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.21>
-        <__.22>
+        </__.22>
+        <__.23>
          <BookmarkList></BookmarkList>
          <CaretPos>1116</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.22>
-        <__.23>
+        </__.23>
+        <__.24>
          <BookmarkList></BookmarkList>
          <CaretPos>24</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.23>
-        <__.24>
+        </__.24>
+        <__.25>
          <BookmarkList></BookmarkList>
          <CaretPos>4225</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\cstart.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>51</ScrollPos>
-        </__.24>
-        <__.25>
+        </__.25>
+        <__.26>
          <BookmarkList></BookmarkList>
          <CaretPos>16170</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_Engine.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>581</ScrollPos>
-        </__.25>
-        <__.26>
+        </__.26>
+        <__.27>
          <BookmarkList></BookmarkList>
          <CaretPos>302</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\DeviceOperations.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.26>
-        <__.27>
+        </__.27>
+        <__.28>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>DeviceOperations_TC2xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.27>
-        <__.28>
+        </__.28>
+        <__.29>
          <BookmarkList></BookmarkList>
          <CaretPos>11865</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\tc_arch.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>249</ScrollPos>
-        </__.28>
-        <__.29>
+        </__.29>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2141</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\Core1\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.3>
+        <__.30>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\cstart.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.29>
-        <__.3>
-         <BookmarkList></BookmarkList>
-         <CaretPos>11750</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\tc_arch.lsl</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>258</ScrollPos>
-        </__.3>
-        <__.30>
+        </__.30>
+        <__.31>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>..\UMI3\UMI3_DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.30>
-        <__.31>
+        </__.31>
+        <__.32>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\JakaJsamples\MSPM0G3xxx\debug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.31>
-        <__.32>
+        </__.32>
+        <__.33>
          <BookmarkList></BookmarkList>
          <CaretPos>146</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.32>
-        <__.33>
+        </__.33>
+        <__.34>
          <BookmarkList></BookmarkList>
          <CaretPos>1108</CaretPos>
          <Encoding>0</Encoding>
          <FileName>..\UMI3\UMI3_DeviceOperations.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.33>
-        <__.34>
+        </__.34>
+        <__.35>
          <BookmarkList></BookmarkList>
          <CaretPos>9582</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\DeviceOperations.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>198</ScrollPos>
-        </__.34>
-        <__.35>
+        </__.35>
+        <__.36>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\DeviceOperations.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.35>
-        <__.36>
+        </__.36>
+        <__.37>
          <BookmarkList></BookmarkList>
          <CaretPos>166</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.36>
-        <__.37>
+        </__.37>
+        <__.38>
          <BookmarkList></BookmarkList>
          <CaretPos>24789</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>770</ScrollPos>
-        </__.37>
-        <__.38>
+        </__.38>
+        <__.39>
          <BookmarkList></BookmarkList>
          <CaretPos>40179</CaretPos>
          <Encoding>0</Encoding>
          <FileName>X:\TASKING\TriCore v3.2r3\ctc\include\sfr\regtc1766.sfr</FileName>
          <FileType>0</FileType>
          <ScrollPos>1450</ScrollPos>
-        </__.38>
-        <__.39>
+        </__.39>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>11750</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\tc_arch.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>258</ScrollPos>
+        </__.4>
+        <__.40>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.39>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>6773</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\Core2\cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>128</ScrollPos>
-        </__.4>
-        <__.40>
+        </__.40>
+        <__.41>
          <BookmarkList></BookmarkList>
          <CaretPos>17399</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\Venus\WCommon\UMI_Header.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>279</ScrollPos>
-        </__.40>
-        <__.41>
+        </__.41>
+        <__.42>
          <BookmarkList></BookmarkList>
          <CaretPos>2499</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\Venus\KR\LZO\lzo1x.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>62</ScrollPos>
-        </__.41>
-        <__.42>
+        </__.42>
+        <__.43>
          <BookmarkList></BookmarkList>
          <CaretPos>2168</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\UMI3\DataDescriptors.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>69</ScrollPos>
-        </__.42>
-        <__.43>
+        </__.43>
+        <__.44>
          <BookmarkList></BookmarkList>
          <CaretPos>1498</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>15</ScrollPos>
-        </__.43>
-        <__.44>
+        </__.44>
+        <__.45>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\Monitor_Utils.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.44>
-        <__.45>
+        </__.45>
+        <__.46>
          <BookmarkList></BookmarkList>
          <CaretPos>776</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_Engine.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>14</ScrollPos>
-        </__.45>
-        <__.46>
+        </__.46>
+        <__.47>
          <BookmarkList></BookmarkList>
          <CaretPos>333</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_SoCFunc.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.46>
-        <__.47>
+        </__.47>
+        <__.48>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.47>
-        <__.48>
+        </__.48>
+        <__.49>
          <BookmarkList></BookmarkList>
          <CaretPos>6697</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\DeviceOperations.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>165</ScrollPos>
-        </__.48>
-        <__.49>
+        </__.49>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>6773</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\Core2\cstart.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>128</ScrollPos>
+        </__.5>
+        <__.50>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>..\UMI3\DataDescriptors.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.49>
-        <__.5>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\Bluebox\trunk\Venus\ResGenCPU\SFR\ARM\MKEx_64k_0k_0k_512_0k.flash</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.5>
-        <__.50>
+        </__.50>
+        <__.51>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.50>
-        <__.51>
+        </__.51>
+        <__.52>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.51>
-        <__.52>
+        </__.52>
+        <__.53>
          <BookmarkList></BookmarkList>
          <CaretPos>1646</CaretPos>
          <Encoding>0</Encoding>
          <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>3</ScrollPos>
-        </__.52>
-        <__.53>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Checkouts\trunk\AsystLib\lzo\lzo\minilzo.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.53>
         <__.54>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\MonitorFeatures.h</FileName>
+         <Encoding>1</Encoding>
+         <FileName>C:\Checkouts\trunk\AsystLib\lzo\lzo\minilzo.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.54>
@@ -959,7 +1007,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\cstart.h</FileName>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.55>
@@ -967,55 +1015,55 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>MonitorFeatures.h</FileName>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\cstart.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.56>
         <__.57>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>MonitorFeatures.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.57>
+        <__.58>
          <BookmarkList></BookmarkList>
          <CaretPos>702</CaretPos>
          <Encoding>2</Encoding>
          <FileName>C:\venusTrunk\BlueBox\fitIDEA\samples\src\CortexM-x\MSPM0G3507_FLASH_GCC\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>41</ScrollPos>
-        </__.57>
-        <__.58>
+        </__.58>
+        <__.59>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.58>
-        <__.59>
+        </__.59>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\Bluebox\trunk\Venus\ResGenCPU\SFR\ARM\MKEx_64k_0k_0k_512_0k.flash</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.6>
+        <__.60>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\cstart.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.59>
-        <__.6>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\sample.ind</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.6>
-        <__.60>
+        </__.60>
+        <__.61>
          <BookmarkList></BookmarkList>
          <CaretPos>788</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\DeviceOperations_TC2xx.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.60>
-        <__.61>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.61>
@@ -1023,39 +1071,39 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\tc_arch.lsl</FileName>
-         <FileType>0</FileType>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\MonitorFeatures.h</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.62>
         <__.63>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\tc_arch.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.63>
+        <__.64>
          <BookmarkList></BookmarkList>
          <CaretPos>4997</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\DeviceOperations_TC2xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>135</ScrollPos>
-        </__.63>
-        <__.64>
+        </__.64>
+        <__.65>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.64>
-        <__.65>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>cstart.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.65>
         <__.66>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>..\UMI3\UMI3_EngineDebug.c</FileName>
+         <FileName>cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.66>
@@ -1063,7 +1111,7 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>DeviceOperations_TC2xx.c</FileName>
+         <FileName>..\UMI3\UMI3_EngineDebug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.67>
@@ -1071,111 +1119,111 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>tc_arch.lsl</FileName>
-         <FileType>0</FileType>
+         <FileName>DeviceOperations_TC2xx.c</FileName>
+         <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.68>
         <__.69>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>..\UMI3\UMI3_Engine.c</FileName>
-         <FileType>1</FileType>
+         <FileName>tc_arch.lsl</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.69>
         <__.7>
          <BookmarkList></BookmarkList>
-         <CaretPos>563</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\Entry.c</FileName>
-         <FileType>1</FileType>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx\sample.ind</FileName>
+         <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.7>
         <__.70>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>..\UMI3\UMI3_Engine.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.70>
+        <__.71>
          <BookmarkList></BookmarkList>
          <CaretPos>621</CaretPos>
          <Encoding>0</Encoding>
          <FileName>..\UMI3\UMI3_Engine.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.70>
-        <__.71>
+        </__.71>
+        <__.72>
          <BookmarkList></BookmarkList>
          <CaretPos>1606</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\DataDescriptors.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>42</ScrollPos>
-        </__.71>
-        <__.72>
+        </__.72>
+        <__.73>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Bluebox\trunk\FlashMonitors\UMI\UMI3\UMI3_DeviceOperations.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.72>
-        <__.73>
+        </__.73>
+        <__.74>
          <BookmarkList></BookmarkList>
          <CaretPos>1237</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\Venus\KR\MurmurHash2.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>52</ScrollPos>
-        </__.73>
-        <__.74>
+        </__.74>
+        <__.75>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_Engine.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.74>
-        <__.75>
+        </__.75>
+        <__.76>
          <BookmarkList></BookmarkList>
          <CaretPos>462</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.75>
-        <__.76>
+        </__.76>
+        <__.77>
          <BookmarkList></BookmarkList>
          <CaretPos>584</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\MonitorFeatures.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.76>
-        <__.77>
+        </__.77>
+        <__.78>
          <BookmarkList></BookmarkList>
          <CaretPos>4225</CaretPos>
          <Encoding>2</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\DeviceOperations_TC2xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>123</ScrollPos>
-        </__.77>
-        <__.78>
+        </__.78>
+        <__.79>
          <BookmarkList></BookmarkList>
          <CaretPos>3843</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\cstart.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>78</ScrollPos>
-        </__.78>
-        <__.79>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\sample.lsl</FileName>
-         <FileType>0</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.79>
         <__.8>
          <BookmarkList></BookmarkList>
-         <CaretPos>40</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\main.h</FileName>
+         <CaretPos>563</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\Entry.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.8>
@@ -1183,167 +1231,167 @@
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>0</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\tc_arch.lsl</FileName>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\sample.lsl</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
         </__.80>
         <__.81>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\tc_arch.lsl</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.81>
+        <__.82>
          <BookmarkList></BookmarkList>
          <CaretPos>1068</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_DeviceOperations.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.81>
-        <__.82>
+        </__.82>
+        <__.83>
          <BookmarkList></BookmarkList>
          <CaretPos>207</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\Monitor_Utils.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.82>
-        <__.83>
+        </__.83>
+        <__.84>
          <BookmarkList></BookmarkList>
          <CaretPos>3556</CaretPos>
          <Encoding>0</Encoding>
          <FileName>D:\BlueBox\trunk\Venus\KR\LZO\minilzo.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>81</ScrollPos>
-        </__.83>
-        <__.84>
+        </__.84>
+        <__.85>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\Venus\ResGenCPU\SFR\ARM\MKEx_32k_0k_0k_512_0k.flash</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.84>
-        <__.85>
+        </__.85>
+        <__.86>
          <BookmarkList></BookmarkList>
          <CaretPos>1559</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3\UMI3_EngineDebug.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>20</ScrollPos>
-        </__.85>
-        <__.86>
+        </__.86>
+        <__.87>
          <BookmarkList></BookmarkList>
          <CaretPos>5862</CaretPos>
          <Encoding>2</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\DeviceOperations_TC2xx.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>170</ScrollPos>
-        </__.86>
-        <__.87>
+        </__.87>
+        <__.88>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\Bluebox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\Entry.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.87>
-        <__.88>
+        </__.88>
+        <__.89>
          <BookmarkList></BookmarkList>
          <CaretPos>327</CaretPos>
          <Encoding>2</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.88>
-        <__.89>
+        </__.89>
+        <__.9>
+         <BookmarkList></BookmarkList>
+         <CaretPos>40</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\main.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.9>
+        <__.90>
          <BookmarkList></BookmarkList>
          <CaretPos>154</CaretPos>
          <Encoding>2</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3\crt0.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.89>
-        <__.9>
-         <BookmarkList></BookmarkList>
-         <CaretPos>429</CaretPos>
-         <Encoding>0</Encoding>
-         <FileName>E:\BlueBox\trunk\FlashMonitors\UMI\TC3xx\main.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.9>
-        <__.90>
+        </__.90>
+        <__.91>
          <BookmarkList></BookmarkList>
          <CaretPos>132841</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\Venus\KR\LZO\minilzo.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>4185</ScrollPos>
-        </__.90>
-        <__.91>
+        </__.91>
+        <__.92>
          <BookmarkList></BookmarkList>
          <CaretPos>645</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\DeviceOperations_TC2xx.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.91>
-        <__.92>
+        </__.92>
+        <__.93>
          <BookmarkList></BookmarkList>
          <CaretPos>1084</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\DeviceOperations_TC2xx.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>141</ScrollPos>
-        </__.92>
-        <__.93>
+        </__.93>
+        <__.94>
          <BookmarkList></BookmarkList>
          <CaretPos>128</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\crt0.S</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.93>
-        <__.94>
+        </__.94>
+        <__.95>
          <BookmarkList></BookmarkList>
          <CaretPos>93</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\DeviceOperations_DEVICE_NAME.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.94>
-        <__.95>
+        </__.95>
+        <__.96>
          <BookmarkList></BookmarkList>
          <CaretPos>605</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\sample.ind</FileName>
          <FileType>0</FileType>
          <ScrollPos>9</ScrollPos>
-        </__.95>
-        <__.96>
+        </__.96>
+        <__.97>
          <BookmarkList></BookmarkList>
          <CaretPos>317</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\DeviceOperations_DEVICE_NAME.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.96>
-        <__.97>
+        </__.97>
+        <__.98>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\Kinetis_E_UMI3\monitor.map</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.97>
-        <__.98>
+        </__.98>
+        <__.99>
          <BookmarkList></BookmarkList>
          <CaretPos>249</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\TC2xx_UMI3_template\Entry.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.98>
-        <__.99>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>D:\BlueBox\trunk\FlashMonitors\UMI\UMI3_template\DeviceOperations_DEVICE_NAME.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
         </__.99>
@@ -1360,7 +1408,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296683008</RegVer>
+      <RegVer>1296740352</RegVer>
       <ANGUIData.0>
        <Filetime type="B">EINBJMLGFHEOMPAB</Filetime>
        <GUID type="B">APOMPBMLGJOIOEEHIBFGGMEJAPBDKLOK</GUID>
@@ -5418,7 +5466,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296683008</RegVer>
+    <RegVer>1296740352</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -5426,10 +5474,10 @@
         <RelativeFilePath>sample.ind</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\..\common\sampleSelfTest.c</RelativeFilePath>
+        <RelativeFilePath>MSPM0G3507.h</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>..\..\common\iTest\test_testing_basic.c</RelativeFilePath>
+        <RelativeFilePath>test.c</RelativeFilePath>
        </__.2>
        <__.3>
         <RelativeFilePath>startup.c</RelativeFilePath>
@@ -5456,19 +5504,19 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
-        <ViewType>Project</ViewType>
+        <ViewId>130</ViewId>
+        <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>95</ViewId>
-        <ViewType>Memory</ViewType>
+        <ViewId>128</ViewId>
+        <ViewType>SFR</ViewType>
        </__.1>
        <__.10>
-        <ViewId>98</ViewId>
+        <ViewId>135</ViewId>
         <ViewType>Output_Tools</ViewType>
        </__.10>
        <__.11>
-        <ViewId>99</ViewId>
+        <ViewId>136</ViewId>
         <ViewType>Output_Build</ViewType>
        </__.11>
        <__.12>
@@ -5476,42 +5524,42 @@
         <ViewType>Symbols</ViewType>
        </__.12>
        <__.2>
-        <ViewId>93</ViewId>
-        <ViewType>SFR</ViewType>
+        <ViewId>126</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.2>
        <__.3>
-        <ViewId>91</ViewId>
-        <ViewType>Disassembly</ViewType>
+        <ViewId>127</ViewId>
+        <ViewType>CoreRegisters</ViewType>
        </__.3>
        <__.4>
-        <ViewId>92</ViewId>
-        <ViewType>CoreRegisters</ViewType>
-       </__.4>
-       <__.5>
         <ViewId>89</ViewId>
         <ViewType>Locals</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>129</ViewId>
+        <ViewType>This</ViewType>
        </__.5>
        <__.6>
-        <ViewId>94</ViewId>
-        <ViewType>This</ViewType>
-       </__.6>
-       <__.7>
         <ViewId>90</ViewId>
         <ViewType>CustomWatch</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>131</ViewId>
+        <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>96</ViewId>
+        <ViewId>132</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>97</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>137</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
        <__.0>
         <ShowHex>false</ShowHex>
-        <ViewId>92</ViewId>
+        <ViewId>127</ViewId>
         <ViewType>CoreRegisters</ViewType>
         <ColumnData>
          <__.0>
@@ -5522,14 +5570,14 @@
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>676</Width>
+          <Width>659</Width>
          </__.1>
         </ColumnData>
        </__.0>
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>91</ViewId>
+        <ViewId>126</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -5553,19 +5601,19 @@
       <DocumentViews>
        <__.0>
         <RelativePath>main.c</RelativePath>
-        <ViewId>96</ViewId>
+        <ViewId>131</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
         <RelativePath>readMe.txt</RelativePath>
-        <ViewId>97</ViewId>
+        <ViewId>132</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory 1</Name>
-        <ViewId>95</ViewId>
+        <ViewId>130</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -5767,7 +5815,7 @@
       </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>137</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -5783,7 +5831,7 @@
         </FindData>
        </__.1>
        <__.2>
-        <ViewId>98</ViewId>
+        <ViewId>135</ViewId>
         <ViewType>Output_Tools</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -5791,7 +5839,7 @@
         </FindData>
        </__.2>
        <__.3>
-        <ViewId>99</ViewId>
+        <ViewId>136</ViewId>
         <ViewType>Output_Build</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -5801,11 +5849,11 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>Files [Debug]</SelectedItems>
+         <SelectedItems></SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -5816,18 +5864,6 @@
            </__.0>
           </ChildItems>
          </RootItem>
-         <SelectedItemPaths>
-          <__.0>
-           <Segments>
-            <__.0>
-             <Name></Name>
-            </__.0>
-            <__.1>
-             <Name>Files [Debug]</Name>
-            </__.1>
-           </Segments>
-          </__.0>
-         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </ProjectViews>
@@ -5836,7 +5872,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>true</RealTimeUpdate>
-        <ViewId>93</ViewId>
+        <ViewId>128</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -5914,7 +5950,7 @@
         </ColumnData>
        </__.0>
        <__.1>
-        <ViewId>94</ViewId>
+        <ViewId>129</ViewId>
         <ViewType>This</ViewType>
         <ColumnData>
          <__.0>
@@ -6008,6 +6044,18 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.0>
+           <__.1>
+            <Name>iInterruptCounter</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
@@ -6225,17 +6273,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>31</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>99</FocusedViewId>
+        <FocusedViewId>132</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1167</Bottom>
-         <Left>1912</Left>
-         <Right>3845</Right>
-         <Top>73</Top>
+         <Bottom>768</Bottom>
+         <Left>37</Left>
+         <Right>1061</Right>
+         <Top>0</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -6258,36 +6306,14 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.2</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
+             <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>88</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>0</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>88</ViewId>
-              </__.1>
-             </Children>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>88</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>
@@ -6306,7 +6332,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>97</TopTabViewId>
+               <TopTabViewId>132</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -6317,7 +6343,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>96</ViewId>
+                 <ViewId>131</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>Document</DockType>
@@ -6327,7 +6353,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>97</ViewId>
+                 <ViewId>132</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -6338,7 +6364,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>99</TopTabViewId>
+               <TopTabViewId>137</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -6349,7 +6375,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>98</ViewId>
+                 <ViewId>135</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -6359,8 +6385,18 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>99</ViewId>
+                 <ViewId>136</ViewId>
                 </__.1>
+                <__.2>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>137</ViewId>
+                </__.2>
                </Children>
               </__.1>
              </Children>
@@ -6382,7 +6418,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>92</TopTabViewId>
+               <TopTabViewId>127</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -6393,7 +6429,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>91</ViewId>
+                 <ViewId>126</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>View</DockType>
@@ -6403,7 +6439,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>92</ViewId>
+                 <ViewId>127</ViewId>
                 </__.1>
                </Children>
               </__.0>
@@ -6425,7 +6461,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>Vertical</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>93</ViewId>
+                 <ViewId>128</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>None</DockType>
@@ -6454,7 +6490,7 @@
                    <IsPinned>false</IsPinned>
                    <IsTabbed>true</IsTabbed>
                    <Orientation>None</Orientation>
-                   <TopTabViewId>94</TopTabViewId>
+                   <TopTabViewId>129</TopTabViewId>
                    <ViewId>-1</ViewId>
                    <Children>
                     <__.0>
@@ -6475,7 +6511,7 @@
                      <IsTabbed>false</IsTabbed>
                      <Orientation>None</Orientation>
                      <TopTabViewId>-1</TopTabViewId>
-                     <ViewId>94</ViewId>
+                     <ViewId>129</ViewId>
                     </__.1>
                    </Children>
                   </__.1>
@@ -6495,7 +6531,7 @@
            <IsTabbed>false</IsTabbed>
            <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
-           <ViewId>95</ViewId>
+           <ViewId>130</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -6538,25 +6574,25 @@
        </FileType>
        <Find>
         <__.0>
-         <V>SCortexM3ExContext</V>
+         <V>IS_INTERRUPT_COUNTER_FOR_DAQ</V>
         </__.0>
         <__.1>
-         <V>PROGRAM_64_WITHOUT_ECC</V>
+         <V>SCortexM3ExContext</V>
         </__.1>
         <__.2>
-         <V>SFDP</V>
+         <V>PROGRAM_64_WITHOUT_ECC</V>
         </__.2>
         <__.3>
-         <V>__BASE__</V>
+         <V>SFDP</V>
         </__.3>
         <__.4>
-         <V>buffblock</V>
+         <V>__BASE__</V>
         </__.4>
         <__.5>
-         <V>UMI3_RunEngine</V>
+         <V>buffblock</V>
         </__.5>
         <__.6>
-         <V>CNTH</V>
+         <V>UMI3_RunEngine</V>
         </__.6>
         <__.7>
          <V>CNTH</V>

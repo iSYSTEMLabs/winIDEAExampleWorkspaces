@@ -5,8 +5,8 @@
       "HW": "",
       "Packages":
       [
-        { "Type" : "Compiler" , "ID" : "gcc.riscv"  , "Version" : "12.0"  },
-        { "Type" : "Simulator", "ID" : "QEMU.riscv" , "Version" : "7.2.0" }
+        { "Type" : "Compiler" , "ID" : "GCC_RISCV"  , "Version" : "12.2"  },
+        { "Type" : "Simulator", "ID" : "QEMU" , "Version" : "7.2" }
       ]
     }
 }

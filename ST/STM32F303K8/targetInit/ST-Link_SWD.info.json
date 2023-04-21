@@ -1,0 +1,6 @@
+{
+  "Info": {
+    "Description": "winIDEA sample with initialization of clock, timer and interrupt.\nWorkspace can be used with: ST-Link protocol is used for debugging.",
+    "HW": ""
+  }
+}

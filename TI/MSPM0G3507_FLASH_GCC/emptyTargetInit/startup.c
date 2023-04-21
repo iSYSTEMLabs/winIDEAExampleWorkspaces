@@ -25,6 +25,7 @@
 //
 //*****************************************************************************
 
+
 //*****************************************************************************
 //
 // Forward declaration of the default fault handlers.
@@ -34,6 +35,8 @@ void ResetISR(void);
 static void NmiSR(void);
 static void FaultISR(void);
 static void IntDefaultHandler(void);
+static void InterruptRoutine();
+static void TimerInterruptHandler(void);
 
 //*****************************************************************************
 //
@@ -82,7 +85,7 @@ __attribute__((section(".isr_vector"))) void (*const g_pfnVectors[])(void) =
         IntDefaultHandler,     //Debug Monitor 0x0000_0030
         0,                     //Reserved 0x0000_0034
         IntDefaultHandler,     //PendSV 0x0000_0038
-        IntDefaultHandler,     //SysTick 0x0000_003C
+        TimerInterruptHandler, //SysTick 0x0000_003C
 };
 
 //*****************************************************************************
@@ -183,4 +186,9 @@ static void FaultISR(void)
 __attribute__((naked)) static void IntDefaultHandler(void)
 {
   while (1);
+}
+
+void TimerInterruptHandler(void)
+{
+  InterruptRoutine();
 }

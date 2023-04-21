@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296683008</RegVer>
+      <RegVer>1296740352</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,13 +20,17 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296683008</RegVer>
+      <RegVer>1296740352</RegVer>
       <WorkspaceOptions>
-       <SessionDumpFilter>
+       <Debug_Breakpoints>
+        <ProfilerAnalysisSample>18446744073709551615</ProfilerAnalysisSample>
+        <ProfilerStatTime>-9223372036854775808</ProfilerStatTime>
+       </Debug_Breakpoints>
+       <Debug_SessionDumpFilter>
         <Enabled>false</Enabled>
         <SampleRangeBegin>0</SampleRangeBegin>
         <SampleRangeEnd>0</SampleRangeEnd>
-       </SessionDumpFilter>
+       </Debug_SessionDumpFilter>
       </WorkspaceOptions>
      </REG_ROOT>
     </LAOptions>
@@ -40,7 +44,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296683008</RegVer>
+    <RegVer>1296740352</RegVer>
     <Sec4>72226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC972226310959049B83990C5F7DCDECAC9C60C5F397E632F0A3646E6691DAF3254</Sec4>
     <Cfg_License>
      <Source>HW</Source>
@@ -65,11 +69,6 @@
          <ConvertPath>false</ConvertPath>
          <FindPriority>Project</FindPriority>
          <FindSources>true</FindSources>
-         <ProjectFilesDirs>
-          <__.0>
-           <Dir></Dir>
-          </__.0>
-         </ProjectFilesDirs>
         </Directories>
         <MemProp_ISA>
          <IgnoreDLInfo>false</IgnoreDLInfo>
@@ -443,6 +442,7 @@
        <DisableIRQ_StepOver>true</DisableIRQ_StepOver>
        <ReserveBP>true</ReserveBP>
        <ResetConditionalBPCountWhenStop>false</ResetConditionalBPCountWhenStop>
+       <RunUntilReturn>RunUntilReturn</RunUntilReturn>
       </Debugging>
       <Directories1>
        <AltPaths>true</AltPaths>
@@ -634,7 +634,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.157</winIDEA>
+      <winIDEA>Build 9.21.171</winIDEA>
      </Info>
      <Options>
       <Environment>
@@ -655,7 +655,7 @@
       <ZeroInitVar>false</ZeroInitVar>
       <ARM>
        <ExtendReturnValues>true</ExtendReturnValues>
-       <UseArmEABI>false</UseArmEABI>
+       <UseArmEABI>true</UseArmEABI>
        <UseHardwareVFP>false</UseHardwareVFP>
       </ARM>
       <CallFrame>
@@ -768,7 +768,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296683008</RegVer>
+    <RegVer>1296740352</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>Debug</DefaultTargetName>
@@ -783,11 +783,11 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296683008</RegVer>
+    <RegVer>1296740352</RegVer>
     <HServerData>
      <Data>
       <BBSync>
-       <Sync>Slave</Sync>
+       <Sync>Disabled</Sync>
        <SyncTime>false</SyncTime>
       </BBSync>
       <Debug>
@@ -3029,9 +3029,6 @@
            <__.1>
             <AllowProgramming>true</AllowProgramming>
            </__.1>
-           <__.2>
-            <AllowProgramming>true</AllowProgramming>
-           </__.2>
           </PredefinedRegions>
          </__.0>
         </Devices>
@@ -3039,8 +3036,8 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>157</V_BUILD>
-      <V_BUILD_SCC>147462</V_BUILD_SCC>
+      <V_BUILD>171</V_BUILD>
+      <V_BUILD_SCC>150394</V_BUILD_SCC>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -3178,10 +3175,12 @@
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>116</CalibrateVref>
-        <ClockkHz>10000</ClockkHz>
+        <ClockkHz>80000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
         <DebugClockkHz>4000</DebugClockkHz>
+        <DetectWDT>false</DetectWDT>
+        <DetectWDT_duration_ms>20</DetectWDT_duration_ms>
         <EndSession>Cleanup</EndSession>
         <ExtOscillatorClk>0</ExtOscillatorClk>
         <GenerateAuroraClock>false</GenerateAuroraClock>
@@ -3212,7 +3211,6 @@
         <ResetMethod>Regular</ResetMethod>
         <RESETMode>OD</RESETMode>
         <ResetPinConnected>true</ResetPinConnected>
-        <ResetPresetAddress>0x0</ResetPresetAddress>
         <ReversedAuroraLanes>false</ReversedAuroraLanes>
         <SamplingEdge>Pos</SamplingEdge>
         <StopAfterReset>false</StopAfterReset>
@@ -3250,7 +3248,7 @@
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>13</CalibratePhase>
         <CalibrateVref>116</CalibrateVref>
-        <ClockkHz>10000</ClockkHz>
+        <ClockkHz>80000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
         <EndSession>0</EndSession>
@@ -3412,8 +3410,8 @@
            <Exceptions>
             <BUSERR>true</BUSERR>
             <CHKERR>true</CHKERR>
-            <CORERESET>true</CORERESET>
-            <HARDERR>true</HARDERR>
+            <CORERESET>false</CORERESET>
+            <HARDERR>false</HARDERR>
             <INTERR>true</INTERR>
             <MMERR>true</MMERR>
             <NOCPERR>true</NOCPERR>

@@ -1,0 +1,46 @@
+INPUT(& &)
+ENTRY(Reset)
+
+MEMORY
+{
+  SRAM_CODE (rwx)    : ORIGIN = 0x20000000, LENGTH = 256K
+  SRAM_DATA (rwx)    : ORIGIN = 0x20040000, LENGTH = 256K
+}
+
+_estack =  (ORIGIN(SRAM_DATA) + LENGTH(SRAM_DATA) - 8) & 0xFFFFFFF8;
+
+SECTIONS
+{
+    .vect :
+    {
+        _vect = .;
+        KEEP(*(.isr_vector))
+        _vect_end = .;
+    } > SRAM_CODE
+ 
+    .text :
+    {
+        . = ALIGN(4);
+        *(.text*)
+        *(.glue_7t) *(.glue_7)
+        *(.rodata*)
+        *(.eh*)
+        _etext = .;
+    } > SRAM_CODE
+
+    .data : AT (ADDR(.text) + SIZEOF(.text))
+    {
+        _data = .;
+        *(vtable)
+        *(.data*)
+        _edata = .;
+    } > SRAM_DATA
+
+    .bss :
+    {
+      _bss = .;
+      *(.bss*)
+      *(COMMON)
+      _ebss = .;
+    } > SRAM_DATA
+}

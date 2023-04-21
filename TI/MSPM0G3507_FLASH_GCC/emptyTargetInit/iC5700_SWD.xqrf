@@ -5,7 +5,7 @@
    <VersionLow>1</VersionLow>
   </REG_HEADER>
   <REG_ROOT>
-   <RegVer>1296633856</RegVer>
+   <RegVer>1296740352</RegVer>
    <Project>
     <CompilerType>0</CompilerType>
     <GlobalOptions>
@@ -24,7 +24,7 @@
      <CompCmdLineIncPrefix>-I</CompCmdLineIncPrefix>
      <CompCmdLinePostfix></CompCmdLinePostfix>
      <CompCmdLinePrefix>-D</CompCmdLinePrefix>
-     <CompilerDirectory>X:\GCC\gcc-arm-none-eabi-10.3-2021.07\</CompilerDirectory>
+     <CompilerDirectory>X:\GCC\arm-12.2.rel1-arm-none-eabi\</CompilerDirectory>
      <CompilerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</CompilerRelPath>
      <CopyOutputFilesToTargetDir>1</CopyOutputFilesToTargetDir>
      <COutExtensions>o</COutExtensions>
