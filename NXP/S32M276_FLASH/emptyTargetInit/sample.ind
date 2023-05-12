@@ -1,0 +1,51 @@
+ENTRY(reset)                     
+INPUT(& &)
+
+MEMORY
+{
+  BOOT_HEADER (R)  :  ORIGIN = 0x00400000, LENGTH = 4k
+  VECT (rx)  :        ORIGIN = 0x00401000, LENGTH = 1k
+  ROM (rwx)  :        ORIGIN = 0x00401400, LENGTH = 1019k
+  RAM (rwx)  :        ORIGIN = 0x20400000, LENGTH = 32k
+}
+
+_estack = ORIGIN (RAM) + LENGTH(RAM);
+
+SECTIONS 
+{
+  .boot_header :
+  {
+    KEEP(*(.boot_header))
+  } > BOOT_HEADER
+  
+  .vect_out :
+  {
+    KEEP(*(.vector)) 
+  } >VECT
+  
+  .text_out :
+  {
+    *(.text*)
+    . = ALIGN(4);
+    *(.rodata*)
+    . = ALIGN(4);
+    _etext = .;
+  } >ROM
+  
+  .data_out :
+  {
+    _sdata = .;
+    *(.data*)
+    . = ALIGN(4);
+    _edata = .;
+  } >RAM AT> ROM
+    
+  .bss_out :
+  {
+    _sbss = .;
+    *(.bss*)
+    *(COMMON)
+    _ebss = .;
+  } >RAM
+}
+

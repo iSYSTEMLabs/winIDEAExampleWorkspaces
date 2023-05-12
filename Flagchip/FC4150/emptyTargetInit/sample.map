@@ -1,0 +1,196 @@
+Archive member included to satisfy reference by file (symbol)
+
+x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+                              C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o (__aeabi_fadd)
+
+Allocating common symbols
+Common symbol       size              file
+
+byTestByte          0x1               C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+wTestWord           0x2               C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+PFLASH           0x00000000         0x00080000         xrw
+RAM              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+LOAD C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+LOAD C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+LOAD C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+                0x20007ffc                _estack = (((ORIGIN (RAM) + LENGTH (RAM)) - 0x4) & 0xfffffffc)
+
+.vect           0x00000000       0x40
+ *(.isr_vector)
+ .isr_vector    0x00000000       0x40 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+                0x00000000                g_pfnVectors
+
+.text           0x00000040      0x920
+                0x00000040                . = ALIGN (0x4)
+ *(.text*)
+ .text          0x00000040       0x6c C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+                0x00000040                main
+ .text          0x000000ac      0x5bc C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+                0x000000ac                Type_Simple
+                0x0000013c                Type_Arrays
+                0x000001d4                Type_Pointers
+                0x00000220                Type_Struct
+                0x00000288                Type_Bitfields
+                0x000002cc                Type_Enum
+                0x00000308                Mult
+                0x00000324                Type_FunctionPointer
+                0x0000036c                ResetStrX
+                0x000003a4                Type_Mixed
+                0x000003dc                TestStatic
+                0x000003f8                Address_GlobalVariables
+                0x00000418                Address_TestScopes
+                0x00000494                Func1
+                0x000004c0                Func2
+                0x00000504                Func3
+                0x0000051c                Func4
+                0x00000594                Address_DifferentFunctionParameters
+                0x000005d0                InterruptRoutine
+                0x000005ec                CPU_Pointers
+                0x00000608                Factorial
+                0x00000634                CPU_Recursion
+ .text          0x00000668       0x58 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+                0x00000668                ITMInit
+                0x00000698                targetEnableInterrupts
+                0x000006a8                targetInit
+                0x000006b4                disableWatchdog
+ .text          0x000006c0       0x84 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+                0x000006c0                Reset
+                0x00000738                IntDefaultHandler
+ .text          0x00000744      0x21c x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+                0x00000744                __aeabi_frsub
+                0x0000074c                __subsf3
+                0x0000074c                __aeabi_fsub
+                0x00000750                __aeabi_fadd
+                0x00000750                __addsf3
+                0x000008b0                __aeabi_ui2f
+                0x000008b0                __floatunsisf
+                0x000008b8                __aeabi_i2f
+                0x000008b8                __floatsisf
+                0x000008d4                __aeabi_ul2f
+                0x000008d4                __floatundisf
+                0x000008e4                __aeabi_l2f
+                0x000008e4                __floatdisf
+ *(.glue_7t)
+ .glue_7t       0x00000960        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000960        0x0 linker stubs
+ *(.rodata*)
+ *(.eh*)
+                0x00000960                _etext = .
+
+.vfp11_veneer   0x00000960        0x0
+ .vfp11_veneer  0x00000960        0x0 linker stubs
+
+.v4_bx          0x00000960        0x0
+ .v4_bx         0x00000960        0x0 linker stubs
+
+.iplt           0x00000960        0x0
+ .iplt          0x00000960        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+
+.rel.dyn        0x00000960        0x0
+ .rel.iplt      0x00000960        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+
+.data           0x20000000        0x0 load address 0x00000960
+                0x20000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data          0x20000000        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .data          0x20000000        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .data          0x20000000        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .data          0x20000000        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+ .data          0x20000000        0x0 x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+                0x20000000                _edata = .
+
+.igot.plt       0x20000000        0x0 load address 0x00000960
+ .igot.plt      0x20000000        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+
+.bss            0x20000000       0x10 load address 0x00000960
+                0x20000000                _bss = .
+ *(.bss*)
+ .bss           0x20000000        0x8 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+                0x20000000                iCounter
+                0x20000004                iInterruptCounter
+ .bss           0x20000008        0x4 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .bss           0x2000000c        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .bss           0x2000000c        0x0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+ .bss           0x2000000c        0x0 x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+ *(COMMON)
+ COMMON         0x2000000c        0x4 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+                0x2000000c                byTestByte
+                0x2000000e                wTestWord
+                0x20000010                _ebss = .
+LOAD x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m\libgcc.a
+LOAD x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m\libc.a
+OUTPUT(output.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x886
+ .debug_info    0x00000000       0x90 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .debug_info    0x00000090      0x6a0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .debug_info    0x00000730       0x66 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .debug_info    0x00000796       0xf0 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+
+.debug_abbrev   0x00000000      0x394
+ .debug_abbrev  0x00000000       0x53 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .debug_abbrev  0x00000053      0x255 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .debug_abbrev  0x000002a8       0x40 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .debug_abbrev  0x000002e8       0xac C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+
+.debug_aranges  0x00000000       0x80
+ .debug_aranges
+                0x00000000       0x20 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .debug_aranges
+                0x00000020       0x20 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .debug_aranges
+                0x00000040       0x20 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .debug_aranges
+                0x00000060       0x20 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+
+.debug_line     0x00000000      0x3df
+ .debug_line    0x00000000       0xcf C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .debug_line    0x000000cf      0x1e8 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .debug_line    0x000002b7       0x8b C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .debug_line    0x00000342       0x9d C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+
+.debug_str      0x00000000      0x440
+ .debug_str     0x00000000      0x113 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .debug_str     0x00000113      0x1ee C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+                                0x2c3 (size before relaxing)
+ .debug_str     0x00000301       0x8d C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+                                 0xfa (size before relaxing)
+ .debug_str     0x0000038e       0xb2 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+                                0x13a (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .comment       0x0000006e       0x6f C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .comment       0x0000006e       0x6f C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .ARM.attributes
+                0x00000033       0x33 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .ARM.attributes
+                0x00000066       0x33 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .ARM.attributes
+                0x00000099       0x33 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
+ .ARM.attributes
+                0x000000cc       0x1e x:/gcc/arm-5_4-2016-q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+
+.debug_frame    0x00000000      0x440
+ .debug_frame   0x00000000       0x2c C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\main.o
+ .debug_frame   0x0000002c      0x34c C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\test.o
+ .debug_frame   0x00000378       0x90 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\CPUFile.o
+ .debug_frame   0x00000408       0x38 C:\venus\BlueBox\fitIDEA\samples\public\FC4150_FLASH_GCC\emptyTargetInit\Debug\startup_gcc.o
